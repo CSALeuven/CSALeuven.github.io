@@ -29,7 +29,7 @@ const canonical = new URL(path === '404' ? '/404.html' : href(lang, path), site.
   </head>
   <body>
     <a class="skip-link" href="#main">{lang === 'zh' ? '跳到主要内容' : 'Skip to content'}</a>
-    <Header lang={lang} path={path} />
+    <Header lang={lang} path={path === '404' ? '' : path} />
     <main id="main" tabindex="-1"><slot /></main>
     <Footer lang={lang} />
   </body>
