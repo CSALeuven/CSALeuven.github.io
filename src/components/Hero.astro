@@ -1,0 +1,20 @@
+---
+import { site } from '../data/site';
+import { href, t, type Lang } from '../lib/i18n';
+const { lang } = Astro.props as { lang: Lang };
+---
+<section class="hero container">
+  <div class="hero-copy">
+    <p class="eyebrow"><span class="short-rule"></span> LEUVEN, BELGIUM · 鲁汶，比利时</p>
+    <h1>{lang === 'zh' ? <Fragment>在鲁汶，<br /><em>遇见同路人。</em></Fragment> : <Fragment>Leuven.<br /><em>A place to<br class="desktop-break" /> belong.</em></Fragment>}</h1>
+    <p class="hero-english" lang="en">Connecting Chinese students in Leuven.</p>
+    <p class="hero-description">{t(lang, '服务同学，连接校园，融入鲁汶。\n从初来乍到，到把这座城市叫作家。', 'Supporting students, building community, and connecting Leuven. From your first day to finding your own place in the city.')}</p>
+    <div class="button-row"><a class="button primary" href={href(lang, 'events')}>{t(lang, '探索学联活动', 'Explore events')}<span aria-hidden="true">↗</span></a><a class="button secondary" href={href(lang, 'new-students')}>{t(lang, '查看新生指南', 'New student guide')}<span aria-hidden="true">→</span></a></div>
+  </div>
+  <div class="hero-art" aria-label={t(lang, 'CSAL 鲁汶学联品牌展示', 'CSAL Leuven brand panel')}>
+    <div class="art-top"><span>CSAL / LEUVEN</span><span>你好，鲁汶。</span></div>
+    <div class="logo-mat"><img src={site.logo} width="551" height="570" alt="CSAL 鲁汶中国学生学者联合会 logo" /></div>
+    <div class="art-bottom"><span class="art-caption">A little closer<br /><i>to home.</i></span><span class="art-caption-small">STUDENTS.<br />SCHOLARS.<br />COMMUNITY.</span></div>
+  </div>
+</section>
+<div class="intro-strip"><div class="container"><span>{t(lang, '从这里，开始你的鲁汶生活', 'Your Leuven chapter starts here')}</span><a href={href(lang, 'new-students')}>{t(lang, '行前准备', 'Before arrival')}<span aria-hidden="true">↗</span></a><a href={href(lang, 'guides/first-week')}>{t(lang, '初到第一周', 'Your first week')}<span aria-hidden="true">↗</span></a><a href={href(lang, 'contact')}>{t(lang, '找到我们的社区', 'Find our community')}<span aria-hidden="true">↗</span></a></div></div>

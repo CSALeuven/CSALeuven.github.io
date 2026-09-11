@@ -1,0 +1,43 @@
+---
+import { getCollection } from 'astro:content';
+import type { GetStaticPaths, InferGetStaticPropsType } from 'astro';
+import Layout from '../layouts/Layout.astro';
+import Home from '../views/Home.astro';
+import Events from '../views/Events.astro';
+import Guides from '../views/Guides.astro';
+import About from '../views/About.astro';
+import Partners from '../views/Partners.astro';
+import Contact from '../views/Contact.astro';
+import News from '../views/News.astro';
+import Article from '../views/Article.astro';
+import { href, languages, nav } from '../lib/i18n';
+import { site } from '../data/site';
+export const getStaticPaths = (async () => {
+  const landing = languages.flatMap(lang => [...nav.map(n=>n.path),'news'].map(path => ({ params: { path: href(lang,path).replace(/^\/+|\/+$/g,'') || undefined }, props: { lang, path, entry: null } })));
+  const entries = [...await getCollection('events'),...await getCollection('guides'),...await getCollection('news')].filter(e=>!e.data.draft);
+  for (const entry of entries) {
+    const counterpart = entries.find(e=>e.collection===entry.collection && e.data.key===entry.data.key && e.data.lang!==entry.data.lang);
+    if (!counterpart) throw new Error(`Missing bilingual counterpart: ${entry.collection}/${entry.id}`);
+  }
+  const articles = entries.map(entry => ({params:{path:href(entry.data.lang,`${entry.collection}/${entry.data.key}`).replace(/^\/+|\/+$/g,'')},props:{lang:entry.data.lang,path:`${entry.collection}/${entry.data.key}`,entry}}));
+  return [...landing,...articles];
+}) satisfies GetStaticPaths;
+type Props = InferGetStaticPropsType<typeof getStaticPaths>;
+const { lang, path, entry } = Astro.props;
+const title = entry?.data.title ?? nav.find(n=>n.path===path)?.[lang] ?? (lang==='zh'?'社区动态':'Updates');
+const event = entry?.collection==='events'?entry:null;
+const sample = event?.data.status==='sample' || (entry?.collection==='news' && entry.data.sample);
+const structuredData = event && event.data.status!=='sample' && event.data.date && event.data.address ? {
+  '@context':'https://schema.org','@type':'Event',name:event.data.title,description:event.data.summary,
+  startDate:event.data.date.toISOString(),...(event.data.endDate ? {endDate:event.data.endDate.toISOString()}:{}),
+  eventStatus:event.data.status==='cancelled'?'https://schema.org/EventCancelled':'https://schema.org/EventScheduled',
+  eventAttendanceMode:'https://schema.org/OfflineEventAttendanceMode',
+  location:{'@type':'Place',name:event.data.location,address:event.data.address},
+  organizer:{'@type':'Organization',name:site.name[lang],url:site.url},
+  ...(event.data.coverImage?{image:new URL(event.data.coverImage,site.url).href}:{}),
+  url:new URL(href(lang,path),site.url).href,
+} : undefined;
+---
+<Layout lang={lang} path={path} title={path?title:undefined} description={entry?.data.summary} noindex={Boolean(sample)} structuredData={structuredData}>
+  {entry ? <Article entry={entry} lang={lang} /> : path === '' ? <Home lang={lang} /> : path === 'events' ? <Events lang={lang} /> : path === 'new-students' ? <Guides lang={lang} /> : path === 'leuven-guide' ? <Guides lang={lang} city /> : path === 'about' ? <About lang={lang} /> : path === 'partners' ? <Partners lang={lang} /> : path === 'contact' ? <Contact lang={lang} /> : <News lang={lang} />}
+</Layout>

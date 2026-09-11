@@ -1,0 +1,11 @@
+---
+import PageIntro from '../components/PageIntro.astro';
+import GuideCard from '../components/GuideCard.astro';
+import { getGuides } from '../lib/content';
+import { href, t, type Lang } from '../lib/i18n';
+const { lang, city = false } = Astro.props as { lang: Lang; city?: boolean };
+const guides = (await getGuides(lang)).filter(g=>g.data.category === (city?'leuven-guide':'new-students') || (city && g.data.key === 'transport'));
+---
+<PageIntro lang={lang} eyebrow={city?'LIFE IN LEUVEN / 鲁汶生活':'NEW STUDENTS / 新生指南'} title={city?t(lang,'在这里，找到自己的节奏。','Find your rhythm in Leuven.'):t(lang,'你好，新同学。','Hello, new beginnings.')} description={city?t(lang,'自习的角落、日常的一餐、周末的一段路。慢慢认识这座城市。','A study spot, a campus lunch, a weekend walk. Get to know the city in your own time.'):t(lang,'从行前准备到抵达后的第一周，找到有用的信息，把生活一步步安顿好。','From preparing your journey to your first week, find practical starting points and settle in one step at a time.')} />
+{!city && <section class="container arrival-steps" aria-label={t(lang,'新生入门顺序','A path through your first days')}>{[['01',t(lang,'出发之前','Before arrival'),'arrival'],['02',t(lang,'初到第一周','Your first week'),'first-week'],['03',t(lang,'融入日常','Everyday life'),'daily-life']].map(([n,label,key])=><a href={href(lang,`guides/${key}`)}><span>{n}</span><strong>{label}</strong><span aria-hidden="true">↗</span></a>)}</section>}
+<section class="container page-section"><p class="resource-note">{t(lang,'指南提供实用信息入口。具体要求、开放时间与最新安排，请查看文中链接的官方说明。','These guides point to useful resources. Check the linked official pages for current requirements, opening times and arrangements.')}</p><div class:list={['guide-grid',{'city-guide-grid':city}]}>{guides.map((guide,index)=><GuideCard guide={guide} lang={lang} index={index} />)}</div></section>

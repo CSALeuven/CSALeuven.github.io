@@ -1,0 +1,24 @@
+---
+import { render, type CollectionEntry } from 'astro:content';
+import { href, t, formatDate, type Lang } from '../lib/i18n';
+import { eventStatus } from '../lib/content';
+interface Props { lang: Lang; entry: CollectionEntry<'events'> | CollectionEntry<'guides'> | CollectionEntry<'news'>; }
+const { lang, entry } = Astro.props;
+const { Content } = await render(entry);
+const event = entry.collection === 'events' ? entry : null;
+const guide = entry.collection === 'guides' ? entry : null;
+const news = entry.collection === 'news' ? entry : null;
+const backPath = guide ? guide.data.category : entry.collection;
+const backLabel = guide ? t(lang,'返回指南','Back to guides') : event ? t(lang,'全部活动','All events') : t(lang,'全部动态','All updates');
+const sample = event?.data.status === 'sample' || news?.data.sample;
+const status = event && eventStatus(event);
+---
+<div class="container article-shell"><a class="breadcrumb" href={href(lang,backPath)}>← {backLabel}</a><div class="article-header"><p class="eyebrow section-eyebrow">{guide?.data.label ?? event?.data.category ?? news?.data.category}</p><h1>{entry.data.title}</h1>{event && <p class="article-other-title" lang={lang==='zh'?'en':'zh-CN'}>{event.data.titleOther}</p>}<p class="page-description">{entry.data.summary}</p>{guide && <p class="article-date">{t(lang,'资源核对：','Resources checked: ')}<time datetime={guide.data.reviewed.toISOString()}>{formatDate(guide.data.reviewed,lang)}</time></p>}{news && <p class="article-date"><time datetime={news.data.date.toISOString()}>{formatDate(news.data.date,lang)}</time></p>}</div>
+{sample && <p class="notice">{t(lang,'示例内容 · 仅用于展示版式，不代表已举办或已确认的活动。','Sample content · Demonstrates the layout and does not represent a past or confirmed event.')}</p>}
+{event?.data.coverImage && <img class="article-cover" src={event.data.coverImage} alt={event.data.coverAlt || event.data.title} width="1200" height="760" />}
+<div class="article-layout"><article class="prose"><Content /></article><aside class="article-sidebar">
+{event && <div><h2>{t(lang,'活动信息','Event details')}</h2><dl><dt>{t(lang,'日期','Date')}</dt><dd>{event.data.date ? <time datetime={event.data.date.toISOString()}>{formatDate(event.data.date,lang)} · {new Intl.DateTimeFormat(lang==='zh'?'zh-CN':'en-GB',{hour:'2-digit',minute:'2-digit',timeZone:'Europe/Brussels',timeZoneName:'short'}).format(event.data.date)}</time> : t(lang,'待确认','To be confirmed')}</dd><dt>{t(lang,'地点','Location')}</dt><dd>{event.data.location}</dd><dt>{t(lang,'状态','Status')}</dt><dd>{status==='sample'?t(lang,'示例 · 未开放报名','Sample · Registration not open'):status==='cancelled'?t(lang,'已取消','Cancelled'):status==='past'?t(lang,'已结束','Past event'):t(lang,'即将举行','Upcoming')}</dd></dl>{event.data.registrationUrl && status === 'upcoming' ? <a class="button primary" href={event.data.registrationUrl} target="_blank" rel="noopener noreferrer">{t(lang,'前往报名 ↗','Register ↗')}</a> : <p class="resource-note">{t(lang,'请关注官方渠道了解正式安排。','Follow the official channels for confirmed arrangements.')}</p>}</div>}
+{guide && <div><h2>{t(lang,'官方资源','Official resources')}</h2><ul class="source-list">{guide.data.sources.map(source=><li><a href={source.url} target="_blank" rel="noopener noreferrer">{source.label}<span aria-hidden="true">↗</span><span class="sr-only">{t(lang,'（新标签页）',' (new tab)')}</span></a></li>)}</ul><p class="resource-note">{t(lang,'请以官方页面的最新说明为准。','Check the official pages for current information.')}</p></div>}
+{news && <div><h2>{t(lang,'保持联系','Stay connected')}</h2><p>{t(lang,'从官方账号获取学联动态。','Find CSAL updates through our official channels.')}</p></div>}
+<a class="text-link" href={href(lang,'contact')}>{t(lang,'联系 CSAL','Contact CSAL')}<span aria-hidden="true">→</span></a></aside></div>
+<a class="text-link article-back" href={href(lang,backPath)}>← {backLabel}</a></div>

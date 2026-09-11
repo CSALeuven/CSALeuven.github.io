@@ -1,0 +1,36 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { site } from '../data/site';
+import { href, type Lang } from '../lib/i18n';
+interface Props { lang: Lang; path?: string; title?: string; description?: string; noindex?: boolean; structuredData?: Record<string, unknown>; }
+const { lang, path = '', title, description = site.description[lang], noindex = false, structuredData } = Astro.props;
+const fullTitle = title ? `${title} | CSAL 鲁汶学联` : `CSAL 鲁汶学联 | ${lang === 'zh' ? '服务同学，连接鲁汶' : 'Connecting Chinese students in Leuven'}`;
+const canonical = new URL(path === '404' ? '/404.html' : href(lang, path), site.url).href;
+---
+<!doctype html>
+<html lang={lang === 'zh' ? 'zh-CN' : 'en'}>
+  <head>
+    <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#FAF8F5" />
+    <title>{fullTitle}</title><meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {path !== '404' && <Fragment><link rel="alternate" hreflang="zh-CN" href={new URL(href('zh', path), site.url).href} />
+    <link rel="alternate" hreflang="en" href={new URL(href('en', path), site.url).href} />
+    <link rel="alternate" hreflang="x-default" href={new URL(href('zh', path), site.url).href} /></Fragment>}
+    <link rel="icon" type="image/jpeg" href={site.logo} />
+    <meta property="og:type" content="website" /><meta property="og:site_name" content="CSAL Leuven" />
+    <meta property="og:title" content={fullTitle} /><meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} /><meta property="og:locale" content={lang === 'zh' ? 'zh_CN' : 'en_GB'} />
+    <meta name="twitter:card" content="summary" /><meta name="twitter:title" content={fullTitle} /><meta name="twitter:description" content={description} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
+    {structuredData && <script is:inline type="application/ld+json" set:html={JSON.stringify(structuredData).replace(/</g, '\\u003c')} />}
+  </head>
+  <body>
+    <a class="skip-link" href="#main">{lang === 'zh' ? '跳到主要内容' : 'Skip to content'}</a>
+    <Header lang={lang} path={path} />
+    <main id="main" tabindex="-1"><slot /></main>
+    <Footer lang={lang} />
+  </body>
+</html>

@@ -1,0 +1,10 @@
+---
+import PageIntro from '../components/PageIntro.astro';
+import NewsCard from '../components/NewsCard.astro';
+import { getNews } from '../lib/content';
+import { t, type Lang } from '../lib/i18n';
+const { lang } = Astro.props as { lang: Lang };
+const news = await getNews(lang);
+---
+<PageIntro lang={lang} eyebrow="UPDATES / 社区动态" title={t(lang,'关于我们，也关于你。','From our community.')} description={t(lang,'在这里查看网站信息、学联动态与经过核实的社区记录。','Website information, association updates and verified stories from the community.')} />
+<section class="container page-section">{news.map(entry=><NewsCard entry={entry} lang={lang} />)}</section>
