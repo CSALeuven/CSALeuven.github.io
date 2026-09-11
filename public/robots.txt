@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://csaleuven.github.io/sitemap-index.xml

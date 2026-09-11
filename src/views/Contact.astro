@@ -1,0 +1,10 @@
+---
+import PageIntro from '../components/PageIntro.astro';
+import CTASection from '../components/CTASection.astro';
+import { site } from '../data/site';
+import { t, type Lang } from '../lib/i18n';
+const { lang } = Astro.props as { lang: Lang };
+---
+<PageIntro lang={lang} eyebrow="CONTACT / 联系我们" title={t(lang,'从一声你好开始。','It starts with a hello.')} description={t(lang,'活动咨询、资源反馈与合作交流，请通过下方官方账号联系我们。','For event questions, resource feedback or collaboration ideas, connect with us through our official channels.')} />
+<CTASection lang={lang} />
+<section class="container page-section contact-note"><h2>{t(lang,'找到适合的联系入口','Choose the right starting point')}</h2><p>{t(lang,'微信公众号用于关注学联公告，不是微信群入群码。Instagram 与 Facebook 为已确认的官方账号。','The WeChat QR code links to the official public account; it is not a group invitation. Instagram and Facebook are confirmed official accounts.')}</p>{!site.email && <p class="resource-note">{t(lang,'官方电子邮箱尚未公布。请先使用以上社交账号。','An official email address has not been published. Please use the social channels above for now.')}</p>}</section>

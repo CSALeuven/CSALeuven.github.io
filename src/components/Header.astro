@@ -1,0 +1,33 @@
+---
+import { site } from '../data/site';
+import { href, nav, t, type Lang } from '../lib/i18n';
+import LanguageSwitch from './LanguageSwitch.astro';
+const { lang, path = '' } = Astro.props as { lang: Lang; path?: string };
+---
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href={href(lang)} aria-label={t(lang, 'CSAL 首页', 'CSAL home')}>
+      <img src={site.logo} width="551" height="570" alt="CSAL 鲁汶中国学生学者联合会 logo" fetchpriority="high" />
+      <span><strong>CSAL <span class="brand-divider">/</span> 鲁汶学联</strong><small>CHINESE STUDENTS & SCHOLARS · LEUVEN</small></span>
+    </a>
+    <nav class="desktop-nav" aria-label={t(lang, '主导航', 'Main navigation')}>
+      {nav.map(item => <a href={href(lang, item.path)} aria-current={path === item.path || (item.path && path.startsWith(item.path + '/')) ? 'page' : undefined}>{item[lang]}</a>)}
+    </nav>
+    <LanguageSwitch lang={lang} path={path} />
+    <details class="mobile-nav">
+      <summary aria-label={t(lang, '打开或关闭导航菜单', 'Open or close navigation menu')}><span class="menu-lines" aria-hidden="true"></span><span>{t(lang, '菜单', 'Menu')}</span></summary>
+      <nav aria-label={t(lang, '移动端导航', 'Mobile navigation')}>
+        {nav.map(item => <a href={href(lang, item.path)} aria-current={path === item.path ? 'page' : undefined}>{item[lang]}</a>)}
+      </nav>
+    </details>
+  </div>
+</header>
+<script>
+  const menu = document.querySelector<HTMLDetailsElement>('.mobile-nav');
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && menu?.open) { menu.open = false; menu.querySelector('summary')?.focus(); }
+  });
+  document.addEventListener('click', (event) => {
+    if (menu?.open && event.target instanceof Node && !menu.contains(event.target)) menu.open = false;
+  });
+</script>

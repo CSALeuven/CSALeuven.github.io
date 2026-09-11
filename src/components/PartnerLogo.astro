@@ -1,0 +1,9 @@
+---
+import type { Partner } from '../data/partners';
+import { t, type Lang } from '../lib/i18n';
+const { partner, lang } = Astro.props as { partner: Partner; lang: Lang };
+---
+<div class:list={['partner-item', { placeholder: partner.placeholder }]}>
+  {partner.logo ? (partner.url && !partner.placeholder ? <a href={partner.url} target="_blank" rel="noopener noreferrer"><img src={partner.logo} alt={partner.name[lang]} width="180" height="80" loading="lazy" /></a> : <img src={partner.logo} alt={partner.name[lang]} width="180" height="80" loading="lazy" />) : <span class="partner-logo-placeholder">{t(lang, 'LOGO 待补充', 'LOGO PLACEHOLDER')}</span>}
+  <h3>{partner.name[lang]}</h3><p>{partner.category[lang]}</p>
+</div>

@@ -1,0 +1,5 @@
+---
+import { href, t, type Lang } from '../lib/i18n';
+const { lang, eyebrow, title, description } = Astro.props as { lang: Lang; eyebrow: string; title: string; description: string };
+---
+<div class="page-intro container"><a class="breadcrumb" href={href(lang)}>{t(lang,'首页','Home')} <span aria-hidden="true">/</span></a><p class="eyebrow section-eyebrow">{eyebrow}</p><h1>{title}</h1><p class="page-description">{description}</p></div>

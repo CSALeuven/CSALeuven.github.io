@@ -1,0 +1,6 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { href, t, formatDate, type Lang } from '../lib/i18n';
+const { entry, lang } = Astro.props as { entry: CollectionEntry<'news'>; lang: Lang };
+---
+<article class="news-card"><div class="news-meta"><time datetime={entry.data.date.toISOString()}>{formatDate(entry.data.date, lang)}</time><span>{entry.data.sample ? t(lang, '示例动态', 'Sample update') : entry.data.category}</span></div><div><h3><a href={href(lang, `news/${entry.data.key}`)}>{entry.data.title}</a></h3><p>{entry.data.summary}</p></div><a class="news-arrow" href={href(lang, `news/${entry.data.key}`)} aria-label={t(lang, '阅读：', 'Read: ') + entry.data.title}>↗</a></article>

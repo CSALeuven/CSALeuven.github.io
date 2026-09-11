@@ -1,0 +1,10 @@
+---
+import PageIntro from '../components/PageIntro.astro';
+import PartnerLogo from '../components/PartnerLogo.astro';
+import { partners } from '../data/partners';
+import { href, t, type Lang } from '../lib/i18n';
+const { lang } = Astro.props as { lang: Lang };
+---
+<PageIntro lang={lang} eyebrow="PARTNERS / 合作伙伴" title={t(lang,'好的连接，带来更多可能。','Good connections open possibilities.')} description={t(lang,'欢迎学生社团、社区组织、活动合作方与赞助伙伴，与 CSAL 交流合作想法。','Student associations, community organizations, event collaborators and sponsors are welcome to discuss ideas with CSAL.')} />
+<section class="container page-section"><p class="notice">{t(lang,'合作伙伴名单待确认。以下为预留展示位，不代表已有合作、赞助或 KU Leuven 背书。','The partner list is awaiting confirmation. The placeholders below do not represent existing partnerships, sponsorships or KU Leuven endorsement.')}</p><div class="partner-grid">{partners.map(partner=><PartnerLogo partner={partner} lang={lang} />)}</div></section>
+<section class="container page-section partnership-callout"><div><h2>{t(lang,'有一个合作想法？','Have an idea to share?')}</h2><p>{t(lang,'欢迎通过官方账号介绍你的组织、合作内容与大致时间。','Introduce your organization, your idea and a possible timeline through our official channels.')}</p></div><a class="button primary" href={href(lang,'contact')}>{t(lang,'开始交流','Start a conversation')}<span aria-hidden="true">↗</span></a></section>

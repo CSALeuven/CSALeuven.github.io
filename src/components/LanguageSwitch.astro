@@ -1,0 +1,9 @@
+---
+import { href, type Lang } from '../lib/i18n';
+const { lang, path = '' } = Astro.props as { lang: Lang; path?: string };
+---
+<nav class="language-switch" aria-label={lang === 'zh' ? '切换语言' : 'Choose language'}>
+  <a href={href('zh', path)} lang="zh-CN" hreflang="zh-CN" aria-current={lang === 'zh' ? 'true' : undefined}>中<span class="sr-only">文</span></a>
+  <span aria-hidden="true">/</span>
+  <a href={href('en', path)} lang="en" hreflang="en" aria-current={lang === 'en' ? 'true' : undefined}>EN<span class="sr-only"> — English</span></a>
+</nav>

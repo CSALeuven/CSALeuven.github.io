@@ -1,0 +1,25 @@
+{
+  "name": "csal-leuven-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.12.0" },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "test:site": "node scripts/check-site.mjs"
+  },
+  "dependencies": {
+    "astro": "^7.3.2",
+    "@astrojs/sitemap": "^3.7.4",
+    "@tailwindcss/vite": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "typescript": "~5.9.3"
+  },
+  "allowScripts": { "esbuild": true }
+}
