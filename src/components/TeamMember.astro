@@ -1,6 +1,0 @@
----
-import type { TeamMember } from '../data/team';
-import type { Lang } from '../lib/i18n';
-const { member, lang } = Astro.props as { member: TeamMember; lang: Lang };
----
-<article class="team-member">{member.image && <img src={member.image} alt={member.name[lang]} width="240" height="240" loading="lazy" />}<p class="tag">{member.role[lang]}</p><h3>{member.name[lang]}</h3>{member.bio && <p>{member.bio[lang]}</p>}</article>

@@ -1,0 +1,45 @@
+---
+import { committees } from '../data/committees';
+import { t, type Lang } from '../lib/i18n';
+const { lang } = Astro.props as { lang: Lang };
+const current = committees.find(committee => committee.current);
+if (!current) throw new Error('A current committee must be explicitly selected.');
+const previous = committees.filter(committee => !committee.current).sort((a,b) => b.year-a.year);
+const yearLabel = (year: number) => t(lang, `${year}届`, `${year} Committee`);
+---
+<section class="container page-section committee-section" aria-labelledby="current-committee">
+  <div class="subheading"><h2 id="current-committee">{t(lang,'现任成员','Current Committee')}</h2><span class="current-marker">{t(lang,'现任','Current')}</span></div>
+  <div class="current-committee" data-committee-year={current.year}>
+    <h3>{yearLabel(current.year)}</h3>
+    <ul class="committee-names" lang="zh-CN">{current.members.map(name => <li>{name}</li>)}</ul>
+    <a class="committee-source" href={current.sourceUrl} target="_blank" rel="noopener noreferrer">{t(lang,'原换届公示','Original announcement')}<span aria-hidden="true"> ↗</span><span class="sr-only">{t(lang,'（新标签页）',' (Chinese, new tab)')}</span></a>
+  </div>
+</section>
+<section class="container page-section committee-section" aria-labelledby="previous-committees">
+  <div class="subheading"><h2 id="previous-committees">{t(lang,'历届成员','Previous Committees')}</h2></div>
+  <div class="committee-archive">{previous.map(committee => <details class="committee-year" data-committee-year={committee.year}>
+    <summary><span>{yearLabel(committee.year)}</span><span class="disclosure-mark" aria-hidden="true">+</span></summary>
+    <div class="committee-year-content">
+      <ul class="committee-names" lang="zh-CN">{committee.members.map(name => <li>{name}</li>)}</ul>
+      <a class="committee-source" href={committee.sourceUrl} target="_blank" rel="noopener noreferrer">{t(lang,'原换届公示','Original announcement')}<span aria-hidden="true"> ↗</span><span class="sr-only">{t(lang,'（新标签页）',' (Chinese, new tab)')}</span></a>
+    </div>
+  </details>)}</div>
+</section>
+<style>
+  .current-marker{color:var(--red)}
+  .current-committee{padding:28px 32px;background:#f0ece7}
+  .current-committee h3{font-size:21px;font-weight:600;line-height:1.5}
+  .committee-names{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0 30px;list-style:none;padding:0;margin:16px 0 20px}
+  .committee-names li{font-size:18px;line-height:1.6;padding:14px 0;border-bottom:1px solid var(--line);overflow-wrap:anywhere}
+  .committee-source{display:inline-flex;align-items:center;min-height:44px;gap:8px;font-size:13px;color:var(--muted)}
+  .committee-source:hover{color:var(--red);text-decoration:underline;text-underline-offset:4px}
+  .committee-year{border-bottom:1px solid var(--line)}
+  .committee-year summary{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:68px;padding:16px 4px;list-style:none;cursor:pointer;font-size:20px;font-weight:500}
+  .committee-year summary::-webkit-details-marker{display:none}
+  .committee-year summary:hover{color:var(--red)}
+  .disclosure-mark{color:var(--red);font-size:25px;font-weight:400;line-height:1}
+  .committee-year[open] .disclosure-mark{transform:rotate(45deg)}
+  .committee-year-content{padding:0 4px 20px}
+  .committee-year-content .committee-names{margin-top:0}
+  @media(max-width:767px){.current-committee{padding:22px}.committee-names{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 20px}.committee-names li{font-size:18px;padding:12px 0}.committee-year summary{font-size:19px;min-height:64px}.committee-source{font-size:14px}}
+</style>
