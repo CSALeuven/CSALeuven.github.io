@@ -14,6 +14,7 @@ for (const lang of ['zh', 'en']) {
   const route = `${prefix}news/${key}/`;
   const page = read(route);
   const content = text(page);
+  assert(!content.includes('**'), `Unrendered Markdown markers: ${route}`);
   const category = lang === 'zh' ? '安全提醒' : 'Safety Advisory';
   const source = lang === 'zh' ? '中国驻比利时大使馆' : "Embassy of the People's Republic of China in Belgium";
   const label = lang === 'zh' ? '原文链接' : 'Read the original notice';
