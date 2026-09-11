@@ -1,0 +1,16 @@
+---
+import { t, type Lang } from '../lib/i18n';
+interface Props { lang: Lang; name: string; url: string; }
+const { lang, name, url } = Astro.props;
+---
+<section class="notice news-source" aria-labelledby="news-source-heading">
+  <h2 id="news-source-heading">{t(lang, '外部来源', 'External source')}</h2>
+  <p><strong>{name}</strong></p>
+  <p>{t(lang, 'CSAL 分享并摘要整理此通知，并非通知发布方。完整内容请查阅原文。', 'CSAL is sharing a summary of this notice, not issuing it. This English summary is not an official translation. Read the original notice for the full text.')}</p>
+  <a href={url} target="_blank" rel="noopener noreferrer">{t(lang, '原文链接', 'Read the original notice')} <span aria-hidden="true">↗</span><span class="sr-only">{t(lang, '（中文，新标签页）', ' (Chinese, new tab)')}</span></a>
+</section>
+<style>
+  .news-source h2 { font-size: 15px; font-weight: 600; }
+  .news-source p { margin-top: 8px; }
+  .news-source a { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; margin-top: 6px; font-weight: 600; text-decoration: underline; text-underline-offset: 4px; }
+</style>

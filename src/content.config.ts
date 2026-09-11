@@ -41,7 +41,13 @@ const guides = defineCollection({
 });
 const news = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/news' }),
-  schema: common.extend({ date: z.coerce.date(), category: z.string(), sample: z.boolean().default(false) }),
+  schema: common.extend({
+    date: z.coerce.date(), category: z.string(), sample: z.boolean().default(false),
+    sourceName: z.string().trim().min(1).optional(),
+    sourceUrl: z.url().refine(url => /^https?:\/\//i.test(url), 'Use an HTTP(S) source URL.').optional(),
+  }).refine(post => Boolean(post.sourceName) === Boolean(post.sourceUrl), {
+    message: 'External news sources require both sourceName and sourceUrl.',
+  }),
 });
 const knowledge = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/knowledge' }),
