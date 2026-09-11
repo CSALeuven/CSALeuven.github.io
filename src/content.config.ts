@@ -14,12 +14,19 @@ const events = defineCollection({
   schema: common.extend({
     titleOther: z.string(), category: z.string(),
     date: z.coerce.date().optional(), endDate: z.coerce.date().optional(),
-    location: z.string(), address: z.string().optional(),
+    dateOnly: z.iso.date().optional(), endDateOnly: z.iso.date().optional(),
+    location: z.string().optional(), address: z.string().optional(),
     coverImage: z.string().optional(), coverAlt: z.string().optional(),
+    coverWidth: z.number().int().positive().optional(), coverHeight: z.number().int().positive().optional(),
+    gallery: z.array(z.object({ src: z.string().startsWith('/images/events/'), alt: z.string().min(1), width: z.number().int().positive(), height: z.number().int().positive() })).default([]),
+    sources: z.array(z.object({ title: z.string(), url: z.url(), publishedAt: z.coerce.date() })).default([]),
     registrationUrl: z.url().optional(), featured: z.boolean().default(false),
     status: z.enum(['sample', 'upcoming', 'past', 'cancelled']),
     order: z.number().default(0),
-  }).refine(e => e.status === 'sample' || !!e.date, { message: 'Confirmed events require a date with a timezone.' })
+  }).refine(e => e.status === 'sample' || !!e.date || !!e.dateOnly, { message: 'Real events require dateOnly or a known timestamp in date.' })
+    .refine(e => !(e.dateOnly && (e.date || e.endDate)), { message: 'Do not mix calendar dates and timestamps.' })
+    .refine(e => !e.endDateOnly || (!!e.dateOnly && e.endDateOnly >= e.dateOnly), { message: 'endDateOnly requires dateOnly and must not precede it.' })
+    .refine(e => !e.endDate || !!e.date, { message: 'endDate requires date.' })
     .refine(e => !e.endDate || !e.date || e.endDate >= e.date, { message: 'Event endDate must not precede date.' })
     .refine(e => e.status !== 'sample' || !e.registrationUrl, { message: 'Sample events must not accept registration.' }),
 });
