@@ -4,8 +4,8 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { site } from '../data/site';
 import { href, type Lang } from '../lib/i18n';
-interface Props { lang: Lang; path?: string; title?: string; description?: string; noindex?: boolean; structuredData?: Record<string, unknown>; }
-const { lang, path = '', title, description = site.description[lang], noindex = false, structuredData } = Astro.props;
+interface Props { lang: Lang; path?: string; title?: string; description?: string; noindex?: boolean; structuredData?: Record<string, unknown>; ogType?: "article" | "website"; ogImage?: string; ogImageAlt?: string; }
+const { lang, path = '', title, description = site.description[lang], noindex = false, structuredData, ogType = "website", ogImage, ogImageAlt } = Astro.props;
 const fullTitle = title ? `${title} | CSAL 鲁汶学联` : `CSAL 鲁汶学联 | ${lang === 'zh' ? '服务同学，连接鲁汶' : 'Connecting Chinese students in Leuven'}`;
 const canonical = new URL(path === '404' ? '/404.html' : href(lang, path), site.url).href;
 ---
@@ -20,10 +20,11 @@ const canonical = new URL(path === '404' ? '/404.html' : href(lang, path), site.
     <link rel="alternate" hreflang="en" href={new URL(href('en', path), site.url).href} />
     <link rel="alternate" hreflang="x-default" href={new URL(href('zh', path), site.url).href} /></Fragment>}
     <link rel="icon" type="image/jpeg" href={site.logo} />
-    <meta property="og:type" content="website" /><meta property="og:site_name" content="CSAL Leuven" />
+    <meta property="og:type" content={ogType} /><meta property="og:site_name" content="CSAL Leuven" />
     <meta property="og:title" content={fullTitle} /><meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} /><meta property="og:locale" content={lang === 'zh' ? 'zh_CN' : 'en_GB'} />
-    <meta name="twitter:card" content="summary" /><meta name="twitter:title" content={fullTitle} /><meta name="twitter:description" content={description} />
+    {ogImage && <Fragment><meta property="og:image" content={new URL(ogImage,site.url).href} /><meta property="og:image:alt" content={ogImageAlt ?? title} /><meta name="twitter:image" content={new URL(ogImage,site.url).href} /><meta name="twitter:image:alt" content={ogImageAlt ?? title} /></Fragment>}
+    <meta name="twitter:card" content={ogImage ? "summary_large_image" : "summary"} /><meta name="twitter:title" content={fullTitle} /><meta name="twitter:description" content={description} />
     {noindex && <meta name="robots" content="noindex, follow" />}
     {structuredData && <script is:inline type="application/ld+json" set:html={JSON.stringify(structuredData).replace(/</g, '\\u003c')} />}
   </head>

@@ -1,7 +1,8 @@
 ---
 import type { CollectionEntry } from 'astro:content';
-import { href, t, formatDate, type Lang } from '../lib/i18n';
+import { href, t, type Lang } from '../lib/i18n';
 import { eventStatus } from '../lib/content';
+import { eventDateTime, formatEventDate } from '../lib/event-dates';
 const { event, lang, index = 0 } = Astro.props as { event: CollectionEntry<'events'>; lang: Lang; index?: number };
 const d = event.data;
 const labels = { sample: t(lang, '示例活动 · 非正式公告', 'Sample event · Not announced'), upcoming: t(lang, '即将举行', 'Upcoming'), past: t(lang, '往期活动', 'Past event'), cancelled: t(lang, '已取消', 'Cancelled') };
@@ -10,5 +11,5 @@ const labels = { sample: t(lang, '示例活动 · 非正式公告', 'Sample even
   <a class={`event-cover tone-${index % 3}`} href={href(lang, `events/${d.key}`)} tabindex="-1" aria-hidden="true">
     {d.coverImage ? <img src={d.coverImage} alt="" width="720" height="460" loading="lazy" /> : <Fragment><span class="cover-category">CSAL / {d.category}</span><span class="cover-title">{lang === 'en' ? d.title : d.titleOther}</span><span class="cover-number">{String(index + 1).padStart(2, '0')}<span>↗</span></span></Fragment>}
   </a>
-  <div class="event-info"><p class="tag">{labels[eventStatus(event)]}</p><h3><a href={href(lang, `events/${d.key}`)}>{d.title}</a></h3><p class="other-title" lang={lang === 'zh' ? 'en' : 'zh-CN'}>{d.titleOther}</p><p class="card-summary">{d.summary}</p><div class="event-meta"><span>{d.date ? <time datetime={d.date.toISOString()}>{formatDate(d.date, lang)}</time> : t(lang, '日期待定', 'Date to be confirmed')}</span><span>{d.location}</span></div></div>
+  <div class="event-info"><p class="tag">{labels[eventStatus(event)]} · {d.category}</p><h3><a href={href(lang, `events/${d.key}`)}>{d.title}</a></h3><p class="other-title" lang={lang === 'zh' ? 'en' : 'zh-CN'}>{d.titleOther}</p><p class="card-summary">{d.summary}</p><div class="event-meta"><span><time datetime={eventDateTime(d)}>{formatEventDate(d, lang)}</time></span>{d.location && <span>{d.location}</span>}</div></div>
 </article>
