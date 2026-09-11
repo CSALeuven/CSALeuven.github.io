@@ -5,6 +5,7 @@ import Layout from '../layouts/Layout.astro';
 import Home from '../views/Home.astro';
 import Events from '../views/Events.astro';
 import Guides from '../views/Guides.astro';
+import KnowledgeLanding from '../views/KnowledgeLanding.astro';
 import About from '../views/About.astro';
 import Partners from '../views/Partners.astro';
 import Contact from '../views/Contact.astro';
@@ -39,5 +40,5 @@ const structuredData = event && event.data.status!=='sample' && event.data.date 
 } : undefined;
 ---
 <Layout lang={lang} path={path} title={path?title:undefined} description={entry?.data.summary} noindex={Boolean(sample)} structuredData={structuredData}>
-  {entry ? <Article entry={entry} lang={lang} /> : path === '' ? <Home lang={lang} /> : path === 'events' ? <Events lang={lang} /> : path === 'new-students' ? <Guides lang={lang} /> : path === 'leuven-guide' ? <Guides lang={lang} city /> : path === 'about' ? <About lang={lang} /> : path === 'partners' ? <Partners lang={lang} /> : path === 'contact' ? <Contact lang={lang} /> : <News lang={lang} />}
+  {entry ? <Article entry={entry} lang={lang} /> : path === '' ? <Home lang={lang} /> : path === 'events' ? <Events lang={lang} /> : path === 'new-students' ? <KnowledgeLanding lang={lang} /> : path === 'leuven-guide' ? <Guides lang={lang} city /> : path === 'about' ? <About lang={lang} /> : path === 'partners' ? <Partners lang={lang} /> : path === 'contact' ? <Contact lang={lang} /> : <News lang={lang} />}
 </Layout>

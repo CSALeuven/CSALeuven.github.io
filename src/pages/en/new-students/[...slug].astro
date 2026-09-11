@@ -1,0 +1,7 @@
+---
+import KnowledgePage from '../../../views/KnowledgePage.astro';
+import { knowledgePaths } from '../../../lib/knowledge';
+export const getStaticPaths = () => knowledgePaths('en');
+const { lang, slug } = Astro.props;
+---
+<KnowledgePage lang={lang} slug={slug} />

@@ -1,0 +1,158 @@
+{
+  "before-arrival/visa-documents": [
+    {
+      "label": "补充核验入口｜比利时驻华使馆：签证与材料（非手册原链）",
+      "url": "https://china.diplomatie.belgium.be/en/travel-belgium/visa-belgium"
+    }
+  ],
+  "before-arrival/aps": [
+    {
+      "label": "补充核验入口｜KU Leuven：APS 证明（非手册原链）",
+      "url": "https://www.kuleuven.be/english/education/apply/requested-documents/aps-certificate"
+    }
+  ],
+  "before-arrival/proof-of-funds": [
+    {
+      "label": "补充核验入口｜KU Leuven：监管账户与资金证明（非手册原链）",
+      "url": "https://www.kuleuven.be/english/life-at-ku-leuven/immigration-residence/long-stay-visa-type-d-visa-for-stays-longer-than-90-days/students-including-doctoral-scholarship-holders/blocked-account"
+    },
+    {
+      "label": "补充核验入口｜比利时驻华使馆：签证与材料（非手册原链）",
+      "url": "https://china.diplomatie.belgium.be/en/travel-belgium/visa-belgium"
+    }
+  ],
+  "before-arrival/flights": [
+    {
+      "label": "补充核验入口｜KU Leuven：行前准备（非手册原链）",
+      "url": "https://www.kuleuven.be/english/life-at-ku-leuven/prepare-your-stay"
+    }
+  ],
+  "before-arrival/packing": [
+    {
+      "label": "补充核验入口｜KU Leuven：行前准备（非手册原链）",
+      "url": "https://www.kuleuven.be/english/life-at-ku-leuven/prepare-your-stay"
+    }
+  ],
+  "housing/choosing-a-room": [
+    {
+      "label": "补充核验入口｜KU Leuven：住房入口（非手册原链）",
+      "url": "https://www.kuleuven.be/english/life-at-ku-leuven/housing"
+    },
+    {
+      "label": "补充核验入口｜KU Leuven：租户、合同与费用（非手册原链）",
+      "url": "https://www.kuleuven.be/english/life-at-ku-leuven/housing/info-for-tenants"
+    }
+  ],
+  "housing/finding-housing": [
+    {
+      "label": "补充核验入口｜KU Leuven：住房入口（非手册原链）",
+      "url": "https://www.kuleuven.be/english/life-at-ku-leuven/housing"
+    },
+    {
+      "label": "补充核验入口｜KU Leuven：租户、合同与费用（非手册原链）",
+      "url": "https://www.kuleuven.be/english/life-at-ku-leuven/housing/info-for-tenants"
+    }
+  ],
+  "housing/contracts": [
+    {
+      "label": "补充核验入口｜KU Leuven：租户、合同与费用（非手册原链）",
+      "url": "https://www.kuleuven.be/english/life-at-ku-leuven/housing/info-for-tenants"
+    }
+  ],
+  "housing/deposit-and-condition": [
+    {
+      "label": "补充核验入口｜KU Leuven：租户、合同与费用（非手册原链）",
+      "url": "https://www.kuleuven.be/english/life-at-ku-leuven/housing/info-for-tenants"
+    }
+  ],
+  "housing/subletting-and-termination": [
+    {
+      "label": "补充核验入口｜KU Leuven：租户、合同与费用（非手册原链）",
+      "url": "https://www.kuleuven.be/english/life-at-ku-leuven/housing/info-for-tenants"
+    }
+  ],
+  "housing/temporary-accommodation": [
+    {
+      "label": "补充核验入口｜KU Leuven：住房入口（非手册原链）",
+      "url": "https://www.kuleuven.be/english/life-at-ku-leuven/housing"
+    }
+  ],
+  "arrival/university-registration": [
+    {
+      "label": "补充核验入口｜KU Leuven：抵达、注册与账号（非手册原链）",
+      "url": "https://www.kuleuven.be/english/life-at-ku-leuven/upon-arrival-for-students"
+    },
+    {
+      "label": "补充核验入口｜KU Leuven：行前准备（非手册原链）",
+      "url": "https://www.kuleuven.be/english/life-at-ku-leuven/prepare-your-stay"
+    }
+  ],
+  "arrival/education-office": [
+    {
+      "label": "补充核验入口｜中国驻比利时使馆：教育服务导航（非手册原链）",
+      "url": "https://be.china-embassy.gov.cn/chn/"
+    }
+  ],
+  "study/credits-and-exams": [
+    {
+      "label": "补充核验入口｜KU Leuven：教育与考试规则（非手册原链）",
+      "url": "https://www.kuleuven.be/education/regulations/"
+    }
+  ],
+  "study/honours": [
+    {
+      "label": "补充核验入口｜KU Leuven：教育与考试规则（非手册原链）",
+      "url": "https://www.kuleuven.be/education/regulations/"
+    }
+  ],
+  "study/isp": [
+    {
+      "label": "补充核验入口｜KU Leuven：Individual Study Programme（非手册原链）",
+      "url": "https://www.kuleuven.be/english/apply/education/student/Learningpath/isp"
+    },
+    {
+      "label": "补充核验入口｜KU Leuven：教育与考试规则（非手册原链）",
+      "url": "https://www.kuleuven.be/education/regulations/"
+    }
+  ],
+  "study/learning-platforms": [
+    {
+      "label": "补充核验入口｜KU Leuven：抵达、注册与账号（非手册原链）",
+      "url": "https://www.kuleuven.be/english/life-at-ku-leuven/upon-arrival-for-students"
+    }
+  ],
+  "life/clothing-shopping": [
+    {
+      "label": "补充核验入口｜Visit Leuven：购物街区（非手册原链）",
+      "url": "https://visitleuven.be/en/shopping-streets"
+    }
+  ],
+  "life/furniture": [
+    {
+      "label": "补充核验入口｜IKEA Belgium：配送服务（非手册原链）",
+      "url": "https://www.ikea.com/be/en/customer-service/services/delivery/"
+    },
+    {
+      "label": "补充核验入口｜Visit Leuven：购物街区（非手册原链）",
+      "url": "https://visitleuven.be/en/shopping-streets"
+    }
+  ],
+  "life/groceries-cooking": [
+    {
+      "label": "补充核验入口｜Visit Leuven：集市（非手册原链）",
+      "url": "https://visitleuven.be/en/markets"
+    }
+  ],
+  "life/utilities": [
+    {
+      "label": "补充核验入口｜KU Leuven：租户、合同与费用（非手册原链）",
+      "url": "https://www.kuleuven.be/english/life-at-ku-leuven/housing/info-for-tenants"
+    }
+  ],
+  "transport/taxis": [
+    {
+      "label": "补充核验入口｜鲁汶市：出租车事务联系部门（非手册原链）",
+      "url": "https://www.leuven.be/contact/dienst-economie-en-handel-taxis"
+    }
+  ]
+}

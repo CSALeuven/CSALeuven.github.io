@@ -2,5 +2,7 @@
 import type { CollectionEntry } from 'astro:content';
 import { href, type Lang } from '../lib/i18n';
 const { guide, lang, index = 0 } = Astro.props as { guide: CollectionEntry<'guides'>; lang: Lang; index?: number };
+const knowledgeRoutes: Record<string,string> = {arrival:'before-arrival',housing:'housing',registration:'arrival/residence-card',banking:'arrival/bank-account',healthcare:'healthcare','first-week':'arrival/first-week',transport:'transport','daily-life':'life',university:'study',eating:'life/eating-out',sport:'sports',shopping:'life/clothing-shopping'};
+const destination = knowledgeRoutes[guide.data.key] ? `new-students/${knowledgeRoutes[guide.data.key]}` : `guides/${guide.data.key}`;
 ---
-<a class="guide-card" href={href(lang, `guides/${guide.data.key}`)}><span class="guide-number">{String(index + 1).padStart(2, '0')}</span><div><span class="guide-label">{guide.data.label}</span><h3>{guide.data.title}</h3><p>{guide.data.summary}</p></div><span class="guide-arrow" aria-hidden="true">↗</span></a>
+<a class="guide-card" href={href(lang, destination)}><span class="guide-number">{String(index + 1).padStart(2, '0')}</span><div><span class="guide-label">{guide.data.label}</span><h3>{guide.data.title}</h3><p>{guide.data.summary}</p></div><span class="guide-arrow" aria-hidden="true">↗</span></a>

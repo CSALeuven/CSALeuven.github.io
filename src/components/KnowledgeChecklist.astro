@@ -1,0 +1,16 @@
+---
+import { t, href, type Lang } from '../lib/i18n';
+interface Item {id:string;title:string;note?:string;href?:string}
+const { lang, id, title, items } = Astro.props as {lang:Lang;id:string;title:string;items:Item[]};
+---
+<section class="kb-checklist" data-checklist={id} data-lang={lang} aria-label={title}>
+  <div class="kb-checklist-heading"><h2>{title}</h2><button type="button" data-print>{t(lang,'打印','Print')}</button></div>
+  {lang==='en' && <p class="kb-small">Checklist items are from the Chinese original; a reviewed English translation is pending.</p>}
+  <p class="kb-small" data-check-progress role="status">{t(lang,'勾选进度保存在此浏览器。','Checked items are saved in this browser.')}</p>
+  <ul>{items.map(item=><li><label><input type="checkbox" value={item.id} /><span lang="zh-CN"><strong>{item.title}</strong>{item.note && <small>{item.note}</small>}</span></label>{item.href && <a href={href(lang,`new-students/${item.href}`)}>{t(lang,'查看说明','Read guide')} <span aria-hidden="true">↗</span></a>}</li>)}</ul>
+  <button type="button" data-reset-checklist>{t(lang,'重置勾选','Reset checks')}</button>
+</section>
+<script>
+  import { initializeChecklists } from '../scripts/checklists';
+  initializeChecklists();
+</script>

@@ -1,0 +1,64 @@
+---
+import { getCollection, render } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import KnowledgeSearch from '../components/KnowledgeSearch.astro';
+import KnowledgeChecklist from '../components/KnowledgeChecklist.astro';
+import PackingChecklist from '../components/PackingChecklist.astro';
+import { getKnowledge } from '../lib/knowledge';
+import { t, href, type Lang } from '../lib/i18n';
+import { categories, sourceNotice, reviewLabels, firstWeek, contractChecks } from '../data/knowledge';
+import '../styles/knowledge.css';
+const { lang, slug } = Astro.props as {lang:Lang;slug:string};
+const entries=await getKnowledge(), entry=entries.find(e=>e.data.key===slug);
+const category=categories.find(c=>c.key===(entry?.data.category??slug));
+const archive=slug==='handbook-2024';
+const hasTranslations=Object.keys(import.meta.glob('../content/knowledge-translations/**/*.md')).length>0;
+const translation=lang==='en'&&entry&&hasTranslations?(await getCollection('knowledgeTranslations')).find(e=>e.data.key===entry.data.key):undefined;
+const rendered=entry?await render(translation??entry):undefined;
+const Content=rendered?.Content;
+const title=entry?(lang==='zh'?entry.data.titleZh:entry.data.titleEn):archive?t(lang,'2024 手册原版档案','2024 handbook archive'):category?.[lang]??'';
+const description=entry?(lang==='zh'?entry.data.descriptionZh:entry.data.descriptionEn):archive?t(lang,'查看原版 35 页新生手册、来源说明与内容复核状态。','Read the original 35-page handbook and its source and review notes.'):category?(lang==='zh'?category.descriptionZh:category.descriptionEn):'';
+const siblings=entries.filter(e=>e.data.category===category?.key);
+const related=entry?entry.data.related.map(key=>entries.find(e=>e.data.key===key)!):[];
+const articleHref=(key:string)=>href(lang,`new-students/${key}`);
+---
+<Layout lang={lang} path={`new-students/${slug}`} title={title} description={description} noindex={Boolean(entry&&lang==='en'&&!translation)}>
+  <div class="container kb-page">
+    <nav class="kb-breadcrumbs" aria-label={t(lang,'当前位置','Breadcrumb')}><a href={href(lang,'new-students')}>{t(lang,'新生指南','Student guide')}</a>{entry&&category&&<><span aria-hidden="true">/</span><a href={articleHref(category.key)}>{category[lang]}</a></>}<span aria-hidden="true">/</span><span aria-current="page">{title}</span></nav>
+    {entry ? <>
+      <header class="kb-article-header"><p class="kb-status">{reviewLabels[entry.data.reviewStatus][lang]}{entry.data.timeSensitive&&` · ${t(lang,'含时效性信息','Time-sensitive information')}`}</p><h1>{title}</h1><p class="kb-subtitle">{description}</p><p class="kb-small">{entry.data.lastReviewed?`${t(lang,'最近复核','Last reviewed')}: ${entry.data.lastReviewed.toISOString().slice(0,10)}`:t(lang,'全文尚未进行现行政策复核','The full article has not been reviewed against current policy')}</p></header>
+      <p class="kb-source-notice">{sourceNotice[lang]}</p>
+      {lang==='en'&&!translation&&<p class="kb-translation-note">English discovery summary only. The article and checklists below are the Chinese original; a reviewed English translation is not yet available. <a href="#article-content">Read the Chinese original ↓</a></p>}
+      {translation&&<p class="kb-small">Reviewed English translation · {translation.data.lastReviewed.toISOString().slice(0,10)} · {translation.data.reviewer}</p>}
+      {entry.data.category==='transport'&&<p class="kb-source-notice">{t(lang,'以下票价/票制整理自 2024 手册，请出行前查询运营方最新信息。','Fares and ticket products below are from the 2024 handbook. Check the operator’s latest information before travelling.')}</p>}
+      {entry.data.key==='healthcare/emergency'&&<div class="kb-emergency"><strong>112</strong><div><h2>{t(lang,'紧急求助','Emergency help')}</h2><p>{t(lang,'手册所载比利时紧急求助电话。若情况严重或无法自行前往医院，可拨打。','The emergency number listed in the handbook for serious situations or when you cannot reach hospital yourself.')}</p><a href="tel:112">{t(lang,'拨打 112','Call 112')} ↗</a></div></div>}
+      <div class="kb-article-grid"><aside class="kb-article-nav"><details open><summary>{t(lang,'本页内容','On this page')}</summary><nav aria-label={t(lang,'文章目录','Article contents')}><a href="#quick-answer">{t(lang,'先看这里','Quick answer')}</a>{entry.data.key==='before-arrival/packing'&&<a href="#interactive-checklist">{t(lang,'行李清单','Packing checklist')}</a>}{['arrival/first-week','housing/contracts'].includes(entry.data.key)&&<a href="#interactive-checklist">{t(lang,'检查清单','Checklist')}</a>}{rendered?.headings.filter(h=>h.depth===2).map(h=><a href={`#${h.slug}`}>{h.text}</a>)}<a href="#sources">{t(lang,'来源与相关内容','Sources and related reading')}</a></nav></details><a class="kb-return-search" href={href(lang,'new-students')}>{t(lang,'← 搜索其他问题','← Search another question')}</a></aside>
+      <article id="article-content" class="kb-article-content" lang={translation?'en':'zh-CN'}>
+        <div id="quick-answer" class="kb-quick-answer"><h2>{t(lang,'先看这里','Quick answer')}</h2><p>{translation?.data.quickAnswer??entry.data.quickAnswer}</p></div>
+        {entry.data.key==='before-arrival/packing'&&<div id="interactive-checklist"><PackingChecklist lang={lang}/></div>}
+        {entry.data.key==='arrival/first-week'&&<div id="interactive-checklist"><KnowledgeChecklist lang={lang} id="first-week" title={t(lang,'初到鲁汶第一周','Your first week')} items={firstWeek}/></div>}
+        {entry.data.key==='housing/contracts'&&<div id="interactive-checklist"><KnowledgeChecklist lang={lang} id="contract" title={t(lang,'签租房合同前检查清单','Before signing a rental contract')} items={contractChecks.map((title,i)=>({id:`contract-${i+1}`,title}))}/></div>}
+        <div class="prose kb-prose">{Content&&<Content/>}</div>
+      </article></div>
+      <section id="sources" class="kb-article-sources"><div><h2>{t(lang,'来源与复核','Source and review')}</h2><p>{entry.data.sourceTitle} · {entry.data.sourceChapter}<br/>{entry.data.sourceSection} · {t(lang,'第','Pages')} {entry.data.sourcePages.join(', ')} {t(lang,'页','')}</p><a class="text-link" href={articleHref('handbook-2024')}>{t(lang,'查看原版手册','View the original handbook')} <span aria-hidden="true">↗</span></a>{entry.data.officialSources.length>0&&<><h3>{t(lang,'官方参考入口','Official references')}</h3><p class="kb-small">{t(lang,'链接用于核对现行信息；列出链接不等于全文已复核。','Use these links to check current information. Listing a reference does not mean the full article has been reviewed.')}</p><ul class="kb-official-links">{entry.data.officialSources.map(s=><li><a href={s.url}>{s.label} ↗</a></li>)}</ul></>}</div><div><h2>{t(lang,'接下来可能用得上','Related reading')}</h2><div class="kb-related">{related.map(e=><a href={articleHref(e.data.key)}><h3>{lang==='zh'?e.data.titleZh:e.data.titleEn}</h3><p>{lang==='zh'?e.data.descriptionZh:e.data.descriptionEn}</p><span aria-hidden="true">→</span></a>)}</div></div></section>
+    </> : archive ? <>
+      <header class="kb-article-header"><p class="eyebrow section-eyebrow">SOURCE ARCHIVE / 来源档案</p><h1>{title}</h1><p class="kb-subtitle">{description}</p></header><p class="kb-source-notice">{sourceNotice[lang]}</p>
+      <div class="kb-archive-content"><h2>{t(lang,'下载 / 查看《鲁汶学联新生手册 2024》原版 PDF','Download or view the original 2024 handbook PDF')}</h2><p>{t(lang,'35 页 · 约 2.5 MB · 保留原始文件','35 pages · approximately 2.5 MB · original file preserved')}</p><div class="button-row"><a class="button button-primary" href="/documents/csal-student-handbook-2024.pdf">{t(lang,'查看原版 PDF','View PDF')} ↗</a><a class="button button-secondary" download href="/documents/csal-student-handbook-2024.pdf">{t(lang,'下载 PDF','Download PDF')} ↓</a></div>
+      <h2>{t(lang,'如何使用这些资料','How to use this material')}</h2><p>{t(lang,'网页按实际问题重新组织，不以 PDF 章节作为主要导航。每篇文章均标明章节、页码与复核状态；历史价格、流程和经验保留在 2024 来源背景中。','The web guide is organized around student tasks. Every article identifies its source chapter, pages and review status. Historical prices, procedures and personal experiences remain explicitly tied to the 2024 source.')}</p>
+      <h2>{t(lang,'已发现的来源问题','Known source limitations')}</h2><ul><li>{t(lang,'部分字形缺失、少量句子残缺，以及没有网址的“此网页”引用，仅在上下文明确时整理；无法可靠补全之处在文章内注明。','Some glyphs, sentences and “this page” links are missing in the source. Only clear contextual repairs were made; unresolved details are noted in the articles.')}</li><li>{t(lang,'手册未定义 A–E 类宿舍；行李序号有跳号、重复；城市面积在不同章节不一致。','Housing labels A–E are not defined; packing row numbers skip or repeat; city-area figures differ between chapters.')}</li><li>{t(lang,'签证、回国证明、支付保障、交通规则及票价、医疗与疫苗说明等需要主管机构或人工复核。','Visa and return-certificate procedures, payment guarantees, traffic rules, fares, medical services and vaccine notes require official or human verification.')}</li><li>{t(lang,'学校排名、人数、医生、商家及历史活动记录不作为当前推荐或承诺。','Rankings, population figures, named doctors, businesses and historical activities are not current recommendations or promises.')}</li></ul>
+      <p><a class="text-link" href={href(lang,'about')}>{t(lang,'手册中的学联介绍 → 关于我们','The handbook’s CSAL profile → About us')}</a></p><p class="kb-small">SHA-256: <code>56ff11f79be2eed61851b02c4c0e3d85aa413b09d28e41b30f7499614bb4b8b5</code></p></div>
+    </> : category && <>
+      <header class="kb-article-header"><p class="eyebrow section-eyebrow">NEW STUDENT GUIDE / 新生指南</p><h1>{category[lang]}</h1><p class="kb-subtitle">{description}</p></header><KnowledgeSearch lang={lang}/>
+      {category.key==='healthcare'&&<div class="kb-emergency"><strong>112</strong><div><h2>{t(lang,'紧急求助','Emergency help')}</h2><p>{t(lang,'手册所载比利时紧急求助电话；严重或无法自行前往医院时可拨打。','Belgian emergency number listed in the handbook for serious situations or when you cannot reach hospital yourself.')}</p><a href={articleHref('healthcare/emergency')}>{t(lang,'急诊与紧急求助说明','Emergency guide')} →</a></div></div>}
+      {category.key==='housing'&&<a class="kb-feature-link" href={articleHref('housing/contracts')}><span>{t(lang,'签约前先检查','Before you sign')}</span><h2>{t(lang,'租房合同检查清单','Rental contract checklist')} →</h2></a>}
+      {category.key==='healthcare'&&<a class="kb-feature-link" href={articleHref('arrival/health-insurance')}><h2>{t(lang,'健康保险与医保','Health insurance')} →</h2></a>}
+      <div class="kb-article-list">{siblings.map(e=><a href={articleHref(e.data.key)}><p class="kb-status">{reviewLabels[e.data.reviewStatus][lang]}</p><h2>{lang==='zh'?e.data.titleZh:e.data.titleEn}</h2><p>{lang==='zh'?e.data.descriptionZh:e.data.descriptionEn}</p><span aria-hidden="true">↗</span></a>)}</div><p class="kb-source-notice">{sourceNotice[lang]}</p>
+    </>}
+  </div>
+</Layout>
+<script>
+  if (window.matchMedia('(max-width: 767px)').matches) {
+    const contents = document.querySelector<HTMLDetailsElement>('.kb-article-nav details');
+    if (contents) contents.open = false;
+  }
+</script>

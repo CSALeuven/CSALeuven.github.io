@@ -150,3 +150,8 @@ Official references: [Astro deployment](https://docs.astro.build/en/guides/deplo
 ## Editorial handover
 
 Confirm real events, committee profiles, history and partner details before replacing placeholders. Review both translations, source links, mobile pages, keyboard navigation and QR display. No official email has been invented. The site has no analytics scripts, tracking or fake contact form.
+# New student knowledge base
+
+The full 2024 handbook is organized into 45 articles at `/new-students/`, with Chinese/English alias search, nine topic categories, 98 packing checklist items, first-week and rental-contract checklists, and the unchanged PDF archive. Chinese source bodies are complete; English discovery metadata does not claim an official translation. All imported articles clearly identify 2024 provenance and review status.
+
+See [maintenance instructions](docs/handbook-2024/MAINTENANCE.md) for adding articles, editing aliases and categories, updating sources/statuses, publishing reviewed English translations, changing checklists and rebuilding search. [Content inventory and known source gaps](docs/handbook-2024/INVENTORY.md).

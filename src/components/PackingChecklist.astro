@@ -1,0 +1,28 @@
+---
+import packing from '../data/packing-2024.json';
+import { t, type Lang } from '../lib/i18n';
+const { lang } = Astro.props as {lang:Lang};
+const groups = [ ['documents','文件','Documents'],['stationery','文具','Stationery'],['clothing','衣物','Clothing'],['electronics','电子类','Electronics'],['kitchen','厨具','Kitchen'],['toiletries','盥洗用品','Toiletries'],['tools','工具','Tools'],['food','食品','Food'],['medicine','药品','Medicine'],['cosmetics','化妆品','Cosmetics'],['other','其他','Other'] ];
+---
+<section class="kb-checklist kb-packing" data-checklist="packing" data-lang={lang} aria-label={t(lang,'行李清单','Packing checklist')}>
+  <div class="kb-checklist-heading"><h2>{t(lang,'我的行李清单','My packing checklist')}</h2><button type="button" data-print>{t(lang,'打印','Print')}</button></div>
+  <p class="kb-small">{t(lang,'数量与备注保留手册的参考值，不代表每个人都需要全部携带。空缺数量不作推定。','Quantities and notes are historical suggestions, not requirements. Missing quantities have not been inferred. Items below are in Chinese pending reviewed translation.')}</p>
+  <div class="kb-packing-filters"><label>{t(lang,'查找物品','Find an item')}<input type="search" data-packing-query placeholder={t(lang,'例如：护照、充电宝','For example: 护照, 充电宝')} /></label><label>{t(lang,'物品分类','Category')}<select data-packing-category><option value="all">{t(lang,'全部','All')}</option>{groups.map(([value,zh,en])=><option value={value}>{lang==='zh'?zh:en}</option>)}</select></label></div>
+  <p class="kb-small" data-packing-results role="status"></p>
+  <p class="kb-small" data-check-progress role="status"></p>
+  <p class="kb-medicine-note" lang="zh-CN">2024 手册参考清单；携带药品须遵守中国出境、航空运输及比利时/欧盟入境规定，请自行核实最新限制。</p>
+  <ul>{packing.map(item=><li data-pack-category={item.category} data-pack-search={`${item.name} ${item.notes} ${item.category}`}><label><input type="checkbox" value={item.id} /><span lang="zh-CN"><span class="kb-pack-category">{groups.find(g=>g[0]===item.category)?.[lang==='zh'?1:2]}</span><strong>{item.name}</strong><span class="kb-pack-quantity">{t(lang,'手册参考数量','Handbook quantity')}：{item.quantity || t(lang,'未注明','Not specified')}{item.optional && <span class="kb-optional"> · {t(lang,'可选','Optional')}</span>}</span>{item.notes && <small>{item.notes}</small>}</span></label></li>)}</ul>
+  <button type="button" data-reset-checklist>{t(lang,'重置勾选','Reset checks')}</button>
+</section>
+<script>
+  import { initializeChecklists } from '../scripts/checklists';
+  import { normalize } from '../lib/knowledge-search.mjs';
+  initializeChecklists();
+  const root = document.querySelector<HTMLElement>('.kb-packing');
+  if(root){
+    const input=root.querySelector<HTMLInputElement>('[data-packing-query]')!, category=root.querySelector<HTMLSelectElement>('[data-packing-category]')!, status=root.querySelector<HTMLElement>('[data-packing-results]')!;
+    const items=Array.from(root.querySelectorAll<HTMLElement>('[data-pack-category]'));
+    const filter=()=>{let visible=0;const terms=normalize(input.value).split(' ').filter(Boolean);for(const item of items){item.hidden=!(category.value==='all'||item.dataset.packCategory===category.value)||!terms.every((term:string)=>normalize(item.dataset.packSearch??'').includes(term));if(!item.hidden)visible++;}status.textContent=root.dataset.lang==='en'?`${visible} of ${items.length} items shown. Printing includes all items.`:`显示 ${visible} / ${items.length} 项。打印时包含全部物品。`;};
+    input.addEventListener('input',filter);category.addEventListener('change',filter);filter();
+  }
+</script>

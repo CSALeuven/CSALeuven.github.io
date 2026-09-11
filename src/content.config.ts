@@ -1,6 +1,7 @@
 import { defineCollection } from 'astro:content';
 import { glob } from 'astro/loaders';
 import { z } from 'astro/zod';
+import { categories } from './data/knowledge';
 
 const common = z.object({
   lang: z.enum(['zh', 'en']),
@@ -35,4 +36,24 @@ const news = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/news' }),
   schema: common.extend({ date: z.coerce.date(), category: z.string(), sample: z.boolean().default(false) }),
 });
-export const collections = { events, guides, news };
+const knowledge = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/knowledge' }),
+  schema: z.object({
+    key: z.string().regex(/^[a-z-]+\/[a-z0-9-]+$/),
+    titleZh: z.string(), titleEn: z.string(), descriptionZh: z.string(), descriptionEn: z.string(),
+    category: z.string().refine(value => categories.some(c => c.key === value), 'Unknown knowledge category'),
+    order: z.number().default(0), aliases: z.array(z.string()).default([]), quickAnswer: z.string(),
+    sourceTitle: z.string().default('鲁汶学联新生手册 2024'), sourceYear: z.literal(2024),
+    sourceChapter: z.string(), sourceSection: z.string(), sourcePages: z.array(z.number().int().min(1).max(35)).min(1),
+    reviewStatus: z.enum(['legacy-2024', 'reviewed', 'partially-reviewed', 'needs-verification']),
+    lastReviewed: z.coerce.date().nullable().optional(), timeSensitive: z.boolean(),
+    officialSources: z.array(z.object({ label: z.string(), url: z.url() })).default([]),
+    related: z.array(z.string()).min(1), draft: z.boolean().default(false),
+  }).refine(a => a.key.startsWith(a.category + '/'), 'Key must start with category')
+    .refine(a => a.reviewStatus !== 'reviewed' || !!a.lastReviewed, 'Reviewed articles require lastReviewed'),
+});
+const knowledgeTranslations = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/knowledge-translations' }),
+  schema: z.object({ key: z.string(), lang: z.literal('en'), quickAnswer: z.string(), lastReviewed: z.coerce.date(), reviewer: z.string().min(1) }),
+});
+export const collections = { events, guides, news, knowledge, knowledgeTranslations };
