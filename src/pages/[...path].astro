@@ -41,6 +41,6 @@ const structuredData = event && isUpcoming(event) && event.data.location && even
   url:new URL(href(lang,path),site.url).href,
 } : undefined;
 ---
-<Layout lang={lang} path={path} title={path?title:undefined} description={entry?.data.summary} noindex={Boolean(sample)} structuredData={structuredData} ogType={(event || entry?.collection === 'news') && !sample ? "article" : "website"} ogImage={event?.data.coverImage} ogImageAlt={event?.data.coverAlt}>
+<Layout lang={lang} path={path} title={path?title:undefined} description={entry?.data.summary ?? (path === 'about' ? site.aboutDescription[lang] : undefined)} noindex={Boolean(sample)} structuredData={structuredData} ogType={(event || entry?.collection === 'news') && !sample ? "article" : "website"} ogImage={event?.data.coverImage} ogImageAlt={event?.data.coverAlt}>
   {entry ? <Article entry={entry} lang={lang} /> : path === '' ? <Home lang={lang} /> : path === 'events' ? <Events lang={lang} /> : path === 'new-students' ? <KnowledgeLanding lang={lang} /> : path === 'leuven-guide' ? <Guides lang={lang} city /> : path === 'about' ? <About lang={lang} /> : path === 'partners' ? <Partners lang={lang} /> : path === 'contact' ? <Contact lang={lang} /> : <News lang={lang} />}
 </Layout>

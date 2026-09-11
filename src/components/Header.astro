@@ -7,8 +7,8 @@ const { lang, path = '' } = Astro.props as { lang: Lang; path?: string };
 <header class="site-header">
   <div class="container header-inner">
     <a class="brand" href={href(lang)} aria-label={t(lang, 'CSAL 首页', 'CSAL home')}>
-      <img src={site.logo} width="551" height="570" alt="CSAL 鲁汶中国学生学者联合会 logo" fetchpriority="high" />
-      <span><strong>CSAL <span class="brand-divider">/</span> 鲁汶学联</strong><small>CHINESE STUDENTS & SCHOLARS · LEUVEN</small></span>
+      <img src={site.logo} width="551" height="570" alt={`${site.shortNames.en} ${site.officialNames.zh} logo`} fetchpriority="high" />
+      <span><strong>{site.shortNames.en} <span class="brand-divider">/</span> {site.shortNames.zh}</strong><small lang="en">{site.officialNames.en}</small></span>
     </a>
     <nav class="desktop-nav" aria-label={t(lang, '主导航', 'Main navigation')}>
       {nav.map(item => <a href={href(lang, item.path)} aria-current={path === item.path || (item.path && path.startsWith(item.path + '/')) ? 'page' : undefined}>{item[lang]}</a>)}

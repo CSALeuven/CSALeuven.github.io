@@ -2,7 +2,7 @@
 
 ## Purpose and architecture
 
-Official CSAL — Chinese Students and Scholars Association Leuven — website. Production: https://csaleuven.github.io/. Chinese name: 鲁汶中国学生学者联合会. CSAL is independent; do not imply KU Leuven administrative status or endorsement.
+Official CSAL — Chinese Students and Scholars Association in Leuven — website. Production: https://csaleuven.github.io/. Chinese name: 鲁汶中国学生学者联合会. CSAL is independent; do not imply KU Leuven administrative status or endorsement.
 
 Astro 7, Tailwind 4 (Vite integration), TypeScript, Markdown content collections. Fully static. Avoid UI frameworks, databases, login, APIs and server-backed forms. Shared styles: `src/styles/global.css`.
 
@@ -11,6 +11,8 @@ Astro 7, Tailwind 4 (Vite integration), TypeScript, Markdown content collections
 The handbook knowledge base is a deliberate exception to paired article bodies. `src/content/knowledge/{category}/{slug}.md` holds the Chinese original with bilingual discovery metadata. English routes explicitly show the Chinese original until a reviewed file exists in `src/content/knowledge-translations/`; do not automatically translate the corpus. See `docs/handbook-2024/MAINTENANCE.md`. Preserve all source provenance and historical caveats. Do not silently update 2024 prices/policies or invent missing text. Categories live in `src/data/knowledge.ts`; substantial content must remain Markdown. All nested knowledge routes and search data are generated from collections.
 
 ## Brand and factual content
+
+Canonical organization names/short names are centralized in `src/data/site.ts`. The Chinese mission and four responsibilities in `src/data/about.ts` are committee-confirmed source wording: preserve every character, punctuation mark and numbered prefix unless replacement wording is explicitly confirmed. English must faithfully translate the source. Display headings and concise homepage summaries are distinct from that formal text. The confirmed mission states registration at KU Leuven; retain the separate independence disclaimer. Dutch is an official name reference only, never a third site language. The old handbook About disclosure is not rendered on About, but its archived source and original PDF must remain. See `docs/official-profile/REVIEW.md`.
 
 - Red `#B01C20`, dark red `#8F161B`, paper `#FAF8F5`, text `#1D1D1F`. Use red as an accent with generous whitespace.
 - Preserve `public/images/brand/csal-logo.jpg`. Never redraw, replace or reinterpret the official logo.
