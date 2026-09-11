@@ -121,6 +121,8 @@ Use official sources for city, university, healthcare, administration and transp
 
 Create paired files under `src/content/news/zh/` and `en/`. Required fields: `lang`, `key`, `title`, `summary`, `date` (ISO), `category`. Optional: `sample: true`, `draft: true`. Add Markdown below the closing `---`. Posts appear in date order on the homepage and `/news/`. Sample posts remain labeled and are excluded from indexing.
 
+For a summary of an external notice, add both `sourceName` (the original issuing organization, translated for the page language) and `sourceUrl` (the canonical HTTP(S) article URL). These fields are optional for CSAL's own updates; supplying only one is rejected. The article displays the source, a visible original-notice link and a label explaining that CSAL is sharing a summary. English summaries are explicitly unofficial translations. Preserve the exact original Chinese title and translate it faithfully for the English entry. Use the confirmed source publication timestamp in `date`; sourced articles label its display as Belgium time. Keep the body concise, attribute advice to its issuer, and classify safety notices under news, not events. See [the safety-notice import review](docs/news/safety-notice-2026.md) for source evidence and editorial decisions.
+
 ## Team, partners, social links and organization facts
 
 - **Team:** edit `src/data/team.ts`. Add bilingual names, roles, optional bios/images only after verification and consent. Replace the placeholder when ready.
