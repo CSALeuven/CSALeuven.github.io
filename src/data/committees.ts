@@ -1,0 +1,126 @@
+/** Names only. Never add roles, profiles, romanizations, photos or contact fields. */
+export interface Committee {
+  year: number;
+  current: boolean;
+  members: string[];
+  sourceTitle: string;
+  sourceUrl: string;
+}
+
+// The current committee is explicitly selected; never infer it from the calendar year.
+export const committees: Committee[] = [
+  {
+    "year": 2025,
+    "current": true,
+    "members": [
+      "任可权",
+      "张钰雯",
+      "简敬一",
+      "仲韩啸",
+      "徐祥超",
+      "朱家安",
+      "洪艺萍",
+      "邢孝南"
+    ],
+    "sourceTitle": "新程接力，薪火相传 | 2025年鲁汶学联换届公示",
+    "sourceUrl": "https://mp.weixin.qq.com/s?__biz=MzYzOTAyMjI4MQ==&mid=2247495140&idx=1&sn=9333fd0c629448d891f02ff5ee1ef2b2"
+  },
+  {
+    "year": 2024,
+    "current": false,
+    "members": [
+      "张钰雯",
+      "史晓姣",
+      "简敬一",
+      "仲韩啸",
+      "张天",
+      "徐祥超",
+      "朱家安",
+      "任可权",
+      "郝伟"
+    ],
+    "sourceTitle": "新程接力，薪火相传 | 2024年鲁汶学联换届公示",
+    "sourceUrl": "https://mp.weixin.qq.com/s?__biz=MzYzOTAyMjI4MQ==&mid=2247495067&idx=1&sn=48d2f3b452aa00821ab00ccb343f87b4"
+  },
+  {
+    "year": 2023,
+    "current": false,
+    "members": [
+      "黄文平",
+      "张钰雯",
+      "骆煌霖",
+      "贺梓铉",
+      "周双妮",
+      "李倩雯"
+    ],
+    "sourceTitle": "2023年度鲁汶学联换届公示及增选通知",
+    "sourceUrl": "https://mp.weixin.qq.com/s?__biz=MzYzOTAyMjI4MQ==&mid=2247494977&idx=1&sn=8d5fbb75a1bbf074d0ef16353e97c991"
+  },
+  {
+    "year": 2022,
+    "current": false,
+    "members": [
+      "黄文平",
+      "常育铭",
+      "贺梓铉",
+      "辛欣然",
+      "张钰雯",
+      "韩雅秋",
+      "胡明威",
+      "孔艺茹",
+      "骆煌霖",
+      "王雨婷",
+      "席英硕",
+      "杨卓奇",
+      "张安琪",
+      "吴立芬"
+    ],
+    "sourceTitle": "2022年度鲁汶学联换届公示",
+    "sourceUrl": "https://mp.weixin.qq.com/s?__biz=MzYzOTAyMjI4MQ==&mid=2247494906&idx=1&sn=fda189f7eaeb0b8d3871d09aaeab42b5"
+  },
+  {
+    "year": 2021,
+    "current": false,
+    "members": [
+      "陈立毅",
+      "常育铭",
+      "王志刚",
+      "高千童"
+    ],
+    "sourceTitle": "2021年度鲁汶学联·换届公示及增选公告",
+    "sourceUrl": "https://mp.weixin.qq.com/s?__biz=MzYzOTAyMjI4MQ==&mid=2247494809&idx=1&sn=04d401e58b557c5f3889a6f20b098508"
+  },
+  {
+    "year": 2020,
+    "current": false,
+    "members": [
+      "麻宏阳",
+      "张欣",
+      "吴婧苑",
+      "阳欢",
+      "张紫璇",
+      "张立婷",
+      "吴璇",
+      "高千童",
+      "余思晴"
+    ],
+    "sourceTitle": "2020届鲁汶学联换届公示",
+    "sourceUrl": "https://mp.weixin.qq.com/s?__biz=MzYzOTAyMjI4MQ==&mid=2247494704&idx=1&sn=4161bc83592b9008977c8c20cdc3267a"
+  },
+  {
+    "year": 2019,
+    "current": false,
+    "members": [
+      "梁博深",
+      "张紫璇",
+      "胡小华",
+      "麻宏阳",
+      "赵哲",
+      "宋祉祺",
+      "吴婧苑",
+      "张立婷"
+    ],
+    "sourceTitle": "2019届鲁汶学联换届公示",
+    "sourceUrl": "https://mp.weixin.qq.com/s?__biz=MzYzOTAyMjI4MQ==&mid=2247494608&idx=2&sn=d4f55e702faae1a4d46fe25b1ba14991"
+  }
+];
