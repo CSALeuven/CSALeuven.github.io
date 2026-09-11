@@ -13,7 +13,7 @@ const { lang } = Astro.props as { lang: Lang };
   </div>
   <div class="hero-art" aria-label={t(lang, 'CSAL 鲁汶学联品牌展示', 'CSAL Leuven brand panel')}>
     <div class="art-top"><span>CSAL / LEUVEN</span><span>你好，鲁汶。</span></div>
-    <div class="logo-mat"><img src={site.logo} width="551" height="570" alt="CSAL 鲁汶中国学生学者联合会 logo" /></div>
+    <div class="logo-mat"><img src={site.logo} width="551" height="570" alt={`${site.shortNames.en} ${site.officialNames.zh} logo`} /></div>
     <div class="art-bottom"><span class="art-caption">A little closer<br /><i>to home.</i></span><span class="art-caption-small">STUDENTS.<br />SCHOLARS.<br />COMMUNITY.</span></div>
   </div>
 </section>

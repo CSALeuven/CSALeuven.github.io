@@ -1,6 +1,6 @@
 # CSAL · 鲁汶学联
 
-Bilingual official website for **鲁汶中国学生学者联合会 — Chinese Students and Scholars Association Leuven**.
+Bilingual official website for **鲁汶中国学生学者联合会 — Chinese Students and Scholars Association in Leuven**.
 
 **Production:** https://csaleuven.github.io/
 
@@ -19,7 +19,7 @@ Edit Markdown for routine updates and data files for association details. Add bo
 Use Node.js **24 LTS** (or >=22.12) and npm >=9.6.5.
 
 ```sh
-npm install
+npm ci
 npm run dev
 ```
 
@@ -44,6 +44,7 @@ On managed Windows devices, organizational policy may block esbuild. Do not disa
 | `src/content/news/{zh,en}/` | Updates |
 | `src/content.config.ts` | Validated content schemas |
 | `src/data/site.ts` | Identity, email, social URLs, asset paths |
+| `src/data/about.ts` | Confirmed mission/responsibilities and separate homepage summaries |
 | `src/data/committees.ts` | Current and historical committee names |
 | `src/data/partners.ts` | Partners and approved logos |
 | `src/lib/` | Translation helpers and content/date queries |
@@ -128,7 +129,8 @@ For a summary of an external notice, add both `sourceName` (the original issuing
 - **Committees:** edit `src/data/committees.ts`. Members are plain Chinese name strings, identical in both languages. Publish names only: no roles, departments, biographies, romanizations, photos or contacts. The 2025 source defines the current team; change the explicit `current` marker only after a new team is confirmed, never from the calendar year. See [committee history maintenance](docs/committee-history/MAINTENANCE.md) and the [extraction review](docs/committee-history/REVIEW.md).
 - **Partners:** edit `src/data/partners.ts`. Add confirmed bilingual name/category, an approved logo path and optional official URL; set `placeholder: false`. Placeholder slots indicate no actual partnership.
 - **Social links / email:** edit `src/data/site.ts` only. Email stays `null` until an official address is verified; setting it enables the email CTA. URLs must not be repeated in UI components.
-- **About / history:** update both language strings in `src/views/About.astro` with verified information. Ask the committee to review the provisional mission and independence disclaimer.
+- **Official profile:** canonical Chinese, English and Dutch names and short names live in `src/data/site.ts`; `site.name` and `site.shortName` remain compatibility aliases. The committee-confirmed Chinese mission and four responsibilities live in `src/data/about.ts`. Preserve their complete wording, punctuation and numbering; headings and homepage summaries are separate display/editorial copy. English is a faithful translation. Changes to the formal Chinese source require newly confirmed wording, not copyediting. See [source and maintenance notes](docs/official-profile/REVIEW.md).
+- **About / history:** `src/views/About.astro` presents the official profile before the unchanged committee lists. Keep the KU Leuven independence disclaimer. Dutch is name reference information only; public routes remain Chinese and English. The removed 2024 About disclosure remains archived in `src/content/handbook-notes/about.md`, and the original handbook PDF is preserved. Founding details and other milestones still require confirmation.
 
 ## Images and official asset protection
 

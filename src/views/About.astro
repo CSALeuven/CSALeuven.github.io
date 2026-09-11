@@ -2,20 +2,79 @@
 import PageIntro from '../components/PageIntro.astro';
 import CommitteeHistory from '../components/CommitteeHistory.astro';
 import { site } from '../data/site';
+import { mission, responsibilities } from '../data/about';
 import { href, t, type Lang } from '../lib/i18n';
-import { Content as HandbookAbout } from '../content/handbook-notes/about.md';
 const { lang } = Astro.props as { lang: Lang };
-const missions = [
- [t(lang,'同学支持','Student support'),t(lang,'分享有用信息，为相互帮助留出空间。','Sharing useful information and creating space for mutual support.')],
- [t(lang,'社区活动','Community events'),t(lang,'让同学有机会认识彼此，交流经验。','Opportunities to meet fellow students and exchange experiences.')],
- [t(lang,'文化交流','Cultural exchange'),t(lang,'分享不同的故事，理解多元的校园生活。','Sharing stories and perspectives across a diverse campus community.')],
- [t(lang,'新生协助','New-student assistance'),t(lang,'整理可靠的入门资源，帮助新同学找到方向。','Organising reliable starting points for students finding their way.')],
- [t(lang,'校园连接','Campus connection'),t(lang,'连接同学、校园与鲁汶生活的信息入口。','Connecting students with information about campus and life in Leuven.')],
-];
+const names = [
+  { key: 'zh', language: 'zh-CN', label: t(lang, '中文', 'Chinese'), shortLabel: t(lang, '简称：', 'Short name: ') },
+  { key: 'en', language: 'en', label: 'English', shortLabel: 'Abbreviation: ' },
+  { key: 'nl', language: 'nl', label: t(lang, 'Nederlands', 'Dutch'), shortLabel: t(lang, 'Afkorting: ', 'Abbreviation: ') },
+] as const;
 ---
-<PageIntro lang={lang} eyebrow="ABOUT CSAL / 关于学联" title={t(lang,'连接你我，连接鲁汶。','Connecting people. Connecting Leuven.')} description={site.name[lang]} />
-<section class="container page-section about-intro"><div class="about-logo"><img src={site.logo} width="551" height="570" alt="CSAL 鲁汶中国学生学者联合会 logo" /></div><div><h2>{t(lang,'在异乡，也有同行的人。','A community along the way.')}</h2><p>{t(lang,'CSAL 是鲁汶中国学生学者联合会。在这里，我们希望让中国学生与学者更容易认识彼此、分享经验，并参与校园与城市生活。','CSAL is the Chinese Students and Scholars Association Leuven. We aim to make it easier for Chinese students and scholars to meet, share experiences and connect with campus and city life.')}</p><p>{site.disclaimer[lang]}</p><p class="resource-note">{t(lang,'协会详细介绍与正式使命表述待委员会确认。','The detailed association profile and formal mission statement are awaiting committee confirmation.')}</p></div></section>
-<section class="container page-section"><div class="subheading"><h2>{t(lang,'我们希望做的事','Our areas of focus')}</h2></div><div class="focus-grid">{missions.map(([title,copy],i)=><article><span class="guide-number">0{i+1}</span><h3>{title}</h3><p>{copy}</p></article>)}</div></section>
+<PageIntro lang={lang} eyebrow="ABOUT CSAL / 关于学联" title={t(lang,'连接你我，连接鲁汶。','Connecting people. Connecting Leuven.')} description={site.officialNames[lang]} />
+
+<section class="container page-section" aria-labelledby="organization-name">
+  <div class="subheading"><h2 id="organization-name">{t(lang, '学联名称', 'Organization Name')}</h2></div>
+  <div class="about-intro">
+    <div class="about-logo"><img src={site.logo} width="551" height="570" alt={`${site.shortNames.en} ${site.officialNames.zh} logo`} /></div>
+    <dl class="official-names">
+      {names.map(name => <div>
+        <dt>{name.label}</dt>
+        <dd><p class="official-name" lang={name.language}>{site.officialNames[name.key]}</p><p class="short-name">{name.shortLabel}<span lang={name.language}>{site.shortNames[name.key]}</span></p></dd>
+      </div>)}
+    </dl>
+  </div>
+</section>
+
+<section class="container page-section" aria-labelledby="our-mission">
+  <div class="subheading"><h2 id="our-mission">{t(lang, '学联宗旨', 'Our Mission')}</h2></div>
+  <p class="formal-copy" data-official-mission>{mission[lang]}</p>
+  <p class="resource-note independence-note">{site.disclaimer[lang]}</p>
+</section>
+
+<section class="container page-section" aria-labelledby="core-responsibilities">
+  <div class="subheading"><h2 id="core-responsibilities">{t(lang, '基本任务', 'Core Responsibilities')}</h2></div>
+  <ol class="responsibilities">
+    {responsibilities.map(item => <li>
+      <span class="responsibility-number" aria-hidden="true">{item.number}</span>
+      <h3>{item.heading[lang]}</h3>
+      <p data-official-responsibility={item.number}>{item.text[lang]}</p>
+    </li>)}
+  </ol>
+</section>
+
 <CommitteeHistory lang={lang} />
-<section class="container page-section history-section"><div><p class="eyebrow section-eyebrow">OUR STORY / 学联历程</p><h2>{t(lang,'共同写下的故事。','A story written together.')}</h2></div><div><p>{t(lang,'历届成员名录见上方。创立时间与其他重要历程仍在核实，将在确认后补充。','Committee names are listed above. Founding details and other milestones are awaiting verification.')}</p><a class="text-link" href={href(lang,'contact')}>{t(lang,'与我们联系','Get in touch')}<span aria-hidden="true">→</span></a></div></section>
-<section class="container page-section"><details class="notice"><summary>{t(lang,'阅读 2024 手册中的学联历史介绍（待复核）','Read the historical CSAL profile from the 2024 handbook (awaiting review)')}</summary>{lang==='en'&&<p>The historical source below is in Chinese. A reviewed English translation is pending.</p>}<div class="prose" lang="zh-CN"><HandbookAbout /></div></details></section>
+
+<section class="container page-section history-section" aria-labelledby="our-story">
+  <div><p class="eyebrow section-eyebrow">OUR STORY / 学联历程</p><h2 id="our-story">{t(lang,'共同写下的故事。','A story written together.')}</h2></div>
+  <div><p>{t(lang,'历届成员名录见上方。创立时间与其他重要历程仍在核实，将在确认后补充。','Committee names are listed above. Founding details and other milestones are awaiting verification.')}</p><a class="text-link" href={href(lang,'contact')}>{t(lang,'与我们联系','Get in touch')}<span aria-hidden="true">→</span></a></div>
+</section>
+
+<style>
+  .official-names { margin: 0; min-width: 0; }
+  .official-names > div { display: grid; grid-template-columns: 100px minmax(0, 1fr); gap: 24px; padding: 21px 0; }
+  .official-names > div + div { border-top: 1px solid var(--line); }
+  .official-names dt { color: var(--muted); font-size: 14px; padding-top: 5px; }
+  .official-names dd { margin: 0; min-width: 0; }
+  .official-name { font-size: 21px; line-height: 1.55; }
+  .short-name { font-size: 14px; color: var(--muted); margin-top: 8px; }
+  .formal-copy { max-width: 76ch; font-size: 18px; line-height: 1.95; }
+  .independence-note { max-width: 90ch; margin-top: 24px; }
+  .responsibilities { list-style: none; margin: 0; padding: 0; }
+  .responsibilities li { display: grid; grid-template-columns: 44px minmax(190px, .7fr) minmax(0, 1.7fr); gap: 26px; padding: 26px 0; }
+  .responsibilities li + li { border-top: 1px solid var(--line); }
+  .responsibility-number { color: var(--red); font: 20px/1.6 var(--serif); }
+  .responsibilities h3 { font-size: 20px; font-weight: 600; line-height: 1.6; }
+  .responsibilities p { max-width: 76ch; font-size: 17px; line-height: 1.9; }
+  @media (max-width: 1023px) {
+    .official-names > div { grid-template-columns: 1fr; gap: 7px; }
+    .responsibilities li { grid-template-columns: 36px minmax(160px, .7fr) minmax(0, 1.7fr); gap: 18px; }
+  }
+  @media (max-width: 767px) {
+    .official-name { font-size: 19px; }
+    .formal-copy { font-size: 17px; }
+    .responsibilities li { grid-template-columns: 32px minmax(0, 1fr); gap: 12px 16px; padding: 23px 0; }
+    .responsibilities h3 { font-size: 19px; }
+    .responsibilities p { grid-column: 2; }
+  }
+</style>
