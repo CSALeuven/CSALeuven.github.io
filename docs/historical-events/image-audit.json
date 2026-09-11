@@ -1,0 +1,702 @@
+{
+  "sourceImageReferenceCount": 85,
+  "selectedPhotoCount": 24,
+  "selectedPhotoBytes": 2457388,
+  "downloadedSelectedPhotos": 17,
+  "locallyReusedPhotos": 7,
+  "downloadedOgInspectionCandidates": 4,
+  "totalSuccessfulDownloads": 21,
+  "unresolvedDownloadFailures": 0,
+  "excludedSourceReferences": 61,
+  "decorativeUiSponsorReferences": 31,
+  "duplicatePollThumbnailReferences": 9,
+  "otherExcludedPhotoCandidates": 21,
+  "policy": "Original bytes, framing and source watermarks preserved. No face identification. Exclusion counts refer to body image references, not additional OG requests. Decorative classification includes source-context candidates, not all visually inspected.",
+  "articles": [
+    {
+      "sourceArticleNumber": 1,
+      "sourceTitle": "鲁汶学联漆扇与剪纸活动回顾",
+      "counts": {
+        "source_image_references": 11,
+        "unique_photo_candidates": 9,
+        "duplicate_poll_photo_references": 0,
+        "decorative_references": 2,
+        "selected_photos": 6,
+        "excluded_references": 5,
+        "download_failures": 0,
+        "reused_local": 3,
+        "downloaded": 3
+      },
+      "ogCoverStatus": null,
+      "images": [
+        {
+          "sourceImageIndex": 1,
+          "selected": false,
+          "kind": "decor",
+          "classificationBasis": "visually_verified_decor",
+          "reason": "Decorative article layout image, banner, icon, logo or sponsor graphic; no event photo selected."
+        },
+        {
+          "sourceImageIndex": 2,
+          "selected": true,
+          "kind": "photo",
+          "classificationBasis": "visually_verified_photo",
+          "reason": "Representative source event photo; byte-for-byte reuse avoids unnecessary recompression."
+        },
+        {
+          "sourceImageIndex": 3,
+          "selected": true,
+          "kind": "photo",
+          "classificationBasis": "visually_verified_photo",
+          "reason": "Representative source event photo; byte-for-byte reuse avoids unnecessary recompression."
+        },
+        {
+          "sourceImageIndex": 4,
+          "selected": true,
+          "kind": "photo",
+          "classificationBasis": "visually_verified_photo",
+          "reason": "Representative source event photo; byte-for-byte reuse avoids unnecessary recompression."
+        },
+        {
+          "sourceImageIndex": 5,
+          "selected": false,
+          "kind": "decor",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Decorative article layout image, banner, icon, logo or sponsor graphic; no event photo selected."
+        },
+        {
+          "sourceImageIndex": 6,
+          "selected": true,
+          "kind": "photo",
+          "classificationBasis": "visually_verified_photo",
+          "reason": "Representative source event photo; byte-for-byte reuse avoids unnecessary recompression."
+        },
+        {
+          "sourceImageIndex": 7,
+          "selected": true,
+          "kind": "photo",
+          "classificationBasis": "visually_verified_photo",
+          "reason": "Representative source event photo; byte-for-byte reuse avoids unnecessary recompression."
+        },
+        {
+          "sourceImageIndex": 8,
+          "selected": false,
+          "kind": "photo",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Source event-photo candidate unavailable locally; not downloaded unless chosen for the representative shortlist."
+        },
+        {
+          "sourceImageIndex": 9,
+          "selected": true,
+          "kind": "photo",
+          "classificationBasis": "visually_verified_photo",
+          "reason": "Representative source event photo; byte-for-byte reuse avoids unnecessary recompression."
+        },
+        {
+          "sourceImageIndex": 10,
+          "selected": false,
+          "kind": "photo",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Source event-photo candidate unavailable locally; not downloaded unless chosen for the representative shortlist."
+        },
+        {
+          "sourceImageIndex": 11,
+          "selected": false,
+          "kind": "photo",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Source event-photo candidate unavailable locally; not downloaded unless chosen for the representative shortlist."
+        }
+      ]
+    },
+    {
+      "sourceArticleNumber": 2,
+      "sourceTitle": "鲁汶学联漫步那慕尔：友谊与探索之旅",
+      "counts": {
+        "source_image_references": 9,
+        "unique_photo_candidates": 7,
+        "duplicate_poll_photo_references": 0,
+        "decorative_references": 2,
+        "selected_photos": 7,
+        "excluded_references": 2,
+        "download_failures": 0,
+        "reused_local": 2,
+        "downloaded": 5
+      },
+      "ogCoverStatus": null,
+      "images": [
+        {
+          "sourceImageIndex": 1,
+          "selected": false,
+          "kind": "decor",
+          "classificationBasis": "visually_verified_decor",
+          "reason": "Decorative article layout image, banner, icon, logo or sponsor graphic; no event photo selected."
+        },
+        {
+          "sourceImageIndex": 2,
+          "selected": false,
+          "kind": "decor",
+          "classificationBasis": "visually_verified_decor",
+          "reason": "Decorative article layout image, banner, icon, logo or sponsor graphic; no event photo selected."
+        },
+        {
+          "sourceImageIndex": 3,
+          "selected": true,
+          "kind": "photo",
+          "classificationBasis": "visually_verified_photo",
+          "reason": "Representative source event photo; byte-for-byte reuse avoids unnecessary recompression."
+        },
+        {
+          "sourceImageIndex": 4,
+          "selected": true,
+          "kind": "photo",
+          "classificationBasis": "visually_verified_photo",
+          "reason": "Representative source event photo; byte-for-byte reuse avoids unnecessary recompression."
+        },
+        {
+          "sourceImageIndex": 5,
+          "selected": true,
+          "kind": "photo",
+          "classificationBasis": "visually_verified_photo",
+          "reason": "Representative source event photo; byte-for-byte reuse avoids unnecessary recompression."
+        },
+        {
+          "sourceImageIndex": 6,
+          "selected": true,
+          "kind": "photo",
+          "classificationBasis": "visually_verified_photo",
+          "reason": "Representative source event photo; byte-for-byte reuse avoids unnecessary recompression."
+        },
+        {
+          "sourceImageIndex": 7,
+          "selected": true,
+          "kind": "photo",
+          "classificationBasis": "visually_verified_photo",
+          "reason": "Representative source event photo; byte-for-byte reuse avoids unnecessary recompression."
+        },
+        {
+          "sourceImageIndex": 8,
+          "selected": true,
+          "kind": "photo",
+          "classificationBasis": "visually_verified_photo",
+          "reason": "Representative source event photo; byte-for-byte reuse avoids unnecessary recompression."
+        },
+        {
+          "sourceImageIndex": 9,
+          "selected": true,
+          "kind": "photo",
+          "classificationBasis": "visually_verified_photo",
+          "reason": "Representative source event photo; byte-for-byte reuse avoids unnecessary recompression."
+        }
+      ]
+    },
+    {
+      "sourceArticleNumber": 3,
+      "sourceTitle": "青年文化交流会·双人舞派对回顾",
+      "counts": {
+        "source_image_references": 5,
+        "unique_photo_candidates": 3,
+        "duplicate_poll_photo_references": 0,
+        "decorative_references": 2,
+        "selected_photos": 3,
+        "excluded_references": 2,
+        "download_failures": 0,
+        "reused_local": 1,
+        "downloaded": 2
+      },
+      "ogCoverStatus": null,
+      "images": [
+        {
+          "sourceImageIndex": 1,
+          "selected": false,
+          "kind": "decor",
+          "classificationBasis": "visually_verified_decor",
+          "reason": "Decorative article layout image, banner, icon, logo or sponsor graphic; no event photo selected."
+        },
+        {
+          "sourceImageIndex": 2,
+          "selected": true,
+          "kind": "photo",
+          "classificationBasis": "visually_verified_photo",
+          "reason": "Representative source event photo; byte-for-byte reuse avoids unnecessary recompression."
+        },
+        {
+          "sourceImageIndex": 3,
+          "selected": true,
+          "kind": "photo",
+          "classificationBasis": "visually_verified_photo",
+          "reason": "Representative source event photo; byte-for-byte reuse avoids unnecessary recompression."
+        },
+        {
+          "sourceImageIndex": 4,
+          "selected": true,
+          "kind": "photo",
+          "classificationBasis": "visually_verified_photo",
+          "reason": "Representative source event photo; byte-for-byte reuse avoids unnecessary recompression."
+        },
+        {
+          "sourceImageIndex": 5,
+          "selected": false,
+          "kind": "decor",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Decorative article layout image, banner, icon, logo or sponsor graphic; no event photo selected."
+        }
+      ]
+    },
+    {
+      "sourceArticleNumber": 4,
+      "sourceTitle": "欢度元宵节（年夜饭投票开奖啦！）",
+      "counts": {
+        "source_image_references": 40,
+        "unique_photo_candidates": 9,
+        "duplicate_poll_photo_references": 9,
+        "decorative_references": 22,
+        "selected_photos": 0,
+        "excluded_references": 40,
+        "download_failures": 0,
+        "reused_local": 0,
+        "downloaded": 0
+      },
+      "ogCoverStatus": null,
+      "images": [
+        {
+          "sourceImageIndex": 1,
+          "selected": false,
+          "kind": "decor",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Decorative article layout image, banner, icon, logo or sponsor graphic; no event photo selected."
+        },
+        {
+          "sourceImageIndex": 2,
+          "selected": false,
+          "kind": "decor",
+          "classificationBasis": "visually_verified_decor",
+          "reason": "Decorative article layout image, banner, icon, logo or sponsor graphic; no event photo selected."
+        },
+        {
+          "sourceImageIndex": 3,
+          "selected": false,
+          "kind": "decor",
+          "classificationBasis": "visually_verified_decor",
+          "reason": "Decorative article layout image, banner, icon, logo or sponsor graphic; no event photo selected."
+        },
+        {
+          "sourceImageIndex": 4,
+          "selected": false,
+          "kind": "decor",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Decorative article layout image, banner, icon, logo or sponsor graphic; no event photo selected."
+        },
+        {
+          "sourceImageIndex": 5,
+          "selected": false,
+          "kind": "decor",
+          "classificationBasis": "visually_verified_decor",
+          "reason": "Decorative article layout image, banner, icon, logo or sponsor graphic; no event photo selected."
+        },
+        {
+          "sourceImageIndex": 6,
+          "selected": false,
+          "kind": "decor",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Decorative article layout image, banner, icon, logo or sponsor graphic; no event photo selected."
+        },
+        {
+          "sourceImageIndex": 7,
+          "selected": false,
+          "kind": "decor",
+          "classificationBasis": "visually_verified_decor",
+          "reason": "Decorative article layout image, banner, icon, logo or sponsor graphic; no event photo selected."
+        },
+        {
+          "sourceImageIndex": 8,
+          "selected": false,
+          "kind": "decor",
+          "classificationBasis": "visually_verified_decor",
+          "reason": "Decorative article layout image, banner, icon, logo or sponsor graphic; no event photo selected."
+        },
+        {
+          "sourceImageIndex": 9,
+          "selected": false,
+          "kind": "decor",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Decorative article layout image, banner, icon, logo or sponsor graphic; no event photo selected."
+        },
+        {
+          "sourceImageIndex": 10,
+          "selected": false,
+          "kind": "decor",
+          "classificationBasis": "visually_verified_decor",
+          "reason": "Decorative article layout image, banner, icon, logo or sponsor graphic; no event photo selected."
+        },
+        {
+          "sourceImageIndex": 11,
+          "selected": false,
+          "kind": "decor",
+          "classificationBasis": "visually_verified_decor",
+          "reason": "Decorative article layout image, banner, icon, logo or sponsor graphic; no event photo selected."
+        },
+        {
+          "sourceImageIndex": 12,
+          "selected": false,
+          "kind": "decor",
+          "classificationBasis": "visually_verified_decor",
+          "reason": "Decorative article layout image, banner, icon, logo or sponsor graphic; no event photo selected."
+        },
+        {
+          "sourceImageIndex": 13,
+          "selected": false,
+          "kind": "decor",
+          "classificationBasis": "visually_verified_decor",
+          "reason": "Decorative article layout image, banner, icon, logo or sponsor graphic; no event photo selected."
+        },
+        {
+          "sourceImageIndex": 14,
+          "selected": false,
+          "kind": "decor",
+          "classificationBasis": "visually_verified_decor",
+          "reason": "Decorative article layout image, banner, icon, logo or sponsor graphic; no event photo selected."
+        },
+        {
+          "sourceImageIndex": 15,
+          "selected": false,
+          "kind": "decor",
+          "classificationBasis": "visually_verified_decor",
+          "reason": "Decorative article layout image, banner, icon, logo or sponsor graphic; no event photo selected."
+        },
+        {
+          "sourceImageIndex": 16,
+          "selected": false,
+          "kind": "decor",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Decorative article layout image, banner, icon, logo or sponsor graphic; no event photo selected."
+        },
+        {
+          "sourceImageIndex": 17,
+          "selected": false,
+          "kind": "decor",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Decorative article layout image, banner, icon, logo or sponsor graphic; no event photo selected."
+        },
+        {
+          "sourceImageIndex": 18,
+          "selected": false,
+          "kind": "photo",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Source event-photo candidate unavailable locally; not downloaded unless chosen for the representative shortlist."
+        },
+        {
+          "sourceImageIndex": 19,
+          "selected": false,
+          "kind": "photo",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Source event-photo candidate unavailable locally; not downloaded unless chosen for the representative shortlist."
+        },
+        {
+          "sourceImageIndex": 20,
+          "selected": false,
+          "kind": "photo",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Source event-photo candidate unavailable locally; not downloaded unless chosen for the representative shortlist."
+        },
+        {
+          "sourceImageIndex": 21,
+          "selected": false,
+          "kind": "photo",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Source event-photo candidate unavailable locally; not downloaded unless chosen for the representative shortlist."
+        },
+        {
+          "sourceImageIndex": 22,
+          "selected": false,
+          "kind": "photo",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Source event-photo candidate unavailable locally; not downloaded unless chosen for the representative shortlist."
+        },
+        {
+          "sourceImageIndex": 23,
+          "selected": false,
+          "kind": "photo",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Source event-photo candidate unavailable locally; not downloaded unless chosen for the representative shortlist."
+        },
+        {
+          "sourceImageIndex": 24,
+          "selected": false,
+          "kind": "photo",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Source event-photo candidate unavailable locally; not downloaded unless chosen for the representative shortlist."
+        },
+        {
+          "sourceImageIndex": 25,
+          "selected": false,
+          "kind": "photo",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Source event-photo candidate unavailable locally; not downloaded unless chosen for the representative shortlist."
+        },
+        {
+          "sourceImageIndex": 26,
+          "selected": false,
+          "kind": "photo",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Source event-photo candidate unavailable locally; not downloaded unless chosen for the representative shortlist."
+        },
+        {
+          "sourceImageIndex": 27,
+          "selected": false,
+          "kind": "decor",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Decorative article layout image, banner, icon, logo or sponsor graphic; no event photo selected."
+        },
+        {
+          "sourceImageIndex": 28,
+          "selected": false,
+          "kind": "photo",
+          "classificationBasis": "duplicate_vote_thumbnail_from_source_context",
+          "reason": "Poll thumbnail duplicates one of the nine dinner submissions; article 4 held and no assets requested."
+        },
+        {
+          "sourceImageIndex": 29,
+          "selected": false,
+          "kind": "photo",
+          "classificationBasis": "duplicate_vote_thumbnail_from_source_context",
+          "reason": "Poll thumbnail duplicates one of the nine dinner submissions; article 4 held and no assets requested."
+        },
+        {
+          "sourceImageIndex": 30,
+          "selected": false,
+          "kind": "photo",
+          "classificationBasis": "duplicate_vote_thumbnail_from_source_context",
+          "reason": "Poll thumbnail duplicates one of the nine dinner submissions; article 4 held and no assets requested."
+        },
+        {
+          "sourceImageIndex": 31,
+          "selected": false,
+          "kind": "photo",
+          "classificationBasis": "duplicate_vote_thumbnail_from_source_context",
+          "reason": "Poll thumbnail duplicates one of the nine dinner submissions; article 4 held and no assets requested."
+        },
+        {
+          "sourceImageIndex": 32,
+          "selected": false,
+          "kind": "photo",
+          "classificationBasis": "duplicate_vote_thumbnail_from_source_context",
+          "reason": "Poll thumbnail duplicates one of the nine dinner submissions; article 4 held and no assets requested."
+        },
+        {
+          "sourceImageIndex": 33,
+          "selected": false,
+          "kind": "photo",
+          "classificationBasis": "duplicate_vote_thumbnail_from_source_context",
+          "reason": "Poll thumbnail duplicates one of the nine dinner submissions; article 4 held and no assets requested."
+        },
+        {
+          "sourceImageIndex": 34,
+          "selected": false,
+          "kind": "photo",
+          "classificationBasis": "duplicate_vote_thumbnail_from_source_context",
+          "reason": "Poll thumbnail duplicates one of the nine dinner submissions; article 4 held and no assets requested."
+        },
+        {
+          "sourceImageIndex": 35,
+          "selected": false,
+          "kind": "photo",
+          "classificationBasis": "duplicate_vote_thumbnail_from_source_context",
+          "reason": "Poll thumbnail duplicates one of the nine dinner submissions; article 4 held and no assets requested."
+        },
+        {
+          "sourceImageIndex": 36,
+          "selected": false,
+          "kind": "photo",
+          "classificationBasis": "duplicate_vote_thumbnail_from_source_context",
+          "reason": "Poll thumbnail duplicates one of the nine dinner submissions; article 4 held and no assets requested."
+        },
+        {
+          "sourceImageIndex": 37,
+          "selected": false,
+          "kind": "decor",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Decorative article layout image, banner, icon, logo or sponsor graphic; no event photo selected."
+        },
+        {
+          "sourceImageIndex": 38,
+          "selected": false,
+          "kind": "decor",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Decorative article layout image, banner, icon, logo or sponsor graphic; no event photo selected."
+        },
+        {
+          "sourceImageIndex": 39,
+          "selected": false,
+          "kind": "decor",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Decorative article layout image, banner, icon, logo or sponsor graphic; no event photo selected."
+        },
+        {
+          "sourceImageIndex": 40,
+          "selected": false,
+          "kind": "decor",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Decorative article layout image, banner, icon, logo or sponsor graphic; no event photo selected."
+        }
+      ]
+    },
+    {
+      "sourceArticleNumber": 5,
+      "sourceTitle": "2026全比利时鲁汶学联杯乒乓球公开赛圆满结束！",
+      "counts": {
+        "source_image_references": 20,
+        "unique_photo_candidates": 17,
+        "duplicate_poll_photo_references": 0,
+        "decorative_references": 3,
+        "selected_photos": 8,
+        "excluded_references": 12,
+        "download_failures": 0,
+        "reused_local": 1,
+        "downloaded": 7
+      },
+      "ogCoverStatus": null,
+      "images": [
+        {
+          "sourceImageIndex": 1,
+          "selected": false,
+          "kind": "decor",
+          "classificationBasis": "visually_verified_decor",
+          "reason": "Decorative article layout image, banner, icon, logo or sponsor graphic; no event photo selected."
+        },
+        {
+          "sourceImageIndex": 2,
+          "selected": true,
+          "kind": "photo",
+          "classificationBasis": "visually_verified_photo",
+          "reason": "Representative source event photo; byte-for-byte reuse avoids unnecessary recompression."
+        },
+        {
+          "sourceImageIndex": 3,
+          "selected": false,
+          "kind": "photo",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Source event-photo candidate unavailable locally; not downloaded unless chosen for the representative shortlist."
+        },
+        {
+          "sourceImageIndex": 4,
+          "selected": true,
+          "kind": "photo",
+          "classificationBasis": "visually_verified_photo",
+          "reason": "Representative source event photo; byte-for-byte reuse avoids unnecessary recompression."
+        },
+        {
+          "sourceImageIndex": 5,
+          "selected": false,
+          "kind": "photo",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Source event-photo candidate unavailable locally; not downloaded unless chosen for the representative shortlist."
+        },
+        {
+          "sourceImageIndex": 6,
+          "selected": false,
+          "kind": "photo",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Source event-photo candidate unavailable locally; not downloaded unless chosen for the representative shortlist."
+        },
+        {
+          "sourceImageIndex": 7,
+          "selected": false,
+          "kind": "photo",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Source event-photo candidate unavailable locally; not downloaded unless chosen for the representative shortlist."
+        },
+        {
+          "sourceImageIndex": 8,
+          "selected": true,
+          "kind": "photo",
+          "classificationBasis": "visually_verified_photo",
+          "reason": "Representative source event photo; byte-for-byte reuse avoids unnecessary recompression."
+        },
+        {
+          "sourceImageIndex": 9,
+          "selected": false,
+          "kind": "photo",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Source event-photo candidate unavailable locally; not downloaded unless chosen for the representative shortlist."
+        },
+        {
+          "sourceImageIndex": 10,
+          "selected": true,
+          "kind": "photo",
+          "classificationBasis": "visually_verified_photo",
+          "reason": "Representative source event photo; byte-for-byte reuse avoids unnecessary recompression."
+        },
+        {
+          "sourceImageIndex": 11,
+          "selected": false,
+          "kind": "photo",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Source event-photo candidate unavailable locally; not downloaded unless chosen for the representative shortlist."
+        },
+        {
+          "sourceImageIndex": 12,
+          "selected": true,
+          "kind": "photo",
+          "classificationBasis": "visually_verified_photo",
+          "reason": "Representative source event photo; byte-for-byte reuse avoids unnecessary recompression."
+        },
+        {
+          "sourceImageIndex": 13,
+          "selected": false,
+          "kind": "photo",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Source event-photo candidate unavailable locally; not downloaded unless chosen for the representative shortlist."
+        },
+        {
+          "sourceImageIndex": 14,
+          "selected": false,
+          "kind": "photo",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Source event-photo candidate unavailable locally; not downloaded unless chosen for the representative shortlist."
+        },
+        {
+          "sourceImageIndex": 15,
+          "selected": false,
+          "kind": "photo",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Source event-photo candidate unavailable locally; not downloaded unless chosen for the representative shortlist."
+        },
+        {
+          "sourceImageIndex": 16,
+          "selected": true,
+          "kind": "photo",
+          "classificationBasis": "visually_verified_photo",
+          "reason": "Representative source event photo; byte-for-byte reuse avoids unnecessary recompression."
+        },
+        {
+          "sourceImageIndex": 17,
+          "selected": true,
+          "kind": "photo",
+          "classificationBasis": "visually_verified_photo",
+          "reason": "Representative source event photo; byte-for-byte reuse avoids unnecessary recompression."
+        },
+        {
+          "sourceImageIndex": 18,
+          "selected": true,
+          "kind": "photo",
+          "classificationBasis": "visually_verified_photo",
+          "reason": "Representative source event photo; byte-for-byte reuse avoids unnecessary recompression."
+        },
+        {
+          "sourceImageIndex": 19,
+          "selected": false,
+          "kind": "decor",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Decorative article layout image, banner, icon, logo or sponsor graphic; no event photo selected."
+        },
+        {
+          "sourceImageIndex": 20,
+          "selected": false,
+          "kind": "decor",
+          "classificationBasis": "candidate_from_source_context",
+          "reason": "Decorative article layout image, banner, icon, logo or sponsor graphic; no event photo selected."
+        }
+      ]
+    }
+  ]
+}

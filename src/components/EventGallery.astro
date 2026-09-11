@@ -1,0 +1,6 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { t, type Lang } from '../lib/i18n';
+const { photos, lang } = Astro.props as { photos: CollectionEntry<'events'>['data']['gallery']; lang: Lang };
+---
+{photos.length > 0 && <section class="event-gallery" aria-labelledby="gallery-heading"><h2 id="gallery-heading">{t(lang,'精彩瞬间','In pictures')}</h2><div class="event-photo-grid">{photos.map(photo => <figure><a href={photo.src} target="_blank" rel="noopener noreferrer" aria-label={t(lang,`查看原图：${photo.alt}（新标签页）`,`View full image: ${photo.alt} (new tab)`)}><img src={photo.src} alt={photo.alt} width={photo.width} height={photo.height} loading="lazy" decoding="async" /></a></figure>)}</div></section>}

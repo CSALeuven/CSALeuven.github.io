@@ -2,7 +2,7 @@ name: Build and deploy CSAL
 
 on:
   push:
-    branches: [main, csal-v1, handbook-2024]
+    branches: [main, csal-v1, handbook-2024, historical-events-import]
   pull_request:
     branches: [main]
   workflow_dispatch:

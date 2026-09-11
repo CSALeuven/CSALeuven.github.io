@@ -87,9 +87,9 @@ draft: true
 Add verified programme, audience, access and participation details.
 ```
 
-Optional: `coverImage: /images/events/photo.jpg`, `coverAlt`, `registrationUrl` (full URL), `endDate`, `address`, `order`. Dates use ISO timestamps with the correct Belgian timezone offset for that day (`+01:00` or `+02:00`). Display uses Europe/Brussels. The homepage shows the next three confirmed upcoming events, sorted by date; if none exist, it displays clearly marked samples.
+Optional: `coverImage: /images/events/photo.jpg`, `coverAlt`, `registrationUrl` (full URL), `endDate`, `address`, `order`. Dates use ISO timestamps with the correct Belgian timezone offset for that day (`+01:00` or `+02:00`). Display uses Europe/Brussels. The homepage shows the next three confirmed upcoming events, sorted by date; if none exist, it shows the three latest completed events. Historical date-only records use `dateOnly: "YYYY-MM-DD"` (optionally `endDateOnly`) instead of timestamps. Unknown locations can be omitted. Galleries and source publication metadata are documented in [historical event maintenance](docs/historical-events/MAINTENANCE.md).
 
-Statuses: `sample`, `upcoming`, `past`, `cancelled`. Real records require a date. Sample events cannot accept registration and never generate Event JSON-LD. Real dated events with a verified full address can generate Event structured data. Past/cancelled events have no registration CTA. Do not invent addresses to satisfy metadata. Remove samples in both languages when no longer useful; samples are excluded from indexing and the sitemap.
+Statuses: `sample`, `upcoming`, `past`, `cancelled`. Real records require a date. Sample events cannot accept registration and never generate Event JSON-LD. Only confirmed future/ongoing events with a verified location and full address can generate Event structured data. Past recaps use article sharing metadata and local cover images. Past/cancelled events have no registration CTA. Do not invent addresses to satisfy metadata. Remove samples in both languages when no longer useful; samples are excluded from indexing and the sitemap.
 
 ## Add a guide
 
