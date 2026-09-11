@@ -37,6 +37,7 @@ assert.equal(createHash('sha256').update(readFileSync('public/documents/csal-stu
 if(existsSync('dist/new-students/search.json')){
  const built=JSON.parse(readFileSync('dist/new-students/search.json','utf8'));assert.equal(built.length,records.length);
  for(const [query,expected] of cases)assert(searchKnowledge(built,query).slice(0,3).some(h=>expected.includes(h.key)),`Built search failed: ${query}`);
+ assert.equal(searchKnowledge(built,'充电宝')[0]?.key,'before-arrival/packing','Packing item names must be searchable from the main guide');
  for(const record of records){const zh=readFileSync(`dist/new-students/${record.key}/index.html`,'utf8'), en=readFileSync(`dist/en/new-students/${record.key}/index.html`,'utf8');assert(zh.includes('2024 手册'));if(!en.includes('Reviewed English translation')){assert(en.includes('noindex, follow'));assert(en.includes('English discovery summary only'));}}
  const page=readFileSync('dist/new-students/before-arrival/packing/index.html','utf8');assert.equal((page.match(/data-pack-category=/g)??[]).length,98);assert(page.includes('携带药品须遵守中国出境'));
 }

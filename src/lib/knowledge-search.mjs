@@ -19,6 +19,7 @@ export function searchKnowledge(entries, query, lang = 'zh') {
     if (!terms.every(term => contains(haystack, term))) return null;
     let score = terms.reduce((n, term) => n + (contains(title,term)?12:0) + (contains(aliases,term)?10:0) + (contains(description,term)?4:0), 0);
     if (title.includes(normalized)) score += 20;
+    if (normalize(entry.titleZh).startsWith(normalized) || normalize(entry.titleEn).startsWith(normalized)) score += 5;
     if (entry.aliases.some(a => normalize(a) === normalized)) score += 28;
     const excerpt = lang === 'en' ? entry.descriptionEn : entry.descriptionZh;
     const rawMatch = entry.body.toLowerCase().indexOf(query.trim().toLowerCase());

@@ -12,7 +12,8 @@ const { lang, slug } = Astro.props as {lang:Lang;slug:string};
 const entries=await getKnowledge(), entry=entries.find(e=>e.data.key===slug);
 const category=categories.find(c=>c.key===(entry?.data.category??slug));
 const archive=slug==='handbook-2024';
-const translation=lang==='en'&&entry?(await getCollection('knowledgeTranslations')).find(e=>e.data.key===entry.data.key):undefined;
+const hasTranslations=Object.keys(import.meta.glob('../content/knowledge-translations/**/*.md')).length>0;
+const translation=lang==='en'&&entry&&hasTranslations?(await getCollection('knowledgeTranslations')).find(e=>e.data.key===entry.data.key):undefined;
 const rendered=entry?await render(translation??entry):undefined;
 const Content=rendered?.Content;
 const title=entry?(lang==='zh'?entry.data.titleZh:entry.data.titleEn):archive?t(lang,'2024 手册原版档案','2024 handbook archive'):category?.[lang]??'';
@@ -55,3 +56,9 @@ const articleHref=(key:string)=>href(lang,`new-students/${key}`);
     </>}
   </div>
 </Layout>
+<script>
+  if (window.matchMedia('(max-width: 767px)').matches) {
+    const contents = document.querySelector<HTMLDetailsElement>('.kb-article-nav details');
+    if (contents) contents.open = false;
+  }
+</script>
