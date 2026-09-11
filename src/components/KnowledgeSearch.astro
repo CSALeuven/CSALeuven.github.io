@@ -1,0 +1,61 @@
+---
+import { t, type Lang } from '../lib/i18n';
+const { lang } = Astro.props as { lang: Lang };
+---
+<section class="kb-search" data-knowledge-search data-lang={lang} aria-label={t(lang,'搜索新生指南','Search the student guide')}>
+  <label for="knowledge-query">{t(lang,'你想了解什么？','What would you like to know?')}</label>
+  <div class="kb-search-input"><span aria-hidden="true">⌕</span><input id="knowledge-query" type="search" autocomplete="off" maxlength="120" placeholder={t(lang,'搜索：租房、居留卡、公交、医保、银行卡……','Search: housing, residence card, GP, bus pass…')} aria-describedby="search-status" aria-controls="search-results" /><button type="button" data-clear-search>{t(lang,'清空','Clear')}</button></div>
+  <p id="search-status" class="kb-search-status" role="status" aria-live="polite">{t(lang,'支持中文、英文及常用别名，例如 Annex 15、GP、De Lijn。','Search Chinese, English and common aliases, including Annex 15, GP and De Lijn.')}</p>
+  <ol id="search-results" class="kb-results" hidden></ol>
+  <noscript><p>{t(lang,'启用 JavaScript 可搜索全文；也可使用下方分类浏览全部文章。','Enable JavaScript for full-text search, or browse every article by category below.')}</p></noscript>
+</section>
+<script>
+  import { searchKnowledge } from '../lib/knowledge-search.mjs';
+  import { categories, reviewLabels } from '../data/knowledge';
+  type Entry = {key:string;titleZh:string;titleEn:string;descriptionZh:string;descriptionEn:string;aliases:string[];category:string;reviewStatus:keyof typeof reviewLabels;lastReviewed:string|null;order:number;body:string};
+  const root = document.querySelector<HTMLElement>('[data-knowledge-search]');
+  if (root) {
+    const lang = root.dataset.lang === 'en' ? 'en' : 'zh';
+    const input = root.querySelector<HTMLInputElement>('input')!;
+    const status = root.querySelector<HTMLElement>('[role=status]')!;
+    const results = root.querySelector<HTMLOListElement>('ol')!;
+    const initialStatus = status.textContent;
+    let index: Promise<Entry[]> | undefined, version = 0, timer: ReturnType<typeof setTimeout>;
+    function highlight(element:HTMLElement, text:string, query:string) {
+      const terms = query.trim().split(/\s+/).filter(Boolean).sort((a,b)=>b.length-a.length);
+      let remaining = text;
+      while (remaining) {
+        const matches = terms.map(term => ({term,index:remaining.toLowerCase().indexOf(term.toLowerCase())})).filter(m=>m.index>=0).sort((a,b)=>a.index-b.index);
+        if (!matches.length) {element.append(document.createTextNode(remaining));break;}
+        const hit = matches[0]; element.append(document.createTextNode(remaining.slice(0,hit.index)));
+        const mark = document.createElement('mark');mark.textContent=remaining.slice(hit.index,hit.index+hit.term.length);element.append(mark);
+        remaining=remaining.slice(hit.index+hit.term.length);
+      }
+    }
+    async function search() {
+      const query = input.value.trim(), current = ++version;
+      results.replaceChildren(); results.hidden = true;
+      if (!query) {status.textContent=initialStatus;return;}
+      status.textContent=lang==='zh'?'正在搜索……':'Searching…';
+      try {
+        index ??= fetch('/new-students/search.json').then(r=>{if(!r.ok)throw new Error('Search index unavailable');return r.json();}).catch(error=>{index=undefined;throw error;});
+        const records=await index;if(current!==version)return;
+        const hits=searchKnowledge(records,query,lang) as (Entry & {excerpt:string})[];
+        status.textContent=lang==='zh'?`找到 ${hits.length} 篇文章${hits.length>15?'，显示最相关的 15 篇':''}。`:`${hits.length} articles found${hits.length>15?'; showing the 15 most relevant':''}.`;
+        if (!hits.length) status.textContent=lang==='zh'?'暂未找到。试试更短的关键词，或按下方分类浏览。':'No matches. Try a shorter term or browse the categories below.';
+        for (const hit of hits.slice(0,15)) {
+          const li=document.createElement('li'), a=document.createElement('a'), title=document.createElement('h3'), detail=document.createElement('p'), meta=document.createElement('span');
+          a.href=`${lang==='en'?'/en':''}/new-students/${hit.key}/`;
+          highlight(title,lang==='zh'?hit.titleZh:hit.titleEn,query); highlight(detail,hit.excerpt,query);
+          const category=categories.find(c=>c.key===hit.category);
+          meta.className='kb-result-meta';meta.textContent=`${category?.[lang] ?? hit.category} · ${reviewLabels[hit.reviewStatus][lang]}${hit.lastReviewed?' · '+hit.lastReviewed:''}`;
+          a.append(meta,title,detail);li.append(a);results.append(li);
+        }
+        results.hidden=!hits.length;
+      } catch { if(current===version)status.textContent=lang==='zh'?'搜索暂时无法载入，请重试或使用下方分类。':'Search could not load. Please retry or browse by category.'; }
+    }
+    input.addEventListener('input',()=>{++version;clearTimeout(timer);timer=setTimeout(search,120);});
+    root.querySelector('[data-clear-search]')?.addEventListener('click',()=>{input.value='';clearTimeout(timer);void search();input.focus();});
+    const initial=new URLSearchParams(location.search).get('q');if(initial){input.value=initial.slice(0,120);void search();}
+  }
+</script>

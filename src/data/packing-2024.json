@@ -1,0 +1,982 @@
+[
+  {
+    "id": "packing-001",
+    "sourceNumber": 1,
+    "sourcePage": 6,
+    "category": "documents",
+    "name": "护照",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-002",
+    "sourceNumber": 2,
+    "sourcePage": 6,
+    "category": "documents",
+    "name": "护照复印件",
+    "quantity": "5",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-003",
+    "sourceNumber": 3,
+    "sourcePage": 6,
+    "category": "documents",
+    "name": "邀请函",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-004",
+    "sourceNumber": 4,
+    "sourcePage": 6,
+    "category": "documents",
+    "name": "注册证明",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-005",
+    "sourceNumber": 5,
+    "sourcePage": 6,
+    "category": "documents",
+    "name": "出资证明/工作合同",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-006",
+    "sourceNumber": 6,
+    "sourcePage": 6,
+    "category": "documents",
+    "name": "护照照片",
+    "quantity": "5",
+    "notes": "多备些，最好也有电子版的",
+    "optional": false
+  },
+  {
+    "id": "packing-007",
+    "sourceNumber": 7,
+    "sourcePage": 6,
+    "category": "documents",
+    "name": "visa 银行卡/信用卡/欧元现金",
+    "quantity": "2",
+    "notes": "原文：准备 200–300 欧元的现金即可，办 1–2 张 visa 银行卡，应急可用。金额与支付经验为 2024 参考。",
+    "optional": false
+  },
+  {
+    "id": "packing-008",
+    "sourceNumber": 9,
+    "sourcePage": 6,
+    "category": "stationery",
+    "name": "眼镜",
+    "quantity": "2",
+    "notes": "原文：这里配眼镜很贵，可以备好一副，若你戴眼镜的话。",
+    "optional": true
+  },
+  {
+    "id": "packing-009",
+    "sourceNumber": 10,
+    "sourcePage": 6,
+    "category": "stationery",
+    "name": "隐形眼镜",
+    "quantity": "1",
+    "notes": "选择性",
+    "optional": true
+  },
+  {
+    "id": "packing-010",
+    "sourceNumber": 11,
+    "sourcePage": 6,
+    "category": "stationery",
+    "name": "隐形眼镜护理液（航空版）",
+    "quantity": "3",
+    "notes": "选择性",
+    "optional": true
+  },
+  {
+    "id": "packing-011",
+    "sourceNumber": 12,
+    "sourcePage": 6,
+    "category": "stationery",
+    "name": "眼镜布",
+    "quantity": "2",
+    "notes": "选择性",
+    "optional": true
+  },
+  {
+    "id": "packing-012",
+    "sourceNumber": 13,
+    "sourcePage": 6,
+    "category": "stationery",
+    "name": "书包",
+    "quantity": "1",
+    "notes": "原文共同备注：这边文具店有卖，但是价格比较贵，行李箱有空余的地方，可以备着。",
+    "optional": true
+  },
+  {
+    "id": "packing-013",
+    "sourceNumber": 14,
+    "sourcePage": 6,
+    "category": "stationery",
+    "name": "自动铅笔",
+    "quantity": "1",
+    "notes": "原文共同备注：这边文具店有卖，但是价格比较贵，行李箱有空余的地方，可以备着。",
+    "optional": true
+  },
+  {
+    "id": "packing-014",
+    "sourceNumber": 15,
+    "sourcePage": 6,
+    "category": "stationery",
+    "name": "铅芯",
+    "quantity": "1",
+    "notes": "原文共同备注：这边文具店有卖，但是价格比较贵，行李箱有空余的地方，可以备着。",
+    "optional": true
+  },
+  {
+    "id": "packing-015",
+    "sourceNumber": 16,
+    "sourcePage": 6,
+    "category": "stationery",
+    "name": "签字笔（不同颜色的）",
+    "quantity": "3",
+    "notes": "原文共同备注：这边文具店有卖，但是价格比较贵，行李箱有空余的地方，可以备着。",
+    "optional": true
+  },
+  {
+    "id": "packing-016",
+    "sourceNumber": 17,
+    "sourcePage": 6,
+    "category": "stationery",
+    "name": "橡皮",
+    "quantity": "1",
+    "notes": "原文共同备注：这边文具店有卖，但是价格比较贵，行李箱有空余的地方，可以备着。",
+    "optional": true
+  },
+  {
+    "id": "packing-017",
+    "sourceNumber": 18,
+    "sourcePage": 6,
+    "category": "stationery",
+    "name": "笔记本",
+    "quantity": "1",
+    "notes": "原文共同备注：这边文具店有卖，但是价格比较贵，行李箱有空余的地方，可以备着。",
+    "optional": true
+  },
+  {
+    "id": "packing-018",
+    "sourceNumber": 19,
+    "sourcePage": 6,
+    "category": "clothing",
+    "name": "绒线帽",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-019",
+    "sourceNumber": 20,
+    "sourcePage": 6,
+    "category": "clothing",
+    "name": "围巾/丝巾",
+    "quantity": "5",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-020",
+    "sourceNumber": 21,
+    "sourcePage": 6,
+    "category": "clothing",
+    "name": "T 恤",
+    "quantity": "2",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-021",
+    "sourceNumber": 22,
+    "sourcePage": 7,
+    "category": "clothing",
+    "name": "内衣",
+    "quantity": "好多",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-022",
+    "sourceNumber": 23,
+    "sourcePage": 7,
+    "category": "clothing",
+    "name": "卫衣",
+    "quantity": "2",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-023",
+    "sourceNumber": 24,
+    "sourcePage": 7,
+    "category": "clothing",
+    "name": "薄款白衬衣",
+    "quantity": "2",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-024",
+    "sourceNumber": 25,
+    "sourcePage": 7,
+    "category": "clothing",
+    "name": "短袖上衣",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-025",
+    "sourceNumber": 26,
+    "sourcePage": 7,
+    "category": "clothing",
+    "name": "短裤",
+    "quantity": "2",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-026",
+    "sourceNumber": 27,
+    "sourcePage": 7,
+    "category": "clothing",
+    "name": "运动服",
+    "quantity": "2 套",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-027",
+    "sourceNumber": 28,
+    "sourcePage": 7,
+    "category": "clothing",
+    "name": "牛仔裤厚",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-028",
+    "sourceNumber": 29,
+    "sourcePage": 7,
+    "category": "clothing",
+    "name": "牛仔裤薄",
+    "quantity": "2",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-029",
+    "sourceNumber": 30,
+    "sourcePage": 7,
+    "category": "clothing",
+    "name": "休闲裤薄",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-030",
+    "sourceNumber": 31,
+    "sourcePage": 7,
+    "category": "clothing",
+    "name": "休闲裤厚款",
+    "quantity": "2",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-031",
+    "sourceNumber": 32,
+    "sourcePage": 7,
+    "category": "clothing",
+    "name": "秋衣秋裤",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-032",
+    "sourceNumber": 33,
+    "sourcePage": 7,
+    "category": "clothing",
+    "name": "秋季短外套",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-033",
+    "sourceNumber": 34,
+    "sourcePage": 7,
+    "category": "clothing",
+    "name": "冬季呢子衣",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-034",
+    "sourceNumber": 35,
+    "sourcePage": 7,
+    "category": "clothing",
+    "name": "冬季棉衣",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-035",
+    "sourceNumber": 36,
+    "sourcePage": 7,
+    "category": "clothing",
+    "name": "羽绒服",
+    "quantity": "2",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-036",
+    "sourceNumber": 37,
+    "sourcePage": 7,
+    "category": "clothing",
+    "name": "秋季贴身外穿毛衣",
+    "quantity": "3",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-037",
+    "sourceNumber": 38,
+    "sourcePage": 7,
+    "category": "clothing",
+    "name": "冬季短款毛衣",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-038",
+    "sourceNumber": 39,
+    "sourcePage": 7,
+    "category": "clothing",
+    "name": "冬季长款毛衣",
+    "quantity": "2",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-039",
+    "sourceNumber": 40,
+    "sourcePage": 7,
+    "category": "clothing",
+    "name": "雪地靴",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-040",
+    "sourceNumber": 41,
+    "sourcePage": 7,
+    "category": "clothing",
+    "name": "板鞋",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-041",
+    "sourceNumber": 42,
+    "sourcePage": 7,
+    "category": "clothing",
+    "name": "洗澡用拖鞋",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-042",
+    "sourceNumber": 43,
+    "sourcePage": 7,
+    "category": "clothing",
+    "name": "厚款拖鞋",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-043",
+    "sourceNumber": 44,
+    "sourcePage": 7,
+    "category": "clothing",
+    "name": "人字拖",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-044",
+    "sourceNumber": 46,
+    "sourcePage": 7,
+    "category": "clothing",
+    "name": "手套（皮的、布的）",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-045",
+    "sourceNumber": 47,
+    "sourcePage": 7,
+    "category": "clothing",
+    "name": "运动鞋、皮鞋、正装",
+    "quantity": "1",
+    "notes": "某些答辩场合正装用得上",
+    "optional": false
+  },
+  {
+    "id": "packing-046",
+    "sourceNumber": 48,
+    "sourcePage": 7,
+    "category": "clothing",
+    "name": "睡衣（长袖薄款、短袖款）",
+    "quantity": "4",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-047",
+    "sourceNumber": 49,
+    "sourcePage": 7,
+    "category": "electronics",
+    "name": "电源转换插头",
+    "quantity": "4",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-048",
+    "sourceNumber": 50,
+    "sourcePage": 7,
+    "category": "electronics",
+    "name": "插线板",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-049",
+    "sourceNumber": 51,
+    "sourcePage": 7,
+    "category": "electronics",
+    "name": "笔记本电脑",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-050",
+    "sourceNumber": 52,
+    "sourcePage": 7,
+    "category": "electronics",
+    "name": "电脑电源",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-051",
+    "sourceNumber": 53,
+    "sourcePage": 7,
+    "category": "electronics",
+    "name": "平板",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-052",
+    "sourceNumber": 54,
+    "sourcePage": 7,
+    "category": "electronics",
+    "name": "充电宝",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-053",
+    "sourceNumber": 55,
+    "sourcePage": 7,
+    "category": "electronics",
+    "name": "无线鼠标",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-054",
+    "sourceNumber": 56,
+    "sourcePage": 7,
+    "category": "electronics",
+    "name": "U 盘",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-055",
+    "sourceNumber": 57,
+    "sourcePage": 7,
+    "category": "electronics",
+    "name": "网线",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-056",
+    "sourceNumber": 58,
+    "sourcePage": 7,
+    "category": "electronics",
+    "name": "手机膜/手机壳",
+    "quantity": "2",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-057",
+    "sourceNumber": 58,
+    "sourcePage": 7,
+    "category": "kitchen",
+    "name": "削皮刀",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-058",
+    "sourceNumber": 59,
+    "sourcePage": 7,
+    "category": "kitchen",
+    "name": "电饭锅/电磁炉",
+    "quantity": "1",
+    "notes": "原作者备注：我带了一个多功能的小锅。",
+    "optional": false
+  },
+  {
+    "id": "packing-059",
+    "sourceNumber": 60,
+    "sourcePage": 7,
+    "category": "kitchen",
+    "name": "围裙",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-060",
+    "sourceNumber": 61,
+    "sourcePage": 7,
+    "category": "kitchen",
+    "name": "筷子勺子餐具盒",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-061",
+    "sourceNumber": 62,
+    "sourcePage": 7,
+    "category": "kitchen",
+    "name": "快速切丝刀具",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-062",
+    "sourceNumber": 63,
+    "sourcePage": 8,
+    "category": "toiletries",
+    "name": "毛巾",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-063",
+    "sourceNumber": 64,
+    "sourcePage": 8,
+    "category": "toiletries",
+    "name": "梳子",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-064",
+    "sourceNumber": 65,
+    "sourcePage": 8,
+    "category": "toiletries",
+    "name": "电动牙刷",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-065",
+    "sourceNumber": 66,
+    "sourcePage": 8,
+    "category": "toiletries",
+    "name": "汰渍去污笔",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-066",
+    "sourceNumber": 67,
+    "sourcePage": 8,
+    "category": "tools",
+    "name": "雨伞",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-067",
+    "sourceNumber": 68,
+    "sourcePage": 8,
+    "category": "tools",
+    "name": "手电",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-068",
+    "sourceNumber": 69,
+    "sourcePage": 8,
+    "category": "tools",
+    "name": "自拍杆",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-069",
+    "sourceNumber": 70,
+    "sourcePage": 8,
+    "category": "tools",
+    "name": "手机支架",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-070",
+    "sourceNumber": 71,
+    "sourcePage": 8,
+    "category": "tools",
+    "name": "指甲刀",
+    "quantity": "1",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-071",
+    "sourceNumber": 72,
+    "sourcePage": 8,
+    "category": "food",
+    "name": "干货（香菇、茶树菇、竹荪、木耳、虾皮）",
+    "quantity": "",
+    "notes": "原文共同备注：这边有亚洲超市，有适合中国人饮食的食材，可带可不带。",
+    "optional": true
+  },
+  {
+    "id": "packing-072",
+    "sourceNumber": 73,
+    "sourcePage": 8,
+    "category": "food",
+    "name": "米粉、泡面（过渡期使用）",
+    "quantity": "",
+    "notes": "原文共同备注：这边有亚洲超市，有适合中国人饮食的食材，可带可不带。",
+    "optional": true
+  },
+  {
+    "id": "packing-073",
+    "sourceNumber": 74,
+    "sourcePage": 8,
+    "category": "food",
+    "name": "辣椒",
+    "quantity": "",
+    "notes": "原文共同备注：这边有亚洲超市，有适合中国人饮食的食材，可带可不带。",
+    "optional": true
+  },
+  {
+    "id": "packing-074",
+    "sourceNumber": 75,
+    "sourcePage": 8,
+    "category": "food",
+    "name": "花椒",
+    "quantity": "",
+    "notes": "原文共同备注：这边有亚洲超市，有适合中国人饮食的食材，可带可不带。",
+    "optional": true
+  },
+  {
+    "id": "packing-075",
+    "sourceNumber": 76,
+    "sourcePage": 8,
+    "category": "food",
+    "name": "冷锅串串调料包",
+    "quantity": "",
+    "notes": "原文共同备注：这边有亚洲超市，有适合中国人饮食的食材，可带可不带。",
+    "optional": true
+  },
+  {
+    "id": "packing-076",
+    "sourceNumber": 77,
+    "sourcePage": 8,
+    "category": "food",
+    "name": "卤料包、十三香",
+    "quantity": "",
+    "notes": "原文共同备注：这边有亚洲超市，有适合中国人饮食的食材，可带可不带。",
+    "optional": true
+  },
+  {
+    "id": "packing-077",
+    "sourceNumber": 78,
+    "sourcePage": 8,
+    "category": "food",
+    "name": "火锅底料",
+    "quantity": "",
+    "notes": "原文共同备注：这边有亚洲超市，有适合中国人饮食的食材，可带可不带。",
+    "optional": true
+  },
+  {
+    "id": "packing-078",
+    "sourceNumber": 79,
+    "sourcePage": 8,
+    "category": "food",
+    "name": "快餐辣料包",
+    "quantity": "",
+    "notes": "原文共同备注：这边有亚洲超市，有适合中国人饮食的食材，可带可不带。",
+    "optional": true
+  },
+  {
+    "id": "packing-079",
+    "sourceNumber": 80,
+    "sourcePage": 8,
+    "category": "food",
+    "name": "口香糖（飞机上用）",
+    "quantity": "",
+    "notes": "原文共同备注：这边有亚洲超市，有适合中国人饮食的食材，可带可不带。",
+    "optional": true
+  },
+  {
+    "id": "packing-080",
+    "sourceNumber": 81,
+    "sourcePage": 8,
+    "category": "food",
+    "name": "辣条",
+    "quantity": "",
+    "notes": "原文共同备注：这边有亚洲超市，有适合中国人饮食的食材，可带可不带。",
+    "optional": true
+  },
+  {
+    "id": "packing-081",
+    "sourceNumber": 82,
+    "sourcePage": 8,
+    "category": "medicine",
+    "name": "感冒药（999-2 盒、抗病毒颗粒-2 盒、板蓝根-1 盒等）",
+    "quantity": "*",
+    "notes": "2024 原表共同备注：日常各方面的药都可备点带来，管制药品不要带，被查到的话很麻烦。此为历史原文，不代表当前携带许可或用药建议。",
+    "optional": false
+  },
+  {
+    "id": "packing-082",
+    "sourceNumber": 83,
+    "sourcePage": 8,
+    "category": "medicine",
+    "name": "退烧药（扑热息痛）",
+    "quantity": "*",
+    "notes": "2024 原表共同备注：日常各方面的药都可备点带来，管制药品不要带，被查到的话很麻烦。此为历史原文，不代表当前携带许可或用药建议。",
+    "optional": false
+  },
+  {
+    "id": "packing-083",
+    "sourceNumber": 84,
+    "sourcePage": 8,
+    "category": "medicine",
+    "name": "消炎药（阿莫西林 1 盒）",
+    "quantity": "*",
+    "notes": "2024 原表共同备注：日常各方面的药都可备点带来，管制药品不要带，被查到的话很麻烦。此为历史原文，不代表当前携带许可或用药建议。",
+    "optional": false
+  },
+  {
+    "id": "packing-084",
+    "sourceNumber": 85,
+    "sourcePage": 8,
+    "category": "medicine",
+    "name": "抗生素、抗过敏类药品",
+    "quantity": "*",
+    "notes": "2024 原表共同备注：日常各方面的药都可备点带来，管制药品不要带，被查到的话很麻烦。此为历史原文，不代表当前携带许可或用药建议。",
+    "optional": false
+  },
+  {
+    "id": "packing-085",
+    "sourceNumber": 86,
+    "sourcePage": 8,
+    "category": "medicine",
+    "name": "肠胃药（荷香正气冲剂 1 盒，顺气的药，片片药）",
+    "quantity": "*",
+    "notes": "2024 原表共同备注：日常各方面的药都可备点带来，管制药品不要带，被查到的话很麻烦。此为历史原文，不代表当前携带许可或用药建议。",
+    "optional": false
+  },
+  {
+    "id": "packing-086",
+    "sourceNumber": 87,
+    "sourcePage": 8,
+    "category": "medicine",
+    "name": "去火药（金银花）",
+    "quantity": "*",
+    "notes": "2024 原表共同备注：日常各方面的药都可备点带来，管制药品不要带，被查到的话很麻烦。此为历史原文，不代表当前携带许可或用药建议。",
+    "optional": false
+  },
+  {
+    "id": "packing-087",
+    "sourceNumber": 88,
+    "sourcePage": 8,
+    "category": "medicine",
+    "name": "眼药水",
+    "quantity": "1",
+    "notes": "2024 原表共同备注：日常各方面的药都可备点带来，管制药品不要带，被查到的话很麻烦。此为历史原文，不代表当前携带许可或用药建议。",
+    "optional": false
+  },
+  {
+    "id": "packing-088",
+    "sourceNumber": 89,
+    "sourcePage": 8,
+    "category": "medicine",
+    "name": "云南白药",
+    "quantity": "1",
+    "notes": "2024 原表共同备注：日常各方面的药都可备点带来，管制药品不要带，被查到的话很麻烦。此为历史原文，不代表当前携带许可或用药建议。",
+    "optional": false
+  },
+  {
+    "id": "packing-089",
+    "sourceNumber": 90,
+    "sourcePage": 8,
+    "category": "cosmetics",
+    "name": "洗面奶",
+    "quantity": "1",
+    "notes": "原文共同备注：女生选择性看着带。",
+    "optional": true
+  },
+  {
+    "id": "packing-090",
+    "sourceNumber": 91,
+    "sourcePage": 8,
+    "category": "cosmetics",
+    "name": "旅行分装盒",
+    "quantity": "1",
+    "notes": "原文共同备注：女生选择性看着带。",
+    "optional": true
+  },
+  {
+    "id": "packing-091",
+    "sourceNumber": 92,
+    "sourcePage": 8,
+    "category": "cosmetics",
+    "name": "蒸汽眼罩",
+    "quantity": "10",
+    "notes": "原文共同备注：女生选择性看着带。",
+    "optional": true
+  },
+  {
+    "id": "packing-092",
+    "sourceNumber": 93,
+    "sourcePage": 8,
+    "category": "cosmetics",
+    "name": "爽肤水",
+    "quantity": "3",
+    "notes": "原文共同备注：女生选择性看着带。",
+    "optional": true
+  },
+  {
+    "id": "packing-093",
+    "sourceNumber": 94,
+    "sourcePage": 8,
+    "category": "cosmetics",
+    "name": "乳液",
+    "quantity": "3",
+    "notes": "原文共同备注：女生选择性看着带。",
+    "optional": true
+  },
+  {
+    "id": "packing-094",
+    "sourceNumber": 95,
+    "sourcePage": 8,
+    "category": "cosmetics",
+    "name": "面膜",
+    "quantity": "50",
+    "notes": "原文共同备注：女生选择性看着带。",
+    "optional": true
+  },
+  {
+    "id": "packing-095",
+    "sourceNumber": 96,
+    "sourcePage": 8,
+    "category": "cosmetics",
+    "name": "眉笔",
+    "quantity": "3",
+    "notes": "原文共同备注：女生选择性看着带。",
+    "optional": true
+  },
+  {
+    "id": "packing-096",
+    "sourceNumber": 97,
+    "sourcePage": 8,
+    "category": "other",
+    "name": "行李箱带子",
+    "quantity": "2",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "id": "packing-097",
+    "sourceNumber": 98,
+    "sourcePage": 8,
+    "category": "other",
+    "name": "雨衣",
+    "quantity": "1",
+    "notes": "可多带 2 件",
+    "optional": false
+  },
+  {
+    "id": "packing-098",
+    "sourceNumber": 99,
+    "sourcePage": 8,
+    "category": "other",
+    "name": "给导师的礼物",
+    "quantity": "4",
+    "notes": "原作者备注：选择性带不带，我是没带的。",
+    "optional": true
+  }
+]

@@ -8,6 +8,8 @@ Astro 7, Tailwind 4 (Vite integration), TypeScript, Markdown content collections
 
 `src/pages/[...path].astro` generates Chinese `/` and English `/en/` pages with shared views/components. The language switch preserves the page. Every published guide, event and news record needs paired `zh/key.md` and `en/key.md` files with the same `key`. The build rejects a missing counterpart. Schemas: `src/content.config.ts`; queries and date logic: `src/lib/content.ts`.
 
+The handbook knowledge base is a deliberate exception to paired article bodies. `src/content/knowledge/{category}/{slug}.md` holds the Chinese original with bilingual discovery metadata. English routes explicitly show the Chinese original until a reviewed file exists in `src/content/knowledge-translations/`; do not automatically translate the corpus. See `docs/handbook-2024/MAINTENANCE.md`. Preserve all source provenance and historical caveats. Do not silently update 2024 prices/policies or invent missing text. Categories live in `src/data/knowledge.ts`; substantial content must remain Markdown. All nested knowledge routes and search data are generated from collections.
+
 ## Brand and factual content
 
 - Red `#B01C20`, dark red `#8F161B`, paper `#FAF8F5`, text `#1D1D1F`. Use red as an accent with generous whitespace.

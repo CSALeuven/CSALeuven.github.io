@@ -1,0 +1,60 @@
+{
+  "title": "鲁汶学联新生手册 2024 行李参考清单",
+  "sourcePages": [
+    6,
+    7,
+    8
+  ],
+  "sourceYear": 2024,
+  "reviewStatus": "legacy-2024",
+  "medicineNotice": "2024 手册参考清单；携带药品须遵守中国出境、航空运输及比利时/欧盟入境规定，请自行核实最新限制。",
+  "numberingNote": "原表跳过 8、45，重复使用 58，实际 98 行。原表补充物品的分类序号分别为 11、12、13，网站合并为 other。",
+  "quantityNote": "数量保留来源原值，空字符串代表原表留空；星号和“好多”未换算。",
+  "medicineTextNote": "原表肠胃药一行写作“荷香正气冲剂”“片片药”；拼写和指代未核实，未猜测改为其他药名。",
+  "categoryLabels": {
+    "documents": {
+      "zh": "文件",
+      "en": "Documents"
+    },
+    "stationery": {
+      "zh": "文具",
+      "en": "Stationery"
+    },
+    "clothing": {
+      "zh": "衣物",
+      "en": "Clothing"
+    },
+    "electronics": {
+      "zh": "电子类",
+      "en": "Electronics"
+    },
+    "kitchen": {
+      "zh": "厨具",
+      "en": "Kitchen"
+    },
+    "toiletries": {
+      "zh": "盥洗用品",
+      "en": "Toiletries"
+    },
+    "tools": {
+      "zh": "工具",
+      "en": "Tools"
+    },
+    "food": {
+      "zh": "食品",
+      "en": "Food"
+    },
+    "medicine": {
+      "zh": "药品",
+      "en": "Medicine"
+    },
+    "cosmetics": {
+      "zh": "化妆品",
+      "en": "Cosmetics"
+    },
+    "other": {
+      "zh": "补充物品",
+      "en": "Other"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+---
+import { t, href, type Lang } from '../lib/i18n';
+import { getKnowledge } from '../lib/knowledge';
+import { categories, popular, firstWeek, sourceNotice } from '../data/knowledge';
+import KnowledgeSearch from '../components/KnowledgeSearch.astro';
+import KnowledgeChecklist from '../components/KnowledgeChecklist.astro';
+import '../styles/knowledge.css';
+const { lang } = Astro.props as {lang:Lang};
+const articles = await getKnowledge();
+---
+<section class="container kb-hero">
+  <p class="eyebrow section-eyebrow"><span class="short-rule"></span> NEW STUDENT KNOWLEDGE BASE</p>
+  <h1>{t(lang,'鲁汶新生指南','Your guide to Leuven')}</h1>
+  <p class="kb-subtitle">{t(lang,'从出发前准备，到落地、注册、租房、交通和日常生活。','From preparing your journey to arrival, registration, housing and everyday life.')}</p>
+  <KnowledgeSearch lang={lang} />
+  <div class="kb-popular"><span>{t(lang,'热门查询','Popular')}</span>{popular.map(([zh,en,key])=><a href={href(lang,`new-students/${key}`)}>{lang==='zh'?zh:en}</a>)}</div>
+</section>
+<section class="container kb-section"><div class="section-heading"><h2>{t(lang,'你现在处于哪个阶段？','Where are you in your journey?')}</h2><a class="text-link" href="#all-categories">{t(lang,'全部分类','All categories')} <span aria-hidden="true">↓</span></a></div>
+  <div class="kb-stages">{categories.slice(0,7).map((c,i)=><a href={href(lang,`new-students/${c.key}`)}><span class="kb-stage-number">0{i+1}</span><h3>{lang==='zh'?c.stageZh:c.stageEn}</h3><p>{lang==='zh'?c.descriptionZh:c.descriptionEn}</p><span class="kb-stage-arrow" aria-hidden="true">↗</span></a>)}</div>
+</section>
+<section class="kb-firstweek-band"><div class="container kb-firstweek-layout"><div><p class="eyebrow section-eyebrow">ONE STEP AT A TIME</p><h2>{t(lang,'先把第一周安顿好。','Settle in, one step at a time.')}</h2><p>{t(lang,'这是一份起步清单。居留、开户等流程可能需要更长时间，不必在一周内全部办完。','A checklist to get started. Residence and banking procedures can take longer than a week.')}</p><a class="text-link" href={href(lang,'new-students/arrival/first-week')}>{t(lang,'打开完整清单','Open the full checklist')} <span aria-hidden="true">→</span></a><a class="text-link" href={href(lang,'new-students/before-arrival/packing')}>{t(lang,'还没出发？整理行李清单','Still packing? Open the packing list')} <span aria-hidden="true">→</span></a></div><KnowledgeChecklist lang={lang} id="first-week" title={t(lang,'初到鲁汶第一周','Your first week')} items={firstWeek} /></div></section>
+<section id="all-categories" class="container kb-section"><div class="section-heading"><h2>{t(lang,'按主题查找','Browse by topic')}</h2><span class="kb-small">{articles.length} {t(lang,'篇实用文章','practical articles')}</span></div><div class="kb-category-grid">{categories.map(c=><a class="kb-category-card" href={href(lang,`new-students/${c.key}`)}><span>{articles.filter(a=>a.data.category===c.key).length} {t(lang,'篇文章','articles')}</span><h3>{c[lang]}</h3><p>{lang==='zh'?c.descriptionZh:c.descriptionEn}</p></a>)}</div></section>
+<section class="container kb-archive-strip"><div><h2>{t(lang,'从手册到随手可查的指南','The handbook, easier to explore')}</h2><p>{sourceNotice[lang]}</p>{lang==='en' && <p>English navigation and summaries are available. Article bodies are the Chinese original unless a reviewed translation is explicitly identified.</p>}</div><a class="button button-secondary" href={href(lang,'new-students/handbook-2024')}>{t(lang,'查看 2024 原版 PDF','2024 PDF archive')} <span aria-hidden="true">↗</span></a></section>
