@@ -44,7 +44,7 @@ On managed Windows devices, organizational policy may block esbuild. Do not disa
 | `src/content/news/{zh,en}/` | Updates |
 | `src/content.config.ts` | Validated content schemas |
 | `src/data/site.ts` | Identity, email, social URLs, asset paths |
-| `src/data/team.ts` | Committee profiles |
+| `src/data/committees.ts` | Current and historical committee names |
 | `src/data/partners.ts` | Partners and approved logos |
 | `src/lib/` | Translation helpers and content/date queries |
 | `src/components/` | Reusable navigation, cards, footer and QR section |
@@ -123,7 +123,7 @@ Create paired files under `src/content/news/zh/` and `en/`. Required fields: `la
 
 ## Team, partners, social links and organization facts
 
-- **Team:** edit `src/data/team.ts`. Add bilingual names, roles, optional bios/images only after verification and consent. Replace the placeholder when ready.
+- **Committees:** edit `src/data/committees.ts`. Members are plain Chinese name strings, identical in both languages. Publish names only: no roles, departments, biographies, romanizations, photos or contacts. The 2025 source defines the current team; change the explicit `current` marker only after a new team is confirmed, never from the calendar year. See [committee history maintenance](docs/committee-history/MAINTENANCE.md) and the [extraction review](docs/committee-history/REVIEW.md).
 - **Partners:** edit `src/data/partners.ts`. Add confirmed bilingual name/category, an approved logo path and optional official URL; set `placeholder: false`. Placeholder slots indicate no actual partnership.
 - **Social links / email:** edit `src/data/site.ts` only. Email stays `null` until an official address is verified; setting it enables the email CTA. URLs must not be repeated in UI components.
 - **About / history:** update both language strings in `src/views/About.astro` with verified information. Ask the committee to review the provisional mission and independence disclaimer.
@@ -149,7 +149,7 @@ Official references: [Astro deployment](https://docs.astro.build/en/guides/deplo
 
 ## Editorial handover
 
-Confirm real events, committee profiles, history and partner details before replacing placeholders. Review both translations, source links, mobile pages, keyboard navigation and QR display. No official email has been invented. The site has no analytics scripts, tracking or fake contact form.
+Confirm real events, committee names, history and partner details before replacing placeholders. Review both translations, source links, mobile pages, keyboard navigation and QR display. No official email has been invented. The site has no analytics scripts, tracking or fake contact form.
 # New student knowledge base
 
 The full 2024 handbook is organized into 45 articles at `/new-students/`, with Chinese/English alias search, nine topic categories, 98 packing checklist items, first-week and rental-contract checklists, and the unchanged PDF archive. Chinese source bodies are complete; English discovery metadata does not claim an official translation. All imported articles clearly identify 2024 provenance and review status.
