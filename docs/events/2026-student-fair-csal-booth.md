@@ -52,8 +52,28 @@ No street number for Agora, room, booth number, registration URL, ticket price, 
 
 ## Implementation and validation
 
-The branch starts from `main` at `4ba6de9af46e64c2df3cc42c4ed2a79c1fdfbb8f`; there were no open pull requests at inspection. The changes are limited to the paired event Markdown, the local cover, this review note, and an announcement-specific source heading in the existing shared article template. The schema, homepage data flow, route generation, styles, global partners, brand assets and deployment workflow are preserved.
+The branch starts from `main` at `4ba6de9af46e64c2df3cc42c4ed2a79c1fdfbb8f`; there were no open pull requests at initial inspection. The changes are limited to the paired event Markdown, the local cover, this review note, an announcement-specific source heading in the existing shared article template, and the scoped presentation/accessibility fixes documented below. The schema, homepage data flow, route generation, global partners, brand assets and deployment workflow are preserved.
 
 The existing collection creates both detail pages, preserves their language counterparts, puts the event in the upcoming listings and selects it for the homepage in date order. The existing event template has no registration button without a registration URL; the summary and participation section explicitly state that no registration is required. Sources use the existing architecture, with **原活动推送 / Original announcement** for announcements and the existing source heading retained for historical recaps.
 
-Final build, site-check and responsive verification results are recorded in the pull request. This change is for review and must not be merged automatically.
+Final build, site-check, responsive verification and CI results are recorded in PR #7. This change is for review and must not be merged automatically.
+
+## Final pre-merge QA
+
+The existing PR implementation was audited without repeating source extraction or changing event facts. Real local Playwright/Chromium rendering against the generated static site resolved the earlier managed-browser preview limitation. Neither managed-browser policy nor network security controls were modified.
+
+Both homepages, both Events listings and both event detail pages were rendered at 375 × 812, 768 × 1024, 1024 × 768 and 1440 × 900: 24 page/viewport combinations. Screenshots and DOM measurements verified readable text/metadata, no horizontal overflow or clipping, intact headers/footers, local images, proper cover framing, clean supporter/source sections and consistent spacing. All eight event-detail screenshots remained pixel-identical after the CSS fixes.
+
+Three small audit fixes were made:
+
+- A sole upcoming/homepage event card spans the available grid at tablet/desktop widths, with the existing cover and content side by side. This avoids the previous empty two-thirds of the row. The rule is generic, contains no event key, and preserves mobile stacking and the nested historical archive grids.
+- Homepage guide numbers use the existing muted-text color to meet normal-text contrast against the tinted background.
+- The labeled homepage brand panel has an explicit `group` role so its existing accessible name is supported; its image alternative and contents are retained.
+
+The native mobile menu passed pointer open/close, Enter/Space activation, Escape closure/focus restoration and link navigation. Menu content fits the viewport. The event remains reachable through the Events index with JavaScript disabled. Language switching preserves the exact Student Fair counterpart in both directions. Keyboard checks covered the skip link, visible focus, language controls, menu summary and original-source link. English mobile controls were checked separately.
+
+The content, assets and generated HTML checks confirm the expected Wednesday/date/time/Brussels timezone/location, drop-in attendance without registration, CSAL's participation role, event-specific supporters, source publication metadata, canonical routes, indexing and absence of misleading organizer/registration structured data. The homepage and index still obtain the event from the existing date-sorted collection; `featured: true` is retained. The cover, logo and public-account QR originals are unchanged.
+
+Required local installation/build/site/diff checks passed. Automated accessibility checks found no remaining violations in the audited pages; the manual contrast-review flags on decorative, `aria-hidden` arrow glyphs do not carry essential information and their adjacent text labels remain accessible. The latest PR-head CI result and final Ready/Draft decision are recorded in the PR audit.
+
+The live WeChat page's automated reachability is non-blocking: its canonical URL exactly matches the saved source, and the production page renders entirely from local content and assets.

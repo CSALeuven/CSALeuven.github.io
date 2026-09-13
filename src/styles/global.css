@@ -30,3 +30,10 @@
 .prose table{border-collapse:collapse;width:100%;font-size:15px;margin-block:24px}
 .prose th,.prose td{text-align:left;vertical-align:top;border-bottom:1px solid var(--line);padding:12px 8px;overflow-wrap:anywhere}
 @media(max-width:767px){.event-photo-grid{grid-template-columns:1fr;gap:18px}.archive-year{margin-top:32px}.prose table{font-size:13px}.prose th,.prose td{padding:10px 5px}}
+
+.new-home-section .guide-number{color:var(--muted)}
+@media(min-width:768px){
+  :is(.section,.page-section)>.event-grid>.event-card:only-child{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:32px;align-items:start}
+  :is(.section,.page-section)>.event-grid>.event-card:only-child>.event-cover{aspect-ratio:1.7}
+  :is(.section,.page-section)>.event-grid>.event-card:only-child>.event-info{padding-top:0}
+}
