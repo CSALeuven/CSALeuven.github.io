@@ -11,7 +11,7 @@ const { lang } = Astro.props as { lang: Lang };
     <p class="hero-description">{t(lang, '服务同学，连接校园，融入鲁汶。\n从初来乍到，到把这座城市叫作家。', 'Supporting students, building community, and connecting Leuven. From your first day to finding your own place in the city.')}</p>
     <div class="button-row"><a class="button primary" href={href(lang, 'events')}>{t(lang, '探索学联活动', 'Explore events')}<span aria-hidden="true">↗</span></a><a class="button secondary" href={href(lang, 'new-students')}>{t(lang, '查看新生指南', 'New student guide')}<span aria-hidden="true">→</span></a></div>
   </div>
-  <div class="hero-art" aria-label={t(lang, 'CSAL 鲁汶学联品牌展示', 'CSAL Leuven brand panel')}>
+  <div class="hero-art" role="group" aria-label={t(lang, 'CSAL 鲁汶学联品牌展示', 'CSAL Leuven brand panel')}>
     <div class="art-top"><span>CSAL / LEUVEN</span><span>你好，鲁汶。</span></div>
     <div class="logo-mat"><img src={site.logo} width="551" height="570" alt={`${site.shortNames.en} ${site.officialNames.zh} logo`} /></div>
     <div class="art-bottom"><span class="art-caption">A little closer<br /><i>to home.</i></span><span class="art-caption-small">STUDENTS.<br />SCHOLARS.<br />COMMUNITY.</span></div>
