@@ -1,6 +1,8 @@
 ---
 import { site } from '../data/site';
+const { includeEmail = false } = Astro.props as { includeEmail?: boolean; lang: 'zh' | 'en' };
 ---
 <div class="social-links">
   {[site.socials.instagram, site.socials.facebook].map(social => <a href={social.url} target="_blank" rel="noopener noreferrer">{social.name}<span aria-hidden="true">↗</span><span class="sr-only"> ({Astro.props.lang === 'zh' ? '在新标签页打开' : 'opens in a new tab'})</span></a>)}
+  {includeEmail && site.email && <a href={`mailto:${site.email}`}>Email</a>}
 </div>

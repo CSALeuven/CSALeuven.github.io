@@ -28,7 +28,7 @@ Centralize production social URLs in `src/data/site.ts`:
 - Instagram: https://www.instagram.com/csaleuven/
 - WeChat: 鲁汶学联 CSAL
 
-Email is null until verified. Committees: `src/data/committees.ts`; partners: `src/data/partners.ts`. Committee member data and public presentation must contain **names only**: no roles, departments, profiles, romanizations, photos or contacts. Both languages show the exact source Chinese names. The 2025 team is current by explicit user confirmation, with earlier years historical; never infer the current team from the calendar year. See `docs/committee-history/MAINTENANCE.md`. Use verified partner logos. Keep frequent updates in Markdown/data rather than hard-coded cards. About/history copy is in `src/views/About.astro`; confirm any new organization facts.
+The official contact email is confirmed and centralized in `site.email`. Reuse it in the Contact page, Stay Connected links and footer; do not duplicate the address in components. Committees: `src/data/committees.ts`; partners: `src/data/partners.ts`. Committee member data and public presentation must contain **names only**: no roles, departments, profiles, romanizations, photos or contacts. Both languages show the exact source Chinese names. The 2025 team is current by explicit user confirmation, with earlier years historical; never infer the current team from the calendar year. See `docs/committee-history/MAINTENANCE.md`. Use verified partner logos. Keep frequent updates in Markdown/data rather than hard-coded cards. About/history copy is in `src/views/About.astro`; confirm any new organization facts.
 
 ## Deployment and completion checks
 

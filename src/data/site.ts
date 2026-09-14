@@ -23,7 +23,7 @@ export const site = {
   },
   logo: '/images/brand/csal-logo.jpg',
   wechatQr: '/images/social/wechat-csal.jpg',
-  email: null as string | null,
+  email: 'csal.leuven@gmail.com',
   socials: {
     wechat: { name: '鲁汶学联 CSAL' },
     instagram: { name: 'Instagram', handle: '@csaleuven', url: 'https://www.instagram.com/csaleuven/' },
