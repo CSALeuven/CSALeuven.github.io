@@ -33,5 +33,15 @@ const canonical = new URL(path === '404' ? '/404.html' : href(lang, path), site.
     <Header lang={lang} path={path === '404' ? '' : path} />
     <main id="main" tabindex="-1"><slot /></main>
     <Footer lang={lang} />
+    {import.meta.env.PROD && <Fragment>
+      <!-- Cloudflare Web Analytics -->
+      <script
+        is:inline
+        type="module"
+        src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon='{"token": "9d4cad873ea74623813b1816c8e84b30"}'
+      ></script>
+      <!-- End Cloudflare Web Analytics -->
+    </Fragment>}
   </body>
 </html>

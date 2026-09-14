@@ -153,7 +153,9 @@ Official references: [Astro deployment](https://docs.astro.build/en/guides/deplo
 
 ## Editorial handover
 
-Confirm real events, committee names, history and partner details before replacing placeholders. Review both translations, source links, mobile pages, keyboard navigation and QR display. No official email has been invented. The site has no analytics scripts, tracking or fake contact form.
+Confirm real events, committee names, history and partner details before replacing placeholders. Review both translations, source links, mobile pages, keyboard navigation and QR display. No official email has been invented. The site has no fake contact form.
+
+Cloudflare Web Analytics is included once in `src/layouts/Layout.astro`, immediately before `</body>`, for all Chinese and English pages. `import.meta.env.PROD` enables it in production builds (including previews of those builds) and excludes it from the development server. Astro's [`is:inline` directive](https://docs.astro.build/en/guides/client-side-scripts/#load-external-scripts) preserves the external module script without bundling it. The Site Token is intentionally public and belongs in the layout, not GitHub Secrets. This integration adds no cookies, localStorage tracking, advertising trackers or consent banner. There is no CSP configured; none was added for analytics. `npm run test:site` checks every generated HTML page for exactly one beacon with the expected URL and token.
 # New student knowledge base
 
 The full 2024 handbook is organized into 45 articles at `/new-students/`, with Chinese/English alias search, nine topic categories, 98 packing checklist items, first-week and rental-contract checklists, and the unchanged PDF archive. Chinese source bodies are complete; English discovery metadata does not claim an official translation. All imported articles clearly identify 2024 provenance and review status.
