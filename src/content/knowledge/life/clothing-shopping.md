@@ -29,12 +29,16 @@
     19
   ],
   "sourceYear": 2024,
-  "reviewStatus": "legacy-2024",
+  "reviewStatus": "partially-reviewed",
   "timeSensitive": true,
   "officialSources": [
     {
       "label": "补充核验入口｜Visit Leuven：购物街区（非手册原链）",
       "url": "https://visitleuven.be/en/shopping-streets"
+    },
+    {
+      "label": "PayPal Belgium — PayPal Buyer Protection",
+      "url": "https://www.paypal.com/be/legalhub/paypal/buyer-protection?locale.x=en_BE"
     }
   ],
   "related": [
@@ -43,10 +47,13 @@
     "life/groceries-cooking"
   ],
   "quickAnswer": "手册建议准备防风御寒衣物；衣服可在市中心商圈或品牌网店购买。商家、折扣与支付保障需另行核实。",
-  "sourceTitle": "鲁汶学联新生手册 2024"
+  "sourceTitle": "鲁汶学联新生手册 2024",
+  "lastReviewed": "2026-09-14",
+  "approvedUpdateIds": [
+    "NSG-046"
+  ]
 }
 ---
-
 ## 按季节准备
 
 2024 手册形容鲁汶湿润、多雨、多风，引用“一年约三分之一时间有降雨”，同时指出实际需要携带雨具的时间未必同样多。这是手册的气候概述，不是天气预报。
@@ -86,7 +93,13 @@
 
 手册提醒欧洲也有钓鱼网站，冒用知名品牌标志、网页粗糙、联系方式没有实体地址都是需仔细核查的线索；仅出现品牌标志不能证明网站可靠。
 
-**需要复核的历史说法：**手册推荐 PayPal，并称交易出问题可以追回款项、可报销退货运费，又据此认为支持 PayPal 的店铺多可靠。这些是原文的经验性说法，本站不将其作为当前退款保证或商家信誉证明。是否受保障及保障范围，应查看 PayPal 当地最新条款。手册提及可绑定银行账户、信用卡或预付款卡使用。
+**需要复核的历史说法：**手册推荐 PayPal，并称交易出问题可以追回款项，又据此认为支持 PayPal 的店铺多可靠。这些是原文的经验性说法，本站不将其作为当前退款保证或商家信誉证明。是否受保障及保障范围，应查看 PayPal 当地最新条款。手册提及可绑定银行账户、信用卡或预付款卡使用。
+
+<!-- NSG-046 -->
+
+**2026-09-14 更新：** PayPal 比利时买家保障不报销退货运费；下单前确认商家退货规则与个人可能承担的费用。
+
+参考：[PayPal Belgium](https://www.paypal.com/be/legalhub/paypal/buyer-protection?locale.x=en_BE)。
 
 ## 购物村
 

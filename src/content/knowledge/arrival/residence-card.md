@@ -29,16 +29,20 @@
     15
   ],
   "sourceYear": 2024,
-  "reviewStatus": "legacy-2024",
+  "reviewStatus": "partially-reviewed",
   "timeSensitive": true,
   "officialSources": [
     {
-      "label": "Leuven 警察联系表（手册原链）",
-      "url": "https://www.politie.be/5388/contact/commissariaten/contact-station-form/formulier?station=157"
-    },
-    {
       "label": "补充核验入口：鲁汶市学生登记（非手册原链）",
       "url": "https://www.leuven.be/en/registration-student"
+    },
+    {
+      "label": "Stad Leuven — Student with student visa who is studying at KU Leuven, UCLL or Luca: how to register?",
+      "url": "https://www.leuven.be/en/student-visa-leuven"
+    },
+    {
+      "label": "Lokale Politie Leuven — Commissariaten",
+      "url": "https://www.politie.be/5388/contact/commissariaten"
     }
   ],
   "related": [
@@ -47,11 +51,15 @@
     "arrival/health-insurance",
     "before-arrival/proof-of-funds"
   ],
-  "quickAnswer": "手册顺序为市政厅登记并领取 Annex 15、警察核实住址、邮件预约制卡、收到信后预约取卡；材料和时间均属于 2024 经验，需按当前通知核实。",
-  "sourceTitle": "鲁汶学联新生手册 2024"
+  "quickAnswer": "符合本页所列学校及学生 D 类签证条件者，先按学校要求提交登记材料，收到市政府发往学生邮箱的邀请后领取 Annex 15；其他身份使用市政府登记流程选择器。",
+  "sourceTitle": "鲁汶学联新生手册 2024",
+  "lastReviewed": "2026-09-14",
+  "approvedUpdateIds": [
+    "NSG-023",
+    "NSG-113"
+  ]
 }
 ---
-
 ## 1. 市政厅登记与 Annex 15
 
 手册列出的随身材料：
@@ -61,15 +69,23 @@
 - 租房合同。
 - 与护照照片同规格的照片。
 
-原文描述到市政厅领取 Annex 15，并说“即办即取”。这一速度和材料范围属于手册的历史描述，并非当前办理承诺。
+<!-- NSG-023 -->
+
+**2026-09-14 更新：** 2026-09-14 核实：住在鲁汶、持学生 D 类签证并就读 KU Leuven、UCLL 或 LUCA（Lemmens） 的非欧盟／欧洲经济区及非瑞士籍学生，先按学校要求提交登记材料，由学校转交市政府；收到市政府发往学生邮箱的邀请后，再领取 Annex 15。其他身份请使用市政府的登记流程选择器。
+
+参考：[Stad Leuven](https://www.leuven.be/en/student-visa-leuven)。
 
 ## 2. 警察查房、核实信息
 
-手册说警察会核对住址信息，通常需要半个月至一个月。若等待较久，可向警察局发邮件询问，或使用原文提供的联系表：
+手册说警察会核对住址信息，通常需要半个月至一个月。若等待较久，可向警察局发邮件询问，或查询下列辖区联系渠道：
 
-[Leuven 警察联系表（手册原链）](https://www.politie.be/5388/contact/commissariaten/contact-station-form/formulier?station=157)
+<!-- NSG-113 -->
 
-原 PDF 未列具体邮箱。请核实联系表与自己辖区、当前流程是否对应。
+**2026-09-14 更新：** 如需询问住址核查，可通过 [Leuven 警察：警署与辖区警员查询](https://www.politie.be/5388/contact/commissariaten) 查找本人住址对应的联系渠道。原手册的联系表已失效。
+
+参考：[Lokale Politie Leuven](https://www.politie.be/5388/contact/commissariaten)。
+
+原 PDF 未列具体邮箱。请核实联系渠道与自己辖区、当前流程是否对应。
 
 ## 3. 按邮件预约办理卡片
 

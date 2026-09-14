@@ -25,12 +25,16 @@
     31
   ],
   "sourceYear": 2024,
-  "reviewStatus": "legacy-2024",
+  "reviewStatus": "partially-reviewed",
   "timeSensitive": true,
   "officialSources": [
     {
       "label": "KU Leuven 步行与骑车信息",
       "url": "https://www.kuleuven.be/english/life-at-ku-leuven/transportation/travelling-by-bike-in-leuven"
+    },
+    {
+      "label": "City of Leuven — Over Leuven",
+      "url": "https://www.leuven.be/over-leuven"
     }
   ],
   "related": [
@@ -41,10 +45,13 @@
     "transport/buying-bikes"
   ],
   "quickAnswer": "手册将鲁汶概括为适合步行、自行车和公交的紧凑城市；先看住处与实际校区的位置，再选日常通勤方式。",
-  "sourceTitle": "鲁汶学联新生手册 2024"
+  "sourceTitle": "鲁汶学联新生手册 2024",
+  "lastReviewed": "2026-09-14",
+  "approvedUpdateIds": [
+    "NSG-102"
+  ]
 }
 ---
-
 ## 环内与环外
 
 2024 手册介绍，鲁汶由环形公路分为“环内”和“环外”，市中心道路呈辐射状连接环路并延伸至周边城镇。
@@ -63,6 +70,10 @@
 
 ## 来源中的面积差异
 
-本章写市总面积 **56.63 平方公里**；手册其他章节另有不同面积数字。两者均未作为现行统计复核，此处保留差异说明，避免用一个数字覆盖另一个来源记录。
+<!-- NSG-102 -->
+
+**2026-09-14 更新：** 鲁汶市现公布面积为 57.51 平方公里。
+
+参考：[City of Leuven](https://www.leuven.be/over-leuven)。
 
 PDF 第 31 页末为以街名组成的鲁汶装饰图，没有比例尺、站点或可用于路线导航的信息；原图保留在 PDF 档案中。

@@ -29,7 +29,7 @@
     29
   ],
   "sourceYear": 2024,
-  "reviewStatus": "legacy-2024",
+  "reviewStatus": "partially-reviewed",
   "timeSensitive": true,
   "officialSources": [
     {
@@ -39,6 +39,10 @@
     {
       "label": "比利时交通部外国驾照",
       "url": "https://mobilit.belgium.be/nl/weg/rijden/rijbewijzen/buitenlands-rijbewijs"
+    },
+    {
+      "label": "Local Police — Regels voor voortbewegingstoestellen",
+      "url": "https://www.politie.be/5998/nl/vragen/verkeer/regels-voor-voortbewegingstoestellen"
     }
   ],
   "related": [
@@ -47,10 +51,13 @@
     "transport/buying-bikes"
   ],
   "quickAnswer": "先向鲁汶市确认你的中国驾照能否换证及最新材料；本文保留手册材料清单，但不能据此推定换证资格或上路权限。",
-  "sourceTitle": "鲁汶学联新生手册 2024"
+  "sourceTitle": "鲁汶学联新生手册 2024",
+  "lastReviewed": "2026-09-14",
+  "approvedUpdateIds": [
+    "NSG-008"
+  ]
 }
 ---
-
 ## 换证资格需由主管机关确认
 
 2024 手册称中国驾驶证可以换比利时驾驶证，并强调“入境比利时后回国再考驾照”不能据此更换。手册也称驾照需处于原有效期，后续延长有效期不能兑换。
@@ -68,24 +75,14 @@
 
 原文未展开在比利时考驾照或机动车交通规则，要求读者另查资料；本页没有补造考试流程。
 
-## 滑板车、平衡车等：仅保留来源记录
+## 滑板车、平衡车等
 
-手册将 scooter、hoverboard、Segway、skateboard 等归为其他通勤工具，并用速度区分适用道路：
+<!-- NSG-008 -->
 
+**2026-09-14 更新：** 先区分电动、非电动与行动辅助器具；不要再使用 6／8／18 km/h 的旧分档。普通电动滑板车按现行自行车通行规则和车辆条件使用。
 
-### 低于 6 km/h
+参考：[Local Police](https://www.politie.be/5998/nl/vragen/verkeer/regels-voor-voortbewegingstoestellen)。
 
-- **原文说法，尚未核验：** 视为行人，走人行道
-
-### 6–8 km/h
-
-- **原文说法，尚未核验：** 视为骑行者，走自行车道并守骑行法规
-
-### 最高 18 km/h
-
-- **原文说法，尚未核验：** 原文称不得超过此速度
-
-
-**这套数字不应当作现行法规或购买、骑行设备的依据。**原文没有解释 8–18 km/h 之间如何分类，设备种类也概括过宽；使用前应向主管部门查询适用交通规则。此处保留原文的完整数字与缺口，未自行修补。
+使用前应向主管部门查询适用交通规则。
 
 手册提醒这些通勤工具可能发生事故，需注意自己和其他道路使用者的安全。

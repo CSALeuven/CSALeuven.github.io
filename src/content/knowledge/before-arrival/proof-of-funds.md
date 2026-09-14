@@ -24,7 +24,7 @@
     5
   ],
   "sourceYear": 2024,
-  "reviewStatus": "legacy-2024",
+  "reviewStatus": "partially-reviewed",
   "timeSensitive": true,
   "officialSources": [
     {
@@ -41,11 +41,14 @@
     "arrival/bank-account",
     "arrival/residence-card"
   ],
-  "quickAnswer": "手册区分 CSC 公派资助证明与自费资金证明；每月 1,000 欧元明确属于 2024–2025 学年，不能直接用于当前申请。",
-  "sourceTitle": "鲁汶学联新生手册 2024"
+  "quickAnswer": "手册区分 CSC 公派资助证明与自费资金证明。KU Leuven 对 2026–2027 学年起新申请的单人监管账户列示每月 1,100 欧元；这不是所有签证情形的法定最低金额。",
+  "sourceTitle": "鲁汶学联新生手册 2024",
+  "lastReviewed": "2026-09-14",
+  "approvedUpdateIds": [
+    "NSG-062"
+  ]
 }
 ---
-
 ## CSC 公派资助
 
 手册说，申请赴比利时签证需要按照停留月份办理资金证明；国家留学基金委资助的公派留学生可使用留基委提供的资助证明。
@@ -53,12 +56,18 @@
 ## 自费留学的历史金额
 
 
-### 2024–2025 学年
+<!-- NSG-062 -->
+
+**2026-09-14 更新：** 2026-09-14 核实：KU Leuven 对 2026–2027 学年起新申请的单人监管账户列示每月 1,100 欧元。这是大学监管账户标准，不应当作所有签证情形的法定最低金额。申请时请核对学校当期金额与协议；2024–2025 年的 1,000 欧元仅作历史保留。
+
+参考：[KU Leuven Student Immigration](https://www.kuleuven.be/english/life-at-ku-leuven/immigration-residence/long-stay-visa-type-d-visa-for-stays-longer-than-90-days/students-including-doctoral-scholarship-holders/blocked-account)。
+
+### 2024–2025 学年（历史记录）
 
 - **手册写明的每月最低额度：** 1,000 欧元
 
 
-原文同时强调：**金额每年都可能发生变动，应以签证申请中心最新材料说明为准。**本页保留历史金额，未将其更新为当前政策。
+原文同时强调：**金额每年都可能发生变动，应以签证申请中心最新材料说明为准。**本页保留历史金额，现行大学监管账户标准见上方更新。
 
 ## 手册列出的两类证明
 

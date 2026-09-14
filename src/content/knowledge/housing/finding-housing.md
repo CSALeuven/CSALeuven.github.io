@@ -32,7 +32,7 @@
     12
   ],
   "sourceYear": 2024,
-  "reviewStatus": "legacy-2024",
+  "reviewStatus": "partially-reviewed",
   "timeSensitive": true,
   "officialSources": [
     {
@@ -42,6 +42,10 @@
     {
       "label": "补充核验入口｜KU Leuven：租户、合同与费用（非手册原链）",
       "url": "https://www.kuleuven.be/english/life-at-ku-leuven/housing/info-for-tenants"
+    },
+    {
+      "label": "KU Leuven Stuvo — Kotlabel",
+      "url": "https://www.kuleuven.be/english/apply/life-at-ku-leuven/housing/students/student-housing-in-leuven/kotlabel"
     }
   ],
   "related": [
@@ -50,10 +54,13 @@
     "housing/deposit-and-condition"
   ],
   "quickAnswer": "手册优先介绍学校宿舍和 Kotwijs 认证房源，同时强调认证不保证所有体验；面对条件很好、价格很低却催付押金的广告要特别谨慎。",
-  "sourceTitle": "鲁汶学联新生手册 2024"
+  "sourceTitle": "鲁汶学联新生手册 2024",
+  "lastReviewed": "2026-09-14",
+  "approvedUpdateIds": [
+    "NSG-063"
+  ]
 }
 ---
-
 ## 学校宿舍
 
 2024 手册将学校所有、管理的宿舍描述为通常较可靠的选择，主要考虑房屋质量、管理、维护与纠纷风险。宿舍多为大型楼宇，约 20–400 间；少数为由普通住房改造的 house，约 5–15 间。
@@ -76,12 +83,13 @@
 
 认证房源多数为小型 house，少数是大型楼宇，可在学校的 **Kotwijs** 宿舍数据库检索。手册将其列为不申请学校宿舍或申请未成功时的优先寻找途径。
 
-手册说自 2018 年起学校与鲁汶市通过上门检查发放 **kotlabel**：
+<!-- NSG-063 -->
 
-- 绿色标识：手册解释为已通过学校及鲁汶市的检查认证。
-- 蓝色标识：手册解释为已通过学校检查认证。
+**2026-09-14 更新：** 自 2025 年 1 月 1 日起，应核对新的数字化 Vlaams kotlabel；旧蓝色、绿色门牌不再作为有效认证。Leuven kotlabel 另包含第二住所税要求。可在市政府入口核对标识，并用 Kotwijs 查询房源。
 
-标识会贴在门牌附近，Kotwijs 检索中也有注明；PDF 第 12 页附有蓝色、绿色 K 标识照片。
+参考：[KU Leuven Stuvo](https://www.kuleuven.be/english/apply/life-at-ku-leuven/housing/students/student-housing-in-leuven/kotlabel)。
+
+PDF 第 12 页的蓝色、绿色 K 标识照片仅作历史来源记录。
 
 **认证的边界：**手册特别说明 kotlabel 仅确保可居住性，房屋各方面质量、房东或宿管的负责程度仍可能有很大差异。不确定时，可向曾住过同一房源的同学了解，或请 Housing Service 提供经验与资料。
 

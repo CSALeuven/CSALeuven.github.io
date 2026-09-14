@@ -30,12 +30,20 @@
     14
   ],
   "sourceYear": 2024,
-  "reviewStatus": "legacy-2024",
+  "reviewStatus": "partially-reviewed",
   "timeSensitive": true,
   "officialSources": [
     {
       "label": "补充核验入口｜KU Leuven：租户、合同与费用（非手册原链）",
       "url": "https://www.kuleuven.be/english/life-at-ku-leuven/housing/info-for-tenants"
+    },
+    {
+      "label": "KU Leuven Stuvo — Common mistakes in a student tenancy agreement",
+      "url": "https://www.kuleuven.be/english/life-at-ku-leuven/housing/info-for-tenants/common-mistakes-in-a-student-tenancy-agreement"
+    },
+    {
+      "label": "KU Leuven Stuvo — Housing contracts for the current academic year",
+      "url": "https://www.kuleuven.be/english/life-at-ku-leuven/housing/info-for-tenants/contracts-current"
     }
   ],
   "related": [
@@ -47,10 +55,14 @@
     "life/waste-recycling"
   ],
   "quickAnswer": "逐条确认合同内容和房间情况附录，把额外协商事项留成书面记录；手册提示不懂的荷兰语条款可请 Housing Service 帮助。",
-  "sourceTitle": "鲁汶学联新生手册 2024"
+  "sourceTitle": "鲁汶学联新生手册 2024",
+  "lastReviewed": "2026-09-14",
+  "approvedUpdateIds": [
+    "NSG-022",
+    "NSG-126"
+  ]
 }
 ---
-
 ## 先了解使用哪种合同
 
 手册说合同因住宿类型、房源而异。私有市场常见学校提供的模板合同，手册认为其较标准、对学生较友好；其他房东会使用自行编写或选用的合同，多数中介和公司也不使用学校模板。
@@ -73,7 +85,13 @@
 
 ## 房东进入、宠物和额外约定
 
-手册建议事先明确房东进入房间的权利、频率与条件，并要求每次进入前提前通知。原文认为除年度安全检查和找房高峰外通常没有其他进入理由；还提醒五、六月的找房高峰可能与考试季重叠，频繁看房会造成打扰。这些描述不替代当前法律及合同。
+<!-- NSG-022 -->
+
+**2026-09-14 更新：** 房东进入房间通常须取得租客同意，不能仅凭提前通知随时进入；不可抗力情形除外。检查、紧急维修及再次出租看房应预先安排时间，租客也应合理配合。
+
+参考：[KU Leuven Stuvo](https://www.kuleuven.be/english/life-at-ku-leuven/housing/info-for-tenants/common-mistakes-in-a-student-tenancy-agreement)。
+
+原文认为除年度安全检查和找房高峰外通常没有其他进入理由；还提醒五、六月的找房高峰可能与考试季重叠，频繁看房会造成打扰。这些描述不替代当前法律及合同。
 
 大部分宿舍按手册描述不允许宠物；如有需要应事先协商。家人或朋友短住、墙面改动等也在其他条款中涉及。
 
@@ -81,6 +99,10 @@
 
 ## 看不懂荷兰语合同时
 
-手册说大部分第三方房东仅提供荷兰语合同，Housing Service 可以帮助翻译条款并提供建议。原文还称英语合同同样具有法律效力、可用于市政厅注册，但如进入司法程序，作为材料需由有资质的译者翻译成荷兰语。该法律效力及程序说明尚需核实。
+<!-- NSG-126 -->
+
+**2026-09-14 更新：** KU Leuven 建议签署荷兰语租约，并把英文译本作为理解条款的参考。已有英文合同的法律效力、登记用途或诉讼翻译要求，请交 Stuvo 或合格法律专业人士按个案确认。
+
+参考：[KU Leuven Stuvo](https://www.kuleuven.be/english/life-at-ku-leuven/housing/info-for-tenants/contracts-current)。
 
 租期、转租与解约细节，以及押金与房况交接，见下方文章。

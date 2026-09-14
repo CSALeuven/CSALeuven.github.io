@@ -28,7 +28,7 @@
     26
   ],
   "sourceYear": 2024,
-  "reviewStatus": "legacy-2024",
+  "reviewStatus": "partially-reviewed",
   "timeSensitive": true,
   "officialSources": [
     {
@@ -38,6 +38,14 @@
     {
       "label": "Velo 自行车与维修",
       "url": "https://velo.be/en/bicycles-individuals/"
+    },
+    {
+      "label": "ViTeS — Kringwinkels ViTeS",
+      "url": "https://www.vites.be/nl/wat-doen-we/kringwinkels-vites"
+    },
+    {
+      "label": "City of Leuven — Afval voorkomen",
+      "url": "https://leuven.be/afval-voorkomen"
     }
   ],
   "related": [
@@ -45,11 +53,14 @@
     "transport/bus",
     "transport/cycling-rules"
   ],
-  "quickAnswer": "买二手车前检查功能；每次停车锁好。手册列出 Velo、SPIT、二手平台及学校 DIY 修车工作坊，地点和服务需复核。",
-  "sourceTitle": "鲁汶学联新生手册 2024"
+  "quickAnswer": "买二手车前检查功能；每次停车锁好。可查 Velo、Kringwinkel ViTeS 与二手平台，学校 DIY 修车工作坊的地点和服务需复核。",
+  "sourceTitle": "鲁汶学联新生手册 2024",
+  "lastReviewed": "2026-09-14",
+  "approvedUpdateIds": [
+    "NSG-081"
+  ]
 }
 ---
-
 ## 新车与二手渠道
 
 手册列举的新车购买地点为鲁汶市中心 **Sports Direct**，以及布鲁塞尔 **Decathlon**；需要特定品牌或型号时，可查品牌官网的经销商信息。商店与库存未重新核实。
@@ -60,7 +71,11 @@
 - Facebook 群 **Leuven Junk Shop**、**Second hand shop Leuven**
 - 各学生微信群
 - Velo 线下
-- SPIT 线下
+<!-- NSG-081 -->
+
+**2026-09-14 更新：** 当前旧物捐赠与二手店请查 Kringwinkel ViTeS；可预约收取适合再利用的物品，先确认接收条件。
+
+参考：[ViTeS](https://www.vites.be/nl/wat-doen-we/kringwinkels-vites) · [City of Leuven](https://leuven.be/afval-voorkomen)。
 
 **无论在哪购买二手车，交易前都应检查各项功能是否完好，避免安全隐患。**手册还要求每次上路前检查车轮、链条等部件，并注意车灯、铃和刹车。
 

@@ -26,12 +26,12 @@
     15
   ],
   "sourceYear": 2024,
-  "reviewStatus": "legacy-2024",
+  "reviewStatus": "partially-reviewed",
   "timeSensitive": true,
   "officialSources": [
     {
       "label": "KU Leuven：健康保险（手册原链）",
-      "url": "https://www.kuleuven.be/english/life-at-ku-leuven/insurance-social-security/health-insurance"
+      "url": "https://www.kuleuven.be/english/life-at-ku-leuven/wellbeing-safety/health-insurance"
     }
   ],
   "related": [
@@ -41,10 +41,14 @@
     "healthcare/emergency"
   ],
   "quickAnswer": "手册把健康保险列为抵达后的重要事项，并提到它与国际学生居留许可有关；选择机构及办理要求应以学校和保险方当前说明为准。",
-  "sourceTitle": "鲁汶学联新生手册 2024"
+  "sourceTitle": "鲁汶学联新生手册 2024",
+  "lastReviewed": "2026-09-14",
+  "approvedUpdateIds": [
+    "NSG-084",
+    "NSG-114"
+  ]
 }
 ---
-
 ## 手册对保险要求的说明
 
 2024 手册称比利时所有居民，无论国籍，都必须拥有涵盖医疗保健的保险，并将拥有健康保险列为国际学生获得居留许可的条件之一。**这段说明涉及政策，应按本人身份与当前要求核实。**
@@ -55,14 +59,18 @@
 - LM（Liberale Mutualiteit）。
 - Helan／Partenamut（原文括注 Onafhankelijk Ziekenfonds）。
 - Neutraal Ziekenfonds。
-- Socialistische Mutualiteiten。
+<!-- NSG-084 -->
 
-这些名称按原手册保留。机构名称、适用地区、服务、收费或产品可能变化；手册未提供比较表、报销比例、统一价格和办理材料清单。
+**2026-09-14 更新：** Solidaris（2024 手册使用泛称 Socialistische Mutualiteiten；办理时请核对服务地区及当前机构信息）。
+
+参考：[KU Leuven Stuvo](https://www.kuleuven.be/english/life-at-ku-leuven/wellbeing-safety/health-insurance)。
+
+除注明更新的名称外，其余名称按原手册保留。机构名称、适用地区、服务、收费或产品可能变化；手册未提供比较表、报销比例、统一价格和办理材料清单。
 
 ## 办理信息入口
 
 原手册指向学校健康保险办理说明：
 
-[KU Leuven：健康保险](https://www.kuleuven.be/english/life-at-ku-leuven/insurance-social-security/health-insurance)
+[KU Leuven：健康保险](https://www.kuleuven.be/english/life-at-ku-leuven/wellbeing-safety/health-insurance)
 
 在确定办理方案前核对与本人身份、居留和已有保险对应的要求。具体就医、家庭医生及急诊信息在医疗类别中另有整理。

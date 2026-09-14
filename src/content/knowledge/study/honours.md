@@ -25,12 +25,20 @@
     17
   ],
   "sourceYear": 2024,
-  "reviewStatus": "legacy-2024",
+  "reviewStatus": "partially-reviewed",
   "timeSensitive": true,
   "officialSources": [
     {
       "label": "补充核验入口｜KU Leuven：教育与考试规则（非手册原链）",
       "url": "https://www.kuleuven.be/education/regulations/"
+    },
+    {
+      "label": "KU Leuven — Level — Educational glossary",
+      "url": "https://www.kuleuven.be/english/apply/education/educational-glossary/educational-glossary-l/level"
+    },
+    {
+      "label": "KU Leuven Academic Council — Regulations on Education and Examinations 2026–2027, Articles 21, 38, 81–82",
+      "url": "https://www.kuleuven.be/education/regulations/2026/"
     }
   ],
   "related": [
@@ -38,16 +46,19 @@
     "study/isp"
   ],
   "quickAnswer": "手册列出多个 Latin honours 百分比，并把 cum laude 与本校 PhD 申请联系起来；阈值边界和适用项目未说明，应人工核实。",
-  "sourceTitle": "鲁汶学联新生手册 2024"
+  "sourceTitle": "鲁汶学联新生手册 2024",
+  "lastReviewed": "2026-09-14",
+  "approvedUpdateIds": [
+    "NSG-107"
+  ]
 }
 ---
-
 ## 手册中的评优表述
 
 手册称学校遵循 Latin honours 传统，并列出以下名称和百分比。这里保留原文的大小于符号，不擅自补入等号或改变阈值。
 
 
-### cum fuctu（原文拼写）
+### cum fructu
 
 - **手册所列百分比：** < 68%
 
@@ -70,7 +81,11 @@
 
 ## 需要人工核实的细节
 
-- 第一项原文为“cumfuctu”，本页仅拆分空格，未猜测替换拼写。
+<!-- NSG-107 -->
+
+**2026-09-14 更新：** 现行名称为 cum fructu；2024 手册写作“cumfuctu”，原拼写仅作来源记录。
+
+参考：[KU Leuven](https://www.kuleuven.be/english/apply/education/educational-glossary/educational-glossary-l/level) · [KU Leuven Academic Council](https://www.kuleuven.be/education/regulations/2026/)。
 - 原文没有写清恰好等于 68%、77%、85%、90% 时如何处理。
 - 原文各项没有明确写成互斥区间，也未解释计算和适用项目。
 - PDF 说满足 cum laude 是申请本校 PhD 的门槛标准。这是来源中的概括，不能用来判断某个博士岗位或项目的现行资格。

@@ -27,12 +27,16 @@
     5
   ],
   "sourceYear": 2024,
-  "reviewStatus": "legacy-2024",
+  "reviewStatus": "partially-reviewed",
   "timeSensitive": true,
   "officialSources": [
     {
       "label": "补充核验入口｜比利时驻华使馆：签证与材料（非手册原链）",
       "url": "https://china.diplomatie.belgium.be/en/travel-belgium/visa-belgium"
+    },
+    {
+      "label": "Embassy of Belgium in China — 中国文件的认证",
+      "url": "https://china.diplomatie.belgium.be/cn/consulaire-diensten/legalisatie-van-documenten/zhongguowenjianderenzheng"
     }
   ],
   "related": [
@@ -40,11 +44,14 @@
     "before-arrival/proof-of-funds",
     "before-arrival/packing"
   ],
-  "quickAnswer": "先按申请时官方清单核对签证与证明材料。以下是手册 2024 年的材料说明，其中认证方式、指定医院与学位证明渠道仍须重新核实。",
-  "sourceTitle": "鲁汶学联新生手册 2024"
+  "quickAnswer": "先按申请时官方清单核对签证与证明材料。中国文件的附加证明书流程见本页注明的更新；指定医院与学位证明渠道仍须核实。",
+  "sourceTitle": "鲁汶学联新生手册 2024",
+  "lastReviewed": "2026-09-14",
+  "approvedUpdateIds": [
+    "NSG-011"
+  ]
 }
 ---
-
 ## 手册列出的签证类型
 
 2024 手册将比利时留学生的申请类别写为长期签证（D 类签），并提示到比利时签证中心的中国信息网站查看学生签证手续和材料说明。手册没有给出该网站的具体网址，也没有给出完整申请表、费用、预约或递交清单，因此本页不补造这些信息。
@@ -53,9 +60,15 @@
 
 ### 无犯罪记录证明
 
+<!-- NSG-011 -->
+
+**2026-09-14 更新：** 2026-09-14 核实：比利时驻华使馆现行说明要求中国文件先公证，再由中国外交部或当地外事办公室办理附加证明书（apostille），无需再经比利时使领馆认证。翻译语言及文件时效应向接收机构确认。下方“双认证”流程仅为 2024 手册原文存档。
+
+参考：[Embassy of Belgium in China](https://china.diplomatie.belgium.be/cn/consulaire-diensten/legalisatie-van-documenten/zhongguowenjianderenzheng)。
+
 手册描述的历史顺序是：公安机关开具无犯罪记录证明 → 公证处证明真实性 → 外交部认证 → 大使馆认证，并以此解释所谓“双认证”。申请人需依据自己的身份、户籍情况向相应机构申请。
 
-**待核实：**这是一段 2024 手册中的认证流程描述，不能据此认定现在仍需相同认证方式。应按当前受理机构要求确认适用程序。
+以上“双认证”步骤只保留为来源记录；当前认证方式见本节更新。
 
 ### 医疗证明
 

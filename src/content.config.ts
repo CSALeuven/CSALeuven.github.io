@@ -60,6 +60,7 @@ const knowledge = defineCollection({
     sourceChapter: z.string(), sourceSection: z.string(), sourcePages: z.array(z.number().int().min(1).max(35)).min(1),
     reviewStatus: z.enum(['legacy-2024', 'reviewed', 'partially-reviewed', 'needs-verification']),
     lastReviewed: z.coerce.date().nullable().optional(), timeSensitive: z.boolean(),
+    approvedUpdateIds: z.array(z.string().regex(/^NSG-\d{3}$/)).default([]),
     officialSources: z.array(z.object({ label: z.string(), url: z.url() })).default([]),
     related: z.array(z.string()).min(1), draft: z.boolean().default(false),
   }).refine(a => a.key.startsWith(a.category + '/'), 'Key must start with category')
@@ -69,4 +70,12 @@ const knowledgeTranslations = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/knowledge-translations' }),
   schema: z.object({ key: z.string(), lang: z.literal('en'), quickAnswer: z.string(), lastReviewed: z.coerce.date(), reviewer: z.string().min(1) }),
 });
-export const collections = { events, guides, news, knowledge, knowledgeTranslations };
+// Translations of specific approved corrections, not full article translations.
+const knowledgeUpdates = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/knowledge-updates' }),
+  schema: z.object({
+    key: z.string().regex(/^[a-z-]+\/[a-z0-9-]+$/), lang: z.literal('en'),
+    lastReviewed: z.coerce.date(), updateIds: z.array(z.string().regex(/^NSG-\d{3}$/)).min(1),
+  }),
+});
+export const collections = { events, guides, news, knowledge, knowledgeTranslations, knowledgeUpdates };
