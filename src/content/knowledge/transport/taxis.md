@@ -21,12 +21,16 @@
     28
   ],
   "sourceYear": 2024,
-  "reviewStatus": "legacy-2024",
+  "reviewStatus": "partially-reviewed",
   "timeSensitive": true,
   "officialSources": [
     {
       "label": "补充核验入口｜鲁汶市：出租车事务联系部门（非手册原链）",
       "url": "https://www.leuven.be/contact/dienst-economie-en-handel-taxis"
+    },
+    {
+      "label": "City of Leuven — Taxi",
+      "url": "https://www.leuven.be/taxi"
     }
   ],
   "related": [
@@ -35,23 +39,35 @@
     "transport/buying-bikes"
   ],
   "quickAnswer": "手册列出的找车方式是去火车站或市中心候客点，或直接联系出租车公司预订；出发前确认价格和付款方式。",
-  "sourceTitle": "鲁汶学联新生手册 2024"
+  "sourceTitle": "鲁汶学联新生手册 2024",
+  "lastReviewed": "2026-09-14",
+  "approvedUpdateIds": [
+    "NSG-058",
+    "NSG-059"
+  ]
 }
 ---
-
 ## 手册列出的找车方式
 
 2024 手册称鲁汶出租车通常在候客点或公司等候，而不是随处招手即停：
 
-- 鲁汶火车站。
-- 市中心大广场附近 **Mathieu de Layensplein**。
+<!-- NSG-058 -->
+
+**2026-09-14 更新：** 可在火车站 Martelarenplein 及市政列出的市中心候客点找车；中心点可查 Ferdinand Smoldersplein、Margarethaplein。
+
+参考：[City of Leuven](https://www.leuven.be/taxi)。
+
 - 出租车公司安排的候客地点。
 
 离火车站或市中心近时，可到候客点；其他情况可打公司电话或通过其官网预订。手册未列具体公司的电话或网址，建议搜索 **taxi Leuven**。此处未补造公司名单。
 
 ## 2024 费用与付款记录
 
-手册记录鲁汶市内单程约 **€10–20**，并称相比步行、自行车和公交费用较高，学生使用较少。该金额不是当前报价，也不适用于推算机场或跨城行程。
+<!-- NSG-059 -->
+
+**2026-09-14 更新：** 不要将 €10–20 作为统一报价；候客点出租车按市政费率表，其他服务应在上车前确认全程估价。
+
+参考：[City of Leuven](https://www.leuven.be/taxi)。
 
 手册称多数出租车接受现金和比利时借记卡；实际付款方式应提前向司机或公司确认。
 

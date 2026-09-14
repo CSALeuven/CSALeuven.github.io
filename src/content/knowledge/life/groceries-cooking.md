@@ -27,12 +27,16 @@
     21
   ],
   "sourceYear": 2024,
-  "reviewStatus": "legacy-2024",
+  "reviewStatus": "partially-reviewed",
   "timeSensitive": true,
   "officialSources": [
     {
       "label": "补充核验入口｜Visit Leuven：集市（非手册原链）",
       "url": "https://visitleuven.be/en/markets"
+    },
+    {
+      "label": "Colruyt Group — Final store formats for Comarkt/Comarché stores announced",
+      "url": "https://press.colruytgroup.com/final-store-formats-for-comarktcomarche-stores-announced"
     }
   ],
   "related": [
@@ -41,10 +45,13 @@
     "life/furniture"
   ],
   "quickAnswer": "入住时确认冰箱和橱柜分配；按商品与地点查找超市或集市，并检查食品日期。下列商家和集市安排来自 2024 手册。",
-  "sourceTitle": "鲁汶学联新生手册 2024"
+  "sourceTitle": "鲁汶学联新生手册 2024",
+  "lastReviewed": "2026-09-14",
+  "approvedUpdateIds": [
+    "NSG-082"
+  ]
 }
 ---
-
 ## 先熟悉厨房
 
 手册称学生宿舍通常配厨房，常见设备包括电炉、微波炉、冰箱、橱柜，部分另有抽油烟机或烤箱。原文比较了电炉与明火在中式烹饪上的差异；具体能用什么设备，应以住处实际设施为准。
@@ -59,6 +66,12 @@
 ### 综合超市：supermarkt
 
 - **手册列出的例子：** Colruyt、Delhaize、Carrefour、Spar、Match、Lidl
+
+<!-- NSG-082 -->
+
+**2026-09-14 更新：** Match 为历史店名；如要列出现营门店，须按原地址核实当前名称，不能直接猜测替代店。
+
+参考：[Colruyt Group](https://press.colruytgroup.com/final-store-formats-for-comarktcomarche-stores-announced)。
 - **手册说明：** 基本覆盖日常所需
 
 ### 亚洲超市：Asian supermarkt

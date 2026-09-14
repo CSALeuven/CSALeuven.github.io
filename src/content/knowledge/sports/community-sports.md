@@ -25,27 +25,44 @@
     35
   ],
   "sourceYear": 2024,
-  "reviewStatus": "legacy-2024",
+  "reviewStatus": "partially-reviewed",
   "timeSensitive": true,
   "officialSources": [
     {
       "label": "Sportoase 水上运动设施",
-      "url": "https://www.sportoase.be/nl/zwembad"
+      "url": "https://sportoase.be/nl/locaties/philipssite/"
+    },
+    {
+      "label": "Sportoase — Philipssite",
+      "url": "https://sportoase.be/nl/locaties/philipssite/"
+    },
+    {
+      "label": "Stad Leuven — Zwembad Sportoase Philipssite",
+      "url": "https://www.leuven.be/zwembad-sportoase-philipssite"
     }
   ],
   "related": [
     "sports/university-sports"
   ],
   "quickAnswer": "除大学场馆外，手册还介绍 Sportoase 体育中心，以及中国留学生自发组织的球类运动群体。具体场地、费用和活动安排需向组织方确认。",
-  "sourceTitle": "鲁汶学联新生手册 2024"
+  "sourceTitle": "鲁汶学联新生手册 2024",
+  "lastReviewed": "2026-09-14",
+  "approvedUpdateIds": [
+    "NSG-115"
+  ]
 }
 ---
-
 ## 校外体育中心：Sportoase
 
 2024 手册将 Sportoase 介绍为鲁汶一家规模较大的体育中心，面向公众提供各类运动场所和相关服务。
 
-手册提供的查询入口为 [Sportoase 水上运动设施](https://www.sportoase.be/nl/zwembad)。原链接目前转向运营方 Aqua 页面；请在运营方网站确认具体场馆、项目、营业时间、价格和预约方式。手册没有给出这些数值，本站不补造收费或优惠。
+<!-- NSG-115 -->
+
+**2026-09-14 更新：** [Sportoase Philipssite：场馆、票务与开放信息](https://sportoase.be/nl/locaties/philipssite/)
+
+参考：[Sportoase](https://sportoase.be/nl/locaties/philipssite/) · [Stad Leuven](https://www.leuven.be/zwembad-sportoase-philipssite)。
+
+请在运营方网站确认具体场馆、项目、营业时间、价格和预约方式。手册没有给出这些数值，本站不补造收费或优惠。
 
 ## 学生自发组织的运动
 

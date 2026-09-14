@@ -1,5 +1,7 @@
 # Maintaining the student knowledge base
 
+For the approved September 2026 corrections and their partial English counterparts, see [Approved guide updates](../handbook-2026-updates/README.md). These updates do not constitute a full English translation or full-article verification.
+
 The collection has 45 first-pass articles from all nine chapters of the 35-page handbook, plus a historical CSAL profile in About. All start `legacy-2024`; each includes time-sensitive material. The archive PDF is unchanged. The 2024 identity and statistics in the About archive do not update the current organization profile.
 
 ## Add or edit an article

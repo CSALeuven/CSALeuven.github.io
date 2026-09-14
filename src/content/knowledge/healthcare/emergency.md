@@ -26,7 +26,7 @@
     34
   ],
   "sourceYear": 2024,
-  "reviewStatus": "legacy-2024",
+  "reviewStatus": "partially-reviewed",
   "timeSensitive": true,
   "officialSources": [
     {
@@ -36,6 +36,14 @@
     {
       "label": "KU Leuven 健康与紧急求助",
       "url": "https://www.kuleuven.be/english/life-at-ku-leuven/wellbeing-safety"
+    },
+    {
+      "label": "Belgian FPS Public Health — Teams van de dringende geneeskundige hulpverlening",
+      "url": "https://www.health.belgium.be/nl/themas/gezondheid/dringende-geneeskundige-hulpverlening/actoren-dringende-geneeskundige-hulpverlening/teams-dringende-geneeskundige-hulpverlening"
+    },
+    {
+      "label": "Belgian FPS Home Affairs — Who and how to call?",
+      "url": "https://112.be/en/who-and-how-call"
     }
   ],
   "related": [
@@ -43,16 +51,24 @@
     "healthcare/student-health",
     "arrival/health-insurance"
   ],
-  "quickAnswer": "需要救护车或消防等紧急援助时可拨打 112。此号码已于 2026-09-11 单项核对官方来源；本页其余手册内容仍待复核。",
-  "sourceTitle": "鲁汶学联新生手册 2024"
+  "quickAnswer": "如需救护车、消防等紧急援助，请拨打 112，并按接线员指示说明位置和情况。仅因交通不便而无法自行前往医院，并不等于紧急情况；非紧急就医请联系家庭医生或当地值班医疗服务。",
+  "sourceTitle": "鲁汶学联新生手册 2024",
+  "lastReviewed": "2026-09-14",
+  "approvedUpdateIds": [
+    "NSG-012",
+    "NSG-117"
+  ]
 }
 ---
-
 ## 紧急求助：112
 
 **[拨打 112](tel:112)**
 
-2024 手册把 112 列为比利时通用急救电话，在情况严重或无法自行前往医院时可拨打，并说明接线员会根据情况安排急救、消防或警察服务。
+<!-- NSG-117 -->
+
+**2026-09-14 更新：** 如需救护车、消防等紧急援助，请拨打 112，并按接线员指示说明位置和情况。仅因交通不便而无法自行前往医院，并不等于紧急情况；非紧急就医请联系家庭医生或当地值班医疗服务。
+
+参考：[Belgian FPS Home Affairs](https://112.be/en/who-and-how-call) · [Belgian FPS Home Affairs](https://112.be/en/how-call/how-call-112)。
 
 **单项核实记录 · 2026-09-11：** 比利时政府的 [112 官方说明](https://112.be/en/how-call/how-call-112)确认 112 可用于救护车、消防或警察求助；该页面另列比利时紧急警务号码 101。接通后说明准确位置和发生的情况，并听从接线员指示。这个核对只覆盖紧急号码和上述拨打说明，不代表整篇 2024 医疗内容已经审核。
 
@@ -66,7 +82,11 @@
 
 手册提到，学生若遇到严重健康问题且难以负担治疗费用，可联系学校 **Social Service**，咨询向保险公司申请报销及其他支持的可能性。手册用“全额或尽可能多的报销”描述这一帮助，不代表结果保证，具体资格和报销额度需要由学校及保险机构确认。
 
-关于救护车，手册写有“根据时间收费”的表述。**此计费说法尚未核实，不能作为当前收费规则或费用估算依据。** 手册同时提醒，在确有需要时不要为了省钱而勉强放弃救护车服务。当前收费信息应查医疗服务方或官方说明。
+<!-- NSG-012 -->
+
+**2026-09-14 更新：** 经 112 调派的紧急救护车采用按年调整的固定收费，并非按时间计费；非紧急病人运输适用其他规则。请查官方当年收费说明，紧急时不要因费用而延误求助。
+
+参考：[Belgian FPS Public Health](https://www.health.belgium.be/nl/themas/gezondheid/dringende-geneeskundige-hulpverlening/actoren-dringende-geneeskundige-hulpverlening/teams-dringende-geneeskundige-hulpverlening)。
 
 ## 学校紧急求助
 

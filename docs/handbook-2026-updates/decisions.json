@@ -1,0 +1,2068 @@
+{
+  "auditDate": "2026-09-14",
+  "auditedMainCommit": "97313c3bbf58e2928d7db5e6db210761fbb7edeb",
+  "sourceWorkbook": "CSAL-guide-review.xlsx",
+  "sourceWorkbookSha256": "7c7b1182a062e24f7bdca06a1f8c8b53e2c0f66fa9b06ff0f1fa19b5bb506b03",
+  "implementationAuthorized": true,
+  "implementationBaseCommit": "6341681",
+  "decisions": [
+    {
+      "id": "NSG-001",
+      "decision": "Reject",
+      "workbookRow": 7,
+      "articles": [
+        {
+          "route": "/new-students/transport/cycling-rules/",
+          "file": "src/content/knowledge/transport/cycling-rules.md",
+          "englishRoute": "/en/new-students/transport/cycling-rules/"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-002",
+      "decision": "Reject",
+      "workbookRow": 8,
+      "articles": [
+        {
+          "route": "/new-students/transport/cycling-rules/",
+          "file": "src/content/knowledge/transport/cycling-rules.md",
+          "englishRoute": "/en/new-students/transport/cycling-rules/"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-003",
+      "decision": "Reject",
+      "workbookRow": 9,
+      "articles": [
+        {
+          "route": "/new-students/transport/cycling-rules/",
+          "file": "src/content/knowledge/transport/cycling-rules.md",
+          "englishRoute": "/en/new-students/transport/cycling-rules/"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-004",
+      "decision": "Reject",
+      "workbookRow": 10,
+      "articles": [
+        {
+          "route": "/new-students/transport/cycling-rules/",
+          "file": "src/content/knowledge/transport/cycling-rules.md",
+          "englishRoute": "/en/new-students/transport/cycling-rules/"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-005",
+      "decision": "Accept",
+      "workbookRow": 11,
+      "articles": [
+        {
+          "route": "/new-students/transport/cycling-rules/",
+          "file": "src/content/knowledge/transport/cycling-rules.md",
+          "englishRoute": "/en/new-students/transport/cycling-rules/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "转弯前观察、示意，并按路口信号、标志及转弯让行规则处理；不能把“左转让所有人”作为每个路口的统一规则。",
+        "en": "Observe and signal before turning, then follow that junction's signals, signs and turning-priority duties; a blanket rule cannot replace them."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-006",
+      "decision": "Reject",
+      "workbookRow": 12,
+      "articles": [
+        {
+          "route": "/new-students/transport/cycling-rules/",
+          "file": "src/content/knowledge/transport/cycling-rules.md",
+          "englishRoute": "/en/new-students/transport/cycling-rules/"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-007",
+      "decision": "Reject",
+      "workbookRow": 13,
+      "articles": [
+        {
+          "route": "/new-students/transport/driving-licence/",
+          "file": "src/content/knowledge/transport/driving-licence.md",
+          "englishRoute": "/en/new-students/transport/driving-licence/"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-008",
+      "decision": "Accept",
+      "workbookRow": 14,
+      "articles": [
+        {
+          "route": "/new-students/transport/driving-licence/",
+          "file": "src/content/knowledge/transport/driving-licence.md",
+          "englishRoute": "/en/new-students/transport/driving-licence/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "先区分电动、非电动与行动辅助器具；不要再使用 6／8／18 km/h 的旧分档。普通电动滑板车按现行自行车通行规则和车辆条件使用。",
+        "en": "Distinguish powered, unpowered and mobility-assistance devices; do not use the old 6/8/18 km/h bands. Ordinary e-scooters follow current cyclist and device requirements."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-009",
+      "decision": "Reject",
+      "workbookRow": 15,
+      "articles": [
+        {
+          "route": "/new-students/transport/driving-licence/",
+          "file": "src/content/knowledge/transport/driving-licence.md",
+          "englishRoute": "/en/new-students/transport/driving-licence/"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-010",
+      "decision": "Accept",
+      "workbookRow": 16,
+      "articles": [
+        {
+          "route": "/new-students/transport/train/",
+          "file": "src/content/knowledge/transport/train.md",
+          "englishRoute": "/en/new-students/transport/train/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "自 2026 年 7 月 1 日起，SNCB 不再车上售票；登车前必须持有有效车票。",
+        "en": "Since 1 July 2026, SNCB no longer sells tickets onboard. Obtain a valid ticket before boarding."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-011",
+      "decision": "Accept",
+      "workbookRow": 17,
+      "articles": [
+        {
+          "route": "/new-students/before-arrival/visa-documents/",
+          "englishRoute": "/en/new-students/before-arrival/visa-documents/",
+          "file": "src/content/knowledge/before-arrival/visa-documents.md"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "2026-09-14 核实：比利时驻华使馆现行说明要求中国文件先公证，再由中国外交部或当地外事办公室办理附加证明书（apostille），无需再经比利时使领馆认证。翻译语言及文件时效应向接收机构确认。下方“双认证”流程仅为 2024 手册原文存档。",
+        "en": "Checked 14 September 2026: the Belgian mission’s instructions for Chinese documents use notarisation followed by an apostille, without Belgian consular legalisation. Confirm translation and document-age requirements with the receiving authority. The double-legalisation sequence below is retained only as the handbook’s historical account."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-012",
+      "decision": "Accept",
+      "workbookRow": 18,
+      "articles": [
+        {
+          "route": "/new-students/healthcare/emergency/",
+          "englishRoute": "/en/new-students/healthcare/emergency/",
+          "file": "src/content/knowledge/healthcare/emergency.md"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "经 112 调派的紧急救护车采用按年调整的固定收费，并非按时间计费；非紧急病人运输适用其他规则。请查官方当年收费说明，紧急时不要因费用而延误求助。",
+        "en": "Emergency ambulance intervention dispatched through 112 uses an annually adjusted flat charge, not time-based billing. Non-emergency patient transport follows different rules. Check the official current tariff; do not delay emergency help because of cost."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-013",
+      "decision": "Reject",
+      "workbookRow": 19,
+      "articles": [
+        {
+          "route": "/new-students/before-arrival/proof-of-funds/",
+          "englishRoute": "/en/new-students/before-arrival/proof-of-funds/",
+          "file": "src/content/knowledge/before-arrival/proof-of-funds.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-014",
+      "decision": "Reject",
+      "workbookRow": 20,
+      "articles": [
+        {
+          "route": "/new-students/housing/choosing-a-room/",
+          "englishRoute": "/en/new-students/housing/choosing-a-room/",
+          "file": "src/content/knowledge/housing/choosing-a-room.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-015",
+      "decision": "Reject",
+      "workbookRow": 21,
+      "articles": [
+        {
+          "route": "/new-students/housing/subletting-and-termination/",
+          "englishRoute": "/en/new-students/housing/subletting-and-termination/",
+          "file": "src/content/knowledge/housing/subletting-and-termination.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-016",
+      "decision": "Reject",
+      "workbookRow": 22,
+      "articles": [
+        {
+          "route": "/new-students/housing/subletting-and-termination/",
+          "englishRoute": "/en/new-students/housing/subletting-and-termination/",
+          "file": "src/content/knowledge/housing/subletting-and-termination.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-017",
+      "decision": "Reject",
+      "workbookRow": 23,
+      "articles": [
+        {
+          "route": "/new-students/housing/subletting-and-termination/",
+          "englishRoute": "/en/new-students/housing/subletting-and-termination/",
+          "file": "src/content/knowledge/housing/subletting-and-termination.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-018",
+      "decision": "Reject",
+      "workbookRow": 24,
+      "articles": [
+        {
+          "route": "/new-students/housing/subletting-and-termination/",
+          "englishRoute": "/en/new-students/housing/subletting-and-termination/",
+          "file": "src/content/knowledge/housing/subletting-and-termination.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-019",
+      "decision": "Reject",
+      "workbookRow": 25,
+      "articles": [
+        {
+          "route": "/new-students/housing/deposit-and-condition/",
+          "englishRoute": "/en/new-students/housing/deposit-and-condition/",
+          "file": "src/content/knowledge/housing/deposit-and-condition.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-020",
+      "decision": "Reject",
+      "workbookRow": 26,
+      "articles": [
+        {
+          "route": "/new-students/housing/deposit-and-condition/",
+          "englishRoute": "/en/new-students/housing/deposit-and-condition/",
+          "file": "src/content/knowledge/housing/deposit-and-condition.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-021",
+      "decision": "Accept",
+      "workbookRow": 27,
+      "articles": [
+        {
+          "route": "/new-students/housing/deposit-and-condition/",
+          "englishRoute": "/en/new-students/housing/deposit-and-condition/",
+          "file": "src/content/knowledge/housing/deposit-and-condition.md"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "对于适用佛兰德学生租赁规则的合同，金钱押金须存入租客本人名下的冻结账户或房东账户；不得以现金交付，并应保留付款证明。",
+        "en": "For a tenancy covered by Flemish student-rental rules, pay a monetary deposit into a blocked account in the tenant's name or the landlord's account. Cash handover is prohibited; retain payment evidence."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-022",
+      "decision": "Accept",
+      "workbookRow": 28,
+      "articles": [
+        {
+          "route": "/new-students/housing/contracts/",
+          "englishRoute": "/en/new-students/housing/contracts/",
+          "file": "src/content/knowledge/housing/contracts.md"
+        },
+        {
+          "route": "/new-students/housing/deposit-and-condition/",
+          "englishRoute": "/en/new-students/housing/deposit-and-condition/",
+          "file": "src/content/knowledge/housing/deposit-and-condition.md"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "房东进入房间通常须取得租客同意，不能仅凭提前通知随时进入；不可抗力情形除外。检查、紧急维修及再次出租看房应预先安排时间，租客也应合理配合。",
+        "en": "A landlord normally needs the tenant's consent to enter; advance notice alone does not authorise entry. Force majeure is an exception. Arrange inspection, urgent-work and reletting visits in advance, with reasonable cooperation."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-023",
+      "decision": "Accept",
+      "workbookRow": 29,
+      "articles": [
+        {
+          "route": "/new-students/arrival/residence-card/",
+          "englishRoute": "/en/new-students/arrival/residence-card/",
+          "file": "src/content/knowledge/arrival/residence-card.md"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "2026-09-14 核实：住在鲁汶、持学生 D 类签证并就读 KU Leuven、UCLL 或 LUCA（Lemmens） 的非欧盟／欧洲经济区及非瑞士籍学生，先按学校要求提交登记材料，由学校转交市政府；收到市政府发往学生邮箱的邀请后，再领取 Annex 15。其他身份请使用市政府的登记流程选择器。",
+        "en": "Checked 14 September 2026: students who are not EU/EEA or Swiss nationals living in Leuven with a student D visa at KU Leuven, UCLL or LUCA (Lemmens) first submit the requested documents through their institution. Collect Annex 15 after the city’s invitation email. Other statuses must use the city’s appropriate registration pathway."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-024",
+      "decision": "Reject",
+      "workbookRow": 30,
+      "articles": [
+        {
+          "route": "/new-students/arrival/university-registration/",
+          "englishRoute": "/en/new-students/arrival/university-registration/",
+          "file": "src/content/knowledge/arrival/university-registration.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-025",
+      "decision": "Edit and accept",
+      "workbookRow": 31,
+      "articles": [
+        {
+          "route": "/new-students/healthcare/student-health/",
+          "englishRoute": "/en/new-students/healthcare/student-health/",
+          "file": "src/content/knowledge/healthcare/student-health.md"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "从 2026 年 6 月起，Gardasil 9 的国家医保报销扩大到所有 19–30 岁年轻成年人。只要在第一针时已满 19 岁、但未满 31 岁，符合条件可以报销最多 3 剂 Gardasil 9。报销后目前 Gardasil 9 的患者自付额约为 €12.80/针；有 verhoogde tegemoetkoming/BIM 优惠资格者约 €8.50/针。",
+        "en": "Since June 2026, national health insurance reimbursement for Gardasil 9 has been extended to all young adults aged 19–30. Those who are at least 19 but under 31 when receiving their first dose may qualify for reimbursement for up to three doses of Gardasil 9. After reimbursement, the current patient co-payment is approximately €12.80 per dose, or €8.50 per dose for people entitled to increased reimbursement (verhoogde tegemoetkoming/BIM)."
+      },
+      "applied": true,
+      "implementationNote": "Chinese edit preserved verbatim; faithful English added. Adjacent source note clarifies prescription and prior-vaccination eligibility under §13880100."
+    },
+    {
+      "id": "NSG-026",
+      "decision": "Reject",
+      "workbookRow": 32,
+      "articles": [
+        {
+          "route": "/new-students/arrival/university-registration/",
+          "englishRoute": "/en/new-students/arrival/university-registration/",
+          "file": "src/content/knowledge/arrival/university-registration.md"
+        },
+        {
+          "route": "/new-students/before-arrival/visa-documents/",
+          "englishRoute": "/en/new-students/before-arrival/visa-documents/",
+          "file": "src/content/knowledge/before-arrival/visa-documents.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-027",
+      "decision": "Accept",
+      "workbookRow": 33,
+      "articles": [
+        {
+          "route": "/new-students/arrival/education-office/",
+          "englishRoute": "/en/new-students/arrival/education-office/",
+          "file": "src/content/knowledge/arrival/education-office.md"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "教育部已自 2020 年 11 月 1 日起取消《留学回国人员证明》，使领馆自 2020 年 10 月 1 日起不再受理新申请。手册中的“开具前提交表格”属于已停办制度的历史说明，不是当前待办事项。",
+        "en": "The Ministry of Education abolished the Certificate for Returned Overseas Students from 1 November 2020; diplomatic missions stopped accepting new applications from 1 October 2020. The handbook’s prerequisite filing statement concerns that discontinued certificate."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-028",
+      "decision": "Reject",
+      "workbookRow": 34,
+      "articles": [
+        {
+          "route": "/new-students/transport/cycling-rules/",
+          "file": "src/content/knowledge/transport/cycling-rules.md",
+          "englishRoute": "/en/new-students/transport/cycling-rules/"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-029",
+      "decision": "Reject",
+      "workbookRow": 35,
+      "articles": [
+        {
+          "route": "/new-students/transport/driving-licence/",
+          "file": "src/content/knowledge/transport/driving-licence.md",
+          "englishRoute": "/en/new-students/transport/driving-licence/"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-030",
+      "decision": "Accept",
+      "workbookRow": 36,
+      "articles": [
+        {
+          "route": "/new-students/housing/deposit-and-condition/",
+          "englishRoute": "/en/new-students/housing/deposit-and-condition/",
+          "file": "src/content/knowledge/housing/deposit-and-condition.md"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "押金扣款应以可归责的损坏、欠费等为依据；正常使用或老化产生的损耗不属于租客损坏。入住和退房时共同核对房况并保存记录。",
+        "en": "Deposit deductions need a basis such as attributable damage or arrears. Wear caused by normal use or age is not tenant damage. Compare and keep the agreed check-in and check-out condition reports."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-031",
+      "decision": "Accept",
+      "workbookRow": 37,
+      "articles": [
+        {
+          "route": "/new-students/housing/deposit-and-condition/",
+          "englishRoute": "/en/new-students/housing/deposit-and-condition/",
+          "file": "src/content/knowledge/housing/deposit-and-condition.md"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "对于适用佛兰德学生租赁规则的合同，若押金付给房东，通常须在租约结束后三个月内返还；若存入冻结账户，收到房东书面解除声明后，可向银行申请解冻。",
+        "en": "For a tenancy covered by Flemish student-rental rules, a deposit paid to the landlord is usually returned within three months after the lease ends. For a blocked account, ask the bank to release the deposit once you receive the landlord's written statement."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-032",
+      "decision": "Reject",
+      "workbookRow": 38,
+      "articles": [
+        {
+          "route": "/new-students/housing/contracts/",
+          "englishRoute": "/en/new-students/housing/contracts/",
+          "file": "src/content/knowledge/housing/contracts.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-033",
+      "decision": "Reject",
+      "workbookRow": 39,
+      "articles": [
+        {
+          "route": "/new-students/arrival/education-office/",
+          "englishRoute": "/en/new-students/arrival/education-office/",
+          "file": "src/content/knowledge/arrival/education-office.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-034",
+      "decision": "Reject",
+      "workbookRow": 40,
+      "articles": [
+        {
+          "route": "/new-students/study/honours/",
+          "englishRoute": "/en/new-students/study/honours/",
+          "file": "src/content/knowledge/study/honours.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-035",
+      "decision": "Accept",
+      "workbookRow": 41,
+      "articles": [
+        {
+          "route": "/new-students/transport/bus/",
+          "file": "src/content/knowledge/transport/bus.md",
+          "englishRoute": "/en/new-students/transport/bus/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "不要准备向司机现金买票；可提前购买并激活适用票，或使用车上支持的非接触付款方式。",
+        "en": "Do not rely on buying a cash ticket from the driver; activate an appropriate ticket before boarding or use supported onboard contactless payment."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-036",
+      "decision": "Accept",
+      "workbookRow": 42,
+      "articles": [
+        {
+          "route": "/new-students/transport/bus/",
+          "file": "src/content/knowledge/transport/bus.md",
+          "englishRoute": "/en/new-students/transport/bus/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "数字票须在上车前激活；单次票在激活后 60 分钟内可换乘，并按票种说明完成末段行程。实体票按读卡器指示刷卡。",
+        "en": "Activate a digital ticket before boarding. A single permits transfers within 60 minutes; follow the product's last-vehicle completion rule and scan physical tickets as instructed."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-037",
+      "decision": "Accept",
+      "workbookRow": 43,
+      "articles": [
+        {
+          "route": "/new-students/transport/train/",
+          "file": "src/content/knowledge/transport/train.md",
+          "englishRoute": "/en/new-students/transport/train/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "无有效票乘车会收到现行 €90 补缴情形通知，并须按 SNCB 通知处理；不要套用手册的 €75 旧罚款。",
+        "en": "Travel without a valid ticket can result in the current €90 regularisation notice; follow SNCB's notice instead of relying on the old €75 figure."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-038",
+      "decision": "Accept",
+      "workbookRow": 44,
+      "articles": [
+        {
+          "route": "/new-students/transport/train/",
+          "file": "src/content/knowledge/transport/train.md",
+          "englishRoute": "/en/new-students/transport/train/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "普通车票不能用于途中任意停留后再继续旅行；按线路规划需要换乘不属于这种停留，季票另按其条款。",
+        "en": "A regular ticket does not permit a discretionary stopover. Required connections are different; season tickets have their own conditions."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-039",
+      "decision": "Accept",
+      "workbookRow": 45,
+      "articles": [
+        {
+          "route": "/new-students/life/waste-recycling/",
+          "file": "src/content/knowledge/life/waste-recycling.md",
+          "englishRoute": "/en/new-students/life/waste-recycling/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "不再按旧粉色袋分类投放；可回收塑料包装按现行 PMD 清单使用蓝袋，纸杯等复合材料另查分类。",
+        "en": "Do not use the old pink-bag category. Use blue PMD bags for eligible plastic packaging and check composite items such as paper cups individually."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-040",
+      "decision": "Accept",
+      "workbookRow": 46,
+      "articles": [
+        {
+          "route": "/new-students/transport/bus/",
+          "file": "src/content/knowledge/transport/bus.md",
+          "englishRoute": "/en/new-students/transport/bus/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "学生公交卡现为每学年 €25；申请前核对资格与覆盖区域。",
+        "en": "The Student Bus Pass currently costs €25 per academic year; check eligibility and coverage before applying."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-041",
+      "decision": "Accept",
+      "workbookRow": 47,
+      "articles": [
+        {
+          "route": "/new-students/transport/bus/",
+          "file": "src/content/knowledge/transport/bus.md",
+          "englishRoute": "/en/new-students/transport/bus/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "学年注册时可申请，也可按学校在线表单补办；以当学年申请表的截止日期为准。",
+        "en": "Apply during registration or use the university's later online application; follow the current form's deadline."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-042",
+      "decision": "Edit and accept",
+      "workbookRow": 48,
+      "articles": [
+        {
+          "route": "/new-students/transport/bus/",
+          "file": "src/content/knowledge/transport/bus.md",
+          "englishRoute": "/en/new-students/transport/bus/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "实名 MOBIB 卡有效期五年。工本费 €10 。",
+        "en": "A personal MOBIB card is valid for five years. The card fee is €10."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-043",
+      "decision": "Accept",
+      "workbookRow": 49,
+      "articles": [
+        {
+          "route": "/new-students/transport/bus/",
+          "file": "src/content/knowledge/transport/bus.md",
+          "englishRoute": "/en/new-students/transport/bus/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "单次票现为 €3；短信 DL 发至 4884 另收 €0.25 短信服务费，购买前确认号码适用性。",
+        "en": "A single ticket is currently €3; texting DL to 4884 adds a €0.25 SMS service charge. Check phone eligibility before using SMS."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-044",
+      "decision": "Accept",
+      "workbookRow": 50,
+      "articles": [
+        {
+          "route": "/new-students/transport/bus/",
+          "file": "src/content/knowledge/transport/bus.md",
+          "englishRoute": "/en/new-students/transport/bus/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "十次票现为 €22；按 De Lijn 当前提供的载体和激活方式购买使用。",
+        "en": "The current ten-journey ticket costs €22; follow De Lijn's current purchase and activation instructions."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-045",
+      "decision": "Accept",
+      "workbookRow": 51,
+      "articles": [
+        {
+          "route": "/new-students/transport/bus/",
+          "file": "src/content/knowledge/transport/bus.md",
+          "englishRoute": "/en/new-students/transport/bus/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "12 岁及以上乘客的天票现为 €9，激活后有效 24 小时；短信购买另收服务费。",
+        "en": "The day ticket for ages 12 and over currently costs €9 and lasts 24 hours after activation; SMS purchase has an extra service fee."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-046",
+      "decision": "Accept",
+      "workbookRow": 52,
+      "articles": [
+        {
+          "route": "/new-students/life/clothing-shopping/",
+          "file": "src/content/knowledge/life/clothing-shopping.md",
+          "englishRoute": "/en/new-students/life/clothing-shopping/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "PayPal 比利时买家保障不报销退货运费；下单前确认商家退货规则与个人可能承担的费用。",
+        "en": "PayPal Belgium Buyer Protection does not reimburse return shipping; check the seller's return rules and your possible costs before ordering."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-047",
+      "decision": "Edit and accept",
+      "workbookRow": 53,
+      "articles": [
+        {
+          "route": "/new-students/life/eating-out/",
+          "file": "src/content/knowledge/life/eating-out.md",
+          "englishRoute": "/en/new-students/life/eating-out/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "学生餐价格6-12欧。",
+        "en": "Student meals cost €6–12."
+      },
+      "applied": true,
+      "implementationNote": "User-confirmed meal budget; not an officially verified minimum/maximum price. Published verbatim with an adjacent estimate qualifier and current-menu link."
+    },
+    {
+      "id": "NSG-048",
+      "decision": "Accept",
+      "workbookRow": 54,
+      "articles": [
+        {
+          "route": "/new-students/life/furniture/",
+          "file": "src/content/knowledge/life/furniture.md",
+          "englishRoute": "/en/new-students/life/furniture/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "IKEA 比利时包裹送货到家现为 €6.99，订单资格及其他配送方式按结账页确认。",
+        "en": "IKEA Belgium currently lists parcel home delivery at €6.99; check order eligibility and other delivery choices at checkout."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-049",
+      "decision": "Accept",
+      "workbookRow": 55,
+      "articles": [
+        {
+          "route": "/new-students/life/furniture/",
+          "file": "src/content/knowledge/life/furniture.md",
+          "englishRoute": "/en/new-students/life/furniture/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "IKEA 大件配送按重量及服务分档，现有门前配送起价 €39.90；以具体订单结账报价为准。",
+        "en": "IKEA bulky delivery uses weight and service tiers, with front-door delivery currently starting at €39.90; use the quote for your actual order."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-050",
+      "decision": "Accept",
+      "workbookRow": 56,
+      "articles": [
+        {
+          "route": "/new-students/transport/train/",
+          "file": "src/content/knowledge/transport/train.md",
+          "englishRoute": "/en/new-students/transport/train/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "当前票价请按年龄、路线、乘车日期及是否持有 Train+ 在 SNCB 查询；不要使用旧价格区间估算。",
+        "en": "Get a current SNCB quote using your age, route, date and Train+ status instead of the old price range."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-051",
+      "decision": "Accept",
+      "workbookRow": 57,
+      "articles": [
+        {
+          "route": "/new-students/transport/train/",
+          "file": "src/content/knowledge/transport/train.md",
+          "englishRoute": "/en/new-students/transport/train/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "26–64 岁成人现行周末优惠适用于周六、周日和法定节假日，基础折扣为 30%；旧的周五 19:00 起、五折往返票规则已不适用。",
+        "en": "For adults aged 26–64, the current weekend discount is 30% on Saturdays, Sundays and public holidays; the old Friday 19:00 half-price return rule no longer applies."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-052",
+      "decision": "Accept",
+      "workbookRow": 58,
+      "articles": [
+        {
+          "route": "/new-students/transport/train/",
+          "file": "src/content/knowledge/transport/train.md",
+          "englishRoute": "/en/new-students/transport/train/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "未满 26 岁可使用现行青年优惠票价；票价按当前 SNCB 规则计算，不再引用 GoPass 1 的 €6.40 固定价。",
+        "en": "Under-26 travellers can use current youth fares; do not use the old €6.40 GoPass 1 flat price."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-053",
+      "decision": "Accept",
+      "workbookRow": 59,
+      "articles": [
+        {
+          "route": "/new-students/transport/train/",
+          "file": "src/content/knowledge/transport/train.md",
+          "englishRoute": "/en/new-students/transport/train/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "GoPass 10／Youth Multi 已停售；当前购票和上车前操作请以所选现售票种为准。",
+        "en": "GoPass 10 / Youth Multi is no longer sold; use the purchase and pre-boarding instructions for your current ticket."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-054",
+      "decision": "Accept",
+      "workbookRow": 60,
+      "articles": [
+        {
+          "route": "/new-students/transport/train/",
+          "file": "src/content/knowledge/transport/train.md",
+          "englishRoute": "/en/new-students/transport/train/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "现售对应产品为 Student Multi。按 SNCB 2026 年 7 月 1 日生效的产品条款，凭纸质塑封卡及有效验证票，在固定路线 49 天内使用五次往返；网站另一处仍提到 MOBIB，购票前请向 SNCB 确认载体与办理要求。",
+        "en": "The current corresponding product is Student Multi. Its SNCB conditions effective 1 July 2026 specify a laminated paper card and validation ticket for five returns on a fixed route within 49 days; another webpage section mentions MOBIB, so confirm the medium and application requirements with SNCB."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-055",
+      "decision": "Accept",
+      "workbookRow": 61,
+      "articles": [
+        {
+          "route": "/new-students/transport/train/",
+          "file": "src/content/knowledge/transport/train.md",
+          "englishRoute": "/en/new-students/transport/train/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "GoUnlimited／Youth Holidays 假期不限次票已停售，旧周票和月票价格不能用于当前出行计划。",
+        "en": "GoUnlimited / Youth Holidays is discontinued; its old weekly and monthly prices cannot be used for current planning."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-056",
+      "decision": "Accept",
+      "workbookRow": 62,
+      "articles": [
+        {
+          "route": "/new-students/transport/train/",
+          "file": "src/content/knowledge/transport/train.md",
+          "englishRoute": "/en/new-students/transport/train/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "Brussels Airport-Zaventem 铁路附加费现为单程 €6.90；先确认车票是否已包含，避免重复购买。",
+        "en": "The Brussels Airport-Zaventem supplement is currently €6.90 per single journey; first check whether your ticket already includes it."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-057",
+      "decision": "Accept",
+      "workbookRow": 63,
+      "articles": [
+        {
+          "route": "/new-students/transport/train/",
+          "file": "src/content/knowledge/transport/train.md",
+          "englishRoute": "/en/new-students/transport/train/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "Student Multi 除年龄与在读条件外，还有限定的收入和工作身份要求；有工资、补助或自雇收入者须按 SNCB 当前条款确认资格。",
+        "en": "Student Multi has income and work-status conditions as well as age and enrolment requirements; check the current SNCB terms if you receive wages, benefits or self-employment income."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-058",
+      "decision": "Accept",
+      "workbookRow": 64,
+      "articles": [
+        {
+          "route": "/new-students/transport/taxis/",
+          "file": "src/content/knowledge/transport/taxis.md",
+          "englishRoute": "/en/new-students/transport/taxis/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "可在火车站 Martelarenplein 及市政列出的市中心候客点找车；中心点可查 Ferdinand Smoldersplein、Margarethaplein。",
+        "en": "Use the station's Martelarenplein rank or a current city-listed central rank, such as Ferdinand Smoldersplein or Margarethaplein."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-059",
+      "decision": "Accept",
+      "workbookRow": 65,
+      "articles": [
+        {
+          "route": "/new-students/transport/taxis/",
+          "file": "src/content/knowledge/transport/taxis.md",
+          "englishRoute": "/en/new-students/transport/taxis/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "不要将 €10–20 作为统一报价；候客点出租车按市政费率表，其他服务应在上车前确认全程估价。",
+        "en": "Do not treat €10–20 as a universal quote. Rank taxis follow the municipal tariff; confirm the trip estimate for other services before boarding."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-060",
+      "decision": "Accept",
+      "workbookRow": 66,
+      "articles": [
+        {
+          "route": "/new-students/life/waste-recycling/",
+          "file": "src/content/knowledge/life/waste-recycling.md",
+          "englishRoute": "/en/new-students/life/waste-recycling/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "符合条件者可申请免费的临时回收站通行卡，有效期三个月；投放垃圾的费用另按 EcoWerf 标准。",
+        "en": "Eligible users can request a free temporary recycling-park card valid for three months; waste-disposal charges are separate."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-061",
+      "decision": "Reject",
+      "workbookRow": 67,
+      "articles": [
+        {
+          "route": "/new-students/life/waste-recycling/",
+          "file": "src/content/knowledge/life/waste-recycling.md",
+          "englishRoute": "/en/new-students/life/waste-recycling/"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-062",
+      "decision": "Accept",
+      "workbookRow": 68,
+      "articles": [
+        {
+          "route": "/new-students/before-arrival/proof-of-funds/",
+          "englishRoute": "/en/new-students/before-arrival/proof-of-funds/",
+          "file": "src/content/knowledge/before-arrival/proof-of-funds.md"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "2026-09-14 核实：KU Leuven 对 2026–2027 学年起新申请的单人监管账户列示每月 1,100 欧元。这是大学监管账户标准，不应当作所有签证情形的法定最低金额。申请时请核对学校当期金额与协议；2024–2025 年的 1,000 欧元仅作历史保留。",
+        "en": "Checked 14 September 2026: KU Leuven lists €1,100 per month for a single new student’s blocked account from 2026–2027. This university requirement is distinct from the statutory visa minimum. Check the current table and your agreement; retain €1,000 only as the dated 2024–2025 figure."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-063",
+      "decision": "Accept",
+      "workbookRow": 69,
+      "articles": [
+        {
+          "route": "/new-students/housing/finding-housing/",
+          "englishRoute": "/en/new-students/housing/finding-housing/",
+          "file": "src/content/knowledge/housing/finding-housing.md"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "自 2025 年 1 月 1 日起，应核对新的数字化 Vlaams kotlabel；旧蓝色、绿色门牌不再作为有效认证。Leuven kotlabel 另包含第二住所税要求。可在市政府入口核对标识，并用 Kotwijs 查询房源。",
+        "en": "Since 1 January 2025, check the digital Flemish kotlabel; old blue or green signs are no longer valid certification. The Leuven label additionally covers second-residence tax requirements. Check labels through the city and search housing through Kotwijs."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-064",
+      "decision": "Accept",
+      "workbookRow": 70,
+      "articles": [
+        {
+          "route": "/new-students/arrival/university-registration/",
+          "englishRoute": "/en/new-students/arrival/university-registration/",
+          "file": "src/content/knowledge/arrival/university-registration.md"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "2026-09-14 核实：KU Leuven 学费应按账单说明通过银行转账支付，并填写指定付款附言；学校不接受现金或信用卡支付。请在 KU Loket 查看本人账单及截止日，不要按旧手册准备 VISA 卡到场缴费。",
+        "en": "Checked 14 September 2026: pay KU Leuven tuition by bank transfer using the reference on your account balance. Cash and credit-card payments are not accepted. Check your invoice and deadline in KU Loket rather than relying on the handbook’s VISA-card example."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-065",
+      "decision": "Reject",
+      "workbookRow": 71,
+      "articles": [
+        {
+          "route": "/new-students/arrival/residence-card/",
+          "englishRoute": "/en/new-students/arrival/residence-card/",
+          "file": "src/content/knowledge/arrival/residence-card.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-066",
+      "decision": "Accept",
+      "workbookRow": 72,
+      "articles": [
+        {
+          "route": "/new-students/healthcare/student-health/",
+          "englishRoute": "/en/new-students/healthcare/student-health/",
+          "file": "src/content/knowledge/healthcare/student-health.md"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "KU Leuven Stuvo 位于鲁汶的 GP 服务面向 KU Leuven 鲁汶校区及 LUCA Lemmens 校区学生；其他学生应向自己的学校查询健康服务，或使用当地 GP。",
+        "en": "Stuvo's GP service in Leuven serves KU Leuven Leuven-campus and LUCA Lemmens-campus students. Other students should check their own institution's services or consult a local GP."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-067",
+      "decision": "Accept",
+      "workbookRow": 73,
+      "articles": [
+        {
+          "route": "/new-students/before-arrival/flights/",
+          "englishRoute": "/en/new-students/before-arrival/flights/",
+          "file": "src/content/knowledge/before-arrival/flights.md"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "2026-09-14 核实：欧盟禁止俄罗斯航空承运人使用欧盟机场及领空。因此，原表“俄罗斯航空经莫斯科”的描述仅作历史存档，不能作为俄航承运至布鲁塞尔的现行方案。",
+        "en": "Checked 14 September 2026: Russian carriers are barred from EU airports and airspace. The Aeroflot/Moscow entry is retained only as history and must not be treated as an Aeroflot-operated route into Brussels."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-068",
+      "decision": "Reject",
+      "workbookRow": 74,
+      "articles": [
+        {
+          "route": "/new-students/housing/temporary-accommodation/",
+          "englishRoute": "/en/new-students/housing/temporary-accommodation/",
+          "file": "src/content/knowledge/housing/temporary-accommodation.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-069",
+      "decision": "Reject",
+      "workbookRow": 75,
+      "articles": [
+        {
+          "route": "/new-students/housing/temporary-accommodation/",
+          "englishRoute": "/en/new-students/housing/temporary-accommodation/",
+          "file": "src/content/knowledge/housing/temporary-accommodation.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-070",
+      "decision": "Accept",
+      "workbookRow": 76,
+      "articles": [
+        {
+          "route": "/new-students/before-arrival/flights/",
+          "englishRoute": "/en/new-students/before-arrival/flights/",
+          "file": "src/content/knowledge/before-arrival/flights.md"
+        },
+        {
+          "route": "/new-students/before-arrival/packing/",
+          "englishRoute": "/en/new-students/before-arrival/packing/",
+          "file": "src/content/knowledge/before-arrival/packing.md"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "2026-09-14 核实：海航中欧经济舱托运行李额度取决于具体票价产品；其现行表中不同产品可为无免费托运、1 件或 2 件，每件限重按机票及官网对应规则确认。“留学生最多两件”仅为历史记录，本次未核实统一适用的现行学生优惠。",
+        "en": "Checked 14 September 2026: Hainan’s Europe–Asia economy allowance varies by fare product, from no free checked bag to one or two pieces. Confirm the weight and allowance on the actual ticket and applicable rules. A universal current student allowance was not verified; the handbook’s two-piece figure remains historical."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-071",
+      "decision": "Reject",
+      "workbookRow": 77,
+      "articles": [
+        {
+          "route": "/new-students/housing/temporary-accommodation/",
+          "englishRoute": "/en/new-students/housing/temporary-accommodation/",
+          "file": "src/content/knowledge/housing/temporary-accommodation.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-072",
+      "decision": "Reject",
+      "workbookRow": 78,
+      "articles": [
+        {
+          "route": "/new-students/housing/temporary-accommodation/",
+          "englishRoute": "/en/new-students/housing/temporary-accommodation/",
+          "file": "src/content/knowledge/housing/temporary-accommodation.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-073",
+      "decision": "Accept",
+      "workbookRow": 79,
+      "articles": [
+        {
+          "route": "/new-students/study/language-courses/",
+          "englishRoute": "/en/new-students/study/language-courses/",
+          "file": "src/content/knowledge/study/language-courses.md"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "2026-09-14 核实：ILT 按课程、级别及身份收费。其荷兰语页面列示 KU Leuven 学生／教职员工每级 175 欧元，第 4–6 级为 195 欧元，教材费用按级别另有说明。其他课程请查各自价格；110 欧元仅为原手册未注明课程的历史金额。",
+        "en": "Checked 14 September 2026: ILT fees depend on course, level and status. Its Dutch-course page lists €175 per level for KU Leuven students/staff, or €195 for levels 4–6, with level-specific material charges. Check other courses individually; €110 is only the handbook’s unscoped historical figure."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-074",
+      "decision": "Accept",
+      "workbookRow": 80,
+      "articles": [
+        {
+          "route": "/new-students/study/language-courses/",
+          "englishRoute": "/en/new-students/study/language-courses/",
+          "file": "src/content/knowledge/study/language-courses.md"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "2026-09-14 核实：CLT 费用按语言、课时及减免资格计算，并另有教材费。例如英／德／法语为每课时 2.25 欧元、每课程上限 180 欧元，其他语言为每课时 4 欧元且无统一上限；荷兰语使用独立规则。请查所选课程及官方费用页；50–150 欧元仅作历史记录。",
+        "en": "Checked 14 September 2026: CLT fees depend on language, lesson hours and exemptions, with materials charged separately. English/German/French cost €2.25 per lesson hour, capped at €180 per course; other languages cost €4 per hour without that cap. Dutch has separate rules. Use the selected course’s current fee; €50–150 is historical."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-075",
+      "decision": "Accept",
+      "workbookRow": 81,
+      "articles": [
+        {
+          "route": "/new-students/sports/university-sports/",
+          "englishRoute": "/en/new-students/sports/university-sports/",
+          "file": "src/content/knowledge/sports/university-sports.md"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "2026–2027 学年，KU Leuven Association 学生运动卡为 €37，有效期为 2026 年 9 月 1 日至 2027 年 9 月 30 日。其他身份及之后学年的价格请查官方价目表。",
+        "en": "For 2026–2027, the KU Leuven Association student sports card costs €37 and is valid from 1 September 2026 to 30 September 2027. Check the official tariff for other categories and later academic years."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-076",
+      "decision": "Accept",
+      "workbookRow": 82,
+      "articles": [
+        {
+          "route": "/new-students/sports/university-sports/",
+          "englishRoute": "/en/new-students/sports/university-sports/",
+          "file": "src/content/knowledge/sports/university-sports.md"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "截至 2026 年 9 月 14 日，KU Leuven Association 学生的 Univ-fit 标准 Fitness & Go 12 个月订阅为 €160，另须持有效运动卡；€95 对应六个月。其他期限、指导套餐和身份请查官方价目表。",
+        "en": "As checked on 14 September 2026, the Association-student Fitness & Go subscription costs €160 for 12 months plus a valid sports card; €95 covers six months. See the official tariff for other durations, coaching plans and categories."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-077",
+      "decision": "Reject",
+      "workbookRow": 83,
+      "articles": [
+        {
+          "route": "/new-students/sports/university-sports/",
+          "englishRoute": "/en/new-students/sports/university-sports/",
+          "file": "src/content/knowledge/sports/university-sports.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-078",
+      "decision": "Accept",
+      "workbookRow": 84,
+      "articles": [
+        {
+          "route": "/new-students/transport/bike-rental/",
+          "file": "src/content/knowledge/transport/bike-rental.md",
+          "englishRoute": "/en/new-students/transport/bike-rental/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "Velo 租期按车型选择；当前二手车列出一至十二个月，LEV 车型可租六或十二个月。租金及押金以当前页面为准。",
+        "en": "Choose the term for the current VELO model: second-hand rentals list one to twelve months, and LEV offers six or twelve months. Check current rent and deposit."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-079",
+      "decision": "Reject",
+      "workbookRow": 85,
+      "articles": [
+        {
+          "route": "/new-students/transport/buying-bikes/",
+          "file": "src/content/knowledge/transport/buying-bikes.md",
+          "englishRoute": "/en/new-students/transport/buying-bikes/"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-080",
+      "decision": "Accept",
+      "workbookRow": 86,
+      "articles": [
+        {
+          "route": "/new-students/life/furniture/",
+          "file": "src/content/knowledge/life/furniture.md",
+          "englishRoute": "/en/new-students/life/furniture/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "旧 €40 配送服务缺少可核实的服务商；需要货运时按具体服务重新询价。",
+        "en": "The old €40 delivery service lacks an identifiable provider; obtain a quote for the specific service you need."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-081",
+      "decision": "Accept",
+      "workbookRow": 87,
+      "articles": [
+        {
+          "route": "/new-students/life/furniture/",
+          "file": "src/content/knowledge/life/furniture.md",
+          "englishRoute": "/en/new-students/life/furniture/"
+        },
+        {
+          "route": "/new-students/life/laundry-textile-reuse/",
+          "file": "src/content/knowledge/life/laundry-textile-reuse.md",
+          "englishRoute": "/en/new-students/life/laundry-textile-reuse/"
+        },
+        {
+          "route": "/new-students/transport/buying-bikes/",
+          "file": "src/content/knowledge/transport/buying-bikes.md",
+          "englishRoute": "/en/new-students/transport/buying-bikes/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "当前旧物捐赠与二手店请查 Kringwinkel ViTeS；可预约收取适合再利用的物品，先确认接收条件。",
+        "en": "Use current Kringwinkel ViTeS information for reuse shops and donations; arrange collection only after confirming that the goods meet acceptance conditions."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-082",
+      "decision": "Accept",
+      "workbookRow": 88,
+      "articles": [
+        {
+          "route": "/new-students/life/groceries-cooking/",
+          "file": "src/content/knowledge/life/groceries-cooking.md",
+          "englishRoute": "/en/new-students/life/groceries-cooking/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "Match 为历史店名；如要列出现营门店，须按原地址核实当前名称，不能直接猜测替代店。",
+        "en": "Match is a historical store name. Identify the current name using the original address before adding a replacement."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-083",
+      "decision": "Reject",
+      "workbookRow": 89,
+      "articles": [
+        {
+          "route": "/new-students/life/furniture/",
+          "file": "src/content/knowledge/life/furniture.md",
+          "englishRoute": "/en/new-students/life/furniture/"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-084",
+      "decision": "Accept",
+      "workbookRow": 90,
+      "articles": [
+        {
+          "route": "/new-students/arrival/health-insurance/",
+          "englishRoute": "/en/new-students/arrival/health-insurance/",
+          "file": "src/content/knowledge/arrival/health-insurance.md"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "Solidaris（2024 手册使用泛称 Socialistische Mutualiteiten；办理时请核对服务地区及当前机构信息）。",
+        "en": "Solidaris (the 2024 handbook used the generic label Socialistische Mutualiteiten; confirm the current provider and service region)."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-085",
+      "decision": "Reject",
+      "workbookRow": 91,
+      "articles": [
+        {
+          "route": "/new-students/housing/contracts/",
+          "englishRoute": "/en/new-students/housing/contracts/",
+          "file": "src/content/knowledge/housing/contracts.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-086",
+      "decision": "Accept",
+      "workbookRow": 92,
+      "articles": [
+        {
+          "route": "/new-students/sports/university-sports/",
+          "englishRoute": "/en/new-students/sports/university-sports/",
+          "file": "src/content/knowledge/sports/university-sports.md"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "KU Leuven Sport 的现行入口介绍 80 多种运动活动；具体项目、课程和报名条件请查官方活动目录。",
+        "en": "KU Leuven Sport's current offer lists more than 80 sports. Check the official activity directory for the available sessions and enrolment conditions."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-087",
+      "decision": "Reject",
+      "workbookRow": 93,
+      "articles": [
+        {
+          "route": "/new-students/transport/cycling-rules/",
+          "file": "src/content/knowledge/transport/cycling-rules.md",
+          "englishRoute": "/en/new-students/transport/cycling-rules/"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-088",
+      "decision": "Accept",
+      "workbookRow": 94,
+      "articles": [
+        {
+          "route": "/new-students/life/waste-recycling/",
+          "file": "src/content/knowledge/life/waste-recycling.md",
+          "englishRoute": "/en/new-students/life/waste-recycling/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "塑料或铝制咖啡等饮料胶囊应进入 PMD 蓝袋，不放绿色厨余袋。",
+        "en": "Plastic or aluminium coffee and other drink capsules belong in the blue PMD bag, not GFT."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-089",
+      "decision": "Accept",
+      "workbookRow": 95,
+      "articles": [
+        {
+          "route": "/new-students/life/waste-recycling/",
+          "file": "src/content/knowledge/life/waste-recycling.md",
+          "englishRoute": "/en/new-students/life/waste-recycling/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "茶包和咖啡软垫不放 GFT；散装茶叶、咖啡渣和纸质咖啡滤纸按当前清单区分处理。",
+        "en": "Do not put tea bags or coffee pads in GFT; distinguish them from loose tea, coffee grounds and paper coffee filters using the current sorting list."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-090",
+      "decision": "Reject",
+      "workbookRow": 96,
+      "articles": [
+        {
+          "route": "/new-students/transport/bike-rental/",
+          "file": "src/content/knowledge/transport/bike-rental.md",
+          "englishRoute": "/en/new-students/transport/bike-rental/"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-091",
+      "decision": "Reject",
+      "workbookRow": 97,
+      "articles": [
+        {
+          "route": "/new-students/transport/getting-around/",
+          "file": "src/content/knowledge/transport/getting-around.md",
+          "englishRoute": "/en/new-students/transport/getting-around/"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-092",
+      "decision": "Reject",
+      "workbookRow": 98,
+      "articles": [
+        {
+          "route": "/new-students/life/clothing-shopping/",
+          "file": "src/content/knowledge/life/clothing-shopping.md",
+          "englishRoute": "/en/new-students/life/clothing-shopping/"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-093",
+      "decision": "Reject",
+      "workbookRow": 99,
+      "articles": [
+        {
+          "route": "/new-students/life/groceries-cooking/",
+          "file": "src/content/knowledge/life/groceries-cooking.md",
+          "englishRoute": "/en/new-students/life/groceries-cooking/"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-094",
+      "decision": "Reject",
+      "workbookRow": 100,
+      "articles": [
+        {
+          "route": "/new-students/life/groceries-cooking/",
+          "file": "src/content/knowledge/life/groceries-cooking.md",
+          "englishRoute": "/en/new-students/life/groceries-cooking/"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-095",
+      "decision": "Reject",
+      "workbookRow": 101,
+      "articles": [
+        {
+          "route": "/new-students/before-arrival/visa-documents/",
+          "englishRoute": "/en/new-students/before-arrival/visa-documents/",
+          "file": "src/content/knowledge/before-arrival/visa-documents.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-096",
+      "decision": "Accept",
+      "workbookRow": 102,
+      "articles": [
+        {
+          "route": "/new-students/before-arrival/aps/",
+          "englishRoute": "/en/new-students/before-arrival/aps/",
+          "file": "src/content/knowledge/before-arrival/aps.md"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "申请比利时荷语区的 APS 面谈，审核部现行页面写明使用英语；不要直接套用留德审核的语言选择。请按所选比利时程序的通知准备。",
+        "en": "For the Belgian Dutch-language-region APS procedure, the current APS page specifies English for the interview. Do not transfer German-procedure language options to this route; follow your Belgian procedure’s instructions."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-097",
+      "decision": "Reject",
+      "workbookRow": 103,
+      "articles": [
+        {
+          "route": "/new-students/study/honours/",
+          "englishRoute": "/en/new-students/study/honours/",
+          "file": "src/content/knowledge/study/honours.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-098",
+      "decision": "Reject",
+      "workbookRow": 104,
+      "articles": [
+        {
+          "route": "/new-students/study/honours/",
+          "englishRoute": "/en/new-students/study/honours/",
+          "file": "src/content/knowledge/study/honours.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-099",
+      "decision": "Reject",
+      "workbookRow": 105,
+      "articles": [
+        {
+          "route": "/new-students/study/honours/",
+          "englishRoute": "/en/new-students/study/honours/",
+          "file": "src/content/knowledge/study/honours.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-100",
+      "decision": "Reject",
+      "workbookRow": 106,
+      "articles": [
+        {
+          "route": "/new-students/study/honours/",
+          "englishRoute": "/en/new-students/study/honours/",
+          "file": "src/content/knowledge/study/honours.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-101",
+      "decision": "Reject",
+      "workbookRow": 107,
+      "articles": [
+        {
+          "route": "/new-students/study/credits-and-exams/",
+          "englishRoute": "/en/new-students/study/credits-and-exams/",
+          "file": "src/content/knowledge/study/credits-and-exams.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-102",
+      "decision": "Accept",
+      "workbookRow": 108,
+      "articles": [
+        {
+          "route": "/new-students/transport/getting-around/",
+          "file": "src/content/knowledge/transport/getting-around.md",
+          "englishRoute": "/en/new-students/transport/getting-around/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "鲁汶市现公布面积为 57.51 平方公里。",
+        "en": "The City of Leuven currently reports an area of 57.51 km²."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-103",
+      "decision": "Accept",
+      "workbookRow": 109,
+      "articles": [
+        {
+          "route": "/new-students/transport/train/",
+          "file": "src/content/knowledge/transport/train.md",
+          "englishRoute": "/en/new-students/transport/train/"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "S 是市郊列车服务，覆盖布鲁塞尔、安特卫普、根特、列日和沙勒罗瓦等城市周边。",
+        "en": "S trains are suburban services around Brussels, Antwerp, Ghent, Liège and Charleroi."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-104",
+      "decision": "Accept",
+      "workbookRow": 110,
+      "articles": [
+        {
+          "route": "/new-students/about-leuven/universities/",
+          "englishRoute": "/en/new-students/about-leuven/universities/",
+          "file": "src/content/knowledge/about-leuven/universities.md"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "历史排名：QS 2024 版全球第 61（该版于 2023 年公布），不应标作 QS 2023 版排名。",
+        "en": "Historical ranking: 61st in QS 2024, published in 2023; this is not the QS 2023 edition."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-105",
+      "decision": "Accept",
+      "workbookRow": 111,
+      "articles": [
+        {
+          "route": "/new-students/arrival/university-registration/",
+          "englishRoute": "/en/new-students/arrival/university-registration/",
+          "file": "src/content/knowledge/arrival/university-registration.md"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "经核实的鲁汶校区注册地点：University Hall，Naamsestraat 22，3000 Leuven。是否需要到场及预约，请以注册邮件为准；“namestraat22”为原 PDF 拼写。",
+        "en": "Verified Leuven campus registration location: University Hall, Naamsestraat 22, 3000 Leuven. Follow the registration email for appointments and whether attendance is needed; “namestraat22” is the original PDF spelling."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-106",
+      "decision": "Accept",
+      "workbookRow": 112,
+      "articles": [
+        {
+          "route": "/new-students/about-leuven/universities/",
+          "englishRoute": "/en/new-students/about-leuven/universities/",
+          "file": "src/content/knowledge/about-leuven/universities.md"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "仅作核验事项：请找到 US News 或 KU Leuven 的正式历史资料，确认“2023 年／全球第 50 名”的榜单名称、版本及排名。核实前不修改历史数字、不替换为其他年份排名，也不将其标记为已核实。",
+        "en": "Verification only: locate an official historical US News or KU Leuven source confirming the ranking name, edition and 2023/world-50 pairing. Until verified, do not alter the archived number, substitute another year's rank or mark it as confirmed."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-107",
+      "decision": "Accept",
+      "workbookRow": 113,
+      "articles": [
+        {
+          "route": "/new-students/study/honours/",
+          "englishRoute": "/en/new-students/study/honours/",
+          "file": "src/content/knowledge/study/honours.md"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "现行名称为 cum fructu；2024 手册写作“cumfuctu”，原拼写仅作来源记录。",
+        "en": "The formal name is cum fructu; “cumfuctu” is retained only as the 2024 source’s spelling."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-108",
+      "decision": "Accept",
+      "workbookRow": 114,
+      "articles": [
+        {
+          "route": "/new-students/about-leuven/universities/",
+          "englishRoute": "/en/new-students/about-leuven/universities/",
+          "file": "src/content/knowledge/about-leuven/universities.md"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "历史排名：THE 2024 版全球第 45（该版于 2023 年公布），不应标作 THE 2023 版排名。",
+        "en": "Historical ranking: 45th in THE 2024, published in 2023; this is not the THE 2023 edition."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-109",
+      "decision": "Reject",
+      "workbookRow": 115,
+      "articles": [
+        {
+          "route": "/new-students/about-leuven/universities/",
+          "englishRoute": "/en/new-students/about-leuven/universities/",
+          "file": "src/content/knowledge/about-leuven/universities.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-110",
+      "decision": "Reject",
+      "workbookRow": 116,
+      "articles": [
+        {
+          "route": "/new-students/about-leuven/universities/",
+          "englishRoute": "/en/new-students/about-leuven/universities/",
+          "file": "src/content/knowledge/about-leuven/universities.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-111",
+      "decision": "Reject",
+      "workbookRow": 117,
+      "articles": [
+        {
+          "route": "/new-students/about-leuven/universities/",
+          "englishRoute": "/en/new-students/about-leuven/universities/",
+          "file": "src/content/knowledge/about-leuven/universities.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-112",
+      "decision": "Reject",
+      "workbookRow": 118,
+      "articles": [
+        {
+          "route": "/new-students/about-leuven/universities/",
+          "englishRoute": "/en/new-students/about-leuven/universities/",
+          "file": "src/content/knowledge/about-leuven/universities.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-113",
+      "decision": "Accept",
+      "workbookRow": 119,
+      "articles": [
+        {
+          "route": "/new-students/arrival/residence-card/",
+          "file": "src/content/knowledge/arrival/residence-card.md"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "如需询问住址核查，可通过 [Leuven 警察：警署与辖区警员查询](https://www.politie.be/5388/contact/commissariaten) 查找本人住址对应的联系渠道。原手册的联系表已失效。",
+        "en": "For an address-check enquiry, use [Leuven police: stations and neighbourhood inspector](https://www.politie.be/5388/contact/commissariaten) to find the contact for your residential address. The contact form linked in the original handbook is no longer available."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-114",
+      "decision": "Accept",
+      "workbookRow": 120,
+      "articles": [
+        {
+          "route": "/new-students/arrival/health-insurance/",
+          "file": "src/content/knowledge/arrival/health-insurance.md"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "将正文及 officialSources 中该链接的目标改为 https://www.kuleuven.be/english/life-at-ku-leuven/wellbeing-safety/health-insurance，保留现有链接文字。",
+        "en": "Set the target of this link in the body and officialSources to https://www.kuleuven.be/english/life-at-ku-leuven/wellbeing-safety/health-insurance, retaining its existing label."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-115",
+      "decision": "Accept",
+      "workbookRow": 121,
+      "articles": [
+        {
+          "route": "/new-students/sports/community-sports/",
+          "file": "src/content/knowledge/sports/community-sports.md"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "[Sportoase Philipssite：场馆、票务与开放信息](https://sportoase.be/nl/locaties/philipssite/)",
+        "en": "[Sportoase Philipssite: facilities, tickets and opening information](https://sportoase.be/nl/locaties/philipssite/)"
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-116",
+      "decision": "Accept",
+      "workbookRow": 122,
+      "articles": [
+        {
+          "route": "/new-students/life/waste-recycling/",
+          "file": "src/content/knowledge/life/waste-recycling.md"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "[鲁汶市：垃圾收运与准备说明](https://www.leuven.be/en/trash-collection-calendar)",
+        "en": "[Stad Leuven: waste collection and preparation](https://www.leuven.be/en/trash-collection-calendar)"
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-117",
+      "decision": "Accept",
+      "workbookRow": 123,
+      "articles": [
+        {
+          "route": "/new-students/healthcare/emergency/",
+          "file": "src/content/knowledge/healthcare/emergency.md"
+        },
+        {
+          "route": "/new-students/healthcare/",
+          "file": "src/views/KnowledgePage.astro"
+        },
+        {
+          "route": "/en/new-students/healthcare/",
+          "file": "src/views/KnowledgePage.astro"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "如需救护车、消防等紧急援助，请拨打 112，并按接线员指示说明位置和情况。仅因交通不便而无法自行前往医院，并不等于紧急情况；非紧急就医请联系家庭医生或当地值班医疗服务。",
+        "en": "Call 112 when you need emergency assistance from an ambulance or the fire brigade, and follow the operator’s instructions. Difficulty arranging transport alone is not an emergency; contact a GP or local out-of-hours medical service for non-emergency care."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-118",
+      "decision": "Reject",
+      "workbookRow": 124,
+      "articles": [
+        {
+          "route": "/new-students/before-arrival/packing/",
+          "file": "src/content/knowledge/before-arrival/packing.md"
+        },
+        {
+          "route": "/new-students/before-arrival/packing/",
+          "file": "src/data/packing-2024.json"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-119",
+      "decision": "Reject",
+      "workbookRow": 125,
+      "articles": [
+        {
+          "route": "/new-students/before-arrival/packing/",
+          "file": "src/content/knowledge/before-arrival/packing.md"
+        },
+        {
+          "route": "/new-students/before-arrival/packing/",
+          "file": "src/data/packing-2024.json"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-120",
+      "decision": "Accept",
+      "workbookRow": 126,
+      "articles": [
+        {
+          "route": "/new-students/before-arrival/aps/",
+          "englishRoute": "/en/new-students/before-arrival/aps/",
+          "file": "src/content/knowledge/before-arrival/aps.md"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "APS 并非所有赴比利时学生统一适用。KU Leuven 列有完全豁免及仅免面谈情形，例如 CSC 资助学生属于完全豁免范围之一。请先按本人国籍、既往学习经历和录取身份向学校确认。",
+        "en": "APS is not universal for every student going to Belgium. KU Leuven lists full and interview-only exemptions, including a full exemption for CSC scholarship students. Ask the university to confirm your route based on nationality, previous study and admission status."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-121",
+      "decision": "Reject",
+      "workbookRow": 127,
+      "articles": [
+        {
+          "route": "/new-students/study/isp/",
+          "englishRoute": "/en/new-students/study/isp/",
+          "file": "src/content/knowledge/study/isp.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-122",
+      "decision": "Reject",
+      "workbookRow": 128,
+      "articles": [
+        {
+          "route": "/new-students/study/isp/",
+          "englishRoute": "/en/new-students/study/isp/",
+          "file": "src/content/knowledge/study/isp.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-123",
+      "decision": "Accept",
+      "workbookRow": 129,
+      "articles": [
+        {
+          "route": "/new-students/healthcare/student-health/",
+          "englishRoute": "/en/new-students/healthcare/student-health/",
+          "file": "src/content/knowledge/healthcare/student-health.md"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "需要心理支持可从 Stuvo 心理健康入口选择适合自己的服务。精神科评估或药物相关咨询通常先与心理专业人员讨论，再决定是否转介；具体服务对象和预约方式以该入口为准。",
+        "en": "Use Stuvo's mental-health portal to identify suitable support. Psychiatric assessment or medication discussions normally begin with a psychologist who can consider referral; check the relevant eligibility and appointment instructions."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-124",
+      "decision": "Reject",
+      "workbookRow": 130,
+      "articles": [
+        {
+          "route": "/new-students/healthcare/seeing-a-doctor/",
+          "englishRoute": "/en/new-students/healthcare/seeing-a-doctor/",
+          "file": "src/content/knowledge/healthcare/seeing-a-doctor.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-125",
+      "decision": "Reject",
+      "workbookRow": 131,
+      "articles": [
+        {
+          "route": "/new-students/study/learning-platforms/",
+          "englishRoute": "/en/new-students/study/learning-platforms/",
+          "file": "src/content/knowledge/study/learning-platforms.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-126",
+      "decision": "Accept",
+      "workbookRow": 132,
+      "articles": [
+        {
+          "route": "/new-students/housing/contracts/",
+          "englishRoute": "/en/new-students/housing/contracts/",
+          "file": "src/content/knowledge/housing/contracts.md"
+        }
+      ],
+      "approvedReplacement": {
+        "zh": "KU Leuven 建议签署荷兰语租约，并把英文译本作为理解条款的参考。已有英文合同的法律效力、登记用途或诉讼翻译要求，请交 Stuvo 或合格法律专业人士按个案确认。",
+        "en": "KU Leuven recommends signing a Dutch tenancy agreement, with an English translation to explain its terms. Ask Stuvo or a qualified legal adviser to assess an existing English agreement, registration use or court-translation requirements individually."
+      },
+      "applied": true
+    },
+    {
+      "id": "NSG-127",
+      "decision": "Reject",
+      "workbookRow": 133,
+      "articles": [
+        {
+          "route": "/new-students/before-arrival/aps/",
+          "englishRoute": "/en/new-students/before-arrival/aps/",
+          "file": "src/content/knowledge/before-arrival/aps.md"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-128",
+      "decision": "Reject",
+      "workbookRow": 134,
+      "articles": [
+        {
+          "route": "/new-students/life/clothing-shopping/",
+          "file": "src/content/knowledge/life/clothing-shopping.md",
+          "englishRoute": "/en/new-students/life/clothing-shopping/"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    },
+    {
+      "id": "NSG-129",
+      "decision": "Reject",
+      "workbookRow": 135,
+      "articles": [
+        {
+          "route": "/new-students/life/utilities/",
+          "file": "src/content/knowledge/life/utilities.md",
+          "englishRoute": "/en/new-students/life/utilities/"
+        }
+      ],
+      "approvedReplacement": null,
+      "applied": false
+    }
+  ]
+}

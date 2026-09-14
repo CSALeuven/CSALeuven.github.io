@@ -28,7 +28,7 @@
     28
   ],
   "sourceYear": 2024,
-  "reviewStatus": "legacy-2024",
+  "reviewStatus": "partially-reviewed",
   "timeSensitive": true,
   "officialSources": [
     {
@@ -38,6 +38,34 @@
     {
       "label": "De Lijn 官网",
       "url": "https://www.delijn.be/en/"
+    },
+    {
+      "label": "De Lijn — Why can't I pay with the driver?",
+      "url": "https://help.delijn.be/hc/en-us/articles/360039272292-Why-can-t-I-pay-with-the-driver"
+    },
+    {
+      "label": "De Lijn — Ticket",
+      "url": "https://www.delijn.be/en/content/ticket/"
+    },
+    {
+      "label": "KU Leuven — Studentenbuspas aanvragen",
+      "url": "https://www.kuleuven.be/onderwijs/student/inschrijven/attesten/buspasaanvraag.html"
+    },
+    {
+      "label": "KU Leuven — How to apply for a Student Bus Pass in Leuven",
+      "url": "https://www.kuleuven.be/english/life-at-ku-leuven/transportation/how-to-apply-for-a-student-bus-pass-in-leuven"
+    },
+    {
+      "label": "De Lijn — MOBIB card: fee and validity",
+      "url": "https://www.delijn.be/en/content/vervoerbewijzen/mobib/?vertaling=true"
+    },
+    {
+      "label": "De Lijn — Tickets and passes",
+      "url": "https://www.delijn.be/en/content/eshop/"
+    },
+    {
+      "label": "De Lijn — Day ticket",
+      "url": "https://www.delijn.be/en/content/dagticket/"
     }
   ],
   "related": [
@@ -45,23 +73,37 @@
     "transport/buying-bikes",
     "transport/cycling-rules"
   ],
-  "quickAnswer": "用 De Lijn 官方渠道查线路、改道和有效票种；学生公交卡要同时核对上下车站是否在范围内。本文票价与购票方式是 2024 手册记录。",
-  "sourceTitle": "鲁汶学联新生手册 2024"
+  "quickAnswer": "学生公交卡现为每学年 €25；申请前核对资格与覆盖区域。 不要准备向司机现金买票；可提前购买并激活适用票，或使用车上支持的非接触付款方式。",
+  "sourceTitle": "鲁汶学联新生手册 2024",
+  "lastReviewed": "2026-09-14",
+  "approvedUpdateIds": [
+    "NSG-035",
+    "NSG-036",
+    "NSG-040",
+    "NSG-041",
+    "NSG-042",
+    "NSG-043",
+    "NSG-044",
+    "NSG-045"
+  ]
 }
 ---
-
 ## 运营商与查线路
 
 手册介绍：De Lijn 主要运营弗拉芒大区及布鲁塞尔的相关线路；布鲁塞尔另有原文写作“MVIB”的运营商，瓦隆大区为 TEC。原文缩写“MVIB”疑有误，此处不将其视为准确正式名称。
 
 手册称鲁汶没有地铁和电车，市内公共交通以公交为主。可用 De Lijn 官网、应用程序，或 Google Maps、Moovit 查询。改道、罢工和时刻变化应优先查看运营商信息。
 
-## Student Bus Pass：2024 记录
+## Student Bus Pass：费用与申请
 
 
 ### 费用
 
-- **手册内容：** 一学年 €20
+<!-- NSG-040 -->
+
+**2026-09-14 更新：** 学生公交卡现为每学年 €25；申请前核对资格与覆盖区域。
+
+参考：[KU Leuven](https://www.kuleuven.be/onderwijs/student/inschrijven/attesten/buspasaanvraag.html)。
 
 ### 使用范围
 
@@ -69,63 +111,67 @@
 
 ### 购买时间
 
-- **手册内容：** 原文称在学年初、University Hall 注册办学生证时选购，错过后该学年不能补买
+<!-- NSG-041 -->
+
+**2026-09-14 更新：** 学年注册时可申请，也可按学校在线表单补办；以当学年申请表的截止日期为准。
+
+参考：[KU Leuven](https://www.kuleuven.be/onderwijs/student/inschrijven/attesten/buspasaanvraag.html) · [KU Leuven](https://www.kuleuven.be/english/life-at-ku-leuven/transportation/how-to-apply-for-a-student-bus-pass-in-leuven)。
 
 ### MOBIB 相关
 
-- **手册内容：** 原文可辨认的片段为携身份证在 De Lijn Winkel 或火车站办理、费用 €5、有效期 5 年
+<!-- NSG-042 -->
 
+**2026-09-14 更新：** 实名 MOBIB 卡有效期五年。工本费 €10 。
 
-**购票时间和费用未验证为现行要求。**尤其 MOBIB 一句在 PDF 本身已缺字，无法确认完整限制，不应照残句办理。请查看 [De Lijn 学生公交卡官方说明](https://www.delijn.be/en/content/bijdrage-school/studentenbuspas-leuven/) 与学校当年的注册安排。
+参考：[De Lijn](https://www.delijn.be/en/content/vervoerbewijzen/mobib/?vertaling=true)。
+
+MOBIB 的办理材料与 Student Bus Pass 的资格、覆盖区域，请查看 [De Lijn 学生公交卡官方说明](https://www.delijn.be/en/content/bijdrage-school/studentenbuspas-leuven/) 与学校当年的注册安排。
 
 手册强调不能在有效区域内上车后凭学生公交卡坐到区域外。跨出范围时需查适用车票。
 
-## 历史票价与产品目录
+## 车票与使用方式
 
-**以下均为 2024 手册收录的旧产品、旧价格或旧渠道，不能据此判断现在能否购买或有效乘车。**原文有些条目还标注“2018 年推出”。
+### 购买与付款
 
+<!-- NSG-035 -->
 
-### 司机处单次票
+**2026-09-14 更新：** 不要准备向司机现金买票；可提前购买并激活适用票，或使用车上支持的非接触付款方式。
 
-- **手册价格：** €3
-- **原文购买方式：** 上车向司机买，自备零钱
+参考：[De Lijn](https://help.delijn.be/hc/en-us/articles/360039272292-Why-can-t-I-pay-with-the-driver) · [De Lijn](https://www.delijn.be/en/content/ticket/)。
 
-### sms-ticket
+### 单次票与短信票
 
-- **手册价格：** €2.15
-- **原文购买方式：** 比利时手机发 DL 到 4884，以回复短信为凭证、话费支付
+<!-- NSG-043 -->
 
-### m-ticket
+**2026-09-14 更新：** 单次票现为 €3；短信 DL 发至 4884 另收 €0.25 短信服务费，购买前确认号码适用性。
 
-- **手册价格：** €1.80
-- **原文购买方式：** De Lijn app
+参考：[De Lijn](https://www.delijn.be/en/content/ticket/)。
 
-### m-card10（10 次）
+### 十次票
 
-- **手册价格：** €15
-- **原文购买方式：** De Lijn app
+<!-- NSG-044 -->
 
-### 纸质 10 次票
+**2026-09-14 更新：** 十次票现为 €22；按 De Lijn 当前提供的载体和激活方式购买使用。
 
-- **手册价格：** €16
-- **原文购买方式：** De Lijn Winkel 或部分超市，如 Carrefour Express
+参考：[De Lijn](https://www.delijn.be/en/content/eshop/)。
 
-### m-daypass
+### 天票
 
-- **手册价格：** €6
-- **原文购买方式：** app，原文称 24 小时有效
+<!-- NSG-045 -->
 
-### sms-daypass
+**2026-09-14 更新：** 12 岁及以上乘客的天票现为 €9，激活后有效 24 小时；短信购买另收服务费。
 
-- **手册价格：** €6.15
-- **原文购买方式：** 发 DLD 到 4884，以回复短信为凭证
+参考：[De Lijn](https://www.delijn.be/en/content/dagticket/)。
 
+### 激活、换乘与验票
 
-手册另提到不同天数的天票，以及适合频繁往返鲁汶以外地区的月、季、年票，未展开价格。
+<!-- NSG-036 -->
 
-### 手册中的有效期与验票记录
+**2026-09-14 更新：** 数字票须在上车前激活；单次票在激活后 60 分钟内可换乘，并按票种说明完成末段行程。实体票按读卡器指示刷卡。
 
-原文称除天票外，单次或多次票每次有效 1 小时，期间再刷不扣次数；纸票打印刷票时间，电子票从购票时开始计时。原文又要求司机购票以外应在上车前买好，非电子票每次上车插入刷票机。这些产品和设备规则可能已经改变，乘车前按所买票种的当前说明操作。
+参考：[De Lijn](https://www.delijn.be/en/content/ticket/)。
+
+手册另提到不同天数的天票，以及适合频繁往返鲁汶以外地区的月、季、年票，未展开价格。当前产品请查运营商。
 
 ## 乘车细节
 

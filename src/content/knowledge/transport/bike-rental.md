@@ -22,7 +22,7 @@
     24
   ],
   "sourceYear": 2024,
-  "reviewStatus": "legacy-2024",
+  "reviewStatus": "partially-reviewed",
   "timeSensitive": true,
   "officialSources": [
     {
@@ -32,6 +32,10 @@
     {
       "label": "KU Leuven 骑车与租赁",
       "url": "https://www.kuleuven.be/english/life-at-ku-leuven/transportation/travelling-by-bike-in-leuven"
+    },
+    {
+      "label": "VELO — Student bicycle offer",
+      "url": "https://student.velo.be/en/what-we-offer/"
     }
   ],
   "related": [
@@ -40,23 +44,23 @@
     "transport/cycling-rules"
   ],
   "quickAnswer": "手册列出 Velo 学生租车，可先查询车型、租期、押金及维修范围；首次租车需要注册。当前条件以 Velo 与学校说明为准。",
-  "sourceTitle": "鲁汶学联新生手册 2024"
+  "sourceTitle": "鲁汶学联新生手册 2024",
+  "lastReviewed": "2026-09-14",
+  "approvedUpdateIds": [
+    "NSG-078"
+  ]
 }
 ---
-
 ## 手册介绍的 Velo 服务
 
 2024 手册称学校与非营利组织 **Velo** 合作，为学生、访问学者等提供自行车租赁和相关服务，可租新车或二手车。
 
 
-### 二手车
+<!-- NSG-078 -->
 
-- **手册租期：** 1–12 个月，或 24 个月
+**2026-09-14 更新：** Velo 租期按车型选择；当前二手车列出一至十二个月，LEV 车型可租六或十二个月。租金及押金以当前页面为准。
 
-### 新车
-
-- **手册租期：** 12 个月
-
+参考：[VELO](https://student.velo.be/en/what-we-offer/)。
 
 手册没有给出具体租金和押金数字，而是要求查看 Velo 官网；同时记录租金包含车锁和维修服务。以上期限、资格和保障范围均需按当前合同确认。
 

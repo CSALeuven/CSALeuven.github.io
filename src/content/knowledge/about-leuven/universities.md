@@ -24,7 +24,7 @@
     4
   ],
   "sourceYear": 2024,
-  "reviewStatus": "legacy-2024",
+  "reviewStatus": "partially-reviewed",
   "timeSensitive": true,
   "officialSources": [
     {
@@ -38,6 +38,22 @@
     {
       "label": "UCLL",
       "url": "https://www.ucll.be/en"
+    },
+    {
+      "label": "QS Quacquarelli Symonds (issuer press release) — Classement mondial des universités QS 2024",
+      "url": "https://www.prnewswire.com/news-releases/classement-mondial-des-universites-qs-2024-301864987.html"
+    },
+    {
+      "label": "KU Leuven — KU Leuven Facts and Figures",
+      "url": "https://www.kuleuven.be/english/about-kuleuven/facts-and-figures"
+    },
+    {
+      "label": "KU Leuven Science, Engineering and Technology Group — Internationally acclaimed research university — KU Leuven brochure",
+      "url": "https://set.kuleuven.be/over-ons/brochures/set_ku-leuven_240321.pdf"
+    },
+    {
+      "label": "KU Leuven — KU Leuven takes 45th place in Times Higher Education World University Rankings",
+      "url": "https://nieuws.kuleuven.be/en/content/2023/ku-leuven-takes-45th-place-in-times-higher-education-world-university-rankings"
     }
   ],
   "related": [
@@ -46,10 +62,15 @@
     "arrival/university-registration"
   ],
   "quickAnswer": "KU Leuven、KU Leuven Association 和 UCLL 是不同名称。手册特别提醒：联盟成员各自保留独立性，文凭由实际就读的学校颁发。",
-  "sourceTitle": "鲁汶学联新生手册 2024"
+  "sourceTitle": "鲁汶学联新生手册 2024",
+  "lastReviewed": "2026-09-14",
+  "approvedUpdateIds": [
+    "NSG-104",
+    "NSG-106",
+    "NSG-108"
+  ]
 }
 ---
-
 ## 先核对录取通知上的学校名称
 
 
@@ -77,9 +98,25 @@
 ## 历史统计：不要误读为今年的数据
 
 
-### 2023 年排名
+### 历史排名与版本
 
-- **手册记录：** THE 全球 45、US News 全球 50、QS 全球 61
+<!-- NSG-104 -->
+
+**2026-09-14 更新：** 历史排名：QS 2024 版全球第 61（该版于 2023 年公布），不应标作 QS 2023 版排名。
+
+参考：[QS Quacquarelli Symonds (issuer press release)](https://www.prnewswire.com/news-releases/classement-mondial-des-universites-qs-2024-301864987.html)。
+
+<!-- NSG-108 -->
+
+**2026-09-14 更新：** 历史排名：THE 2024 版全球第 45（该版于 2023 年公布），不应标作 THE 2023 版排名。
+
+参考：[KU Leuven Science, Engineering and Technology Group](https://set.kuleuven.be/over-ons/brochures/set_ku-leuven_240321.pdf) · [KU Leuven](https://nieuws.kuleuven.be/en/content/2023/ku-leuven-takes-45th-place-in-times-higher-education-world-university-rankings)。
+
+<!-- NSG-106 -->
+
+**2026-09-14 更新：** 仅作核验事项：请找到 US News 或 KU Leuven 的正式历史资料，确认“2023 年／全球第 50 名”的榜单名称、版本及排名。核实前不修改历史数字、不替换为其他年份排名，也不将其标记为已核实。
+
+参考：[KU Leuven](https://www.kuleuven.be/english/about-kuleuven/facts-and-figures)。
 
 ### 2021—2022 学年学生人数
 

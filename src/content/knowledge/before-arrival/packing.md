@@ -28,12 +28,16 @@
     9
   ],
   "sourceYear": 2024,
-  "reviewStatus": "legacy-2024",
+  "reviewStatus": "partially-reviewed",
   "timeSensitive": true,
   "officialSources": [
     {
       "label": "补充核验入口｜KU Leuven：行前准备（非手册原链）",
       "url": "https://www.kuleuven.be/english/life-at-ku-leuven/prepare-your-stay"
+    },
+    {
+      "label": "Hainan Airlines — Checked Baggage Information",
+      "url": "https://www.hainanairlines.com/HUPortal/dyn/portal/DisplayPage?COUNTRY_SITE=AT&LANGUAGE=US&PAGE=TYXL&SITE=CBHZCBHZ"
     }
   ],
   "related": [
@@ -44,10 +48,13 @@
     "arrival/first-week"
   ],
   "quickAnswer": "打开可勾选清单，按自己的需要筛选和勾选。原表是个人经验参考，数量及物品保留 2024 记录，不构成必带或入境许可清单。",
-  "sourceTitle": "鲁汶学联新生手册 2024"
+  "sourceTitle": "鲁汶学联新生手册 2024",
+  "lastReviewed": "2026-09-14",
+  "approvedUpdateIds": [
+    "NSG-070"
+  ]
 }
 ---
-
 ## 完整清单在哪里
 
 本页附带的交互清单保留原表全部 **98 行物品**，按文件、文具、衣物、电子类、厨具、盥洗用品、工具、食品、药品、化妆品、补充物品 11 类整理。可搜索物品、筛选类别、逐项勾选并打印。数量栏中的“好多”“*”及原表空白均按来源保留，未擅自换算。
@@ -74,4 +81,9 @@
 
 原 PDF 跳过序号 8、45，并两次使用序号 58，因此实际是 98 行，而非 99 行。网站使用独立稳定编号，保留源序号方便核对。
 
-手册还记录了海航每件 23kg、留学生最多托运两件的 2024 参考条件，以及电话选座、使用航旅纵横查看座位分布的经验，详见机票与托运篇。
+<!-- NSG-070 -->
+
+**2026-09-14 更新：** 2026-09-14 核实：海航中欧经济舱托运行李额度取决于具体票价产品；其现行表中不同产品可为无免费托运、1 件或 2 件，每件限重按机票及官网对应规则确认。“留学生最多两件”仅为历史记录，本次未核实统一适用的现行学生优惠。
+
+参考：[Hainan Airlines](https://www.hainanairlines.com/HUPortal/dyn/portal/DisplayPage?COUNTRY_SITE=AT&LANGUAGE=US&PAGE=TYXL&SITE=CBHZCBHZ)。
+手册关于电话选座、使用航旅纵横查看座位分布的经验，详见[机票与托运篇](/new-students/before-arrival/flights/)。

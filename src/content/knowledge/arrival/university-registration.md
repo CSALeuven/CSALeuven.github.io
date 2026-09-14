@@ -24,7 +24,7 @@
     15
   ],
   "sourceYear": 2024,
-  "reviewStatus": "legacy-2024",
+  "reviewStatus": "partially-reviewed",
   "timeSensitive": true,
   "officialSources": [
     {
@@ -34,6 +34,14 @@
     {
       "label": "补充核验入口｜KU Leuven：行前准备（非手册原链）",
       "url": "https://www.kuleuven.be/english/life-at-ku-leuven/prepare-your-stay"
+    },
+    {
+      "label": "KU Leuven Tuition Fees — Payment",
+      "url": "https://www.kuleuven.be/english/education/student/fees/payment"
+    },
+    {
+      "label": "KU Leuven Registration — Registration at Campus Leuven",
+      "url": "https://www.kuleuven.be/english/apply/education/student/register/other-campuses/leuven"
     }
   ],
   "related": [
@@ -42,20 +50,32 @@
     "study/learning-platforms",
     "study/isp"
   ],
-  "quickAnswer": "手册列出录取通知书、学历学位复印件和用于注册费支付的 VISA 卡；报到地点、材料和缴费方式应按学校当期通知核对。",
-  "sourceTitle": "鲁汶学联新生手册 2024"
+  "quickAnswer": "手册列出录取通知书和学历学位复印件；所需材料与报到安排按学校当期通知核对。学费按本人账单通过银行转账支付，不接受现金或信用卡。",
+  "sourceTitle": "鲁汶学联新生手册 2024",
+  "lastReviewed": "2026-09-14",
+  "approvedUpdateIds": [
+    "NSG-064",
+    "NSG-105"
+  ]
 }
 ---
-
 ## 2024 手册列出的材料
 
 - 录取通知书（admission letter）。
 - 学历、学位复印件，原文标为备查。
-- 银行卡，原文举例使用 VISA 支付注册费。
+<!-- NSG-064 -->
+
+**2026-09-14 更新：** 2026-09-14 核实：KU Leuven 学费应按账单说明通过银行转账支付，并填写指定付款附言；学校不接受现金或信用卡支付。请在 KU Loket 查看本人账单及截止日，不要按旧手册准备 VISA 卡到场缴费。
+
+参考：[KU Leuven Tuition Fees](https://www.kuleuven.be/english/education/student/fees/payment)。
 
 ## 地点与办理说明
 
-原 PDF 将注册办公室地址写作 **“namestraat22”**。该拼写与当前办理地点尚未核实，不能直接作为现行导航地址；请以学校发给本人的注册通知为准。
+<!-- NSG-105 -->
+
+**2026-09-14 更新：** 经核实的鲁汶校区注册地点：University Hall，Naamsestraat 22，3000 Leuven。是否需要到场及预约，请以注册邮件为准；“namestraat22”为原 PDF 拼写。
+
+参考：[KU Leuven Registration](https://www.kuleuven.be/english/apply/education/student/register/other-campuses/leuven)。
 
 手册简单描述携带这些材料到办公室办理，并提到新生注册往往可领到注册礼包。PDF 没有给出办公时间、预约办法、注册费金额或线上注册入口，也不保证仍有礼包。
 

@@ -31,7 +31,7 @@
     31
   ],
   "sourceYear": 2024,
-  "reviewStatus": "legacy-2024",
+  "reviewStatus": "partially-reviewed",
   "timeSensitive": true,
   "officialSources": [
     {
@@ -41,6 +41,50 @@
     {
       "label": "Brussels Airport Supplement",
       "url": "https://www.belgiantrain.be/en/tickets-and-railcards/airports/diabolo-fee/"
+    },
+    {
+      "label": "SNCB/NMBS — On-board pricing",
+      "url": "https://www.belgiantrain.be/en/support/customer-service/on-board-pricing"
+    },
+    {
+      "label": "SNCB/NMBS — Choosing your route",
+      "url": "https://www.belgiantrain.be/en/support/faq/faq-routes-schedules/faq-choose-your-route"
+    },
+    {
+      "label": "SNCB/NMBS — Adults (26–64)",
+      "url": "https://www.belgiantrain.be/en/products/adult"
+    },
+    {
+      "label": "SNCB/NMBS — Tickets and season tickets",
+      "url": "https://www.belgiantrain.be/en/products"
+    },
+    {
+      "label": "SNCB/NMBS — Travelling on weekends",
+      "url": "https://www.belgiantrain.be/en/products/weekend"
+    },
+    {
+      "label": "SNCB/NMBS — Youth (under 26)",
+      "url": "https://www.belgiantrain.be/en/products/youth"
+    },
+    {
+      "label": "SNCB/NMBS — Youth Holidays – product discontinued",
+      "url": "https://www.belgiantrain.be/en/tickets-and-railcards/go-unlimited?menu=1"
+    },
+    {
+      "label": "SNCB/NMBS — Student Multi",
+      "url": "https://www.belgiantrain.be/fr/products/abonnements/student-multi?journey=2"
+    },
+    {
+      "label": "SNCB/NMBS — Student Multi product conditions effective 1 July 2026",
+      "url": "https://www.belgiantrain.be/-/media/files/pdf/productfiches/fr/student-multi-fr-ext-20260701.ashx"
+    },
+    {
+      "label": "SNCB/NMBS — Brussels Airport Supplement",
+      "url": "https://www.belgiantrain.be/en/tickets-and-railcards/airports/brussels-airport/"
+    },
+    {
+      "label": "SNCB/NMBS — S Train",
+      "url": "https://www.belgiantrain.be/en/travel-info/train-offer/s-train?journey=list"
     }
   ],
   "related": [
@@ -50,11 +94,25 @@
     "transport/bike-rental",
     "transport/buying-bikes"
   ],
-  "quickAnswer": "到机场或其他城市前，在 SNCB/NMBS 官方渠道查询实际列车与当前票种，并确认机场附加费是否已包含。本文的票名、票价和罚款均保留为历史信息。",
-  "sourceTitle": "鲁汶学联新生手册 2024"
+  "quickAnswer": "自 2026 年 7 月 1 日起，SNCB 不再车上售票；登车前必须持有有效车票。 当前票价请按年龄、路线、乘车日期及是否持有 Train+ 在 SNCB 查询；不要使用旧价格区间估算。",
+  "sourceTitle": "鲁汶学联新生手册 2024",
+  "lastReviewed": "2026-09-14",
+  "approvedUpdateIds": [
+    "NSG-010",
+    "NSG-037",
+    "NSG-038",
+    "NSG-050",
+    "NSG-051",
+    "NSG-052",
+    "NSG-053",
+    "NSG-054",
+    "NSG-055",
+    "NSG-056",
+    "NSG-057",
+    "NSG-103"
+  ]
 }
 ---
-
 ## 车站与查班次
 
 手册把 **Station Leuven**（鲁汶主火车站）定位在市区东北侧环路上，介绍火车是连接鲁汶、机场和其他城市的主要方式。本页只整理比利时境内铁路部分。
@@ -63,67 +121,102 @@
 
 手册解释官网可以查询任意地点间的路线，带铁路 **B 标志**的地点才是火车站；原文提及的查询截图未出现在该页，不应据此假定官网界面仍相同。
 
-## 2024 手册里的票种
+## 票种与现行购票要求
 
-**下表的名称、年龄限制、价格与购买方式均来自手册，并非当前售票目录。**部分产品可能已更名、调整或停止销售；不要根据旧价格购票或判断资格。
+### 普通车票
 
+<!-- NSG-050 -->
 
-### 普通单程／往返
+**2026-09-14 更新：** 当前票价请按年龄、路线、乘车日期及是否持有 Train+ 在 SNCB 查询；不要使用旧价格区间估算。
 
-- **手册条件与价格：** 二等座单程约 €3–23，按距离；往返为单程两倍
-- **手册购买说明：** 售票机或柜台，无需证明；单程 enkel，往返 heen-en-terug
+参考：[SNCB/NMBS](https://www.belgiantrain.be/en/products/adult) · [SNCB/NMBS](https://www.belgiantrain.be/en/products)。
 
-### 周末往返票
+### 周末优惠
 
-- **手册条件与价格：** 原文称通常比普通票优惠 50%；周五 19:00 至周日 23:59，或法定假日
-- **手册购买说明：** 只售往返，来回可不在同一天但都在有效时段；售票机或柜台
+<!-- NSG-051 -->
 
-### GoPass 1
+**2026-09-14 更新：** 26–64 岁成人现行周末优惠适用于周六、周日和法定节假日，基础折扣为 30%；旧的周五 19:00 起、五折往返票规则已不适用。
 
-- **手册条件与价格：** 未满 26 岁；€6.40，一次境内站间行程
-- **手册购买说明：** 售票机或柜台
+参考：[SNCB/NMBS](https://www.belgiantrain.be/en/products/weekend)。
 
-### GoPass 10
+### 青年票价
 
-- **手册条件与价格：** 未满 26 岁；€52 / 10 次，即每次 €5.20；每次可选不同城市
-- **手册购买说明：** 柜台，可能查验年龄证明
+<!-- NSG-052 -->
 
-### Campus
+**2026-09-14 更新：** 未满 26 岁可使用现行青年优惠票价；票价按当前 SNCB 规则计算，不再引用 GoPass 1 的 €6.40 固定价。
 
-- **手册条件与价格：** 未满 26 岁学生；固定两城市间 49 天内往返 5 次（10 程），按距离定价
-- **手册购买说明：** 首次需学校注册证明、照片和身份证明，详见下节
+参考：[SNCB/NMBS](https://www.belgiantrain.be/en/products/youth)。
 
-### GoUnlimited
+### GoPass 10／Youth Multi
 
-- **手册条件与价格：** 未满 26 岁；假期限定，€15 / 周或 €25 / 月，有效期内境内不限次
-- **手册购买说明：** 需 MOBIB 卡；手册称寒暑假各销售一段时间，通常开学前一个月开始
+<!-- NSG-053 -->
 
+**2026-09-14 更新：** GoPass 10／Youth Multi 已停售；当前购票和上车前操作请以所选现售票种为准。
 
-手册认为 GoPass 对长途较有价格优势，短途可能不如普通票；Campus 通常接近相同路线普通往返一次的价格。这些是旧票制下的比较，不能用来比较今天的票价。
+参考：[SNCB/NMBS](https://www.belgiantrain.be/en/tickets-and-railcards/go-unlimited?menu=1)。
 
-## Campus 的历史材料清单
+### Student Multi：原 Campus 产品
 
-手册将 Campus 分为两部分，乘车需同时带：
+<!-- NSG-054 -->
 
-1. 印照片、个人信息与固定往返城市的卡，原文有效期 5 年。
-2. 可填写 10 次日期的车票，原文有效期 49 天。
+**2026-09-14 更新：** 现售对应产品为 Student Multi。按 SNCB 2026 年 7 月 1 日生效的产品条款，凭纸质塑封卡及有效验证票，在固定路线 49 天内使用五次往返；网站另一处仍提到 MOBIB，购票前请向 SNCB 确认载体与办理要求。
 
-首次办理列出的材料为打印好的 **inschrijvingsbewijs**（学校注册证明；手册拼作 inschrijvingbewijs）、照片、身份证明。原文称卡片有效期内再次购买只需换车票部分。当前对应产品与流程需重新核实。
+参考：[SNCB/NMBS](https://www.belgiantrain.be/fr/products/abonnements/student-multi?journey=2) · [SNCB/NMBS](https://www.belgiantrain.be/-/media/files/pdf/productfiches/fr/student-multi-fr-ext-20260701.ashx)。
+
+### Student Multi 资格
+
+<!-- NSG-057 -->
+
+**2026-09-14 更新：** Student Multi 除年龄与在读条件外，还有限定的收入和工作身份要求；有工资、补助或自雇收入者须按 SNCB 当前条款确认资格。
+
+参考：[SNCB/NMBS](https://www.belgiantrain.be/-/media/files/pdf/productfiches/fr/student-multi-fr-ext-20260701.ashx)。
+
+### GoUnlimited／Youth Holidays
+
+<!-- NSG-055 -->
+
+**2026-09-14 更新：** GoUnlimited／Youth Holidays 假期不限次票已停售，旧周票和月票价格不能用于当前出行计划。
+
+参考：[SNCB/NMBS](https://www.belgiantrain.be/en/tickets-and-railcards/go-unlimited?menu=1)。
+
+旧 Campus 所列照片卡及办理材料仅作历史参考，详见原版 2024 手册；现行载体存在官方页面不一致之处，请购票前向 SNCB 确认。
 
 ## 布鲁塞尔机场附加费
 
-手册以 **Diabolotoeslag / Diabolo 费用**介绍布鲁塞尔机场铁路附加费，记录为额外 **€5.30 / 单程**，解释机场铁路由 Northern Diabolo 承建；已有其他车票时可单独买附加费，并用票上二维码通过机场闸机。
+<!-- NSG-056 -->
 
-这是历史金额。现在出行请查看 [SNCB Brussels Airport Supplement 官方说明](https://www.belgiantrain.be/en/tickets-and-railcards/airports/diabolo-fee/)，确认自己的票是否已含附加费，避免漏买或重复购买。原文机场票指 **Brussels Airport-Zaventem**，不能据此推定适用于其他机场。
+**2026-09-14 更新：** Brussels Airport-Zaventem 铁路附加费现为单程 €6.90；先确认车票是否已包含，避免重复购买。
+
+参考：[SNCB/NMBS](https://www.belgiantrain.be/en/tickets-and-railcards/airports/brussels-airport/)。
+
+出行前请查看 [SNCB Brussels Airport Supplement 官方说明](https://www.belgiantrain.be/en/tickets-and-railcards/airports/diabolo-fee/)，确认自己的票是否已含附加费，避免漏买或重复购买。原文机场票指 **Brussels Airport-Zaventem**，不能据此推定适用于其他机场。
 
 ## 2024 手册的乘车规则与警示
 
-- 上车前购票；需要填写的票（原文例 GoPass 10）也在上车前填好。
-- 原文称主动向乘务员补普通票需加 **€7 boordtarif**，未主动补票罚 **€75**。补票规则与金额均为历史记录，不能视为当前处罚标准。
+<!-- NSG-010 -->
+
+**2026-09-14 更新：** 自 2026 年 7 月 1 日起，SNCB 不再车上售票；登车前必须持有有效车票。
+
+参考：[SNCB/NMBS](https://www.belgiantrain.be/en/support/customer-service/on-board-pricing)。
+<!-- NSG-037 -->
+
+**2026-09-14 更新：** 无有效票乘车会收到现行 €90 补缴情形通知，并须按 SNCB 通知处理；不要套用手册的 €75 旧罚款。
+
+参考：[SNCB/NMBS](https://www.belgiantrain.be/en/support/customer-service/on-board-pricing)。
 - 手册称除机场外车站通常无闸机，但无闸机不等于不需要票。
 - 车票通常没有指定座位；注意车厢上的 **1 / 2** 等级标识，二等票不要坐一等车厢。
-- **IC** 为城际列车，**L** 多停小站，**S** 为布鲁塞尔周边线路；比较到达时间，较早出发的慢车未必较早到达。
-- 原文称一张 A 至 B 的票可在沿途 C 站下车，并在同一天继续到 B；是否适用于现在所买票种，应读当前条款。
+- **IC** 为城际列车，**L** 多停小站。比较到达时间，较早出发的慢车未必较早到达。
+
+<!-- NSG-103 -->
+
+**2026-09-14 更新：** S 是市郊列车服务，覆盖布鲁塞尔、安特卫普、根特、列日和沙勒罗瓦等城市周边。
+
+参考：[SNCB/NMBS](https://www.belgiantrain.be/en/travel-info/train-offer/s-train?journey=list)。
+<!-- NSG-038 -->
+
+**2026-09-14 更新：** 普通车票不能用于途中任意停留后再继续旅行；按线路规划需要换乘不属于这种停留，季票另按其条款。
+
+参考：[SNCB/NMBS](https://www.belgiantrain.be/en/support/faq/faq-routes-schedules/faq-choose-your-route)。
 - 上错车或发生票务问题时，应主动找乘务员说明。原文“可能免罚”是经验，**不是免罚保证**。
 - 等车时注意显示屏、站台变化、延误和广播。
 - 显示 **Doorrijdende trein**（过站列车；原文拼写有误）时远离站台边缘，注意高速通过列车。

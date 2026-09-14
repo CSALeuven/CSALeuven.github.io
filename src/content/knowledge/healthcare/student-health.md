@@ -31,7 +31,7 @@
     33
   ],
   "sourceYear": 2024,
-  "reviewStatus": "legacy-2024",
+  "reviewStatus": "partially-reviewed",
   "timeSensitive": true,
   "officialSources": [
     {
@@ -45,20 +45,47 @@
     {
       "label": "MCH 医疗中心",
       "url": "https://www.mchinfo.be/"
+    },
+    {
+      "label": "BCFI / CBIP (RIZIV reimbursement rules) — Gardasil 9 reimbursement, §13880100",
+      "url": "https://www.bcfi.be/nl/ampps/134015?cat=b"
+    },
+    {
+      "label": "VNZ — HPV reimbursement from June 2026 for adults aged 19–30",
+      "url": "https://vnz.be/blog/hpv-vaccin-vanaf-juni-terugbetaald-voor-jongvolwassenen-tot-en-met-30-jaar/"
+    },
+    {
+      "label": "KU Leuven Stuvo — General practitioners",
+      "url": "https://www.kuleuven.be/english/stuvo/health/general-practitioners"
+    },
+    {
+      "label": "KU Leuven Stuvo — Who can help with what?",
+      "url": "https://www.kuleuven.be/english/stuvo/health/mental-health/who-can-help-you-with"
     }
   ],
   "related": [
     "healthcare/seeing-a-doctor",
     "healthcare/emergency"
   ],
-  "quickAnswer": "2024 手册把学校 Student Health Centre 的 GP 作为学生普通健康问题的便捷入口，并介绍了学校心理咨询与治疗服务。",
-  "sourceTitle": "鲁汶学联新生手册 2024"
+  "quickAnswer": "KU Leuven Stuvo 位于鲁汶的 GP 服务面向 KU Leuven 鲁汶校区及 LUCA Lemmens 校区学生；其他学生应向自己的学校查询健康服务，或使用当地 GP。",
+  "sourceTitle": "鲁汶学联新生手册 2024",
+  "lastReviewed": "2026-09-14",
+  "approvedUpdateIds": [
+    "NSG-025",
+    "NSG-066",
+    "NSG-123"
+  ]
 }
 ---
-
 ## 普通健康问题：学校 GP
 
-2024 手册建议学生考虑预约学校 Student Health Centre 的全科医生。手册提到的学生常见咨询包括注意力问题、压力、熬夜后的不适和避孕等。
+<!-- NSG-066 -->
+
+**2026-09-14 更新：** KU Leuven Stuvo 位于鲁汶的 GP 服务面向 KU Leuven 鲁汶校区及 LUCA Lemmens 校区学生；其他学生应向自己的学校查询健康服务，或使用当地 GP。
+
+参考：[KU Leuven Stuvo](https://www.kuleuven.be/english/stuvo/health/general-practitioners)。
+
+手册提到的学生常见咨询包括注意力问题、压力、熬夜后的不适和避孕等。
 
 原文排版中 “Student 的队。HealthCentre” 属于文字错位；本页清理为 **Student Health Centre**，不改变其所指的学校健康服务。当前服务名称、对象和预约入口请查[KU Leuven 学生健康服务](https://www.kuleuven.be/english/stuvo/health)。
 
@@ -72,11 +99,15 @@
 
 ## 心理健康支持
 
-手册明确鼓励遇到心理问题时寻求专业帮助，并介绍学校有心理治疗师和精神科医生提供咨询、治疗等服务。
+<!-- NSG-123 -->
+
+**2026-09-14 更新：** 需要心理支持可从 Stuvo 心理健康入口选择适合自己的服务。精神科评估或药物相关咨询通常先与心理专业人员讨论，再决定是否转介；具体服务对象和预约方式以该入口为准。
+
+参考：[KU Leuven Stuvo](https://www.kuleuven.be/english/stuvo/health/mental-health/who-can-help-you-with)。
 
 可从[学校心理健康页面](https://www.kuleuven.be/english/stuvo/health/mental-health)查找当前服务与预约说明。遇到紧急危险时，使用[急诊与紧急求助入口](/new-students/healthcare/emergency/)。
 
-## 手册中的其他健康主题：历史参考
+## 其他健康主题：历史参考与注明的更新
 
 ### 中医药问诊
 
@@ -86,6 +117,10 @@
 
 ### HPV 九价疫苗
 
-手册写到可在药店购买 HPV 九价疫苗后由家庭医生注射，并提及 **22 岁以下有优惠政策**、可咨询家庭医生。
+<!-- NSG-025 -->
 
-这段流程和年龄优惠仅是 **2024 年历史记录，尚待专业核实**。不要据此直接购买或确定接种、报销资格；是否适合接种、需要的处方及当前办理规则应与医生和药房确认。本页未新增接种方案或用药建议。
+**2026-09-14 更新：** 从 2026 年 6 月起，Gardasil 9 的国家医保报销扩大到所有 19–30 岁年轻成年人。只要在第一针时已满 19 岁、但未满 31 岁，符合条件可以报销最多 3 剂 Gardasil 9。报销后目前 Gardasil 9 的患者自付额约为 €12.80/针；有 verhoogde tegemoetkoming/BIM 优惠资格者约 €8.50/针。
+
+参考：[BCFI / CBIP (RIZIV reimbursement rules)](https://www.bcfi.be/nl/ampps/134015?cat=b) · [VNZ](https://vnz.be/blog/hpv-vaccin-vanaf-juni-terugbetaald-voor-jongvolwassenen-tot-en-met-30-jaar/)。
+
+适用条件补充：上述报销须有符合规定的医生处方，且该年龄段的一般报销规则不适用于已经开始 HPV 免疫接种者。既往接种情况、医保资格与处方要求请与医生、药房或医保机构确认。
