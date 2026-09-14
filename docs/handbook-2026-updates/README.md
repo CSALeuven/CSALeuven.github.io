@@ -4,7 +4,7 @@ The annotated `CSAL-guide-review.xlsx` is the decision source: 69 **Accept**, 3 
 
 Implementation starts from main `6341681` (the audit used `97313c3bbf58e2928d7db5e6db210761fbb7edeb`; intervening commits did not change the guide). Seventy-two approved findings affect 33 knowledge articles. Rejected changes are not applied. Original PDF and packing data are unchanged. Source year and historical caveats remain; touched articles are **partially-reviewed**, not fully verified.
 
-Chinese corrections replace the affected passages, prices, links and quick answers. Each substantive correction is dated; the original PDF remains the source archive. Link-only decisions update the actual destinations, rather than publishing spreadsheet editing instructions. NSG-117 also updates both shared 112 panels. The contract checklist's broad instruction to check access conditions remains, with the consent rule explained in the corrected article.
+Chinese corrections replace the affected passages, prices, links and quick answers. Review dates remain in article metadata and this decision record; at the user's request, public paragraphs omit repeated “date + update/checked” labels. The original PDF remains the source archive. Link-only decisions update the actual destinations, rather than publishing spreadsheet editing instructions. NSG-117 also updates both shared 112 panels. The contract checklist's broad instruction to check access conditions remains, with the consent rule explained in the corrected article.
 
 `src/content/knowledge-updates/{category}/{slug}.md` contains the matching English corrections only. They appear before the Chinese article on its existing English route, with an explicit partial-translation disclosure and `noindex, follow`. They are not full handbook translations. The existing `knowledge-translations` collection remains reserved for complete reviewed English article bodies. English update text is included in the shared search index.
 
@@ -17,6 +17,8 @@ Chinese corrections replace the affected passages, prices, links and quick answe
 NSG-106 remains explicitly unverified: the historical US News rank is not replaced with another year's rank or presented as newly confirmed. NSG-054 retains the approved warning about inconsistent SNCB descriptions of the Student Multi ticket medium. NSG-080 and NSG-082 retain the approved uncertainty about a former delivery provider and shop name.
 
 ## Maintaining these updates
+
+The same display cleanup also removes the earlier 11 September 2026 labels on the sidewalk comparison, 112-number confirmation and KU Leuven emergency-number reference. Those three source checks retain that review date in this maintenance record; their explanatory text and source links are unchanged.
 
 Keep Chinese `approvedUpdateIds` and English `updateIds` aligned. Substantial text belongs in Markdown, not the schema or components. Update both languages together; retain dated sources and do not remove historical cautions from unrelated content. `getKnowledgeUpdates()` rejects missing counterparts and mismatched IDs during builds. A future full English translation must reconcile these approved updates before replacing the fallback body.
 

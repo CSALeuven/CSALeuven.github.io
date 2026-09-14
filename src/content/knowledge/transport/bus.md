@@ -101,7 +101,7 @@
 
 <!-- NSG-040 -->
 
-**2026-09-14 更新：** 学生公交卡现为每学年 €25；申请前核对资格与覆盖区域。
+学生公交卡现为每学年 €25；申请前核对资格与覆盖区域。
 
 参考：[KU Leuven](https://www.kuleuven.be/onderwijs/student/inschrijven/attesten/buspasaanvraag.html)。
 
@@ -113,7 +113,7 @@
 
 <!-- NSG-041 -->
 
-**2026-09-14 更新：** 学年注册时可申请，也可按学校在线表单补办；以当学年申请表的截止日期为准。
+学年注册时可申请，也可按学校在线表单补办；以当学年申请表的截止日期为准。
 
 参考：[KU Leuven](https://www.kuleuven.be/onderwijs/student/inschrijven/attesten/buspasaanvraag.html) · [KU Leuven](https://www.kuleuven.be/english/life-at-ku-leuven/transportation/how-to-apply-for-a-student-bus-pass-in-leuven)。
 
@@ -121,7 +121,7 @@
 
 <!-- NSG-042 -->
 
-**2026-09-14 更新：** 实名 MOBIB 卡有效期五年。工本费 €10 。
+实名 MOBIB 卡有效期五年。工本费 €10 。
 
 参考：[De Lijn](https://www.delijn.be/en/content/vervoerbewijzen/mobib/?vertaling=true)。
 
@@ -135,7 +135,7 @@ MOBIB 的办理材料与 Student Bus Pass 的资格、覆盖区域，请查看 [
 
 <!-- NSG-035 -->
 
-**2026-09-14 更新：** 不要准备向司机现金买票；可提前购买并激活适用票，或使用车上支持的非接触付款方式。
+不要准备向司机现金买票；可提前购买并激活适用票，或使用车上支持的非接触付款方式。
 
 参考：[De Lijn](https://help.delijn.be/hc/en-us/articles/360039272292-Why-can-t-I-pay-with-the-driver) · [De Lijn](https://www.delijn.be/en/content/ticket/)。
 
@@ -143,7 +143,7 @@ MOBIB 的办理材料与 Student Bus Pass 的资格、覆盖区域，请查看 [
 
 <!-- NSG-043 -->
 
-**2026-09-14 更新：** 单次票现为 €3；短信 DL 发至 4884 另收 €0.25 短信服务费，购买前确认号码适用性。
+单次票现为 €3；短信 DL 发至 4884 另收 €0.25 短信服务费，购买前确认号码适用性。
 
 参考：[De Lijn](https://www.delijn.be/en/content/ticket/)。
 
@@ -151,7 +151,7 @@ MOBIB 的办理材料与 Student Bus Pass 的资格、覆盖区域，请查看 [
 
 <!-- NSG-044 -->
 
-**2026-09-14 更新：** 十次票现为 €22；按 De Lijn 当前提供的载体和激活方式购买使用。
+十次票现为 €22；按 De Lijn 当前提供的载体和激活方式购买使用。
 
 参考：[De Lijn](https://www.delijn.be/en/content/eshop/)。
 
@@ -159,7 +159,7 @@ MOBIB 的办理材料与 Student Bus Pass 的资格、覆盖区域，请查看 [
 
 <!-- NSG-045 -->
 
-**2026-09-14 更新：** 12 岁及以上乘客的天票现为 €9，激活后有效 24 小时；短信购买另收服务费。
+12 岁及以上乘客的天票现为 €9，激活后有效 24 小时；短信购买另收服务费。
 
 参考：[De Lijn](https://www.delijn.be/en/content/dagticket/)。
 
@@ -167,7 +167,7 @@ MOBIB 的办理材料与 Student Bus Pass 的资格、覆盖区域，请查看 [
 
 <!-- NSG-036 -->
 
-**2026-09-14 更新：** 数字票须在上车前激活；单次票在激活后 60 分钟内可换乘，并按票种说明完成末段行程。实体票按读卡器指示刷卡。
+数字票须在上车前激活；单次票在激活后 60 分钟内可换乘，并按票种说明完成末段行程。实体票按读卡器指示刷卡。
 
 参考：[De Lijn](https://www.delijn.be/en/content/ticket/)。
 

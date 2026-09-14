@@ -61,7 +61,7 @@
 - Neutraal Ziekenfonds。
 <!-- NSG-084 -->
 
-**2026-09-14 更新：** Solidaris（2024 手册使用泛称 Socialistische Mutualiteiten；办理时请核对服务地区及当前机构信息）。
+Solidaris（2024 手册使用泛称 Socialistische Mutualiteiten；办理时请核对服务地区及当前机构信息）。
 
 参考：[KU Leuven Stuvo](https://www.kuleuven.be/english/life-at-ku-leuven/wellbeing-safety/health-insurance)。
 

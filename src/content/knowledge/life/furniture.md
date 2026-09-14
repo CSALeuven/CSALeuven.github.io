@@ -73,14 +73,14 @@
 
 手册列出 **IKEA Zaventem**，可到店或网上订购。因路程较长，建议事先列好购物清单；鲁汶的家居小店可用荷兰语 **woonwinkel** 搜索。
 
-### 配送费用：2026-09-14 更新
+### 配送费用
 
 
 ### 到店购买后使用店门口配送服务，送至鲁汶
 
 <!-- NSG-080 -->
 
-**2026-09-14 更新：** 旧 €40 配送服务缺少可核实的服务商；需要货运时按具体服务重新询价。
+旧 €40 配送服务缺少可核实的服务商；需要货运时按具体服务重新询价。
 
 参考：[IKEA Belgium](https://www.ikea.com/be/en/customer-service/services/delivery/)。
 
@@ -88,7 +88,7 @@
 
 <!-- NSG-049 -->
 
-**2026-09-14 更新：** IKEA 大件配送按重量及服务分档，现有门前配送起价 €39.90；以具体订单结账报价为准。
+IKEA 大件配送按重量及服务分档，现有门前配送起价 €39.90；以具体订单结账报价为准。
 
 参考：[IKEA Belgium](https://www.ikea.com/be/en/customer-service/services/delivery/)。
 
@@ -96,7 +96,7 @@
 
 <!-- NSG-048 -->
 
-**2026-09-14 更新：** IKEA 比利时包裹送货到家现为 €6.99，订单资格及其他配送方式按结账页确认。
+IKEA 比利时包裹送货到家现为 €6.99，订单资格及其他配送方式按结账页确认。
 
 参考：[IKEA Belgium](https://www.ikea.com/be/en/customer-service/services/delivery/)。
 
@@ -109,7 +109,7 @@
 
 <!-- NSG-081 -->
 
-**2026-09-14 更新：** 当前旧物捐赠与二手店请查 Kringwinkel ViTeS；可预约收取适合再利用的物品，先确认接收条件。
+当前旧物捐赠与二手店请查 Kringwinkel ViTeS；可预约收取适合再利用的物品，先确认接收条件。
 
 参考：[ViTeS](https://www.vites.be/nl/wat-doen-we/kringwinkels-vites) · [City of Leuven](https://leuven.be/afval-voorkomen)。
 

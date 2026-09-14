@@ -83,7 +83,7 @@
 
 <!-- NSG-107 -->
 
-**2026-09-14 更新：** 现行名称为 cum fructu；2024 手册写作“cumfuctu”，原拼写仅作来源记录。
+现行名称为 cum fructu；2024 手册写作“cumfuctu”，原拼写仅作来源记录。
 
 参考：[KU Leuven](https://www.kuleuven.be/english/apply/education/educational-glossary/educational-glossary-l/level) · [KU Leuven Academic Council](https://www.kuleuven.be/education/regulations/2026/)。
 - 原文没有写清恰好等于 68%、77%、85%、90% 时如何处理。

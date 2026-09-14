@@ -81,7 +81,7 @@
 
 <!-- NSG-066 -->
 
-**2026-09-14 更新：** KU Leuven Stuvo 位于鲁汶的 GP 服务面向 KU Leuven 鲁汶校区及 LUCA Lemmens 校区学生；其他学生应向自己的学校查询健康服务，或使用当地 GP。
+KU Leuven Stuvo 位于鲁汶的 GP 服务面向 KU Leuven 鲁汶校区及 LUCA Lemmens 校区学生；其他学生应向自己的学校查询健康服务，或使用当地 GP。
 
 参考：[KU Leuven Stuvo](https://www.kuleuven.be/english/stuvo/health/general-practitioners)。
 
@@ -101,7 +101,7 @@
 
 <!-- NSG-123 -->
 
-**2026-09-14 更新：** 需要心理支持可从 Stuvo 心理健康入口选择适合自己的服务。精神科评估或药物相关咨询通常先与心理专业人员讨论，再决定是否转介；具体服务对象和预约方式以该入口为准。
+需要心理支持可从 Stuvo 心理健康入口选择适合自己的服务。精神科评估或药物相关咨询通常先与心理专业人员讨论，再决定是否转介；具体服务对象和预约方式以该入口为准。
 
 参考：[KU Leuven Stuvo](https://www.kuleuven.be/english/stuvo/health/mental-health/who-can-help-you-with)。
 
@@ -119,7 +119,7 @@
 
 <!-- NSG-025 -->
 
-**2026-09-14 更新：** 从 2026 年 6 月起，Gardasil 9 的国家医保报销扩大到所有 19–30 岁年轻成年人。只要在第一针时已满 19 岁、但未满 31 岁，符合条件可以报销最多 3 剂 Gardasil 9。报销后目前 Gardasil 9 的患者自付额约为 €12.80/针；有 verhoogde tegemoetkoming/BIM 优惠资格者约 €8.50/针。
+从 2026 年 6 月起，Gardasil 9 的国家医保报销扩大到所有 19–30 岁年轻成年人。只要在第一针时已满 19 岁、但未满 31 岁，符合条件可以报销最多 3 剂 Gardasil 9。报销后目前 Gardasil 9 的患者自付额约为 €12.80/针；有 verhoogde tegemoetkoming/BIM 优惠资格者约 €8.50/针。
 
 参考：[BCFI / CBIP (RIZIV reimbursement rules)](https://www.bcfi.be/nl/ampps/134015?cat=b) · [VNZ](https://vnz.be/blog/hpv-vaccin-vanaf-juni-terugbetaald-voor-jongvolwassenen-tot-en-met-30-jaar/)。
 

@@ -78,13 +78,13 @@
 
 <!-- NSG-021 -->
 
-**2026-09-14 更新：** 对于适用佛兰德学生租赁规则的合同，金钱押金须存入租客本人名下的冻结账户或房东账户；不得以现金交付，并应保留付款证明。
+对于适用佛兰德学生租赁规则的合同，金钱押金须存入租客本人名下的冻结账户或房东账户；不得以现金交付，并应保留付款证明。
 
 参考：[Flemish Government — Wonen in Vlaanderen](https://www.vlaanderen.be/bouwen-wonen-en-energie/huren-en-verhuren/studentenhuisvesting-huren-of-verhuren/studentenhuurovereenkomsten)。
 
 <!-- NSG-031 -->
 
-**2026-09-14 更新：** 对于适用佛兰德学生租赁规则的合同，若押金付给房东，通常须在租约结束后三个月内返还；若存入冻结账户，收到房东书面解除声明后，可向银行申请解冻。
+对于适用佛兰德学生租赁规则的合同，若押金付给房东，通常须在租约结束后三个月内返还；若存入冻结账户，收到房东书面解除声明后，可向银行申请解冻。
 
 参考：[KU Leuven Stuvo](https://www.kuleuven.be/english/education/life-at-ku-leuven/housing/info-for-tenants/deposit)。
 
@@ -102,7 +102,7 @@
 
 <!-- NSG-030 -->
 
-**2026-09-14 更新：** 押金扣款应以可归责的损坏、欠费等为依据；正常使用或老化产生的损耗不属于租客损坏。入住和退房时共同核对房况并保存记录。
+押金扣款应以可归责的损坏、欠费等为依据；正常使用或老化产生的损耗不属于租客损坏。入住和退房时共同核对房况并保存记录。
 
 参考：[KU Leuven Stuvo](https://www.kuleuven.be/english/stuvo/life-at-ku-leuven/housing/info-for-tenants/inventory-of-fixtures)。
 
@@ -112,7 +112,7 @@
 
 <!-- NSG-022 -->
 
-**2026-09-14 更新：** 房东进入房间通常须取得租客同意，不能仅凭提前通知随时进入；不可抗力情形除外。检查、紧急维修及再次出租看房应预先安排时间，租客也应合理配合。
+房东进入房间通常须取得租客同意，不能仅凭提前通知随时进入；不可抗力情形除外。检查、紧急维修及再次出租看房应预先安排时间，租客也应合理配合。
 
 参考：[KU Leuven Stuvo](https://www.kuleuven.be/english/life-at-ku-leuven/housing/info-for-tenants/common-mistakes-in-a-student-tenancy-agreement)。
 

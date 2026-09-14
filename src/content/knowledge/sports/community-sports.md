@@ -58,7 +58,7 @@
 
 <!-- NSG-115 -->
 
-**2026-09-14 更新：** [Sportoase Philipssite：场馆、票务与开放信息](https://sportoase.be/nl/locaties/philipssite/)
+[Sportoase Philipssite：场馆、票务与开放信息](https://sportoase.be/nl/locaties/philipssite/)
 
 参考：[Sportoase](https://sportoase.be/nl/locaties/philipssite/) · [Stad Leuven](https://www.leuven.be/zwembad-sportoase-philipssite)。
 

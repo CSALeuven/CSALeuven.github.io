@@ -66,11 +66,11 @@
 
 <!-- NSG-117 -->
 
-**2026-09-14 更新：** 如需救护车、消防等紧急援助，请拨打 112，并按接线员指示说明位置和情况。仅因交通不便而无法自行前往医院，并不等于紧急情况；非紧急就医请联系家庭医生或当地值班医疗服务。
+如需救护车、消防等紧急援助，请拨打 112，并按接线员指示说明位置和情况。仅因交通不便而无法自行前往医院，并不等于紧急情况；非紧急就医请联系家庭医生或当地值班医疗服务。
 
 参考：[Belgian FPS Home Affairs](https://112.be/en/who-and-how-call) · [Belgian FPS Home Affairs](https://112.be/en/how-call/how-call-112)。
 
-**单项核实记录 · 2026-09-11：** 比利时政府的 [112 官方说明](https://112.be/en/how-call/how-call-112)确认 112 可用于救护车、消防或警察求助；该页面另列比利时紧急警务号码 101。接通后说明准确位置和发生的情况，并听从接线员指示。这个核对只覆盖紧急号码和上述拨打说明，不代表整篇 2024 医疗内容已经审核。
+比利时政府的 [112 官方说明](https://112.be/en/how-call/how-call-112)确认 112 可用于救护车、消防或警察求助；该页面另列比利时紧急警务号码 101。接通后说明准确位置和发生的情况，并听从接线员指示。这个核对只覆盖紧急号码和上述拨打说明，不代表整篇 2024 医疗内容已经审核。
 
 ## 手册中的医院急诊入口
 
@@ -84,7 +84,7 @@
 
 <!-- NSG-012 -->
 
-**2026-09-14 更新：** 经 112 调派的紧急救护车采用按年调整的固定收费，并非按时间计费；非紧急病人运输适用其他规则。请查官方当年收费说明，紧急时不要因费用而延误求助。
+经 112 调派的紧急救护车采用按年调整的固定收费，并非按时间计费；非紧急病人运输适用其他规则。请查官方当年收费说明，紧急时不要因费用而延误求助。
 
 参考：[Belgian FPS Public Health](https://www.health.belgium.be/nl/themas/gezondheid/dringende-geneeskundige-hulpverlening/actoren-dringende-geneeskundige-hulpverlening/teams-dringende-geneeskundige-hulpverlening)。
 
@@ -92,7 +92,7 @@
 
 2024 手册还提到学校设有 24 小时紧急求助热线，但没有在正文中印出号码。
 
-**另行核实 · 2026-09-11：** [KU Leuven 官方健康与紧急求助页面](https://www.kuleuven.be/english/life-at-ku-leuven/wellbeing-safety)列出校内紧急号码 **[+32 16 32 22 22](tel:+3216322222)**。这项补充与原手册内容分开记录。
+[KU Leuven 官方健康与紧急求助页面](https://www.kuleuven.be/english/life-at-ku-leuven/wellbeing-safety)列出校内紧急号码 **[+32 16 32 22 22](tel:+3216322222)**。这项补充与原手册内容分开记录。
 
 ## 平时可以先准备
 

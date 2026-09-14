@@ -27,6 +27,9 @@ const updates = walk('src/content/knowledge-updates').filter(p => p.endsWith('.m
 assert.equal(updates.length, expected.size);
 assert.equal(new Set(updates.map(u => u.key)).size, updates.length);
 const linkOnly = new Set(['NSG-114', 'NSG-115', 'NSG-116']);
+// The decision ledger preserves the original annotations; public text omits editorial date prefixes.
+const withoutReviewPrefix = text => text.replace(/^\d{4}-\d{2}-\d{2} 核实：\s*/, '')
+  .replace(/^Checked \d{1,2} [A-Za-z]+ \d{4}: ([a-z]?)/, (_, first) => first.toUpperCase());
 for (const update of updates) {
   const article = markdown(`src/content/knowledge/${update.key}.md`);
   assert.deepEqual(new Set(update.updateIds), expected.get(update.key), update.key);
@@ -37,15 +40,17 @@ for (const update of updates) {
   for (const d of approved.filter(d => update.updateIds.includes(d.id))) {
     assert(update.body.includes(`<!-- ${d.id} -->`));
     if (!linkOnly.has(d.id)) {
-      assert(article.body.includes(d.approvedReplacement.zh), `${d.id}: approved Chinese missing`);
-      assert(update.body.includes(d.approvedReplacement.en), `${d.id}: matching English missing`);
+      assert(article.body.includes(withoutReviewPrefix(d.approvedReplacement.zh)), `${d.id}: approved Chinese missing`);
+      assert(update.body.includes(withoutReviewPrefix(d.approvedReplacement.en)), `${d.id}: matching English missing`);
     }
   }
   for (const d of rejected) assert(!update.body.includes(`<!-- ${d.id} -->`), `Rejected update ${d.id} was applied`);
   if (existsSync('dist/new-students/search.json')) {
     const html = read(`dist/en/new-students/${update.key}/index.html`);
     assert.equal((html.match(/id="approved-updates"/g) ?? []).length, 1);
-    assert(html.includes('English translations of the dated updates'));
+    assert(html.includes('English translations of the reviewed topics'));
+    const zh = read(`dist/new-students/${update.key}/index.html`);
+    for (const page of [zh, html]) assert(!/\d{4}-\d{2}-\d{2}\s*(?:更新|核实)[:：]|(?:单项核对|单项核实记录|另行核实)\s*·\s*\d{4}-\d{2}-\d{2}|Checked \d{1,2} [A-Za-z]+ \d{4}:|English updates ·/.test(page), 'Editorial date label leaked into the page');
     assert(html.includes('noindex, follow'), 'Partial updates must not be advertised as a full English translation');
     assert(html.includes('lang="en" aria-labelledby="updates-title"'));
   }

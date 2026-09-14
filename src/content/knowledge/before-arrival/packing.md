@@ -83,7 +83,7 @@
 
 <!-- NSG-070 -->
 
-**2026-09-14 更新：** 2026-09-14 核实：海航中欧经济舱托运行李额度取决于具体票价产品；其现行表中不同产品可为无免费托运、1 件或 2 件，每件限重按机票及官网对应规则确认。“留学生最多两件”仅为历史记录，本次未核实统一适用的现行学生优惠。
+海航中欧经济舱托运行李额度取决于具体票价产品；其现行表中不同产品可为无免费托运、1 件或 2 件，每件限重按机票及官网对应规则确认。“留学生最多两件”仅为历史记录，本次未核实统一适用的现行学生优惠。
 
 参考：[Hainan Airlines](https://www.hainanairlines.com/HUPortal/dyn/portal/DisplayPage?COUNTRY_SITE=AT&LANGUAGE=US&PAGE=TYXL&SITE=CBHZCBHZ)。
 手册关于电话选座、使用航旅纵横查看座位分布的经验，详见[机票与托运篇](/new-students/before-arrival/flights/)。
