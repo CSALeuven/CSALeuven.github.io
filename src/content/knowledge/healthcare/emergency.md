@@ -70,7 +70,7 @@
 
 参考：[Belgian FPS Home Affairs](https://112.be/en/who-and-how-call) · [Belgian FPS Home Affairs](https://112.be/en/how-call/how-call-112)。
 
-**单项核实记录 · 2026-09-11：** 比利时政府的 [112 官方说明](https://112.be/en/how-call/how-call-112)确认 112 可用于救护车、消防或警察求助；该页面另列比利时紧急警务号码 101。接通后说明准确位置和发生的情况，并听从接线员指示。这个核对只覆盖紧急号码和上述拨打说明，不代表整篇 2024 医疗内容已经审核。
+比利时政府的 [112 官方说明](https://112.be/en/how-call/how-call-112)确认 112 可用于救护车、消防或警察求助；该页面另列比利时紧急警务号码 101。接通后说明准确位置和发生的情况，并听从接线员指示。这个核对只覆盖紧急号码和上述拨打说明，不代表整篇 2024 医疗内容已经审核。
 
 ## 手册中的医院急诊入口
 
@@ -92,7 +92,7 @@
 
 2024 手册还提到学校设有 24 小时紧急求助热线，但没有在正文中印出号码。
 
-**另行核实 · 2026-09-11：** [KU Leuven 官方健康与紧急求助页面](https://www.kuleuven.be/english/life-at-ku-leuven/wellbeing-safety)列出校内紧急号码 **[+32 16 32 22 22](tel:+3216322222)**。这项补充与原手册内容分开记录。
+[KU Leuven 官方健康与紧急求助页面](https://www.kuleuven.be/english/life-at-ku-leuven/wellbeing-safety)列出校内紧急号码 **[+32 16 32 22 22](tel:+3216322222)**。这项补充与原手册内容分开记录。
 
 ## 平时可以先准备
 

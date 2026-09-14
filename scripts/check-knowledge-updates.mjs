@@ -50,7 +50,7 @@ for (const update of updates) {
     assert.equal((html.match(/id="approved-updates"/g) ?? []).length, 1);
     assert(html.includes('English translations of the reviewed topics'));
     const zh = read(`dist/new-students/${update.key}/index.html`);
-    for (const page of [zh, html]) assert(!/\d{4}-\d{2}-\d{2}\s*(?:更新|核实)[:：]|Checked \d{1,2} [A-Za-z]+ \d{4}:|English updates ·/.test(page), 'Editorial date label leaked into the page');
+    for (const page of [zh, html]) assert(!/\d{4}-\d{2}-\d{2}\s*(?:更新|核实)[:：]|(?:单项核对|单项核实记录|另行核实)\s*·\s*\d{4}-\d{2}-\d{2}|Checked \d{1,2} [A-Za-z]+ \d{4}:|English updates ·/.test(page), 'Editorial date label leaked into the page');
     assert(html.includes('noindex, follow'), 'Partial updates must not be advertised as a full English translation');
     assert(html.includes('lang="en" aria-labelledby="updates-title"'));
   }

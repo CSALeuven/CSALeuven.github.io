@@ -18,6 +18,8 @@ NSG-106 remains explicitly unverified: the historical US News rank is not replac
 
 ## Maintaining these updates
 
+The same display cleanup also removes the earlier 11 September 2026 labels on the sidewalk comparison, 112-number confirmation and KU Leuven emergency-number reference. Those three source checks retain that review date in this maintenance record; their explanatory text and source links are unchanged.
+
 Keep Chinese `approvedUpdateIds` and English `updateIds` aligned. Substantial text belongs in Markdown, not the schema or components. Update both languages together; retain dated sources and do not remove historical cautions from unrelated content. `getKnowledgeUpdates()` rejects missing counterparts and mismatched IDs during builds. A future full English translation must reconcile these approved updates before replacing the fallback body.
 
 Run `npm run build`, `npm run test:site`, and `git diff --check`. The new regression check covers decision counts, bilingual correspondence, preservation of selected rejected passages, obsolete links, updated quick answers, partial-translation disclosure, emergency panels and generated search content. Existing checks protect the full corpus, routes and source-PDF hash.
