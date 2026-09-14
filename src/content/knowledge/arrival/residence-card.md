@@ -71,7 +71,7 @@
 
 <!-- NSG-023 -->
 
-**2026-09-14 更新：** 2026-09-14 核实：住在鲁汶、持学生 D 类签证并就读 KU Leuven、UCLL 或 LUCA（Lemmens） 的非欧盟／欧洲经济区及非瑞士籍学生，先按学校要求提交登记材料，由学校转交市政府；收到市政府发往学生邮箱的邀请后，再领取 Annex 15。其他身份请使用市政府的登记流程选择器。
+住在鲁汶、持学生 D 类签证并就读 KU Leuven、UCLL 或 LUCA（Lemmens） 的非欧盟／欧洲经济区及非瑞士籍学生，先按学校要求提交登记材料，由学校转交市政府；收到市政府发往学生邮箱的邀请后，再领取 Annex 15。其他身份请使用市政府的登记流程选择器。
 
 参考：[Stad Leuven](https://www.leuven.be/en/student-visa-leuven)。
 
@@ -81,7 +81,7 @@
 
 <!-- NSG-113 -->
 
-**2026-09-14 更新：** 如需询问住址核查，可通过 [Leuven 警察：警署与辖区警员查询](https://www.politie.be/5388/contact/commissariaten) 查找本人住址对应的联系渠道。原手册的联系表已失效。
+如需询问住址核查，可通过 [Leuven 警察：警署与辖区警员查询](https://www.politie.be/5388/contact/commissariaten) 查找本人住址对应的联系渠道。原手册的联系表已失效。
 
 参考：[Lokale Politie Leuven](https://www.politie.be/5388/contact/commissariaten)。
 

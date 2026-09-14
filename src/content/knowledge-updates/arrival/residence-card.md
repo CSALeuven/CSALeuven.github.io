@@ -14,7 +14,7 @@
 
 ### Starting residence registration
 
-Checked 14 September 2026: students who are not EU/EEA or Swiss nationals living in Leuven with a student D visa at KU Leuven, UCLL or LUCA (Lemmens) first submit the requested documents through their institution. Collect Annex 15 after the city’s invitation email. Other statuses must use the city’s appropriate registration pathway.
+Students who are not EU/EEA or Swiss nationals living in Leuven with a student D visa at KU Leuven, UCLL or LUCA (Lemmens) first submit the requested documents through their institution. Collect Annex 15 after the city’s invitation email. Other statuses must use the city’s appropriate registration pathway.
 
 Sources: [Stad Leuven](https://www.leuven.be/en/student-visa-leuven).
 

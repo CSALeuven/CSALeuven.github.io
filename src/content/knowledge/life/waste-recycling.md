@@ -105,13 +105,13 @@
 
 <!-- NSG-088 -->
 
-**2026-09-14 更新：** 塑料或铝制咖啡等饮料胶囊应进入 PMD 蓝袋，不放绿色厨余袋。
+塑料或铝制咖啡等饮料胶囊应进入 PMD 蓝袋，不放绿色厨余袋。
 
 参考：[Fost Plus](https://www.fostplus.be/en/blog/capsules-for-coffee-and-other-drinks-now-with-pmd)。
 
 <!-- NSG-089 -->
 
-**2026-09-14 更新：** 茶包和咖啡软垫不放 GFT；散装茶叶、咖啡渣和纸质咖啡滤纸按当前清单区分处理。
+茶包和咖啡软垫不放 GFT；散装茶叶、咖啡渣和纸质咖啡滤纸按当前清单区分处理。
 
 参考：[OVAM](https://ovam.vlaanderen.be/gft)。
 
@@ -119,7 +119,7 @@
 
 <!-- NSG-039 -->
 
-**2026-09-14 更新：** 不再按旧粉色袋分类投放；可回收塑料包装按现行 PMD 清单使用蓝袋，纸杯等复合材料另查分类。
+不再按旧粉色袋分类投放；可回收塑料包装按现行 PMD 清单使用蓝袋，纸杯等复合材料另查分类。
 
 参考：[City of Leuven](https://www.leuven.be/en/waste-bags) · [Fost Plus](https://www.fostplus.be/en/media/395/download)。
 
@@ -131,7 +131,7 @@
 
 <!-- NSG-060 -->
 
-**2026-09-14 更新：** 符合条件者可申请免费的临时回收站通行卡，有效期三个月；投放垃圾的费用另按 EcoWerf 标准。
+符合条件者可申请免费的临时回收站通行卡，有效期三个月；投放垃圾的费用另按 EcoWerf 标准。
 
 参考：[City of Leuven](https://leuven.be/tijdelijke-toegangskaart)。
 

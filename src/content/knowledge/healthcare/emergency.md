@@ -66,7 +66,7 @@
 
 <!-- NSG-117 -->
 
-**2026-09-14 更新：** 如需救护车、消防等紧急援助，请拨打 112，并按接线员指示说明位置和情况。仅因交通不便而无法自行前往医院，并不等于紧急情况；非紧急就医请联系家庭医生或当地值班医疗服务。
+如需救护车、消防等紧急援助，请拨打 112，并按接线员指示说明位置和情况。仅因交通不便而无法自行前往医院，并不等于紧急情况；非紧急就医请联系家庭医生或当地值班医疗服务。
 
 参考：[Belgian FPS Home Affairs](https://112.be/en/who-and-how-call) · [Belgian FPS Home Affairs](https://112.be/en/how-call/how-call-112)。
 
@@ -84,7 +84,7 @@
 
 <!-- NSG-012 -->
 
-**2026-09-14 更新：** 经 112 调派的紧急救护车采用按年调整的固定收费，并非按时间计费；非紧急病人运输适用其他规则。请查官方当年收费说明，紧急时不要因费用而延误求助。
+经 112 调派的紧急救护车采用按年调整的固定收费，并非按时间计费；非紧急病人运输适用其他规则。请查官方当年收费说明，紧急时不要因费用而延误求助。
 
 参考：[Belgian FPS Public Health](https://www.health.belgium.be/nl/themas/gezondheid/dringende-geneeskundige-hulpverlening/actoren-dringende-geneeskundige-hulpverlening/teams-dringende-geneeskundige-hulpverlening)。
 

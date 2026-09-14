@@ -97,7 +97,7 @@
 
 <!-- NSG-046 -->
 
-**2026-09-14 更新：** PayPal 比利时买家保障不报销退货运费；下单前确认商家退货规则与个人可能承担的费用。
+PayPal 比利时买家保障不报销退货运费；下单前确认商家退货规则与个人可能承担的费用。
 
 参考：[PayPal Belgium](https://www.paypal.com/be/legalhub/paypal/buyer-protection?locale.x=en_BE)。
 

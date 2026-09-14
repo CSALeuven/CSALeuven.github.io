@@ -64,7 +64,7 @@
 
 <!-- NSG-075 -->
 
-**2026-09-14 更新：** 2026–2027 学年，KU Leuven Association 学生运动卡为 €37，有效期为 2026 年 9 月 1 日至 2027 年 9 月 30 日。其他身份及之后学年的价格请查官方价目表。
+2026–2027 学年，KU Leuven Association 学生运动卡为 €37，有效期为 2026 年 9 月 1 日至 2027 年 9 月 30 日。其他身份及之后学年的价格请查官方价目表。
 
 参考：[KU Leuven Sport](https://www.kuleuven.be/sport/over/tarieven)。
 - **手册中的用途和限制：** 在开放时间使用 KU Leuven University Sports Center 的多类场馆；不包括 Univ-fit 健身房
@@ -73,7 +73,7 @@
 
 <!-- NSG-076 -->
 
-**2026-09-14 更新：** 截至 2026 年 9 月 14 日，KU Leuven Association 学生的 Univ-fit 标准 Fitness & Go 12 个月订阅为 €160，另须持有效运动卡；€95 对应六个月。其他期限、指导套餐和身份请查官方价目表。
+截至 2026 年 9 月 14 日，KU Leuven Association 学生的 Univ-fit 标准 Fitness & Go 12 个月订阅为 €160，另须持有效运动卡；€95 对应六个月。其他期限、指导套餐和身份请查官方价目表。
 
 参考：[KU Leuven Sport](https://www.kuleuven.be/sport/over/tarieven)。
 - **手册中的用途和限制：** Univ-fit 额外健身卡；需要同时持有有效 Sportkaart
@@ -85,7 +85,7 @@
 
 <!-- NSG-086 -->
 
-**2026-09-14 更新：** KU Leuven Sport 的现行入口介绍 80 多种运动活动；具体项目、课程和报名条件请查官方活动目录。
+KU Leuven Sport 的现行入口介绍 80 多种运动活动；具体项目、课程和报名条件请查官方活动目录。
 
 参考：[KU Leuven Sport](https://www.kuleuven.be/sport/eng/offer)。
 

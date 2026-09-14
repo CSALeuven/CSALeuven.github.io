@@ -74,7 +74,7 @@
 
 <!-- NSG-073 -->
 
-**2026-09-14 更新：** 2026-09-14 核实：ILT 按课程、级别及身份收费。其荷兰语页面列示 KU Leuven 学生／教职员工每级 175 欧元，第 4–6 级为 195 欧元，教材费用按级别另有说明。其他课程请查各自价格；110 欧元仅为原手册未注明课程的历史金额。
+ILT 按课程、级别及身份收费。其荷兰语页面列示 KU Leuven 学生／教职员工每级 175 欧元，第 4–6 级为 195 欧元，教材费用按级别另有说明。其他课程请查各自价格；110 欧元仅为原手册未注明课程的历史金额。
 
 参考：[KU Leuven Leuven Language Institute](https://ilt.kuleuven.be/english/cursus/nt2_prijs_voorwaarden.php)。
 - **手册原有链接：** [ILT](https://ilt.kuleuven.be/)
@@ -83,7 +83,7 @@
 
 <!-- NSG-074 -->
 
-**2026-09-14 更新：** 2026-09-14 核实：CLT 费用按语言、课时及减免资格计算，并另有教材费。例如英／德／法语为每课时 2.25 欧元、每课程上限 180 欧元，其他语言为每课时 4 欧元且无统一上限；荷兰语使用独立规则。请查所选课程及官方费用页；50–150 欧元仅作历史记录。
+CLT 费用按语言、课时及减免资格计算，并另有教材费。例如英／德／法语为每课时 2.25 欧元、每课程上限 180 欧元，其他语言为每课时 4 欧元且无统一上限；荷兰语使用独立规则。请查所选课程及官方费用页；50–150 欧元仅作历史记录。
 
 参考：[Centrum voor Levende Talen](https://www.clt.be/en/praktisch/faq/wat-kost-een-inschrijving/) · [Centrum voor Levende Talen](https://www.clt.be/en/praktisch/faq/what-is-the-registration-fee-for-dutch-courses/)。
 - **手册原有链接：** [CLT](https://www.clt.be/)

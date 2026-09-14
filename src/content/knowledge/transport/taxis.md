@@ -53,7 +53,7 @@
 
 <!-- NSG-058 -->
 
-**2026-09-14 更新：** 可在火车站 Martelarenplein 及市政列出的市中心候客点找车；中心点可查 Ferdinand Smoldersplein、Margarethaplein。
+可在火车站 Martelarenplein 及市政列出的市中心候客点找车；中心点可查 Ferdinand Smoldersplein、Margarethaplein。
 
 参考：[City of Leuven](https://www.leuven.be/taxi)。
 
@@ -65,7 +65,7 @@
 
 <!-- NSG-059 -->
 
-**2026-09-14 更新：** 不要将 €10–20 作为统一报价；候客点出租车按市政费率表，其他服务应在上车前确认全程估价。
+不要将 €10–20 作为统一报价；候客点出租车按市政费率表，其他服务应在上车前确认全程估价。
 
 参考：[City of Leuven](https://www.leuven.be/taxi)。
 

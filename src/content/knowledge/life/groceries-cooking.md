@@ -69,7 +69,7 @@
 
 <!-- NSG-082 -->
 
-**2026-09-14 更新：** Match 为历史店名；如要列出现营门店，须按原地址核实当前名称，不能直接猜测替代店。
+Match 为历史店名；如要列出现营门店，须按原地址核实当前名称，不能直接猜测替代店。
 
 参考：[Colruyt Group](https://press.colruytgroup.com/final-store-formats-for-comarktcomarche-stores-announced)。
 - **手册说明：** 基本覆盖日常所需

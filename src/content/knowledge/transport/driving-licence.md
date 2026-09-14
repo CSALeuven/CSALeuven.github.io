@@ -79,7 +79,7 @@
 
 <!-- NSG-008 -->
 
-**2026-09-14 更新：** 先区分电动、非电动与行动辅助器具；不要再使用 6／8／18 km/h 的旧分档。普通电动滑板车按现行自行车通行规则和车辆条件使用。
+先区分电动、非电动与行动辅助器具；不要再使用 6／8／18 km/h 的旧分档。普通电动滑板车按现行自行车通行规则和车辆条件使用。
 
 参考：[Local Police](https://www.politie.be/5998/nl/vragen/verkeer/regels-voor-voortbewegingstoestellen)。
 

@@ -58,7 +58,7 @@
 
 <!-- NSG-062 -->
 
-**2026-09-14 更新：** 2026-09-14 核实：KU Leuven 对 2026–2027 学年起新申请的单人监管账户列示每月 1,100 欧元。这是大学监管账户标准，不应当作所有签证情形的法定最低金额。申请时请核对学校当期金额与协议；2024–2025 年的 1,000 欧元仅作历史保留。
+KU Leuven 对 2026–2027 学年起新申请的单人监管账户列示每月 1,100 欧元。这是大学监管账户标准，不应当作所有签证情形的法定最低金额。申请时请核对学校当期金额与协议；2024–2025 年的 1,000 欧元仅作历史保留。
 
 参考：[KU Leuven Student Immigration](https://www.kuleuven.be/english/life-at-ku-leuven/immigration-residence/long-stay-visa-type-d-visa-for-stays-longer-than-90-days/students-including-doctoral-scholarship-holders/blocked-account)。
 

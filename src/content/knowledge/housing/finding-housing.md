@@ -85,7 +85,7 @@
 
 <!-- NSG-063 -->
 
-**2026-09-14 更新：** 自 2025 年 1 月 1 日起，应核对新的数字化 Vlaams kotlabel；旧蓝色、绿色门牌不再作为有效认证。Leuven kotlabel 另包含第二住所税要求。可在市政府入口核对标识，并用 Kotwijs 查询房源。
+自 2025 年 1 月 1 日起，应核对新的数字化 Vlaams kotlabel；旧蓝色、绿色门牌不再作为有效认证。Leuven kotlabel 另包含第二住所税要求。可在市政府入口核对标识，并用 Kotwijs 查询房源。
 
 参考：[KU Leuven Stuvo](https://www.kuleuven.be/english/apply/life-at-ku-leuven/housing/students/student-housing-in-leuven/kotlabel)。
 

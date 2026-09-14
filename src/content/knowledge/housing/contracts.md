@@ -87,7 +87,7 @@
 
 <!-- NSG-022 -->
 
-**2026-09-14 更新：** 房东进入房间通常须取得租客同意，不能仅凭提前通知随时进入；不可抗力情形除外。检查、紧急维修及再次出租看房应预先安排时间，租客也应合理配合。
+房东进入房间通常须取得租客同意，不能仅凭提前通知随时进入；不可抗力情形除外。检查、紧急维修及再次出租看房应预先安排时间，租客也应合理配合。
 
 参考：[KU Leuven Stuvo](https://www.kuleuven.be/english/life-at-ku-leuven/housing/info-for-tenants/common-mistakes-in-a-student-tenancy-agreement)。
 
@@ -101,7 +101,7 @@
 
 <!-- NSG-126 -->
 
-**2026-09-14 更新：** KU Leuven 建议签署荷兰语租约，并把英文译本作为理解条款的参考。已有英文合同的法律效力、登记用途或诉讼翻译要求，请交 Stuvo 或合格法律专业人士按个案确认。
+KU Leuven 建议签署荷兰语租约，并把英文译本作为理解条款的参考。已有英文合同的法律效力、登记用途或诉讼翻译要求，请交 Stuvo 或合格法律专业人士按个案确认。
 
 参考：[KU Leuven Stuvo](https://www.kuleuven.be/english/life-at-ku-leuven/housing/info-for-tenants/contracts-current)。
 

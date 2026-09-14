@@ -73,7 +73,7 @@
 - Velo 线下
 <!-- NSG-081 -->
 
-**2026-09-14 更新：** 当前旧物捐赠与二手店请查 Kringwinkel ViTeS；可预约收取适合再利用的物品，先确认接收条件。
+当前旧物捐赠与二手店请查 Kringwinkel ViTeS；可预约收取适合再利用的物品，先确认接收条件。
 
 参考：[ViTeS](https://www.vites.be/nl/wat-doen-we/kringwinkels-vites) · [City of Leuven](https://leuven.be/afval-voorkomen)。
 

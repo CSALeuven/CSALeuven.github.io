@@ -62,7 +62,7 @@
 
 <!-- NSG-011 -->
 
-**2026-09-14 更新：** 2026-09-14 核实：比利时驻华使馆现行说明要求中国文件先公证，再由中国外交部或当地外事办公室办理附加证明书（apostille），无需再经比利时使领馆认证。翻译语言及文件时效应向接收机构确认。下方“双认证”流程仅为 2024 手册原文存档。
+比利时驻华使馆现行说明要求中国文件先公证，再由中国外交部或当地外事办公室办理附加证明书（apostille），无需再经比利时使领馆认证。翻译语言及文件时效应向接收机构确认。下方“双认证”流程仅为 2024 手册原文存档。
 
 参考：[Embassy of Belgium in China](https://china.diplomatie.belgium.be/cn/consulaire-diensten/legalisatie-van-documenten/zhongguowenjianderenzheng)。
 
