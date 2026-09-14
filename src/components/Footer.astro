@@ -6,7 +6,7 @@ const { lang } = Astro.props as { lang: Lang };
 ---
 <footer class="site-footer">
   <div class="container">
-    <div class="footer-top"><div><a class="footer-wordmark" href={href(lang)}>{site.shortNames.en}<span>{site.shortNames.zh}</span></a><p>{site.officialNames[lang]}</p></div><SocialLinks lang={lang} /></div>
+    <div class="footer-top"><div><a class="footer-wordmark" href={href(lang)}>{site.shortNames.en}<span>{site.shortNames.zh}</span></a><p>{site.officialNames[lang]}</p>{site.email && <p><a class="footer-email" href={`mailto:${site.email}`}>{site.email}</a></p>}</div><SocialLinks lang={lang} /></div>
     <nav class="footer-nav" aria-label={t(lang, '页脚导航', 'Footer navigation')}>{nav.map(item => <a href={href(lang, item.path)}>{item[lang]}</a>)}</nav>
     <div class="footer-bottom"><span>© {new Date().getFullYear()} CSAL Leuven</span><p>{site.disclaimer[lang]}</p></div>
   </div>
