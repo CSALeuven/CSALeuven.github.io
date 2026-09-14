@@ -3,6 +3,8 @@ import { resolve, relative } from 'node:path';
 import assert from 'node:assert/strict';
 
 const root = resolve('dist');
+const cloudflareSrc = 'https://static.cloudflareinsights.com/beacon.min.js';
+const cloudflareToken = '9d4cad873ea74623813b1816c8e84b30';
 function walk(dir) { return readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(resolve(dir,e.name)):[resolve(dir,e.name)]); }
 const files = walk(root), pages=files.filter(f=>f.endsWith('.html'));
 assert(pages.length >= 50, `Expected bilingual content pages, found ${pages.length}`);
@@ -15,6 +17,17 @@ for(const file of pages){
   assert(/<link rel="canonical" href="https:\/\/csaleuven.github.io\//.test(html),`Invalid canonical: ${path}`);
   assert(!html.includes('/CSALeuven.github.io/'), `Incorrect base path: ${path}`);
   assert(!/<form\b/.test(html), `Unexpected server form: ${path}`);
+  assert.equal(html.split(cloudflareSrc).length - 1, 1, `Expected one Cloudflare beacon URL: ${path}`);
+  assert.equal(html.split(cloudflareToken).length - 1, 1, `Expected one Cloudflare site token: ${path}`);
+  assert.equal((html.match(/\bdata-cf-beacon=/g) ?? []).length, 1, `Expected one Cloudflare configuration: ${path}`);
+  const beacon = [...html.matchAll(/<script\b[^>]*>[\s\S]*?<\/script>/g)].find(match => match[0].includes(cloudflareSrc));
+  assert(beacon, `Missing Cloudflare script element: ${path}`);
+  assert(beacon[0].includes(`src="${cloudflareSrc}"`), `Rewritten Cloudflare script source: ${path}`);
+  assert(/\btype="module"/.test(beacon[0]), `Cloudflare script must retain module type: ${path}`);
+  const config = beacon[0].match(/\bdata-cf-beacon=(["'])(.*?)\1/);
+  assert(config, `Missing Cloudflare script configuration: ${path}`);
+  assert.deepEqual(JSON.parse(config[2].replaceAll('&quot;', '"')), { token: cloudflareToken }, `Incorrect Cloudflare configuration: ${path}`);
+  assert(/^\s*(?:<!--[\s\S]*?-->\s*)?<\/body>/.test(html.slice(beacon.index + beacon[0].length)), `Cloudflare script must end the body: ${path}`);
   if(path.includes('sample-')) {
     assert(/noindex, follow/.test(html), `Sample must not be indexed: ${path}`);
     assert(!html.includes('"@type":"Event"'), `Sample must not advertise a real Event: ${path}`);
@@ -35,4 +48,4 @@ assert(!readFileSync(resolve(root,'sitemap-0.xml'),'utf8').includes('/sample-'),
 for(const asset of ['images/brand/csal-logo.jpg','images/social/wechat-csal.jpg']) {
   assert(readFileSync(resolve(root,asset)).equals(readFileSync(resolve('public',asset))),`Altered official asset: ${asset}`);
 }
-console.log(`PASS: ${pages.length} pages, ${links} internal references, metadata, sample safeguards and unchanged official assets.`);
+console.log(`PASS: ${pages.length} pages, ${links} internal references, metadata, sample safeguards, unchanged official assets and exactly one Cloudflare beacon per page.`);
