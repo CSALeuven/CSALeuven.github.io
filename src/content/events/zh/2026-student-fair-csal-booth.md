@@ -1,55 +1,64 @@
 ---
-lang: zh
-key: 2026-student-fair-csal-booth
-title: "鲁汶学联 Student Fair 展位"
-titleOther: "Meet CSAL at the Student Fair"
-summary: "9月16日 16:00–18:00，来 Agora 认识鲁汶学联，咨询初到鲁汶的学习生活问题，也认识更多新朋友。无需报名。"
-category: COMMUNITY
-status: upcoming
+lang: "zh"
+key: "2026-student-fair-csal-booth"
+title: "Student Fair 迎新活动回顾"
+titleOther: "CSAL at the Student Fair: A Look Back"
+summary: "9月16日，鲁汶学联在 Agora 的 Student Fair 设立展位，与中外新老同学交流，介绍新学年活动，并送上合作伙伴支持的迎新福利。"
+category: "COMMUNITY"
+status: "past"
 date: "2026-09-16T16:00:00+02:00"
 endDate: "2026-09-16T18:00:00+02:00"
 location: "Agora, Parkstraat, Leuven"
-coverImage: "/images/events/2026-student-fair-csal-booth/cover.jpg"
-coverAlt: "鲁汶学联迎新宣传图，写有“9月16日 Agora 等你”。"
-coverWidth: 898
-coverHeight: 383
+coverImage: "/images/events/2026-student-fair-csal-booth/booth-setup.jpg"
+coverAlt: "Student Fair 开场前布置完成的学联展位，摆有学联旗帜、介绍资料和礼品。"
+coverWidth: 1080
+coverHeight: 810
+gallery:
+  - src: "/images/events/2026-student-fair-csal-booth/welcome-conversations.jpg"
+    alt: "同学们在学联展位前与工作人员交流。"
+    width: 1080
+    height: 809
+  - src: "/images/events/2026-student-fair-csal-booth/students-at-booth.jpg"
+    alt: "Student Fair 现场的同学们围在学联展位前。"
+    width: 1080
+    height: 809
+  - src: "/images/events/2026-student-fair-csal-booth/csal-booth-gathering.jpg"
+    alt: "学联旗帜前，工作人员与到访同学交流。"
+    width: 1080
+    height: 809
 sources:
   - title: "9月16日鲁汶学联展位等你来"
     url: "https://mp.weixin.qq.com/s/xRDtV-2s1Leip40iZunmuw"
     publishedAt: "2026-09-13T16:00:00Z"
-featured: true
+  - title: "9月16日鲁汶学联Student Fair迎新活动顺利进行！"
+    url: "https://mp.weixin.qq.com/s/7yH4k3dSee2BZSytOyhLFg"
+    publishedAt: "2026-09-20T11:17:27Z"
+featured: false
 draft: false
 ---
 
-## 关于 Student Fair
+## 在 Agora 相遇
 
-KU Leuven 举办的 **Student Fair – International Student Associations** 将汇集国际学生组织。鲁汶中国学生学者联合会（CSAL）将作为参展学生组织，在现场设立自己的展位。
+2026年9月16日，KU Leuven 举办的 **Student Fair – International Student Associations** 在 Agora 举行。鲁汶中国学生学者联合会（CSAL）作为参展学生组织设立展位，与来自不同国家的新老同学见面。
 
-特别欢迎刚来到 KU Leuven 的新同学，也欢迎大家到学联展位交流，认识鲁汶学联和其他同学。
+活动当天，学联工作人员提前完成展位布置，准备好学联旗帜、活动介绍、赞助商海报和礼品。许多中外同学来到展位，与工作人员交流，了解学联在新学年即将开展的活动，也认识了为本次活动提供支持的合作伙伴。
 
-## 时间与地点
+## 活动信息
 
 - **日期：** 2026年9月16日（星期三）
 - **时间：** 16:00–18:00（比利时时间；Europe/Brussels，CEST / UTC+02:00）
 - **地点：** Agora, Parkstraat, Leuven
 
-## 来学联展位可以做什么
+## 迎新福利与鸣谢
 
-- 了解鲁汶学联及学联一年中的活动。
-- 咨询初到鲁汶常见的生活问题，包括学生注册、住房、银行卡、市政厅预约和手机卡。
-- 和学长学姐交流学习与生活经验。
-- 认识其他新同学。
+根据活动回顾，本次活动准备了以下迎新福利：
 
-现场还准备了迎新小礼包和抽奖礼物，具体以现场情况为准。
+- 华润亚超 H Foods：满 30 欧减 5 欧优惠券 100 份。
+- Miss tea tea：免费奶茶饮品券 200 份。
+- 打酱油：新生礼包 200 份，以及月饼礼盒抽奖。
 
-## 参加方式
+感谢所有来到学联展位的同学，也感谢打酱油、Miss tea tea 奶茶店和华润亚超 H Foods 对本次活动的支持！以上为已结束活动的回顾。
 
-**无需报名，活动当天直接到 Agora 现场即可，随到随走。** 欢迎在 16:00–18:00 期间到学联展位交流。
+## 期待下次见面
 
-## 鸣谢
-
-感谢以下商家对本次活动的支持：
-
-- 打酱油 欧洲线上亚洲食品购买APP
-- Miss tea tea 奶茶店
-- 华润亚超 H Foods
+Student Fair 是新学年的一次相遇，也是学联新一年度活动的起点。接下来，学联还将陆续推出学习、生活、文化交流及休闲娱乐活动，期待与大家再次相聚。

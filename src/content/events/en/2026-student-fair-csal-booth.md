@@ -1,55 +1,64 @@
 ---
-lang: en
-key: 2026-student-fair-csal-booth
-title: "Meet CSAL at the Student Fair"
-titleOther: "鲁汶学联 Student Fair 展位"
-summary: "Meet CSAL at KU Leuven’s Student Fair on 16 September, 16:00–18:00 at Agora. Ask about settling into Leuven, meet fellow students and discover CSAL’s activities. No registration required."
-category: COMMUNITY
-status: upcoming
+lang: "en"
+key: "2026-student-fair-csal-booth"
+title: "CSAL at the Student Fair: A Look Back"
+titleOther: "Student Fair 迎新活动回顾"
+summary: "On 16 September, CSAL welcomed new and returning students at its booth at the Student Fair in Agora, introducing activities for the academic year and sharing welcome gifts supported by event partners."
+category: "COMMUNITY"
+status: "past"
 date: "2026-09-16T16:00:00+02:00"
 endDate: "2026-09-16T18:00:00+02:00"
 location: "Agora, Parkstraat, Leuven"
-coverImage: "/images/events/2026-student-fair-csal-booth/cover.jpg"
-coverAlt: "CSAL welcome graphic inviting students to Agora on 16 September."
-coverWidth: 898
-coverHeight: 383
+coverImage: "/images/events/2026-student-fair-csal-booth/booth-setup.jpg"
+coverAlt: "The CSAL booth set up before the Student Fair, with the association flag, information and gifts."
+coverWidth: 1080
+coverHeight: 810
+gallery:
+  - src: "/images/events/2026-student-fair-csal-booth/welcome-conversations.jpg"
+    alt: "Students talking with volunteers at the CSAL booth."
+    width: 1080
+    height: 809
+  - src: "/images/events/2026-student-fair-csal-booth/students-at-booth.jpg"
+    alt: "Students gathered around the CSAL booth at the Student Fair."
+    width: 1080
+    height: 809
+  - src: "/images/events/2026-student-fair-csal-booth/csal-booth-gathering.jpg"
+    alt: "Volunteers and visiting students in conversation beside the CSAL flag."
+    width: 1080
+    height: 809
 sources:
   - title: "9月16日鲁汶学联展位等你来"
     url: "https://mp.weixin.qq.com/s/xRDtV-2s1Leip40iZunmuw"
     publishedAt: "2026-09-13T16:00:00Z"
-featured: true
+  - title: "9月16日鲁汶学联Student Fair迎新活动顺利进行！"
+    url: "https://mp.weixin.qq.com/s/7yH4k3dSee2BZSytOyhLFg"
+    publishedAt: "2026-09-20T11:17:27Z"
+featured: false
 draft: false
 ---
 
-## About the Student Fair
+## Meeting at Agora
 
-KU Leuven is holding the **Student Fair – International Student Associations**, bringing international student associations together. The Chinese Students and Scholars Association in Leuven (CSAL) will participate with its own booth.
+On **16 September 2026**, KU Leuven held the **Student Fair – International Student Associations** at Agora. The Chinese Students and Scholars Association in Leuven (CSAL) took part as an exhibiting student association, welcoming new and returning students from different countries to its booth.
 
-New KU Leuven students are especially welcome. Drop by to meet CSAL and fellow students, whether you have just arrived or would like to get to know the association.
+CSAL volunteers arrived early to set up the association flag, activity information, sponsor posters and gifts. Throughout the fair, students stopped by to talk with volunteers, learn about CSAL's plans for the academic year and meet the partners supporting the event.
 
-## When and where
+## Event details
 
 - **Date:** Wednesday, 16 September 2026
 - **Time:** 16:00–18:00, Belgium time (Europe/Brussels, CEST / UTC+02:00)
 - **Location:** Agora, Parkstraat, Leuven
 
-## At the CSAL booth
+## Welcome gifts and thanks
 
-- Discover CSAL and its activities throughout the year.
-- Ask questions about settling into Leuven, including student registration, housing, banking, city-hall appointments and mobile phone/SIM arrangements.
-- Talk with experienced students about studying and daily life in Leuven.
-- Meet other new students.
+The event recap records the following items prepared for students:
 
-Welcome gifts and prize-draw items will also be available at the booth, subject to availability.
+- H Foods (华润亚超): 100 vouchers for €5 off a €30 purchase.
+- Miss tea tea: 200 vouchers for a free bubble tea drink.
+- 打酱油: 200 student welcome packs and a mooncake gift-box prize draw.
 
-## Joining the event
+Thank you to everyone who visited the CSAL booth, and to 打酱油, Miss tea tea and H Foods for supporting this event. These details describe the completed event.
 
-**No registration is required.** Just come to Agora during the event and drop by at any time between 16:00 and 18:00. You are welcome to arrive and leave freely.
+## See you at the next event
 
-## Event supporters
-
-Thank you to the supporters of this event:
-
-- 打酱油 — an online Asian grocery app for Europe
-- Miss tea tea — a bubble tea shop
-- 华润亚超 H Foods — an Asian supermarket
+The Student Fair marked the start of a new year of CSAL activities. More study, daily-life, cultural exchange and leisure events will follow. We look forward to seeing you again.
