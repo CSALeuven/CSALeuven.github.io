@@ -1,0 +1,59 @@
+{
+  "sources": [
+    {
+      "id": "mid-autumn",
+      "filename": "中秋快闪｜你的专属月饼已就位，周五见！.html",
+      "sha256": "b9a2244e15b85daf2b3a8206121ec00e9893e102c6a19e763b3cbf8c2c6b8361",
+      "title": "中秋快闪｜你的专属月饼已就位，周五见！",
+      "url": "https://mp.weixin.qq.com/s/xPsbicN7n4QxqsKPcX12sA",
+      "publishedAt": "2026-09-22T07:37:31Z",
+      "coverUrl": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/INa3B3G2ZIlTDO7FVE4om1wUsUoPIPeMJPuHE369pN69azehUmoE9a57tiagmW7wX9k48P1x9J8iaKv5HHewczUG4RGE9KmvpKp6f1MK3yHgs/0?wx_fmt=jpeg"
+    },
+    {
+      "id": "student-fair",
+      "filename": "9月16日鲁汶学联Student Fair迎新活动顺利进行！.html",
+      "sha256": "24cbe9bec174137e463ad4acfc443d48449aeb9d8f4fa4ad8eb74fdba527ec63",
+      "title": "9月16日鲁汶学联Student Fair迎新活动顺利进行！",
+      "url": "https://mp.weixin.qq.com/s/7yH4k3dSee2BZSytOyhLFg",
+      "publishedAt": "2026-09-20T11:17:27Z",
+      "coverUrl": "https://mmbiz.qpic.cn/mmbiz_jpg/INa3B3G2ZIlg0UyoBpSwE9piafeJ4xZhLyaoXjm61FZkukiblArtKMMf9yark41jUwdc9Ud7iaZWibmMG7xkibiaqb2oE3Bvf0LehFGDkT9ZE9hVw/0?wx_fmt=jpeg"
+    }
+  ],
+  "images": [
+    {
+      "path": "/images/events/2026-mid-autumn-mooncake-pop-up/cover.jpg",
+      "sourceUrl": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/INa3B3G2ZIlTDO7FVE4om1wUsUoPIPeMJPuHE369pN69azehUmoE9a57tiagmW7wX9k48P1x9J8iaKv5HHewczUG4RGE9KmvpKp6f1MK3yHgs/0?wx_fmt=jpeg",
+      "sha256": "4e66f7719f7d3efaee9b4c0dda9140cbd69c5a387dad6415916f7cc908a3c9f7",
+      "width": 1280,
+      "height": 545
+    },
+    {
+      "path": "/images/events/2026-student-fair-csal-booth/booth-setup.jpg",
+      "sourceUrl": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/INa3B3G2ZIlyMSErf7CR28uA9ImH3WPOJkkhoK1e6cozuZc7bibC6UicIl7EBOVRIzoNokicH938b93hfnytjdeyQmnn3Jaclv8R4TAViapTRJM/640?wx_fmt=jpeg&watermark=1",
+      "sha256": "9c70a10c6428d5acd52caaaf3d8e400d2579a50525c60156307fbfa1a5e5b25a",
+      "width": 1080,
+      "height": 810
+    },
+    {
+      "path": "/images/events/2026-student-fair-csal-booth/welcome-conversations.jpg",
+      "sourceUrl": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/INa3B3G2ZImOQNoZ0iaY6iaxibfewWVsE2JibAgCIvCI7bPwLVBm6z5evn5AZNibuwOk0j5H3NuPQkibEAGSCvicqbSr2oy1ZY4jgt0iaN3uA9rmHpM/640?wx_fmt=jpeg&watermark=1",
+      "sha256": "fc5c337aea598a7f3d17a63612f4ded8c2a4d90210109974ea6b05dc674a044e",
+      "width": 1080,
+      "height": 809
+    },
+    {
+      "path": "/images/events/2026-student-fair-csal-booth/students-at-booth.jpg",
+      "sourceUrl": "https://mmbiz.qpic.cn/mmbiz_jpg/INa3B3G2ZIk4q3zbvicibjfBibzFDCib0anATAMzzDbn9qabaXW3o3xajSMKE1b0XWicmr5YT0HROOyk4lSd7csib323g0hRnsXG83dDXb1umlBTg/640?wx_fmt=jpeg&watermark=1",
+      "sha256": "de47090a90209b8bef69678929c2026483516b9affaea6a9643898051fb9c706",
+      "width": 1080,
+      "height": 809
+    },
+    {
+      "path": "/images/events/2026-student-fair-csal-booth/csal-booth-gathering.jpg",
+      "sourceUrl": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/INa3B3G2ZInYHwibgQJ0qx1fwXM9AF1SGZl4VCibVdyTWLxp8upUNkJsWwtUwgcRFVfQlByC9Gm3556PeROZ0K9zqvn0p8Nsry4x3OghwWyRw/640?wx_fmt=jpeg&watermark=1",
+      "sha256": "aef52766d1815c98d6620e85d62ab97fdfb8f638e49f5e26ed9c0a0297f31798",
+      "width": 1080,
+      "height": 809
+    }
+  ]
+}

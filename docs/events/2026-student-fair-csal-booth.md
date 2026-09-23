@@ -1,5 +1,7 @@
 # Student Fair booth: source and editorial review
 
+This note records the original announcement import. The event was updated to a completed recap on 23 September 2026; see [September event updates](2026-september-updates.md) for the current content, additional source and photos.
+
 ## Event facts
 
 The paired event key is `2026-student-fair-csal-booth`. The Chinese title is **鲁汶学联 Student Fair 展位**; the English title is **Meet CSAL at the Student Fair**.
