@@ -1,47 +1,50 @@
 ---
 lang: "en"
 key: "2026-mid-autumn-mooncake-pop-up"
-title: "Mid-Autumn Mooncake Pop-up"
-titleOther: "中秋快闪：月饼领取"
-summary: "Collect a mooncake on Friday 25 September at one of two 30-minute pop-ups: outside Pangaea or at the 私厨 pickup point at Parking Bodart. 220 mooncakes in total, one per person, first come, first served."
+title: "Mid-Autumn Mooncake Pop-up: A Look Back"
+titleOther: "中秋月饼快闪活动回顾"
+summary: "On 25 September, CSAL celebrated Mid-Autumn with the community outside Pangaea and at the 私厨 pickup point, sharing mooncakes and CoCo half-price drink vouchers. The event finished at around 19:00."
 category: "CULTURE"
-status: "upcoming"
+status: "past"
 dateOnly: "2026-09-25"
 location: "Outside Pangaea / 私厨 pickup point (Parking Bodart)"
-coverImage: "/images/events/2026-mid-autumn-mooncake-pop-up/cover.jpg"
-coverAlt: "Announcement graphic for the Mid-Autumn mooncake pop-up."
-coverWidth: 1280
-coverHeight: 545
+coverImage: "/images/events/2026-mid-autumn-mooncake-pop-up/pangaea-pickup.jpg"
+coverAlt: "Students queue at the CSAL mooncake pickup point outside Pangaea, beside the association flag."
+coverWidth: 1080
+coverHeight: 810
+gallery:
+  - src: "/images/events/2026-mid-autumn-mooncake-pop-up/bodart-pickup.jpg"
+    alt: "Team members and students at the mooncake pop-up at the 私厨 pickup point, beside the CSAL flag."
+    width: 1080
+    height: 810
+  - src: "/images/events/2026-mid-autumn-mooncake-pop-up/mooncakes-and-vouchers.jpg"
+    alt: "Mooncakes and CoCo vouchers marked 50% off at the event."
+    width: 1080
+    height: 1440
 sources:
   - title: "中秋快闪｜你的专属月饼已就位，周五见！"
     url: "https://mp.weixin.qq.com/s/xPsbicN7n4QxqsKPcX12sA"
     publishedAt: "2026-09-22T07:37:31Z"
-featured: true
+  - title: "中秋月饼快闪活动圆满结束！"
+    url: "https://mp.weixin.qq.com/s/ieS8y0twCXqpG-TPRf9W8Q"
+    publishedAt: "2026-09-27T07:38:57Z"
+featured: false
 draft: false
 ---
 
-## Celebrate Mid-Autumn together
+## Sharing a little Mid-Autumn sweetness
 
-CSAL has prepared mooncakes to share with the community in Leuven for the Mid-Autumn Festival. On **Friday 25 September**, two temporary pickup points will each open for **30 minutes**. Choose the location and time that suit you.
+On **25 September 2026**, the day of the Mid-Autumn Festival, CSAL held its mooncake pop-up in Leuven. People came together to collect a mooncake and share the festive atmosphere.
 
-## Pickup times and locations
+Before the event, CSAL team members arrived early to prepare a selection of flavours, including **pineapple, lotus seed paste with salted egg yolk, and mixed nuts with salted egg yolk**. Visitors queued to collect mooncakes and **CoCo vouchers for half-price bubble tea**.
 
-All times are local to Belgium (Europe/Brussels, CEST / UTC+02:00). **Please attend during the time slot for your chosen location.**
+## Two places to meet
 
-### Stop 1: Outside Pangaea
+- **Stop 1:** Outside Pangaea.
+- **Stop 2:** The 私厨 pickup point at Parking Bodart.
 
-- **Time:** 25 September, 16:50–17:20
-- **Address:** Andreas Vesaliusstraat 34, 3000 Leuven
+The event finished at **around 19:00, Belgium time**. Thank you to everyone who joined and supported the activity. We hope this small gift added a little warmth to your Mid-Autumn celebration.
 
-### Stop 2: 私厨 pickup point
+## Until next time
 
-- **Time:** 25 September, 18:20–18:50
-- **Address:** Parking BodartVeilingweg, 3001 Leuven, Belgium (as listed in the original announcement)
-
-## How to collect
-
-- Look for the CSAL flag and logo at either pickup point.
-- Arrive within the relevant 30-minute pickup window.
-- **One mooncake per person. There are 220 mooncakes in total, available on a first-come, first-served basis.**
-
-We look forward to seeing you on Friday. Happy Mid-Autumn Festival!
+We look forward to seeing you again at future CSAL events!

@@ -1,5 +1,7 @@
 # September 2026 event updates
 
+The Mid-Autumn section below records the initial announcement. The event was updated to a completed recap on 27 September 2026; see [the recap review](2026-mid-autumn-recap.md).
+
 ## Sources and scope
 
 The user supplied two saved WeChat articles on 23 September 2026. Their `js_content` bodies were parsed as data; source scripts were not executed or copied into the site. Canonical article URLs, publication instants from `ct`, file SHA-256 hashes and selected image provenance are recorded in [2026-september-sources.json](2026-september-sources.json). Publication dates remain separate from event dates. The saved originals provide the editorial evidence; no independent live-article retrieval is claimed.

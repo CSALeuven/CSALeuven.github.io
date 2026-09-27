@@ -1,0 +1,37 @@
+{
+  "eventKey": "2026-mid-autumn-mooncake-pop-up",
+  "sourceFilename": "中秋月饼快闪活动圆满结束！.html",
+  "sourceSha256": "bb4bdf1b03eb766c2a02ec57dc73fc613943ed25f1c44c9d81e028fa0a5f3910",
+  "sourceTitle": "中秋月饼快闪活动圆满结束！",
+  "sourceUrl": "https://mp.weixin.qq.com/s/ieS8y0twCXqpG-TPRf9W8Q",
+  "sourcePublishedAt": "2026-09-27T07:38:57Z",
+  "images": [
+    {
+      "path": "/images/events/2026-mid-autumn-mooncake-pop-up/pangaea-pickup.jpg",
+      "sourceUrl": "https://mmbiz.qpic.cn/mmbiz_jpg/INa3B3G2ZImLpl4X02GcRHsibDZ48dib2YzFJne8ia3RqMzmbDgonfWBYurLqnXOZz9NiaZcWWqyAuSBKvJia2u4cPPnlab8kKdjibbC7zu69RtI8/640?wx_fmt=jpeg&watermark=1",
+      "sha256": "9fcfffffbc71db76f75819d0fab96cbba0e02b6708e5679cc61308f5c1a933e3",
+      "width": 1080,
+      "height": 810,
+      "altZh": "同学们在 Pangaea 户外的学联月饼领取点排队，旁边设有学联旗帜。",
+      "altEn": "Students queue at the CSAL mooncake pickup point outside Pangaea, beside the association flag."
+    },
+    {
+      "path": "/images/events/2026-mid-autumn-mooncake-pop-up/bodart-pickup.jpg",
+      "sourceUrl": "https://mmbiz.qpic.cn/mmbiz_jpg/INa3B3G2ZImVF6r9wibRMAGR2Tx5bL2X0N5diaqdrBuycZX1FiaxIh2vxe2JpkXOOibc9wFT1Tulevl9iciczYkNeEdn7tdwtKiaibg5tJmT1JENZNU/640?wx_fmt=jpeg&watermark=1",
+      "sha256": "cd85c146523a99fd8acdb518e8b06dc116950f94f04e99aa51c15551ba0e85be",
+      "width": 1080,
+      "height": 810,
+      "altZh": "私厨取货点的月饼快闪现场，工作人员和同学们在学联旗帜旁交流。",
+      "altEn": "Team members and students at the mooncake pop-up at the 私厨 pickup point, beside the CSAL flag."
+    },
+    {
+      "path": "/images/events/2026-mid-autumn-mooncake-pop-up/mooncakes-and-vouchers.jpg",
+      "sourceUrl": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/INa3B3G2ZIk6JBibtjWYftA0CQykE8n4ibjjzEFTickKntnNZqibib1tYpHibic4snBo8VUreIR0g3kuNPkOC1gaTeEzdcK0aGW07vsNZwT4D1wKzU/640?wx_fmt=jpeg&watermark=1",
+      "sha256": "47299e268ad6c35f4e98d43f74e5598b8f102098a7cb4639a8088f9c778dbb07",
+      "width": 1080,
+      "height": 1440,
+      "altZh": "活动现场领取的月饼和印有五折优惠的 CoCo 饮品券。",
+      "altEn": "Mooncakes and CoCo vouchers marked 50% off at the event."
+    }
+  ]
+}
