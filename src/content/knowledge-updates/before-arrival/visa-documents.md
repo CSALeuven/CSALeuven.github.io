@@ -13,6 +13,6 @@
 
 ### Chinese documents and apostilles
 
-The Belgian mission’s instructions for Chinese documents use notarisation followed by an apostille, without Belgian consular legalisation. Confirm translation and document-age requirements with the receiving authority. The double-legalisation sequence below is retained only as the handbook’s historical account.
+The Belgian mission’s instructions for Chinese documents use notarisation followed by an apostille, without Belgian consular legalisation. Confirm translation and document-age requirements with the receiving authority. The double-legalisation sequence below is retained only as historical information from 2024.
 
 Sources: [Embassy of Belgium in China](https://china.diplomatie.belgium.be/cn/consulaire-diensten/legalisatie-van-documenten/zhongguowenjianderenzheng).

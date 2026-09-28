@@ -34,6 +34,6 @@ Over lunch, the Namur association presented local gifts in return, and the two g
 
 The day combined a city visit with an academic exchange, giving students from both associations time to get to know one another and share their experiences.
 
-## Original article credits
+## Credits
 
-Original article by CSSAN (那慕尔中国学生学者联合会). Text: 薛楠. Layout: 严伟斌 and 陶灿. Photography: 王冠英, 王雨 and 孙尚省.
+Thanks to CSSAN (那慕尔中国学生学者联合会) for documenting the event. Text: 薛楠. Layout: 严伟斌 and 陶灿. Photography: 王冠英, 王雨 and 孙尚省.

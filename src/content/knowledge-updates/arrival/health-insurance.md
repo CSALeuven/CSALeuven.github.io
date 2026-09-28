@@ -14,7 +14,7 @@
 
 ### Solidaris
 
-Solidaris (the 2024 handbook used the generic label Socialistische Mutualiteiten; confirm the current provider and service region).
+Solidaris (previously listed under the generic label Socialistische Mutualiteiten; confirm the current provider and service region).
 
 Sources: [KU Leuven Stuvo](https://www.kuleuven.be/english/life-at-ku-leuven/wellbeing-safety/health-insurance).
 

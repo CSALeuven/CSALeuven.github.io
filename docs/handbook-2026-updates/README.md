@@ -23,3 +23,7 @@ The same display cleanup also removes the earlier 11 September 2026 labels on th
 Keep Chinese `approvedUpdateIds` and English `updateIds` aligned. Substantial text belongs in Markdown, not the schema or components. Update both languages together; retain dated sources and do not remove historical cautions from unrelated content. `getKnowledgeUpdates()` rejects missing counterparts and mismatched IDs during builds. A future full English translation must reconcile these approved updates before replacing the fallback body.
 
 Run `npm run build`, `npm run test:site`, and `git diff --check`. The new regression check covers decision counts, bilingual correspondence, preservation of selected rejected passages, obsolete links, updated quick answers, partial-translation disclosure, emergency panels and generated search content. Existing checks protect the full corpus, routes and source-PDF hash.
+
+## Direct public wording
+
+At the user’s request, guide pages now describe the information directly instead of narrating the handbook or source text. `public-wording.json` records the exact display variants for the affected approved paragraphs; validation still checks all approved facts and rejected decisions against the original, unchanged ledger. Review dates, original metadata, the PDF and decision history remain preserved. Historical prices, eligibility limits and unverified details keep their dated caveats. Checklist notes follow the same public wording convention without changing item IDs or quantities.

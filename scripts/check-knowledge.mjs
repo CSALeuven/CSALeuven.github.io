@@ -6,6 +6,7 @@ import {searchKnowledge} from '../src/lib/knowledge-search.mjs';
 const walk=dir=>readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(resolve(dir,e.name)):[resolve(dir,e.name)]);
 const files=walk(resolve('src/content/knowledge')).filter(p=>p.endsWith('.md'));
 const records=files.map(path=>{const [,meta,body]=readFileSync(path,'utf8').split('---');return {...JSON.parse(meta),body};});
+const sourceFraming = /手册|handbook|旧资料|原文共同备注|原作者备注|原表共同备注/i;
 assert(records.length>=45,'Complete first-pass handbook corpus');
 const keys=new Set(records.map(r=>r.key));assert.equal(keys.size,records.length);
 assert(new Set(records.map(r=>r.category)).size>=9);
@@ -15,6 +16,8 @@ for(const record of records){
   assert(record.sourcePages.length>0);assert(record.related.length>0);
   for(const key of record.related)assert(keys.has(key),`Broken related ${key}`);
   assert(!/^\|/m.test(record.body),`Wide Markdown table remains in ${record.key}`);
+  const publicCopy = [record.titleZh,record.titleEn,record.descriptionZh,record.descriptionEn,record.quickAnswer,record.body,...record.officialSources.map(s=>s.label)].join('\n');
+  assert(!sourceFraming.test(publicCopy), `Source framing in guide: ${record.key}`);
   assert(record.body.trim().length>150,`Thin content: ${record.key}`);
 }
 const cases=[
@@ -30,6 +33,7 @@ const cases=[
 for(const [query,expected] of cases){const hits=searchKnowledge(records,query);assert(hits.slice(0,3).some(h=>expected.includes(h.key)),`Search ${query}: ${hits.slice(0,3).map(h=>h.key)}`);}
 assert.equal(searchKnowledge(records,'').length,0);assert.equal(searchKnowledge(records,'zzzznoresultzzzzz').length,0);
 const packing=JSON.parse(readFileSync('src/data/packing-2024.json','utf8'));
+for(const item of packing)assert(!sourceFraming.test(item.notes), `Source framing in packing note: ${item.id}`);
 assert(packing.length>=98);assert.equal(new Set(packing.map(p=>p.id)).size,packing.length);assert.equal(new Set(packing.map(p=>p.category)).size,11);
 const counts={documents:7,stationery:10,clothing:29,electronics:10,kitchen:5,toiletries:4,tools:5,food:10,medicine:8,cosmetics:7,other:3};
 for(const [category,count] of Object.entries(counts))assert.equal(packing.filter(p=>p.category===category).length,count);
@@ -38,7 +42,7 @@ if(existsSync('dist/new-students/search.json')){
  const built=JSON.parse(readFileSync('dist/new-students/search.json','utf8'));assert.equal(built.length,records.length);
  for(const [query,expected] of cases)assert(searchKnowledge(built,query).slice(0,3).some(h=>expected.includes(h.key)),`Built search failed: ${query}`);
  assert.equal(searchKnowledge(built,'充电宝')[0]?.key,'before-arrival/packing','Packing item names must be searchable from the main guide');
- for(const record of records){const zh=readFileSync(`dist/new-students/${record.key}/index.html`,'utf8'), en=readFileSync(`dist/en/new-students/${record.key}/index.html`,'utf8');assert(zh.includes('2024 手册'));if(!en.includes('Reviewed English translation')){assert(en.includes('noindex, follow'));assert(en.includes(record.approvedUpdateIds?.length?'English translations of the reviewed topics':'English discovery summary only'));}}
+ for(const record of records){const zh=readFileSync(`dist/new-students/${record.key}/index.html`,'utf8'), en=readFileSync(`dist/en/new-students/${record.key}/index.html`,'utf8');assert(zh.includes('部分信息为 2024 年历史参考'));for(const html of [zh,en]){const visible=html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,'').replace(/<[^>]+>/g,' ');assert(!sourceFraming.test(visible), `Rendered source framing: ${record.key}`);}if(!en.includes('Reviewed English translation')){assert(en.includes('noindex, follow'));assert(en.includes(record.approvedUpdateIds?.length?'English translations of the reviewed topics':'English discovery summary only'));}}
  const page=readFileSync('dist/new-students/before-arrival/packing/index.html','utf8');assert.equal((page.match(/data-pack-category=/g)??[]).length,98);assert(page.includes('携带药品须遵守中国出境'));
 }
 console.log(`PASS: 45 articles, 9 categories, ${cases.length} Chinese/English search cases, 98 packing items, original PDF hash and review metadata.`);

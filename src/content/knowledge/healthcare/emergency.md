@@ -3,8 +3,8 @@
   "key": "healthcare/emergency",
   "titleZh": "急诊、112 与学校紧急求助",
   "titleEn": "Emergency care and 112",
-  "descriptionZh": "保存紧急求助入口，了解手册中的急诊和医疗费用支持信息。",
-  "descriptionEn": "Emergency contacts, the handbook’s emergency-care notes and support with medical costs.",
+  "descriptionZh": "查找急诊、112、学校紧急求助入口及医疗费用支持信息。",
+  "descriptionEn": "Find emergency care, 112, university emergency contacts and support with medical costs.",
   "category": "healthcare",
   "order": 1,
   "aliases": [
@@ -72,15 +72,15 @@
 
 比利时政府的 [112 官方说明](https://112.be/en/how-call/how-call-112)确认 112 可用于救护车、消防或警察求助；该页面另列比利时紧急警务号码 101。接通后说明准确位置和发生的情况，并听从接线员指示。这个核对只覆盖紧急号码和上述拨打说明，不代表整篇 2024 医疗内容已经审核。
 
-## 手册中的医院急诊入口
+## 医院急诊入口
 
-手册称 **UZ Leuven** 与 **Regionaal Ziekenhuis Heilig Hart** 均有 24 小时急诊。到达后先到急诊预诊台或前台，由护士引导并安排医生。
+ **UZ Leuven** 与 **Regionaal Ziekenhuis Heilig Hart** 均有 24 小时急诊。到达后先到急诊预诊台或前台，由护士引导并安排医生。
 
-手册用呼吸困难、骨折、烧伤举例说明可能需要紧急处理的情形，但这不是完整的分诊标准，不能用列举是否命中来排除紧急情况。
+呼吸困难、骨折、烧伤等可能需要紧急处理，但这些例子不是完整分诊标准，不能据此排除其他紧急情况。
 
 ## 治疗费用与学校支持
 
-手册提到，学生若遇到严重健康问题且难以负担治疗费用，可联系学校 **Social Service**，咨询向保险公司申请报销及其他支持的可能性。手册用“全额或尽可能多的报销”描述这一帮助，不代表结果保证，具体资格和报销额度需要由学校及保险机构确认。
+若遇到严重健康问题且难以负担治疗费用，可联系学校 **Social Service**，咨询医保报销及其他支持的可能性；帮助不代表报销结果保证，资格和额度需由学校及保险机构确认。
 
 <!-- NSG-012 -->
 
@@ -90,9 +90,9 @@
 
 ## 学校紧急求助
 
-2024 手册还提到学校设有 24 小时紧急求助热线，但没有在正文中印出号码。
+学校也设有 24 小时紧急求助热线，号码见下方官方信息。
 
-[KU Leuven 官方健康与紧急求助页面](https://www.kuleuven.be/english/life-at-ku-leuven/wellbeing-safety)列出校内紧急号码 **[+32 16 32 22 22](tel:+3216322222)**。这项补充与原手册内容分开记录。
+[KU Leuven 官方健康与紧急求助页面](https://www.kuleuven.be/english/life-at-ku-leuven/wellbeing-safety)列出校内紧急号码 **[+32 16 32 22 22](tel:+3216322222)**。
 
 ## 平时可以先准备
 

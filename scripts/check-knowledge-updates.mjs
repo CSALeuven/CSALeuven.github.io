@@ -11,6 +11,13 @@ assert.equal(new Set(audit.decisions.map(d => d.id)).size, 129);
 assert.equal(audit.decisions.filter(d => d.decision === 'Accept').length, 69);
 assert.equal(audit.decisions.filter(d => d.decision === 'Edit and accept').length, 3);
 const approved = audit.decisions.filter(d => d.applied);
+const publicWording = JSON.parse(read('docs/handbook-2026-updates/public-wording.json'));
+for (const [id, wording] of Object.entries(publicWording)) {
+  assert(approved.some(d => d.id === id), `Unapproved wording override: ${id}`);
+  assert(Object.keys(wording).length > 0 && Object.keys(wording).every(lang => ['zh', 'en'].includes(lang)));
+  for (const value of Object.values(wording)) assert.equal(typeof value, 'string');
+  for (const value of Object.values(wording)) assert(value.trim(), `Empty public wording: ${id}`);
+}
 const rejected = audit.decisions.filter(d => !d.applied);
 assert.equal(approved.length, 72);
 assert.equal(rejected.length, 57);
@@ -40,8 +47,8 @@ for (const update of updates) {
   for (const d of approved.filter(d => update.updateIds.includes(d.id))) {
     assert(update.body.includes(`<!-- ${d.id} -->`));
     if (!linkOnly.has(d.id)) {
-      assert(article.body.includes(withoutReviewPrefix(d.approvedReplacement.zh)), `${d.id}: approved Chinese missing`);
-      assert(update.body.includes(withoutReviewPrefix(d.approvedReplacement.en)), `${d.id}: matching English missing`);
+      assert(article.body.includes((publicWording[d.id]?.zh ?? withoutReviewPrefix(d.approvedReplacement.zh))), `${d.id}: approved Chinese missing`);
+      assert(update.body.includes((publicWording[d.id]?.en ?? withoutReviewPrefix(d.approvedReplacement.en))), `${d.id}: matching English missing`);
     }
   }
   for (const d of rejected) assert(!update.body.includes(`<!-- ${d.id} -->`), `Rejected update ${d.id} was applied`);
@@ -57,7 +64,7 @@ for (const update of updates) {
 }
 // High-impact rejected wording and source data remain outside the approved scope.
 assert(read('src/content/knowledge/transport/cycling-rules.md').includes('KU Leuven 当前说明将人行道骑行限制在 10 岁以下儿童'));
-assert(read('src/content/knowledge/study/honours.md').includes('**手册所列百分比：** > 68%'));
+assert(read('src/content/knowledge/study/honours.md').includes('**历史百分比：** > 68%'));
 assert(read('src/content/knowledge/sports/university-sports.md').includes('提前三天注册'));
 for (const [key, stale] of [['arrival/university-registration','VISA'], ['life/eating-out','€3–7'], ['housing/deposit-and-condition','细小差异']]) {
   assert(!markdown(`src/content/knowledge/${key}.md`).quickAnswer.includes(stale), `Stale quick answer: ${key}`);

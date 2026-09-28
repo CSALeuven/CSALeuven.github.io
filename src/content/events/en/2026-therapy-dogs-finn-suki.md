@@ -15,8 +15,8 @@ coverAlt: "Students sit in a circle and interact with the therapy dogs at Pangae
 coverWidth: 1080
 coverHeight: 810
 gallery:
-  - {"src": "/images/events/2026-therapy-dogs-finn-suki/curly-coated-dog-portrait.jpg", "alt": "A source portrait of a brown curly-coated dog sitting in woodland.", "width": 1080, "height": 1350}
-  - {"src": "/images/events/2026-therapy-dogs-finn-suki/long-haired-dog-portrait.jpg", "alt": "A source portrait of a long-haired dog wearing a green bandana.", "width": 1080, "height": 1350}
+  - {"src": "/images/events/2026-therapy-dogs-finn-suki/curly-coated-dog-portrait.jpg", "alt": "A portrait of a brown curly-coated dog sitting in woodland.", "width": 1080, "height": 1350}
+  - {"src": "/images/events/2026-therapy-dogs-finn-suki/long-haired-dog-portrait.jpg", "alt": "A portrait of a long-haired dog wearing a green bandana.", "width": 1080, "height": 1350}
   - {"src": "/images/events/2026-therapy-dogs-finn-suki/international-student-session.jpg", "alt": "Students sit on floor mats with the dogs during the first session.", "width": 1080, "height": 810}
   - {"src": "/images/events/2026-therapy-dogs-finn-suki/gentle-petting.jpg", "alt": "A participant gently pets the brown curly-coated dog during the event.", "width": 1080, "height": 1919}
   - {"src": "/images/events/2026-therapy-dogs-finn-suki/shared-moments.jpg", "alt": "Students share a relaxed moment sitting in a circle with the dogs.", "width": 1080, "height": 810}

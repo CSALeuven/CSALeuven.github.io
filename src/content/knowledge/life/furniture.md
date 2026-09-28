@@ -30,11 +30,11 @@
   "timeSensitive": true,
   "officialSources": [
     {
-      "label": "补充核验入口｜IKEA Belgium：配送服务（非手册原链）",
+      "label": "IKEA Belgium：配送服务",
       "url": "https://www.ikea.com/be/en/customer-service/services/delivery/"
     },
     {
-      "label": "补充核验入口｜Visit Leuven：购物街区（非手册原链）",
+      "label": "Visit Leuven：购物街区",
       "url": "https://visitleuven.be/en/shopping-streets"
     },
     {
@@ -67,11 +67,11 @@
 ---
 ## 购买前先看住处配置
 
-手册称多数宿舍配基本家具；若是未配家具的 apartment、house，或需要添置物品，可考虑新购或二手。
+多数宿舍配基本家具；若是未配家具的 apartment、house，或需要添置物品，可考虑新购或二手。
 
 ## IKEA 与家居小店
 
-手册列出 **IKEA Zaventem**，可到店或网上订购。因路程较长，建议事先列好购物清单；鲁汶的家居小店可用荷兰语 **woonwinkel** 搜索。
+**IKEA Zaventem** 可到店或网上订购。因路程较长，建议事先列好购物清单；鲁汶的家居小店可用荷兰语 **woonwinkel** 搜索。
 
 ### 配送费用
 
@@ -101,9 +101,9 @@ IKEA 比利时包裹送货到家现为 €6.99，订单资格及其他配送方�
 参考：[IKEA Belgium](https://www.ikea.com/be/en/customer-service/services/delivery/)。
 
 
-手册还提及当时配送车辆除司机外可坐两人，建议有机会与同学分摊运费。这只是历史服务描述；**不可据此假定现有货运服务允许搭乘**，请直接向服务商确认。
+2024 年曾有配送车辆除司机外可坐两人的服务描述；**不可据此假定现有货运服务允许搭乘**。如需与同学分摊运费或随车返回，请直接向服务商确认。
 
-手册提醒 IKEA Zaventem 位于鲁汶之外，返程不在 Student Bus Pass 范围内，需另买车票；实际往返路线与公交卡有效区域应查当前运营商规定。
+ IKEA Zaventem 位于鲁汶之外，返程不在 Student Bus Pass 范围内，需另买车票；实际往返路线与公交卡有效区域应查当前运营商规定。
 
 ## 二手家具与交易平台
 
@@ -120,7 +120,7 @@ IKEA 比利时包裹送货到家现为 €6.99，订单资格及其他配送方�
 - 鲁汶心情论坛
 - 各学生微信群组
 
-手册明确提醒防骗，尤其是 Facebook 交易。名单不是平台担保，也不是学联官方认证商家。
+请注意防骗，尤其是 Facebook 交易。名单不是平台担保，也不是学联官方认证商家。
 
 ## 搬家时如何处理
 

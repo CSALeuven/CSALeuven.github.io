@@ -14,7 +14,7 @@
 
 ### ILT course fees
 
-ILT fees depend on course, level and status. Its Dutch-course page lists €175 per level for KU Leuven students/staff, or €195 for levels 4–6, with level-specific material charges. Check other courses individually; €110 is only the handbook’s unscoped historical figure.
+ILT fees depend on course, level and status. Its Dutch-course page lists €175 per level for KU Leuven students/staff, or €195 for levels 4–6, with level-specific material charges. Check other courses individually; €110 is only an unscoped historical figure.
 
 Sources: [KU Leuven Leuven Language Institute](https://ilt.kuleuven.be/english/cursus/nt2_prijs_voorwaarden.php).
 

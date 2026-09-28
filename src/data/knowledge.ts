@@ -10,11 +10,11 @@ export const categories = [
   { key: 'about-leuven', zh: '认识鲁汶', en: 'About Leuven', descriptionZh: '大学城与这里的高校', descriptionEn: 'The university town and its institutions', stageZh: '认识这座城', stageEn: 'Discovering Leuven' },
 ] as const;
 export const sourceNotice = {
-  zh: '本内容整理自《鲁汶学联新生手册 2024》。涉及价格、政策、办理流程等时效性信息时，请以相关官方机构最新信息为准。',
-  en: 'Adapted from the CSAL Student Handbook 2024. Check the relevant official institution for current prices, policies and procedures.',
+  zh: '部分信息为 2024 年历史参考。涉及价格、政策、办理流程等时效性信息时，请以相关官方机构最新信息为准。',
+  en: 'Some information is retained as historical reference from 2024. Check the relevant official institution for current prices, policies and procedures.',
 };
 export const reviewLabels = {
-  'legacy-2024': { zh: '2024 手册 · 待复核', en: '2024 handbook · awaiting review' },
+  'legacy-2024': { zh: '2024 年信息 · 待复核', en: '2024 information · awaiting review' },
   reviewed: { zh: '已复核', en: 'Reviewed' },
   'partially-reviewed': { zh: '部分已复核', en: 'Partially reviewed' },
   'needs-verification': { zh: '需要核实', en: 'Needs verification' },
@@ -28,9 +28,9 @@ export const popular = [
 export const firstWeek = [
   { id: 'move-in', title: '确认入住与钥匙交接时间', note: '管理员或前台可能并非 24 小时在岗；长期住宿也需提前联系。', href: 'housing/temporary-accommodation' },
   { id: 'inspect', title: '核对合同与房间状况', note: '核对家具、设施及损坏记录，确认水电暖网的费用安排。', href: 'housing/deposit-and-condition' },
-  { id: 'register', title: '查看学校注册通知并准备材料', note: '手册列出录取通知、学历学位复印件与缴费银行卡；以学校当期通知为准。', href: 'arrival/university-registration' },
-  { id: 'residence', title: '开始市政登记与居留手续', note: '手册流程包括材料准备、Annex 15、地址核查和预约领卡；不是要求一周内完成。', href: 'arrival/residence-card' },
-  { id: 'bank', title: '了解银行开户条件', note: '手册以领取 Annex 15 为开户起点，并建议比较银行产品及成本。', href: 'arrival/bank-account' },
+  { id: 'register', title: '查看学校注册通知并准备材料', note: '按学校当期通知准备录取通知、学历学位材料，并核对缴费安排。', href: 'arrival/university-registration' },
+  { id: 'residence', title: '开始市政登记与居留手续', note: '了解材料准备、Annex 15、地址核查和预约领卡等步骤；不必在一周内完成。', href: 'arrival/residence-card' },
+  { id: 'bank', title: '了解银行开户条件', note: '领取 Annex 15 后可咨询开户；核对各银行的材料要求，比较产品和成本。', href: 'arrival/bank-account' },
   { id: 'insurance', title: '开始办理健康保险', note: '查看学校与保险机构的现行要求，并关注居留所需证明。', href: 'arrival/health-insurance' },
   { id: 'systems', title: '熟悉 Toledo、KU Loket 与 ISP', note: '了解课程、证明下载与选课截止时间。', href: 'study/learning-platforms' },
   { id: 'transport', title: '熟悉日常通勤方式', note: '确定教学楼位置，查看自行车与公交的最新服务信息。', href: 'transport/getting-around' },
