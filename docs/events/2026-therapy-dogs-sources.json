@@ -1,0 +1,104 @@
+{
+  "eventKey": "2026-therapy-dogs-finn-suki",
+  "dateOnly": "2026-06-11",
+  "dateEvidence": "The article explicitly says 11 June and refers to June of this year; its captured publication timestamp is in 2026. Afternoon is confirmed; no precise start/end time is supplied.",
+  "sourceFilename": "活动回顾｜考试季里，和 Finn、Suki 一起松口气.html",
+  "sourceSha256": "3c0d44bcc189783a9bd3ecb5efc69ff25969d634c95f943ac869f1cc4fb84da9",
+  "sourceTitle": "活动回顾｜考试季里，和 Finn、Suki 一起松口气",
+  "sourceUrl": "https://mp.weixin.qq.com/s/1QC06N6aGdkkbS5qJgTxpA",
+  "sourcePublishedAt": "2026-09-28T08:04:19Z",
+  "images": [
+    {
+      "path": "/images/events/2026-therapy-dogs-finn-suki/circle-at-pangaea.jpg",
+      "sourceImageIndex": 6,
+      "sourceUrl": "https://mmbiz.qpic.cn/mmbiz_jpg/INa3B3G2ZIkPORY8iapXibWHo4s0bu9jMSXjg428zMseHbt3GQ8y1G9GfTjMlBHhicMPfmG4MvMDacsTzJic6YjbdPaZCZMHeJcnB7VRDPdsvJY/640?wx_fmt=jpeg&watermark=1",
+      "sha256": "27b369b83a8ed2b3bdba7b86a4f1dc34d7e1ecae6913434d77672024b68bb0d0",
+      "width": 1080,
+      "height": 810,
+      "cover": true,
+      "altZh": "同学们在 Pangaea 围坐成圈，与抚慰犬互动。",
+      "altEn": "Students sit in a circle and interact with the therapy dogs at Pangaea."
+    },
+    {
+      "path": "/images/events/2026-therapy-dogs-finn-suki/curly-coated-dog-portrait.jpg",
+      "sourceImageIndex": 3,
+      "sourceUrl": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/INa3B3G2ZImTY5K0OfAgkFq38Nnk8nNVc7UbkTyicyT2xOz1vIpIEc9tcBnGjYQGaPdaop8bFWyTyZFHRmIJM4icyibrOeXibhDficjuNibg0AXds/640?wx_fmt=jpeg&watermark=1",
+      "sha256": "382cea7e7a366d72dcad604e9a8e95b017ce674d947f28ee7e639811ee4923f0",
+      "width": 1080,
+      "height": 1350,
+      "cover": false,
+      "altZh": "原文中的棕色卷毛犬肖像，狗狗坐在林间。",
+      "altEn": "A source portrait of a brown curly-coated dog sitting in woodland."
+    },
+    {
+      "path": "/images/events/2026-therapy-dogs-finn-suki/long-haired-dog-portrait.jpg",
+      "sourceImageIndex": 4,
+      "sourceUrl": "https://mmbiz.qpic.cn/mmbiz_jpg/INa3B3G2ZIlBupdwXc16cCLRicicFY7NJqmeKaBJSxOKduibJvJG6K3Ef3qf8n5OLrcxJj9KEibYyNCjgec0AFK5ka3icWCMPyiczibrSofftialzVM/640?wx_fmt=jpeg&watermark=1",
+      "sha256": "ef494f8348d63a2e5263590e22cd5f5698259063f7fe36a0f8d96855bbc4ee0c",
+      "width": 1080,
+      "height": 1350,
+      "cover": false,
+      "altZh": "原文中的长毛犬肖像，狗狗戴着绿色围巾。",
+      "altEn": "A source portrait of a long-haired dog wearing a green bandana."
+    },
+    {
+      "path": "/images/events/2026-therapy-dogs-finn-suki/international-student-session.jpg",
+      "sourceImageIndex": 5,
+      "sourceUrl": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/INa3B3G2ZImrv5lW89ia6mt0rEKBibKNkGbNYiazxgJyBLUFL5e1DyNOeKtjJrnKmXMMzjo2dQ2muzMFFNGqXUMuU4drOeRjvQ3dp1pcP7KKng/640?wx_fmt=jpeg&watermark=1",
+      "sha256": "bb8ac480d489be97be8483e12a58b83287ed581d410051b813159f00b400a76c",
+      "width": 1080,
+      "height": 810,
+      "cover": false,
+      "altZh": "第一场活动中，同学们围坐在地垫上与狗狗相处。",
+      "altEn": "Students sit on floor mats with the dogs during the first session."
+    },
+    {
+      "path": "/images/events/2026-therapy-dogs-finn-suki/gentle-petting.jpg",
+      "sourceImageIndex": 8,
+      "sourceUrl": "https://mmbiz.qpic.cn/mmbiz_jpg/INa3B3G2ZIlWiapUVuGPB7WoYn56gKksljbho7JCMWsjibQMibZyCN6mB99bJEyrIxZqFTMgcbO9UU5sYvjA0fnxzFubJJvI0qKxhDAJh00hbA/640?wx_fmt=jpeg&watermark=1",
+      "sha256": "44acc2339f07ab0a46654042e72937b02cb483818c588c4d79e14d6a4ab55dd1",
+      "width": 1080,
+      "height": 1919,
+      "cover": false,
+      "altZh": "活动中，一位参与者轻轻抚摸棕色卷毛犬。",
+      "altEn": "A participant gently pets the brown curly-coated dog during the event."
+    },
+    {
+      "path": "/images/events/2026-therapy-dogs-finn-suki/shared-moments.jpg",
+      "sourceImageIndex": 9,
+      "sourceUrl": "https://mmbiz.qpic.cn/mmbiz_jpg/INa3B3G2ZIlvpK0sPgSEX3gR6MPrHIkC2ouox3H9bronwfD8AVTQI2iaZibnIg1Jvy03U7P27H10mLibKWhzdMia0PmUclTnRia3ft778v4Yu69g/640?wx_fmt=jpeg&watermark=1",
+      "sha256": "3a9364642233f0cb35970382665c960e37f39c028cabf8c84dccbcf93b5bddda",
+      "width": 1080,
+      "height": 810,
+      "cover": false,
+      "altZh": "同学们与狗狗围坐互动，分享轻松的时刻。",
+      "altEn": "Students share a relaxed moment sitting in a circle with the dogs."
+    }
+  ],
+  "excludedImages": [
+    {
+      "sourceImageIndex": 1,
+      "reason": "Decorative opening graphic."
+    },
+    {
+      "sourceImageIndex": 2,
+      "reason": "Decorative separator."
+    },
+    {
+      "sourceImageIndex": 7,
+      "reason": "Similar circle scene already represented by selected full-frame photos."
+    },
+    {
+      "sourceImageIndex": 10,
+      "reason": "Similar circle scene already represented by selected full-frame photos."
+    },
+    {
+      "sourceImageIndex": 11,
+      "reason": "Article account QR; preserve the existing official site QR instead."
+    },
+    {
+      "sourceUrl": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/INa3B3G2ZIn9pfoy8NEpv4nzJIJLWG0blgBM9761D3TaKb8SSV0IyOSn2YnwAgNFicfXsHXleKDiaOdDic5AHRrfYdnfbCbuibicxJwdtFpc1aEQ/0?wx_fmt=jpeg",
+      "reason": "Cropped version of body image 6; use the complete photograph as the cover."
+    }
+  ]
+}
