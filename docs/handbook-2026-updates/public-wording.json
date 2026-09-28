@@ -1,0 +1,43 @@
+{
+  "NSG-011": {
+    "zh": "比利时驻华使馆现行说明要求中国文件先公证，再由中国外交部或当地外事办公室办理附加证明书（apostille），无需再经比利时使领馆认证。翻译语言及文件时效应向接收机构确认。下方“双认证”流程仅作 2024 年历史参考。",
+    "en": "The Belgian mission’s instructions for Chinese documents use notarisation followed by an apostille, without Belgian consular legalisation. Confirm translation and document-age requirements with the receiving authority. The double-legalisation sequence below is retained only as historical information from 2024."
+  },
+  "NSG-027": {
+    "zh": "教育部已自 2020 年 11 月 1 日起取消《留学回国人员证明》，使领馆自 2020 年 10 月 1 日起不再受理新申请。“开具前提交表格”属于已停办制度的历史说明，不是当前待办事项。",
+    "en": "The Ministry of Education abolished the Certificate for Returned Overseas Students from 1 November 2020; diplomatic missions stopped accepting new applications from 1 October 2020. The prerequisite filing step concerns that discontinued certificate."
+  },
+  "NSG-037": {
+    "zh": "无有效票乘车会收到现行 €90 补缴情形通知，并须按 SNCB 通知处理；不要套用 €75 的旧罚款金额。"
+  },
+  "NSG-064": {
+    "zh": "KU Leuven 学费应按账单说明通过银行转账支付，并填写指定付款附言；学校不接受现金或信用卡支付。请在 KU Loket 查看本人账单及截止日，不要准备 VISA 卡到场缴费。",
+    "en": "Pay KU Leuven tuition by bank transfer using the reference on your account balance. Cash and credit-card payments are not accepted. Check your invoice and deadline in KU Loket rather than preparing a VISA card for an in-person payment."
+  },
+  "NSG-067": {
+    "zh": "欧盟禁止俄罗斯航空承运人使用欧盟机场及领空。因此，“俄罗斯航空经莫斯科”的描述仅作历史存档，不能作为俄航承运至布鲁塞尔的现行方案。"
+  },
+  "NSG-070": {
+    "en": "Hainan’s Europe–Asia economy allowance varies by fare product, from no free checked bag to one or two pieces. Confirm the weight and allowance on the actual ticket and applicable rules. A universal current student allowance was not verified; the two-piece figure remains historical."
+  },
+  "NSG-073": {
+    "zh": "ILT 按课程、级别及身份收费。其荷兰语页面列示 KU Leuven 学生／教职员工每级 175 欧元，第 4–6 级为 195 欧元，教材费用按级别另有说明。其他课程请查各自价格；110 欧元仅为未注明课程的历史金额。",
+    "en": "ILT fees depend on course, level and status. Its Dutch-course page lists €175 per level for KU Leuven students/staff, or €195 for levels 4–6, with level-specific material charges. Check other courses individually; €110 is only an unscoped historical figure."
+  },
+  "NSG-084": {
+    "zh": "Solidaris（Socialistische Mutualiteiten 为旧称；办理时请核对服务地区及当前机构信息）。",
+    "en": "Solidaris (previously listed under the generic label Socialistische Mutualiteiten; confirm the current provider and service region)."
+  },
+  "NSG-107": {
+    "zh": "现行名称为 cum fructu；不要使用错误拼写“cumfuctu”。",
+    "en": "The formal name is cum fructu; “cumfuctu” is an old spelling and is not the formal name."
+  },
+  "NSG-113": {
+    "zh": "如需询问住址核查，可通过 [Leuven 警察：警署与辖区警员查询](https://www.politie.be/5388/contact/commissariaten) 查找本人住址对应的联系渠道。旧联系表已失效。",
+    "en": "For an address-check enquiry, use [Leuven police: stations and neighbourhood inspector](https://www.politie.be/5388/contact/commissariaten) to find the contact for your residential address. The old contact form is no longer available."
+  },
+  "NSG-105": {
+    "zh": "经核实的鲁汶校区注册地点：University Hall，Naamsestraat 22，3000 Leuven。是否需要到场及预约，请以注册邮件为准。",
+    "en": "Verified Leuven campus registration location: University Hall, Naamsestraat 22, 3000 Leuven. Follow the registration email for appointments and whether attendance is needed."
+  }
+}

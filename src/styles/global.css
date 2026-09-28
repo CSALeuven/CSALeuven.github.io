@@ -25,7 +25,6 @@
 .event-photo-grid figure{margin:0;min-width:0;align-self:start}
 .event-photo-grid a{display:block}
 .event-photo-grid img{display:block;width:100%;height:auto}
-.event-sources{border-top:1px solid var(--line);margin-top:36px;padding-top:30px}
 .source-published{display:block;font-size:13px;color:var(--muted);margin-top:6px}
 .prose table{border-collapse:collapse;width:100%;font-size:15px;margin-block:24px}
 .prose th,.prose td{text-align:left;vertical-align:top;border-bottom:1px solid var(--line);padding:12px 8px;overflow-wrap:anywhere}

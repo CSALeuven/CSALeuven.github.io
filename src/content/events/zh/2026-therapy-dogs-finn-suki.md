@@ -15,8 +15,8 @@ coverAlt: "同学们在 Pangaea 围坐成圈，与抚慰犬互动。"
 coverWidth: 1080
 coverHeight: 810
 gallery:
-  - {"src": "/images/events/2026-therapy-dogs-finn-suki/curly-coated-dog-portrait.jpg", "alt": "原文中的棕色卷毛犬肖像，狗狗坐在林间。", "width": 1080, "height": 1350}
-  - {"src": "/images/events/2026-therapy-dogs-finn-suki/long-haired-dog-portrait.jpg", "alt": "原文中的长毛犬肖像，狗狗戴着绿色围巾。", "width": 1080, "height": 1350}
+  - {"src": "/images/events/2026-therapy-dogs-finn-suki/curly-coated-dog-portrait.jpg", "alt": "棕色卷毛犬肖像，狗狗坐在林间。", "width": 1080, "height": 1350}
+  - {"src": "/images/events/2026-therapy-dogs-finn-suki/long-haired-dog-portrait.jpg", "alt": "长毛犬肖像，狗狗戴着绿色围巾。", "width": 1080, "height": 1350}
   - {"src": "/images/events/2026-therapy-dogs-finn-suki/international-student-session.jpg", "alt": "第一场活动中，同学们围坐在地垫上与狗狗相处。", "width": 1080, "height": 810}
   - {"src": "/images/events/2026-therapy-dogs-finn-suki/gentle-petting.jpg", "alt": "活动中，一位参与者轻轻抚摸棕色卷毛犬。", "width": 1080, "height": 1919}
   - {"src": "/images/events/2026-therapy-dogs-finn-suki/shared-moments.jpg", "alt": "同学们与狗狗围坐互动，分享轻松的时刻。", "width": 1080, "height": 810}

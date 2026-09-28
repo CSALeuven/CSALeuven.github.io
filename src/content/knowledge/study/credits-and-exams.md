@@ -1,10 +1,10 @@
 ---
 {
   "key": "study/credits-and-exams",
-  "titleZh": "学分、考试与成绩：2024 手册概览",
+  "titleZh": "学分、考试与成绩",
   "titleEn": "Credits, examinations and grades",
-  "descriptionZh": "保留 ECTS、学期、考试月份、课程通过标准及原文成绩分布数据，并标记为历史概括。",
-  "descriptionEn": "ECTS, semesters, exam months, passing grades and the original grade-distribution figures as historical notes.",
+  "descriptionZh": "了解 ECTS、学期、考试安排和通过标准，并区分历史统计与本人项目要求。",
+  "descriptionEn": "Understand ECTS, semesters, examinations and passing grades, and distinguish historical figures from programme requirements.",
   "category": "study",
   "order": 170,
   "aliases": [
@@ -29,7 +29,7 @@
   "timeSensitive": true,
   "officialSources": [
     {
-      "label": "补充核验入口｜KU Leuven：教育与考试规则（非手册原链）",
+      "label": "KU Leuven：教育与考试规则",
       "url": "https://www.kuleuven.be/education/regulations/"
     }
   ],
@@ -38,51 +38,51 @@
     "study/isp",
     "study/learning-platforms"
   ],
-  "quickAnswer": "手册以 ECTS、20 分制和每年三个考试月份介绍学制；实际项目学分、考试安排及通过规则应以当学年学校规定为准。",
+  "quickAnswer": "了解 ECTS、20 分制和考试安排；实际项目学分、考试日历及通过规则应以当学年学校规定为准。",
   "sourceTitle": "鲁汶学联新生手册 2024"
 }
 ---
 
-## 手册记录的学分规模
+## 学分规模（2024 年参考）
 
 
 ### 本科
 
-- **2024 手册列出的学分：** 180 或 240 ECTS
+- **学分（2024 年参考）：** 180 或 240 ECTS
 
 ### 硕士
 
-- **2024 手册列出的学分：** 60、90 或 120 ECTS
+- **学分（2024 年参考）：** 60、90 或 120 ECTS
 
 ### 每学期
 
-- **2024 手册列出的学分：** 约 30 ECTS，约 5–8 门课程
+- **学分（2024 年参考）：** 约 30 ECTS，约 5–8 门课程
 
 
-原文说每学年分为两个学期，分别在 1 月、6 月、8 月进行三次考试周。该日期描述属于概括，不是本人项目的考试日历。
+每学年分为两个学期，分别在 1 月、6 月、8 月进行三次考试周。该日期描述属于概括，不是本人项目的考试日历。
 
-## 通过标准的原文说明
+## 课程通过标准（历史概括）
 
-手册使用 20 分评分制，并称通过课程需获得 10 分及以上；若课程使用通过／未通过评价，则需获得“通过”。是否有项目特定规则或其他条件，需核对当前教学与考试规定。
+2024 年的概括为采用 20 分评分制，通过课程需获得 10 分及以上；若课程使用通过／未通过评价，则需获得“通过”。是否有项目特定规则或其他条件，需核对当前教学与考试规定。
 
-## 原手册的成绩分布数据
+## 历史成绩分布数据（统计范围未注明）
 
 
 ### 20 分
 
-- **手册所写的占比：** 前 0.2%
+- **历史占比：** 前 0.2%
 
 ### 15–19 分
 
-- **手册所写的占比：** 约 24.8%
+- **历史占比：** 约 24.8%
 
 ### 10–14 分
 
-- **手册所写的占比：** 约 50%
+- **历史占比：** 约 50%
 
 ### 8–9 分
 
-- **手册所写的占比：** 约 25%
+- **历史占比：** 约 25%
 
 
-**数据边界：**PDF 没有说明上述占比的统计年度、样本、项目范围，也未列出低于 8 分的分布。因此保留为原文数据，不能当作任何课程的固定分布或成绩排名预测。
+**数据边界：**上述历史数据的统计年度、样本和项目范围不明，也未包括低于 8 分的分布，不能当作任何课程的固定分布或成绩排名预测。

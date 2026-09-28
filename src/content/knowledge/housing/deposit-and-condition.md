@@ -3,8 +3,8 @@
   "key": "housing/deposit-and-condition",
   "titleZh": "押金、房况交接与日常维护",
   "titleEn": "Deposits, condition reports and maintenance",
-  "descriptionZh": "保留手册对房況附录、细小损坏、清洁、墙面改动与退押金风险的提醒。",
-  "descriptionEn": "Condition reports, minor defects, cleaning, alterations and deposit deductions described in the handbook.",
+  "descriptionZh": "核对房况附录、已有损坏、清洁和墙面改动，了解押金扣留与返还事项。",
+  "descriptionEn": "Check condition reports, existing damage, cleaning and alterations, and understand deposit deductions and returns.",
   "category": "housing",
   "order": 90,
   "aliases": [
@@ -30,7 +30,7 @@
   "timeSensitive": true,
   "officialSources": [
     {
-      "label": "补充核验入口｜KU Leuven：租户、合同与费用（非手册原链）",
+      "label": "KU Leuven：租户、合同与费用",
       "url": "https://www.kuleuven.be/english/life-at-ku-leuven/housing/info-for-tenants"
     },
     {
@@ -70,9 +70,9 @@
 ---
 ## 入住时核对房况附录
 
-合同一般另有房间情况及具体配置的附录。手册提醒核对附录是否符合实际，并及时指出与实际不符的地方，以及家具、设施已有的损耗或损坏。
+合同一般另有房间情况及具体配置的附录。核对附录是否符合实际，并及时指出与实际不符的地方，以及家具、设施已有的损耗或损坏。
 
-手册提醒记录细小差异，以免退房时对损坏责任产生争议；正常使用和老化的处理见下方注明的更新。原文没有给出统一押金额度；存放方式与返还期限的现行补充见下方。
+记录细小差异，以免退房时对损坏责任产生争议；正常使用和老化的处理见下方更新。押金额度、存放方式与返还期限，应结合下方说明和本人合同核对。
 
 ## 押金存放与返还
 
@@ -98,7 +98,7 @@
 
 ## 日常维护和改动
 
-手册提醒保持房间整洁并注意维护。在墙上打洞等行为，应先取得房东同意。
+保持房间整洁并注意维护。在墙上打洞等行为，应先取得房东同意。
 
 <!-- NSG-030 -->
 
@@ -120,4 +120,4 @@
 
 ## 房间有严重问题时
 
-手册提到老鼠、异味、噪音、过热或过冷等问题可先与房东协商，无法达成一致时可请 Housing Service 帮忙。原文对解约的限制与进一步处理见转租及解约篇；是否达到法定不可居住状态，不能仅凭本页的历史举例判断。
+老鼠、异味、噪音、过热或过冷等问题可先与房东协商，无法达成一致时可请 Housing Service 帮忙。进一步处理见转租及解约篇；是否达到法定不可居住状态，不能仅凭历史举例判断。

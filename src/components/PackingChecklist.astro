@@ -6,12 +6,12 @@ const groups = [ ['documents','文件','Documents'],['stationery','文具','Stat
 ---
 <section class="kb-checklist kb-packing" data-checklist="packing" data-lang={lang} aria-label={t(lang,'行李清单','Packing checklist')}>
   <div class="kb-checklist-heading"><h2>{t(lang,'我的行李清单','My packing checklist')}</h2><button type="button" data-print>{t(lang,'打印','Print')}</button></div>
-  <p class="kb-small">{t(lang,'数量与备注保留手册的参考值，不代表每个人都需要全部携带。空缺数量不作推定。','Quantities and notes are historical suggestions, not requirements. Missing quantities have not been inferred. Items below are in Chinese pending reviewed translation.')}</p>
+  <p class="kb-small">{t(lang,'数量与备注为 2024 年参考信息，不代表每个人都需要全部携带。空缺数量不作推定。','Quantities and notes are historical suggestions, not requirements. Missing quantities have not been inferred. Items below are in Chinese pending reviewed translation.')}</p>
   <div class="kb-packing-filters"><label>{t(lang,'查找物品','Find an item')}<input type="search" data-packing-query placeholder={t(lang,'例如：护照、充电宝','For example: 护照, 充电宝')} /></label><label>{t(lang,'物品分类','Category')}<select data-packing-category><option value="all">{t(lang,'全部','All')}</option>{groups.map(([value,zh,en])=><option value={value}>{lang==='zh'?zh:en}</option>)}</select></label></div>
   <p class="kb-small" data-packing-results role="status"></p>
   <p class="kb-small" data-check-progress role="status"></p>
-  <p class="kb-medicine-note" lang="zh-CN">2024 手册参考清单；携带药品须遵守中国出境、航空运输及比利时/欧盟入境规定，请自行核实最新限制。</p>
-  <ul>{packing.map(item=><li data-pack-category={item.category} data-pack-search={`${item.name} ${item.notes} ${item.category}`}><label><input type="checkbox" value={item.id} /><span lang="zh-CN"><span class="kb-pack-category">{groups.find(g=>g[0]===item.category)?.[lang==='zh'?1:2]}</span><strong>{item.name}</strong><span class="kb-pack-quantity">{t(lang,'手册参考数量','Handbook quantity')}：{item.quantity || t(lang,'未注明','Not specified')}{item.optional && <span class="kb-optional"> · {t(lang,'可选','Optional')}</span>}</span>{item.notes && <small>{item.notes}</small>}</span></label></li>)}</ul>
+  <p class="kb-medicine-note" lang="zh-CN">2024 年参考清单；携带药品须遵守中国出境、航空运输及比利时/欧盟入境规定，请自行核实最新限制。</p>
+  <ul>{packing.map(item=><li data-pack-category={item.category} data-pack-search={`${item.name} ${item.notes} ${item.category}`}><label><input type="checkbox" value={item.id} /><span lang="zh-CN"><span class="kb-pack-category">{groups.find(g=>g[0]===item.category)?.[lang==='zh'?1:2]}</span><strong>{item.name}</strong><span class="kb-pack-quantity">{t(lang,'参考数量','Suggested quantity')}：{item.quantity || t(lang,'未注明','Not specified')}{item.optional && <span class="kb-optional"> · {t(lang,'可选','Optional')}</span>}</span>{item.notes && <small>{item.notes}</small>}</span></label></li>)}</ul>
   <button type="button" data-reset-checklist>{t(lang,'重置勾选','Reset checks')}</button>
 </section>
 <script>

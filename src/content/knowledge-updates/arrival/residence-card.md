@@ -22,6 +22,6 @@ Sources: [Stad Leuven](https://www.leuven.be/en/student-visa-leuven).
 
 ### Contacting your neighbourhood police
 
-For an address-check enquiry, use [Leuven police: stations and neighbourhood inspector](https://www.politie.be/5388/contact/commissariaten) to find the contact for your residential address. The contact form linked in the original handbook is no longer available.
+For an address-check enquiry, use [Leuven police: stations and neighbourhood inspector](https://www.politie.be/5388/contact/commissariaten) to find the contact for your residential address. The old contact form is no longer available.
 
 Sources: [Lokale Politie Leuven](https://www.politie.be/5388/contact/commissariaten).

@@ -3,8 +3,8 @@
   "key": "arrival/health-insurance",
   "titleZh": "抵达后办理健康保险",
   "titleEn": "Health insurance after arrival",
-  "descriptionZh": "整理手册中健康保险与居留的关系、列举的 mutuality 机构和学校办理说明入口。",
-  "descriptionEn": "The handbook’s insurance and residence connection, listed mutualities and university information link.",
+  "descriptionZh": "了解健康保险与居留的关系，查找保险机构和学校办理说明。",
+  "descriptionEn": "Understand health insurance and residence requirements, and find insurers and university guidance.",
   "category": "arrival",
   "order": 140,
   "aliases": [
@@ -30,7 +30,7 @@
   "timeSensitive": true,
   "officialSources": [
     {
-      "label": "KU Leuven：健康保险（手册原链）",
+      "label": "KU Leuven：健康保险",
       "url": "https://www.kuleuven.be/english/life-at-ku-leuven/wellbeing-safety/health-insurance"
     }
   ],
@@ -40,7 +40,7 @@
     "healthcare/seeing-a-doctor",
     "healthcare/emergency"
   ],
-  "quickAnswer": "手册把健康保险列为抵达后的重要事项，并提到它与国际学生居留许可有关；选择机构及办理要求应以学校和保险方当前说明为准。",
+  "quickAnswer": "抵达后应了解适用于本人的健康保险及居留证明要求；选择机构和办理方式以学校、保险方及主管机构的当前说明为准。",
   "sourceTitle": "鲁汶学联新生手册 2024",
   "lastReviewed": "2026-09-14",
   "approvedUpdateIds": [
@@ -49,27 +49,27 @@
   ]
 }
 ---
-## 手册对保险要求的说明
+## 保险要求
 
-2024 手册称比利时所有居民，无论国籍，都必须拥有涵盖医疗保健的保险，并将拥有健康保险列为国际学生获得居留许可的条件之一。**这段说明涉及政策，应按本人身份与当前要求核实。**
+2024 年参考信息：比利时所有居民，无论国籍，都必须拥有涵盖医疗保健的保险，并将拥有健康保险列为国际学生获得居留许可的条件之一。**这段说明涉及政策，应按本人身份与当前要求核实。**
 
-## 手册列举的机构
+## 保险机构
 
 - CM（Christelijke Mutualiteit）。
 - LM（Liberale Mutualiteit）。
-- Helan／Partenamut（原文括注 Onafhankelijk Ziekenfonds）。
+- Helan／Partenamut（亦称 Onafhankelijk Ziekenfonds）。
 - Neutraal Ziekenfonds。
 <!-- NSG-084 -->
 
-Solidaris（2024 手册使用泛称 Socialistische Mutualiteiten；办理时请核对服务地区及当前机构信息）。
+Solidaris（Socialistische Mutualiteiten 为旧称；办理时请核对服务地区及当前机构信息）。
 
 参考：[KU Leuven Stuvo](https://www.kuleuven.be/english/life-at-ku-leuven/wellbeing-safety/health-insurance)。
 
-除注明更新的名称外，其余名称按原手册保留。机构名称、适用地区、服务、收费或产品可能变化；手册未提供比较表、报销比例、统一价格和办理材料清单。
+除注明更新的名称外，其余机构信息为 2024 年参考。机构名称、适用地区、服务、收费或产品可能变化，办理前请核对报销比例、费用和所需材料。
 
 ## 办理信息入口
 
-原手册指向学校健康保险办理说明：
+学校健康保险办理说明：
 
 [KU Leuven：健康保险](https://www.kuleuven.be/english/life-at-ku-leuven/wellbeing-safety/health-insurance)
 

@@ -3,8 +3,8 @@
   "key": "transport/train",
   "titleZh": "火车、青年票与机场附加费",
   "titleEn": "Trains, youth fares and the airport supplement",
-  "descriptionZh": "SNCB/NMBS 班次、GoPass、Campus、GoUnlimited、机场费用及乘车规则的历史记录。",
-  "descriptionEn": "Train planning, historical ticket products, airport supplements and travel cautions.",
+  "descriptionZh": "查询 SNCB/NMBS 班次、青年与学生票、机场附加费和乘车注意事项。",
+  "descriptionEn": "Find SNCB/NMBS services, youth and student tickets, airport supplements and travel guidance.",
   "category": "transport",
   "order": 13,
   "aliases": [
@@ -115,11 +115,11 @@
 ---
 ## 车站与查班次
 
-手册把 **Station Leuven**（鲁汶主火车站）定位在市区东北侧环路上，介绍火车是连接鲁汶、机场和其他城市的主要方式。本页只整理比利时境内铁路部分。
+**Station Leuven**（鲁汶主火车站）位于市区东北侧环路上，火车是连接鲁汶、机场和其他城市的主要方式。本页介绍比利时境内铁路出行。
 
-工作日与周末／节假日时刻表不同，也会因天气、事故、罢工而改变。第三方导航的路线、时间及站台可能与官方不同，手册建议优先看 [SNCB / NMBS 官方渠道](https://www.belgiantrain.be/en)。
+工作日与周末／节假日时刻表不同，也会因天气、事故、罢工而改变。第三方导航的路线、时间及站台可能与官方不同，建议优先看 [SNCB / NMBS 官方渠道](https://www.belgiantrain.be/en)。
 
-手册解释官网可以查询任意地点间的路线，带铁路 **B 标志**的地点才是火车站；原文提及的查询截图未出现在该页，不应据此假定官网界面仍相同。
+官网可查询地点间的路线，带铁路 **B 标志**的地点才是火车站，其他结果可能包括接驳交通。
 
 ## 票种与现行购票要求
 
@@ -179,7 +179,7 @@ GoUnlimited／Youth Holidays 假期不限次票已停售，旧周票和月票价
 
 参考：[SNCB/NMBS](https://www.belgiantrain.be/en/tickets-and-railcards/go-unlimited?menu=1)。
 
-旧 Campus 所列照片卡及办理材料仅作历史参考，详见原版 2024 手册；现行载体存在官方页面不一致之处，请购票前向 SNCB 确认。
+Student Multi 现行载体存在官方页面不一致之处；照片、卡片及办理材料要求请在购票前向 SNCB 确认。
 
 ## 布鲁塞尔机场附加费
 
@@ -189,9 +189,9 @@ Brussels Airport-Zaventem 铁路附加费现为单程 €6.90；先确认车票�
 
 参考：[SNCB/NMBS](https://www.belgiantrain.be/en/tickets-and-railcards/airports/brussels-airport/)。
 
-出行前请查看 [SNCB Brussels Airport Supplement 官方说明](https://www.belgiantrain.be/en/tickets-and-railcards/airports/diabolo-fee/)，确认自己的票是否已含附加费，避免漏买或重复购买。原文机场票指 **Brussels Airport-Zaventem**，不能据此推定适用于其他机场。
+出行前请查看 [SNCB Brussels Airport Supplement 官方说明](https://www.belgiantrain.be/en/tickets-and-railcards/airports/diabolo-fee/)，确认自己的票是否已含附加费。这里的机场指 **Brussels Airport-Zaventem**，不能据此推定适用于其他机场。
 
-## 2024 手册的乘车规则与警示
+## 乘车规则与提醒
 
 <!-- NSG-010 -->
 
@@ -200,10 +200,10 @@ Brussels Airport-Zaventem 铁路附加费现为单程 €6.90；先确认车票�
 参考：[SNCB/NMBS](https://www.belgiantrain.be/en/support/customer-service/on-board-pricing)。
 <!-- NSG-037 -->
 
-无有效票乘车会收到现行 €90 补缴情形通知，并须按 SNCB 通知处理；不要套用手册的 €75 旧罚款。
+无有效票乘车会收到现行 €90 补缴情形通知，并须按 SNCB 通知处理；不要套用 €75 的旧罚款金额。
 
 参考：[SNCB/NMBS](https://www.belgiantrain.be/en/support/customer-service/on-board-pricing)。
-- 手册称除机场外车站通常无闸机，但无闸机不等于不需要票。
+- 除机场外车站通常无闸机，但无闸机不等于不需要票。
 - 车票通常没有指定座位；注意车厢上的 **1 / 2** 等级标识，二等票不要坐一等车厢。
 - **IC** 为城际列车，**L** 多停小站。比较到达时间，较早出发的慢车未必较早到达。
 
@@ -217,9 +217,9 @@ S 是市郊列车服务，覆盖布鲁塞尔、安特卫普、根特、列日和
 普通车票不能用于途中任意停留后再继续旅行；按线路规划需要换乘不属于这种停留，季票另按其条款。
 
 参考：[SNCB/NMBS](https://www.belgiantrain.be/en/support/faq/faq-routes-schedules/faq-choose-your-route)。
-- 上错车或发生票务问题时，应主动找乘务员说明。原文“可能免罚”是经验，**不是免罚保证**。
+- 上错车或发生票务问题时，应主动找乘务员说明；这**不保证免罚**。
 - 等车时注意显示屏、站台变化、延误和广播。
-- 显示 **Doorrijdende trein**（过站列车；原文拼写有误）时远离站台边缘，注意高速通过列车。
+- 显示 **Doorrijdende trein**（过站列车）时远离站台边缘，注意高速通过列车。
 - 不要逃票，包括躲在卫生间等行为。
 
 出发前再次核对日期、目的地、车厢等级、票种资格及机场附加费。

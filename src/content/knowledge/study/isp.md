@@ -3,8 +3,8 @@
   "key": "study/isp",
   "titleZh": "ISP 选课与确认时间",
   "titleEn": "ISP course selection and confirmation",
-  "descriptionZh": "保留每学年填报、第二学期修改与开学第三周周三的原文提醒，强调核实本人截止日。",
-  "descriptionEn": "The source’s annual ISP submission, second-semester change and third-Wednesday deadline reminder.",
+  "descriptionZh": "了解 ISP 填报、修改和确认事项，核对本人项目的截止日期。",
+  "descriptionEn": "Understand ISP submission, changes and confirmation, and check your programme’s deadlines.",
   "category": "study",
   "order": 200,
   "aliases": [
@@ -26,11 +26,11 @@
   "timeSensitive": true,
   "officialSources": [
     {
-      "label": "补充核验入口｜KU Leuven：Individual Study Programme（非手册原链）",
+      "label": "KU Leuven：Individual Study Programme",
       "url": "https://www.kuleuven.be/english/apply/education/student/Learningpath/isp"
     },
     {
-      "label": "补充核验入口｜KU Leuven：教育与考试规则（非手册原链）",
+      "label": "KU Leuven：教育与考试规则",
       "url": "https://www.kuleuven.be/education/regulations/"
     }
   ],
@@ -39,23 +39,23 @@
     "study/credits-and-exams",
     "study/honours"
   ],
-  "quickAnswer": "手册提醒 ISP 通常每学年填报一次、第二学期可修改一次；开学第三周周三的说法只是历史概括，需核对本人项目截止日期。",
+  "quickAnswer": " ISP 通常每学年填报一次、第二学期可修改一次；开学第三周周三的说法只是历史概括，需核对本人项目截止日期。",
   "sourceTitle": "鲁汶学联新生手册 2024"
 }
 ---
 
-## 手册记录的填报频率
+## 填报频率（2024 年参考）
 
-2024 手册说，ISP 每一整学年填报一次，第二学期可以修改一次。
+2024 年参考信息：ISP 每一整学年填报一次，第二学期可以修改一次。
 
 ## 截止日期与确认提醒
 
-原文提醒通常在开学第三周的周三前截止填报；一旦确认选课，所有课程必须修过。
+2024 年的截止时间概括为开学第三周的周三前；确认选课后所有课程必须修过。具体日期和课程要求需按本人项目核实。
 
-**待核实：**这不是当前学年或所有项目统一适用的具体日期。手册也没有解释课程变更、退选、审批或例外的条件，不能据此推导这些程序。
+**待核实：**这不是当前学年或所有项目统一适用的具体日期。课程变更、退选、审批或例外条件，应另行查询当前规定。
 
 ## 从哪里继续查
 
-原文建议搜索 **“The individual study programme (ISP), KU Leuven”** 获取具体信息。PDF 没有给出完整 ISP 官方链接。
+建议搜索 **“The individual study programme (ISP), KU Leuven”**，从学校官方页面获取具体信息。
 
 核对时重点确认本人项目的填报时间、可修改时间以及确认后的课程要求。相关教学平台用途见 Toledo、KU Loket 与 Limo 篇。
