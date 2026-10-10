@@ -1,0 +1,29 @@
+{
+  "eventKey": "2026-laser-tag",
+  "sourceFilename": "即将开战！鲁汶学联 Laser Tag 激光对战活动报名开启！.html",
+  "sourceSha256": "1bd7dd6d7e52d46b5d47763d345f9a6136498962056ee5a363a7f183ddab4ebd",
+  "sourceTitle": "即将开战！鲁汶学联 Laser Tag 激光对战活动报名开启！",
+  "sourceUrl": "https://mp.weixin.qq.com/s/tu2vRlviMGzR8HAiED6nSw",
+  "sourcePublishedAt": "2026-10-09T20:55:26Z",
+  "date": "2026-10-17T14:00:00+02:00",
+  "endDate": "2026-10-17T15:15:00+02:00",
+  "registrationUrl": "https://v.wjx.cn/vm/POho9H9.aspx",
+  "registrationDeadlineText": "2026-10-13 23:59",
+  "evidence": [
+    "The article explicitly gives 2026-10-17, 14:00–15:15, including check-in from 14:00.",
+    "The registration form was opened read-only and confirms the event, price, subsidy, capacity and form-plus-payment requirement.",
+    "The form labels its deadline CET while October 13 is in Brussels summer time; public copy preserves 23:59 without inventing a timezone clarification."
+  ],
+  "images": [
+    {
+      "path": "/images/events/2026-laser-tag/laser3000-banner.webp",
+      "sourceImageIndex": 0,
+      "sourceFilename": "640",
+      "sha256": "486db92483d709a87351c7758321fbe2d4d8d9c3b1fe299dfe61a48a7ad0e292",
+      "width": 1080,
+      "height": 381,
+      "note": "Byte-for-byte copy of the locally saved article image: a venue promotional banner, not a photograph of a CSAL event."
+    }
+  ],
+  "excludedImages": "Decorative separators, two unavailable lazy-loaded venue graphics, and an unavailable registration QR. The confirmed direct form URL supplies the registration action. No WeChat original-post link is rendered publicly."
+}
