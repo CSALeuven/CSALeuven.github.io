@@ -12,7 +12,6 @@ export interface Committee {
 export const committees: Committee[] = [
   {
     "year": 2026,
-    "termEndYear": 2027,
     "current": true,
     "members": [
       "安琪琪",
