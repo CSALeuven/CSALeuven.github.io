@@ -1,27 +1,30 @@
 ---
-import { committees } from '../data/committees';
+import { committees, type Committee } from '../data/committees';
 import { t, type Lang } from '../lib/i18n';
 const { lang } = Astro.props as { lang: Lang };
 const current = committees.find(committee => committee.current);
 if (!current) throw new Error('A current committee must be explicitly selected.');
 const previous = committees.filter(committee => !committee.current).sort((a,b) => b.year-a.year);
-const yearLabel = (year: number) => t(lang, `${year}届`, `${year} Committee`);
+const yearLabel = ({ year, termEndYear }: Committee) => {
+  const term = termEndYear ? `${year}–${termEndYear}` : `${year}`;
+  return t(lang, `${term}届`, `${term} Committee`);
+};
 ---
 <section class="container page-section committee-section" aria-labelledby="current-committee">
   <div class="subheading"><h2 id="current-committee">{t(lang,'现任成员','Current Committee')}</h2><span class="current-marker">{t(lang,'现任','Current')}</span></div>
   <div class="current-committee" data-committee-year={current.year}>
-    <h3>{yearLabel(current.year)}</h3>
+    <h3>{yearLabel(current)}</h3>
     <ul class="committee-names" lang="zh-CN">{current.members.map(name => <li>{name}</li>)}</ul>
-    <a class="committee-source" href={current.sourceUrl} target="_blank" rel="noopener noreferrer">{t(lang,'原换届公示','Original announcement')}<span aria-hidden="true"> ↗</span><span class="sr-only">{t(lang,'（新标签页）',' (Chinese, new tab)')}</span></a>
+    {current.sourceUrl && <a class="committee-source" href={current.sourceUrl} target="_blank" rel="noopener noreferrer">{t(lang,'原换届公示','Original announcement')}<span aria-hidden="true"> ↗</span><span class="sr-only">{t(lang,'（新标签页）',' (Chinese, new tab)')}</span></a>}
   </div>
 </section>
 <section class="container page-section committee-section" aria-labelledby="previous-committees">
   <div class="subheading"><h2 id="previous-committees">{t(lang,'历届成员','Previous Committees')}</h2></div>
   <div class="committee-archive">{previous.map(committee => <details class="committee-year" data-committee-year={committee.year}>
-    <summary><span>{yearLabel(committee.year)}</span><span class="disclosure-mark" aria-hidden="true">+</span></summary>
+    <summary><span>{yearLabel(committee)}</span><span class="disclosure-mark" aria-hidden="true">+</span></summary>
     <div class="committee-year-content">
       <ul class="committee-names" lang="zh-CN">{committee.members.map(name => <li>{name}</li>)}</ul>
-      <a class="committee-source" href={committee.sourceUrl} target="_blank" rel="noopener noreferrer">{t(lang,'原换届公示','Original announcement')}<span aria-hidden="true"> ↗</span><span class="sr-only">{t(lang,'（新标签页）',' (Chinese, new tab)')}</span></a>
+      {committee.sourceUrl && <a class="committee-source" href={committee.sourceUrl} target="_blank" rel="noopener noreferrer">{t(lang,'原换届公示','Original announcement')}<span aria-hidden="true"> ↗</span><span class="sr-only">{t(lang,'（新标签页）',' (Chinese, new tab)')}</span></a>}
     </div>
   </details>)}</div>
 </section>

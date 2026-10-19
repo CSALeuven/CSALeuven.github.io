@@ -1,6 +1,12 @@
 # Committee history: extraction review
 
-All seven supplied notices were reviewed before generating the public data. This is a separate change based on `main` after PR #3 was merged (`4ca48d3`). **Review only: do not merge automatically.**
+The original 2019–2025 extraction review follows below. All seven supplied notices were reviewed before generating the public data. That change was based on `main` after PR #3 was merged (`4ca48d3`). **Review only: do not merge automatically.**
+
+## 2026–2027 roster confirmation — 19 October 2026
+
+The user directly confirmed the new current team: 安琪琪、李康昕、党夷然、洪艺萍、孙文悦、刘举瑞、仲韩啸、谢晓婷、程显喆、刑孝南. Publish these ten exact Chinese names in the supplied order in both languages, with the confirmed 2026–2027 term. No roles or departments are stored in public data or rendered. No announcement URL was supplied, so this term has no source link. Preserve 刑孝南 as supplied; do not silently replace it with the historical 2025 spelling 邢孝南.
+
+The 2025 team now joins the historical committees, with its names and original announcement unchanged. There are eight terms and 68 name/year records in total. `source-audit.json` records the new direct confirmation separately from the original seven saved notices. Statements below about the current 2025 team describe the original September review.
 
 ## Names and counts
 

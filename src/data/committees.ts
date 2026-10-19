@@ -1,17 +1,35 @@
 /** Names only. Never add roles, profiles, romanizations, photos or contact fields. */
 export interface Committee {
   year: number;
+  termEndYear?: number;
   current: boolean;
   members: string[];
-  sourceTitle: string;
-  sourceUrl: string;
+  sourceTitle?: string;
+  sourceUrl?: string;
 }
 
 // The current committee is explicitly selected; never infer it from the calendar year.
 export const committees: Committee[] = [
   {
-    "year": 2025,
+    "year": 2026,
+    "termEndYear": 2027,
     "current": true,
+    "members": [
+      "安琪琪",
+      "李康昕",
+      "党夷然",
+      "洪艺萍",
+      "孙文悦",
+      "刘举瑞",
+      "仲韩啸",
+      "谢晓婷",
+      "程显喆",
+      "刑孝南"
+    ]
+  },
+  {
+    "year": 2025,
+    "current": false,
     "members": [
       "任可权",
       "张钰雯",
