@@ -5,9 +5,9 @@ import { committees } from '../src/data/committees.ts';
 const audit=JSON.parse(readFileSync('docs/committee-history/source-audit.json','utf8'));
 const allowedKeys=['current','members','sourceTitle','sourceUrl','termEndYear','year'];
 assert.deepEqual(committees.map(c=>c.year),[2026,2025,2024,2023,2022,2021,2020,2019]);
-assert.deepEqual(committees.filter(c=>c.current).map(c=>c.year),[2026],'Only the explicitly confirmed 2026–2027 team is current');
+assert.deepEqual(committees.filter(c=>c.current).map(c=>c.year),[2026],'Only the explicitly confirmed 2026 team is current');
 assert.equal(audit.currentYear,2026);
-assert.equal(committees[0].termEndYear,2027);
+assert.equal(committees[0].termEndYear,undefined,'The confirmed 2026 label must not display a year range');
 assert.deepEqual(committees[0].members,['安琪琪','李康昕','党夷然','洪艺萍','孙文悦','刘举瑞','仲韩啸','谢晓婷','程显喆','刑孝南']);
 const yearLabel=(committee,lang)=>{
   const term=committee.termEndYear?`${committee.year}–${committee.termEndYear}`:`${committee.year}`;

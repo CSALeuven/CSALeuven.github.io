@@ -5,7 +5,6 @@
   "committees": [
     {
       "year": 2026,
-      "termEndYear": 2027,
       "current": true,
       "members": [
         "安琪琪",
@@ -21,8 +20,8 @@
       ],
       "sourceType": "user-confirmed",
       "confirmedAt": "2026-10-19",
-      "sourceTitle": "用户直接确认的 2026–2027 届成员名单",
-      "reviewNote": "Preserve the supplied order and exact Chinese characters, including 刑孝南. No announcement URL was supplied. Store and publish names only."
+      "sourceTitle": "用户直接确认的 2026 届成员名单",
+      "reviewNote": "The user corrected the label from 2026–2027 to 2026届 on 2026-10-19. Preserve the supplied order and exact Chinese characters, including 刑孝南. No announcement URL was supplied. Store and publish names only."
     },
     {
       "year": 2025,
