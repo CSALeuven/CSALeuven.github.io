@@ -12,7 +12,12 @@
   "evidence": [
     "The article explicitly gives 2026-10-17, 14:00–15:15, including check-in from 14:00.",
     "The registration form was opened read-only and confirms the event, price, subsidy, capacity and form-plus-payment requirement.",
-    "The form labels its deadline CET while October 13 is in Brussels summer time; public copy preserves 23:59 without inventing a timezone clarification."
+    "The form labels its deadline CET while October 13 is in Brussels summer time; public copy preserves 23:59 without inventing a timezone clarification.",
+    "The recap confirms the activity began at 14:00 on 2026-10-17 at LASER3000, with 28 participants divided into two batches, each split into two opposing teams.",
+    "The recap describes the rules briefing, instructional video, laser guns, illuminated red/green vests, and Tactical Team Mode with teamwork among obstacles and cover.",
+    "The original announcement planned an end time of 15:15. The recap does not confirm the actual end time, so endDate is omitted from the public recap while the original planned endDate is retained in this internal record.",
+    "The recap replaces the registration announcement on the same event key and route. Public registration URL, fees, payment account, capacity, match schedule and advance-arrival/cancellation instructions have been removed. The actual turnout of 28 is not the former capacity of 32.",
+    "Original announcement details and registration metadata retained above are historical source evidence, not current registration instructions."
   ],
   "images": [
     {
@@ -22,8 +27,35 @@
       "sha256": "486db92483d709a87351c7758321fbe2d4d8d9c3b1fe299dfe61a48a7ad0e292",
       "width": 1080,
       "height": 381,
-      "note": "Byte-for-byte copy of the locally saved article image: a venue promotional banner, not a photograph of a CSAL event."
+      "note": "Archived original announcement promotional banner, retained byte for byte but no longer used as the public event cover."
+    },
+    {
+      "path": "/images/events/2026-laser-tag/participants-gathering.webp",
+      "sourceArticle": "recap",
+      "sourceImageIndex": 2,
+      "sourceFilename": "640(2)",
+      "sha256": "500d97f1a4d43bc459854c2b233da1cca86b56b1eb5c6d076337c61f489084cc",
+      "width": 1080,
+      "height": 1440,
+      "note": "Cover: participants gathering and chatting in the LASER3000 corridor, not a photograph of gameplay. Byte-for-byte copy of the locally saved WebP image; original CSAL watermark retained."
+    },
+    {
+      "path": "/images/events/2026-laser-tag/venue-entrance.webp",
+      "sourceArticle": "recap",
+      "sourceImageIndex": 1,
+      "sourceFilename": "640(1)",
+      "sha256": "584f2e040892953ae18125e0fa81b217beb5ef567611d5942789d508486b8f46",
+      "width": 1080,
+      "height": 1440,
+      "note": "Gallery: LASER3000 venue entrance, not a photograph of gameplay. Byte-for-byte copy of the locally saved WebP image; original CSAL watermark retained."
     }
   ],
-  "excludedImages": "Decorative separators, two unavailable lazy-loaded venue graphics, and an unavailable registration QR. The confirmed direct form URL supplies the registration action. No WeChat original-post link is rendered publicly."
+  "excludedImages": "Original announcement: decorative separators, two unavailable lazy-loaded venue graphics, and an unavailable registration QR. Recap: source indices 0, 3 and 9 are decorative; indices 4–8 are unavailable lazy-loaded photographs. No missing image was reconstructed or substituted. No WeChat original-post link is rendered publicly.",
+  "recapSource": {
+    "sourceFilename": "活动回顾 _ Laser Tag激光对战活动顺利举行！.html",
+    "sourceSha256": "3305a51940df6546a95873a546d16d8bee0650318629ed8af2a4b2467a3782a4",
+    "sourceTitle": "活动回顾 | Laser Tag激光对战活动顺利举行！",
+    "sourceUrl": "https://mp.weixin.qq.com/s/pDlCNwI9rZfZh51C-QdMyw",
+    "sourcePublishedAt": "2026-10-18T09:03:18Z"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "currentYear": 2026,
   "totalNameYearRecords": 68,
   "committees": [
@@ -8,20 +8,43 @@
       "current": true,
       "members": [
         "安琪琪",
-        "李康昕",
-        "党夷然",
         "洪艺萍",
-        "孙文悦",
-        "刘举瑞",
+        "李康昕",
         "仲韩啸",
+        "刘举瑞",
+        "季然",
+        "党夷然",
         "谢晓婷",
-        "程显喆",
-        "刑孝南"
+        "邢孝南",
+        "程显喆"
       ],
-      "sourceType": "user-confirmed",
-      "confirmedAt": "2026-10-19",
-      "sourceTitle": "用户直接确认的 2026 届成员名单",
-      "reviewNote": "The user corrected the label from 2026–2027 to 2026届 on 2026-10-19. Preserve the supplied order and exact Chinese characters, including 刑孝南. No announcement URL was supplied. Store and publish names only."
+      "sourceType": "saved-announcement",
+      "confirmedAt": "2026-10-22",
+      "sourceTitle": "新程接力，薪火相传 | 2026年鲁汶学联换届公示",
+      "sourceUrl": "https://mp.weixin.qq.com/s/HOrokJWXF0MIvZU6dUbvHA",
+      "sourceFilename": "新程接力，薪火相传 _ 2026年鲁汶学联换届公示.html",
+      "sourceSha256": "e7d6836f7e9bad043b3a9ef5e6f13777840426bbe353e72454d7dfdc8c596593",
+      "reviewNote": "The user explicitly confirmed using the supplied announcement instead of the earlier roster, including 季然 rather than 孙文悦 and 邢孝南 rather than 刑孝南. Preserve source profile order and the 2026届 label. Publish names only.",
+      "supersededConfirmation": {
+        "year": 2026,
+        "current": true,
+        "members": [
+          "安琪琪",
+          "李康昕",
+          "党夷然",
+          "洪艺萍",
+          "孙文悦",
+          "刘举瑞",
+          "仲韩啸",
+          "谢晓婷",
+          "程显喆",
+          "刑孝南"
+        ],
+        "sourceType": "user-confirmed",
+        "confirmedAt": "2026-10-19",
+        "sourceTitle": "用户直接确认的 2026 届成员名单",
+        "reviewNote": "The user corrected the label from 2026–2027 to 2026届 on 2026-10-19. Preserve the supplied order and exact Chinese characters, including 刑孝南. No announcement URL was supplied. Store and publish names only."
+      }
     },
     {
       "year": 2025,

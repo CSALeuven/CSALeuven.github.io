@@ -2,9 +2,15 @@
 
 The original 2019–2025 extraction review follows below. All seven supplied notices were reviewed before generating the public data. That change was based on `main` after PR #3 was merged (`4ca48d3`). **Review only: do not merge automatically.**
 
-## 2026 roster confirmation — 19 October 2026
+## 2026 handover announcement — 22 October 2026
 
-The user directly confirmed the new current team: 安琪琪、李康昕、党夷然、洪艺萍、孙文悦、刘举瑞、仲韩啸、谢晓婷、程显喆、刑孝南. Publish these ten exact Chinese names in the supplied order in both languages, labelled 2026届 / 2026 Committee. The user corrected the earlier 2026–2027 label to 2026届 on the same day. No roles or departments are stored in public data or rendered. No announcement URL was supplied, so this term has no source link. Preserve 刑孝南 as supplied; do not silently replace it with the historical 2025 spelling 邢孝南.
+The user supplied `新程接力，薪火相传 _ 2026年鲁汶学联换届公示.html` and explicitly confirmed that its roster supersedes the 19 October direct confirmation after the two differences were raised. The current ten names, in source profile order, are 安琪琪、洪艺萍、李康昕、仲韩啸、刘举瑞、季然、党夷然、谢晓婷、邢孝南、程显喆. Use 季然 instead of 孙文悦 and 邢孝南 instead of 刑孝南; retain the 2026届 label. All characters are legible text, with no guessed image-only names. The original announcement is now available and linked from the existing About roster component.
+
+The handover took place on the afternoon of 16 October at `AGOR 114-01 -Leercentrum AGORA`. The publication timestamp is 22 October at 16:00 UTC, not the meeting time. Witnesses and invited supporters are outside the new-roster profiles and are not members of the announced 2026 team. Public member presentation remains names only; roles, profiles and photographs are excluded. The first-party news announcement links to the shared About roster and does not repeat the names or show an original-push link. See `2026-handover-sources.json` for source metadata. There are still eight terms and 68 name/year records.
+
+## Superseded 2026 roster confirmation — 19 October 2026
+
+The user initially confirmed this team: 安琪琪、李康昕、党夷然、洪艺萍、孙文悦、刘举瑞、仲韩啸、谢晓婷、程显喆、刑孝南. The user corrected the earlier 2026–2027 label to 2026届 on the same day. No announcement URL was supplied at that time. This roster and its spelling were preserved until the explicit 22 October correction above; this paragraph is historical evidence, not the current public roster.
 
 The 2025 team now joins the historical committees, with its names and original announcement unchanged. There are eight terms and 68 name/year records in total. `source-audit.json` records the new direct confirmation separately from the original seven saved notices. Statements below about the current 2025 team describe the original September review.
 
