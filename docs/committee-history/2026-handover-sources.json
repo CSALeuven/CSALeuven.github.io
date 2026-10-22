@@ -1,0 +1,14 @@
+{
+  "newsKey": "2026-committee-handover",
+  "sourceFilename": "新程接力，薪火相传 _ 2026年鲁汶学联换届公示.html",
+  "sourceSha256": "e7d6836f7e9bad043b3a9ef5e6f13777840426bbe353e72454d7dfdc8c596593",
+  "sourceTitle": "新程接力，薪火相传 | 2026年鲁汶学联换届公示",
+  "sourceUrl": "https://mp.weixin.qq.com/s/HOrokJWXF0MIvZU6dUbvHA",
+  "sourcePublishedAt": "2026-10-22T16:00:00Z",
+  "handoverDate": "2026-10-16",
+  "timeEvidence": "The body states the afternoon of 16 October. No precise start or end time is supplied. The source timestamp is its publication time, not the handover date.",
+  "venueAsWritten": "AGOR 114-01 -Leercentrum AGORA",
+  "presentation": "First-party CSAL news, with paired Chinese and English pages. The member roster is maintained once in src/data/committees.ts and linked through About. No roles, biographies, portraits or witness/supporter names are copied into public member data. No original-push URL or source framing is rendered in the announcement.",
+  "rosterResolution": "On 2026-10-22 the user explicitly confirmed that the new announcement supersedes the earlier directly confirmed roster, including 季然 instead of 孙文悦 and 邢孝南 instead of 刑孝南.",
+  "excludedImages": "The meeting group photograph and individual profile images are excluded to preserve the names-only committee presentation. No raw HTML or personal profiles are committed."
+}

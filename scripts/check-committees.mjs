@@ -8,7 +8,7 @@ assert.deepEqual(committees.map(c=>c.year),[2026,2025,2024,2023,2022,2021,2020,2
 assert.deepEqual(committees.filter(c=>c.current).map(c=>c.year),[2026],'Only the explicitly confirmed 2026 team is current');
 assert.equal(audit.currentYear,2026);
 assert.equal(committees[0].termEndYear,undefined,'The confirmed 2026 label must not display a year range');
-assert.deepEqual(committees[0].members,['安琪琪','李康昕','党夷然','洪艺萍','孙文悦','刘举瑞','仲韩啸','谢晓婷','程显喆','刑孝南']);
+assert.deepEqual(committees[0].members,['安琪琪','洪艺萍','李康昕','仲韩啸','刘举瑞','季然','党夷然','谢晓婷','邢孝南','程显喆']);
 const yearLabel=(committee,lang)=>{
   const term=committee.termEndYear?`${committee.year}–${committee.termEndYear}`:`${committee.year}`;
   return lang==='zh'?`${term}届`:`${term} Committee`;
@@ -28,7 +28,12 @@ for(const committee of committees){
     assert.equal(committee.sourceTitle,source.sourceTitle);
     const url=new URL(committee.sourceUrl);
     assert.equal(url.origin,'https://mp.weixin.qq.com');
-    assert.deepEqual([...url.searchParams.keys()].sort(),['__biz','idx','mid','sn']);
+    if(url.pathname==='/s'){
+      assert.deepEqual([...url.searchParams.keys()].sort(),['__biz','idx','mid','sn']);
+    }else{
+      assert.match(url.pathname,/^\/s\/[A-Za-z0-9_-]+$/,'Use a canonical WeChat announcement URL');
+      assert.equal(url.search,'','Short announcement URLs must not include tracking parameters');
+    }
   }else{
     assert.equal(committee.year,2026,'Only the directly confirmed roster has no public source URL');
     assert.equal(source.sourceType,'user-confirmed');
@@ -49,7 +54,7 @@ for(const lang of ['zh','en']){
   assert.equal(disclosures.length,7);
   assert(disclosures.every(attrs=>!/(?:^|\s)open(?:\s|=|$)/.test(attrs)),'Historical years must initially be collapsed');
   assert(sections[0].includes('data-committee-year="2026"'),'Current section must show the confirmed new team');
-  assert(!/<a\b/.test(sections[0]),'Do not show an announcement link when none was supplied');
+  assert(sections[0].includes(`href="${committees[0].sourceUrl}"`),'The current committee must link its confirmed announcement');
   assert(sections[1].includes('data-committee-year="2025"'),'The former current team must be archived');
   for(const committee of committees){
     const marker=`data-committee-year="${committee.year}"`;

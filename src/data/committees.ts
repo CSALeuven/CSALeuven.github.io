@@ -15,16 +15,18 @@ export const committees: Committee[] = [
     "current": true,
     "members": [
       "安琪琪",
-      "李康昕",
-      "党夷然",
       "洪艺萍",
-      "孙文悦",
-      "刘举瑞",
+      "李康昕",
       "仲韩啸",
+      "刘举瑞",
+      "季然",
+      "党夷然",
       "谢晓婷",
-      "程显喆",
-      "刑孝南"
-    ]
+      "邢孝南",
+      "程显喆"
+    ],
+    "sourceTitle": "新程接力，薪火相传 | 2026年鲁汶学联换届公示",
+    "sourceUrl": "https://mp.weixin.qq.com/s/HOrokJWXF0MIvZU6dUbvHA"
   },
   {
     "year": 2025,
