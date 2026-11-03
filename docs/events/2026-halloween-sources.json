@@ -1,0 +1,182 @@
+{
+  "eventKey": "2026-halloween-party",
+  "dateOnly": "2026-10-30",
+  "dateEvidence": "The article explicitly says 10月30日. The year 2026 is inferred from the source publication on 2 November 2026 and its recap of the immediately preceding Halloween party. No exact event time is supplied.",
+  "sourceFilename": "东方不眠夜 _ 鲁汶学联万圣节活动回顾.html",
+  "sourceSha256": "e89a8dc2e87dd0b7d3a5ee424e850462d0eb2a9861e79f5b421fa47ec7282ab7",
+  "sourceTitle": "东方不眠夜 | 鲁汶学联万圣节活动回顾",
+  "sourceAccount": "鲁汶学联CSAL",
+  "sourceUrl": "https://mp.weixin.qq.com/s/6tvm3GDrykTMpSNs7Df3GA",
+  "sourcePublishedAt": "2026-11-02T15:30:00Z",
+  "publicationEvidence": "Captured ct=1793633400; the HTML display create_time is 2026-11-02 23:30 (Beijing time).",
+  "category": "SOCIAL",
+  "credit": "图文：党夷然",
+  "sourceImagesInspected": 23,
+  "imageIndexBase": 0,
+  "images": [
+    {
+      "path": "/images/events/2026-halloween-party/group-photo.jpg",
+      "sourceImageIndex": 21,
+      "sourceUrl": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/INa3B3G2ZIlkL60gvPHHuoicUib79zOPib6LSWqAK4oGQbFYUOQr4wkRV9qRGXTHlB3ZoXbZicvQNojicPY76NcbEDfweRQtvhsZxxnttFkJq3Y0/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=21",
+      "assetOrigin": "source-cdn",
+      "sha256": "78d24c578869de0bd372b4de0ba786495b460d159462941a13fcd7872a56dbf7",
+      "width": 1080,
+      "height": 720,
+      "cover": true,
+      "altZh": "参加万圣节活动的同学们在节日背景墙前合影。",
+      "altEn": "Halloween party participants pose together in front of the decorated backdrop."
+    },
+    {
+      "path": "/images/events/2026-halloween-party/refreshment-station.webp",
+      "sourceImageIndex": 4,
+      "sourceUrl": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/INa3B3G2ZInXj6hD4xSRPVFLrLVLSo1C8dHdg3zw98ibzrMnGSdKD9SDbOvlibYSqXBPX1hswWa3DOmOpuzIibAJhHLbv0abL0MOl7ywQHN37w/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=4",
+      "assetOrigin": "saved-resource",
+      "sha256": "a583db9196c203c50473658291ad8a2156d4083031f59f09bddb89b490a0f907",
+      "width": 1080,
+      "height": 720,
+      "cover": false,
+      "altZh": "万圣节装饰旁摆放着为同学们准备的零食和饮料。",
+      "altEn": "Snacks and drinks are arranged beside the Halloween decorations."
+    },
+    {
+      "path": "/images/events/2026-halloween-party/signing-the-backdrop.jpg",
+      "sourceImageIndex": 8,
+      "sourceUrl": "https://mmbiz.qpic.cn/mmbiz_jpg/INa3B3G2ZImm3paJzXQDYn3icibqYiaQR3FicBRSO8QIeic0oNw52q6SRVu5LQZG0oWzRJaqh7zv7ibazfrlT8ObC2MaaZiaccuaurb2feVJ5hyzRE/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=8",
+      "assetOrigin": "source-cdn",
+      "sha256": "483a5a5a7beae6c4bb4140d2bf2778fc0e7e508012b8c551d3853ee2554fe352",
+      "width": 1080,
+      "height": 720,
+      "cover": false,
+      "altZh": "一位参与者在装饰背景墙上留下印记。",
+      "altEn": "A participant adds a mark to the decorated backdrop."
+    },
+    {
+      "path": "/images/events/2026-halloween-party/table-challenge.jpg",
+      "sourceImageIndex": 9,
+      "sourceUrl": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/INa3B3G2ZImKiau5SWSzaPqq2zkR88Iiamz4Ribmdv86WtqBzqVmplM499cXU9SicKz1bp9HXEFv7QANHK2QYOQqcDNLdfFXlJbZgSDhiaBM4W4k/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=9",
+      "assetOrigin": "source-cdn",
+      "sha256": "660f4ac1807d61dede1fafa0ec09c78d3aebe5df42375c342c291ff1d07a8dd0",
+      "width": 1080,
+      "height": 720,
+      "cover": false,
+      "altZh": "同学们围在游戏桌旁，与工作人员交流。",
+      "altEn": "Students gather around a game table and talk with an organiser."
+    },
+    {
+      "path": "/images/events/2026-halloween-party/shared-game-moments.jpg",
+      "sourceImageIndex": 15,
+      "sourceUrl": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/INa3B3G2ZInH81PPllPuhkib7cTpanaeiaiaxG6cmMHUqiaA5kwarhrCkeg9ibb9u0mpDRPbKCPRhBCnSicAV8tQLmZ5g4yE6U3Ku0eHj4tOgMTVE/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=15",
+      "assetOrigin": "source-cdn",
+      "sha256": "8c9116c46abc72e2794f75ada557a55987b08e65a3138571e76518142263fa2b",
+      "width": 1080,
+      "height": 720,
+      "cover": false,
+      "altZh": "装扮各异的参与者聚在游戏站点前互动。",
+      "altEn": "Participants in different costumes interact at a game station."
+    },
+    {
+      "path": "/images/events/2026-halloween-party/throwing-game.jpg",
+      "sourceImageIndex": 17,
+      "sourceUrl": "https://mmbiz.qpic.cn/mmbiz_jpg/INa3B3G2ZIkNT1Ov6je7x2RnwLWOzpLvkXG73uKH5cgPJHoicEJesCicAB48mTNVLFwVWMbl5ZLgCqekRN8yGehxMia6X7B1R19yAueIYON0bk/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=17",
+      "assetOrigin": "source-cdn",
+      "sha256": "f1fc6f6fb8c4820e50c0f35ba934fd524ac97b29741c8070521d98258109bfe7",
+      "width": 1080,
+      "height": 720,
+      "cover": false,
+      "altZh": "参与者在地面标线前准备投掷挑战。",
+      "altEn": "A participant prepares for a throwing challenge beside the floor markings."
+    },
+    {
+      "path": "/images/events/2026-halloween-party/orange-artwork.jpg",
+      "sourceImageIndex": 18,
+      "sourceUrl": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/INa3B3G2ZIlHsTZHicWLc78GPzfTOFiaYUXibdt7b6WgPNXeicJDEPn87lRnheeVHpkQpXLPEBHvu0zd0AHuJGXzhvs3jRrAT9TibiazskrNibDs6M/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=18",
+      "assetOrigin": "source-cdn",
+      "sha256": "96d50c410fb9e2a191fdf807d5db2241954858aabf198f541c1bd6750cb1e11c",
+      "width": 1080,
+      "height": 720,
+      "cover": false,
+      "altZh": "桌面上摆着画有各式表情的橘子作品。",
+      "altEn": "Oranges decorated with different faces are displayed on a table."
+    },
+    {
+      "path": "/images/events/2026-halloween-party/creative-workshop.jpg",
+      "sourceImageIndex": 19,
+      "sourceUrl": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/INa3B3G2ZIkd9ibZFxcxfmnjqic2EzPe2lLDtic8Yux4ABTkrsN5YytKhgW3Ftiap9a3yEiatgCEm9w5JfBRVoC3hsqjwIdkncmJz1IjS3NtDKkA/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=19",
+      "assetOrigin": "source-cdn",
+      "sha256": "dae6306559b22115c26c62daafb0f76787943f367ad60463cf4c1fca1c7cfd4e",
+      "width": 1080,
+      "height": 720,
+      "cover": false,
+      "altZh": "同学们围坐在桌旁，参加手作与共创活动。",
+      "altEn": "Students sit together at a table for creative activities."
+    }
+  ],
+  "excludedImages": [
+    {
+      "sourceImageIndex": 0,
+      "reason": "Decorative layout graphic rather than an event photograph."
+    },
+    {
+      "sourceImageIndex": 1,
+      "reason": "Decorative layout graphic rather than an event photograph."
+    },
+    {
+      "sourceImageIndex": 2,
+      "reason": "Decorative layout graphic rather than an event photograph."
+    },
+    {
+      "sourceImageIndex": 3,
+      "reason": "Decorative layout graphic rather than an event photograph."
+    },
+    {
+      "sourceImageIndex": 5,
+      "reason": "Similar angle or moment already represented by selected photographs."
+    },
+    {
+      "sourceImageIndex": 6,
+      "reason": "Decorative layout graphic rather than an event photograph."
+    },
+    {
+      "sourceImageIndex": 7,
+      "reason": "Decorative layout graphic rather than an event photograph."
+    },
+    {
+      "sourceImageIndex": 10,
+      "reason": "Decorative layout graphic rather than an event photograph."
+    },
+    {
+      "sourceImageIndex": 11,
+      "reason": "Similar angle or moment already represented by selected photographs."
+    },
+    {
+      "sourceImageIndex": 12,
+      "reason": "Decorative layout graphic rather than an event photograph."
+    },
+    {
+      "sourceImageIndex": 13,
+      "reason": "Decorative layout graphic rather than an event photograph."
+    },
+    {
+      "sourceImageIndex": 14,
+      "reason": "Similar angle or moment already represented by selected photographs."
+    },
+    {
+      "sourceImageIndex": 16,
+      "reason": "Similar angle or moment already represented by selected photographs."
+    },
+    {
+      "sourceImageIndex": 20,
+      "reason": "Similar angle or moment already represented by selected photographs."
+    },
+    {
+      "sourceImageIndex": 22,
+      "reason": "Feedback QR code omitted: the section also retains 【二维码位置】 placeholder text and the QR destination has not been verified."
+    }
+  ],
+  "reviewItems": [
+    "Venue, address and exact start/end time are not confirmed and are omitted.",
+    "The attendance figure is approximate, not an exact count.",
+    "The feedback section contains 【二维码位置】 text alongside a QR image. Neither the placeholder nor an unverified feedback link is published.",
+    "No registration, fees, payment details or current prize offer are created for this completed event."
+  ]
+}
