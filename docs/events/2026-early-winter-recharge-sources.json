@@ -1,0 +1,75 @@
+{
+  "eventKey": "2026-early-winter-recharge",
+  "dateOnly": "2026-11-15",
+  "dateBasis": "publication-year",
+  "dateEvidence": "11月15日下午",
+  "sourceStorage": "Private CSAL content inbox",
+  "sourceSha256": "4e525e1b26777b008e43ecee4bcaeebd0c0705f9ac32bef4df8e567936f1ad24",
+  "sourceTextSha256": "fa9a9e224444ac8d4d056dea5b362b17ea71f6e90a88c076912dcb02aa9c5c6b",
+  "sourceTitle": "活动回顾 |初冬充电站活动圆满结束",
+  "sourceUrl": "https://mp.weixin.qq.com/s/kv-LbZG3SiBiP9EehhIWwQ",
+  "sourcePublishedAt": "2026-11-16T15:00:00Z",
+  "generator": "CSAL private content inbox; human review required",
+  "images": [
+    {
+      "path": "/images/events/2026-early-winter-recharge/photo-006-84d39c685d.jpg",
+      "sourceImageIndex": 6,
+      "sourceUrl": "https://mmbiz.qpic.cn/mmbiz_jpg/INa3B3G2ZIl24PIf3E4SpTvZdOeA4vrSIpZ1KnS0m5Ov1gia2hmFhtOpjkeSicicbyg6lhkJPez7ZjlkarDH2kGNvVgzvPNYodcicay1AB4Q17Y/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=6",
+      "assetOrigin": "wechat-cdn",
+      "width": 1080,
+      "height": 809,
+      "sha256": "84d39c685d04a7994cffefbc79b8b8c92f3773c010ce7f418db6926f115f9111",
+      "cover": true,
+      "altZh": "参与者围坐在多张桌旁进行游戏。",
+      "altEn": "Participants sit around several tables playing games."
+    },
+    {
+      "path": "/images/events/2026-early-winter-recharge/photo-003-26dce17b8c.jpg",
+      "sourceImageIndex": 3,
+      "sourceUrl": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/INa3B3G2ZInc49Cql9b1Dic5AEh2gIv9MZYKdlTiangWCiaUZY8dZ8cs4wPAGsIJgaFMz3ClRG1COU867vBR6ArvvFjgrF6D2KBvkl1RoeEeTE/640?wx_fmt=jpeg&watermark=1#imgIndex=3",
+      "assetOrigin": "wechat-cdn",
+      "width": 1080,
+      "height": 878,
+      "sha256": "26dce17b8c759df1a0b4093001f4d95348036c74bc73b1c012ad256e213c362b",
+      "cover": false,
+      "altZh": "摆放在一起的彩色手写便条。",
+      "altEn": "Colourful handwritten notes arranged together."
+    },
+    {
+      "path": "/images/events/2026-early-winter-recharge/photo-005-28f73f8dde.jpg",
+      "sourceImageIndex": 5,
+      "sourceUrl": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/INa3B3G2ZIlBePjosoZdyWaJMIUhKbrRyob2oXF8YsjpQhJ2iadsHxiaSLwfvj5WucLFCTGCvDrE06mT36Pa2Vw8mxhhiaDD2fO1PogXFZPMDU/640?wx_fmt=jpeg&watermark=1#imgIndex=5",
+      "assetOrigin": "wechat-cdn",
+      "width": 1080,
+      "height": 607,
+      "sha256": "28f73f8dded7694480591c098f7361d86640bc1e7b7e6ae00d8a8cbe12d7b095",
+      "cover": false,
+      "altZh": "桌面上散放着麻将牌。",
+      "altEn": "Mahjong tiles scattered across a table."
+    },
+    {
+      "path": "/images/events/2026-early-winter-recharge/photo-010-eb1c6476c1.jpg",
+      "sourceImageIndex": 10,
+      "sourceUrl": "https://mmbiz.qpic.cn/mmbiz_jpg/INa3B3G2ZInLt7hxqURthicMEH0gvwV2NSMmiczMUt26yzyrdXKwxEsATiaux1jwdHdhicacibczqYaXkjlNmPcErnd4UB1GicTyU6kQEQ4jAGObQ/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=10",
+      "assetOrigin": "wechat-cdn",
+      "width": 1080,
+      "height": 608,
+      "sha256": "eb1c6476c1776347b022cc653a4ec055d2dd0f2f55f93f5faf378e71c89afe30",
+      "cover": false,
+      "altZh": "一群人围桌进行钩织，桌上摆有毛线。",
+      "altEn": "A group crochets around a table covered with yarn."
+    },
+    {
+      "path": "/images/events/2026-early-winter-recharge/photo-009-f8a28f549a.jpg",
+      "sourceImageIndex": 9,
+      "sourceUrl": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/INa3B3G2ZIlrEZvQdqVWrI7zyvgppqXr86bXLaMv656pQvwFicfCntEZzxUhh5lOjI05Ua0VmZ9pHiasLcUcG0pQHU2nHuRsklrZibvDVmOhcg/640?wx_fmt=jpeg&watermark=1#imgIndex=9",
+      "assetOrigin": "wechat-cdn",
+      "width": 1080,
+      "height": 809,
+      "sha256": "f8a28f549a17f26fd94982d019bfdf9d9d538c37ea645924f0e599f84abbbade",
+      "cover": false,
+      "altZh": "桌上摆着钩织方片、毛线和饮品。",
+      "altEn": "Crocheted squares, yarn and a drink on a table."
+    }
+  ]
+}
